@@ -164,10 +164,10 @@ The exercises in this module focus on how to read and understand programs that i
 
 - 🥚 **[reading-code](./reading-code)**: Practice reading files of code. This includes identifying variables, tracing code like the computer, drawing on the code, and asking good questions.
 - 🐣 **[forest-and-trees](./forest-and-trees)**: Analyze programs in detail learning to explain what is happening on each line, and explaining how each line contributes to the program's overall behavior.
-- 🐣 **[logging](./logging)**: Learn how to create your own trace of a program's execution using `console.log`. Practice tracing different aspects of the same program's execution.
 - 🐣 **[parsons-problems](./parsons-problems)**: You will be given many lines of code, scrambled out of order. You need to move them back into the correct order and indentation. Careful! there may be some extra lines
 - 🐣 **[word-banks](./word-banks)**: Complete programs by filling in the blanks. All the missing words and symbols will be provided, you need to figure out where they go.
 - 🐣 **[naming-variables](./naming-variables)**: Code should be written for people first, computers second. Learn to give helpful names to your variables that describe what data they store and how they are used in your program.
+- 🐣 **[logging](./logging)**: Learn how to create your own trace of a program's execution using `console.log`. Practice tracing different aspects of the same program's execution.
 - 🐥 **[explorations](./explorations)**: Experiment with JS language features that interest you, try modifying the programs in this repo, or try writing your own. This folder is yours to explore JS and programming.
 
 </details>
