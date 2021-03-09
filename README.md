@@ -168,6 +168,7 @@ The exercises in this module focus on how to read and understand programs that i
 - 🐣 **[parsons-problems](./parsons-problems)**: You will be given many lines of code, scrambled out of order. You need to move them back into the correct order and indentation. Careful! there may be some extra lines
 - 🐣 **[word-banks](./word-banks)**: Complete programs by filling in the blanks. All the missing words and symbols will be provided, you need to figure out where they go.
 - 🐣 **[naming-variables](./naming-variables)**: Code should be written for people first, computers second. Learn to give helpful names to your variables that describe what data they store and how they are used in your program.
+- 🐥 **[explorations](./explorations)**: Experiment with JS language features that interest you, try modifying the programs in this repo, or try writing your own. This folder is yours to explore JS and programming.
 
 </details>
 <br>
