@@ -184,11 +184,9 @@ The exercises in this module focus on how to read and understand programs that i
 
 ### Before Class
 
-- Follow the instructions in [Getting Started](#getting-started)
+- [What is Programming?](#what-is-programming), [What is JavaScript?](#what-is-javascript)
+- Follow the instructions in [Getting Started](#getting-started) to install `study-lenses`
 - Look through [./just-enough-javascript.md](./just-enough-javascript.md)
-- Reading Code
-  - Read [./reading-code/README.md](./reading-code/README.md)
-  - Watch [./reading-code/guide.mp4](./reading-code/guide.mp4)
 - In your favorite tutorial learn about:
   - variables
   - primitive types
@@ -198,16 +196,13 @@ The exercises in this module focus on how to read and understand programs that i
 
 #### Before Break
 
-- Read through [just-enough-javascript.md](./just-enough-javascript.md)
-- Reading Code
+- Go over [just-enough-javascript.md](./just-enough-javascript.md)
+- Practice [Reading Code](./reading-code/README.md)
 
 #### After Break
 
-> commenting code
-
-- forest and trees: user input & conditionals
-  - full class led by coach
-  - and/or in small groups, depending on number of
+- [Forest and Trees](./forest-and-trees/README.md)
+  - How to study a JavaScript program
 
 ### After Class
 
@@ -222,42 +217,30 @@ No project. Just lots of study time, alone and in groups. Keep asking questions!
 
 ## Week 2
 
-- skills
-  - naming variables
-  - I/O loops
-- JS
-  - while loops
-  - boolean flags
-  - for-of loops
-
 <details>
 <summary>expand/collapse</summary>
 <br>
 
 ### Before Class
 
-- read the naming-variables README
-  - naming conventions
-  - roles of variables
-- while loops and string iteration:
-  - study the reading-code examples
-  - tutorial of your choice
+- In your favorite tutorial learn about:
+  - while loops
+  - for loops
+- Naming Variables:
+  - read the [README](./naming-variables/README.md)
+  - watch the [guide](./naming-variables/guide.mp4)
 
 ### During Class
 
 #### Before Break
 
-> reading code
-
-- read some programs that have I/O loops and string iteration
+- Practice Reading and Analyzing programs with loops
 
 #### After Break
 
-> modifying code
-
-- do some naming-variables exercises
-  - all together led by the coach
-  - and/or in small groups, depending on number of coaches
+- [Naming Variables](./naming-variables/README.md)
+  - study the example together
+  - complete an exercise
 
 ### After Class
 
@@ -283,7 +266,3 @@ Screen recordings of class. Coaches, when sending your PR's with links please ..
 ---
 
 ### class-13-14
-
-```
-
-```
