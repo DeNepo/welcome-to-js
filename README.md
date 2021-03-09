@@ -82,7 +82,7 @@ Helpful links, examples and exercises.
 
 These two games are deceptively simple. You will be given pseudo-code and will need to follow the instructions the same way a computer would. Practicing this game will help you learn how to trace code, and prepare you for learning about program memory in the next module - Debugging.
 
-- 🥚 [compute-it](http://compute-it.toxicode.fr/)
+- 🥚 [compute-it](http://compute-it.toxicode.fr/) (through #44)
 - 🐥 [little-dot](http://little-dot.toxicode.fr/)
 
 ### What is Programming?
