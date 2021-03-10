@@ -148,6 +148,8 @@ There's a good reason these have been around forever, they work. Quiz yourself o
 - ([how do computers read code?](https://www.youtube.com/watch?v=QXjU9qTsYCc))
 - [Reading code is harder than writing it](https://trishagee.github.io/presentation/reading_code/)
 - [Learn to read the Source, Luke](https://blog.codinghorror.com/learn-to-read-the-source-luke/)
+- [Close-Reading Code](https://kylefdoherty.github.io/blog/2014/06/26/close-reading-code/)
+- [Read Code Good](https://www.youtube.com/watch?v=mW_xKGUKLpk)
 - [How to read code?](https://itnext.io/how-to-read-code-bf478c262932)
 - [5 tips](https://medium.com/@smilin.robin/5-tips-on-how-to-read-someone-elses-code-b931b6a059ec)
 - [How to read other people's code](https://selftaughtcoders.com/how-to-quickly-and-effectively-read-other-peoples-code/)
