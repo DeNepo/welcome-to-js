@@ -103,7 +103,7 @@ These two games are deceptively simple. You will be given pseudo-code and will n
 
 In this module you will only learn a small part of what JavaScript has to offer. You will learn _just enough_ JavaScript to make small programs that process text and interact with users. Why just enough, and not a little more? Because reading and understanding program logic is more important than JavaScript, so why let the code get in the way?
 
-- [just-enough-javascript.md](./just-enough-javascript.js)
+- [just-enough-javascript.md](./just-enough-javascript.md)
 
 ### Tutorials
 
