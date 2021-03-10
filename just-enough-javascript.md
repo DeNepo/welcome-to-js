@@ -1,4 +1,4 @@
-## Just Enough JavaScript
+# Just Enough JavaScript
 
 JavaScript is a huge and powerful programming language, this makes it exciting but also challenging to learn.
 
@@ -6,7 +6,7 @@ In this module you will only learn a small part of what JavaScript has to offer.
 
 Below is all the JavaScript you will find in this module's examples and exercises. Don't be mistaken, there's a lot you can do with only this!
 
-### For Developers
+## For Developers
 
 Parts of JavaScript that exist to help you understand your programs.
 
@@ -46,7 +46,7 @@ console.log('a', 'message', 'from', 'beyond'); // 'a', 'message', 'from', 'beyon
 
 </details>
 
-### Booleans
+## Booleans
 
 A primitive type with two values: `true` and `false`.
 
@@ -151,7 +151,7 @@ console.log(false || false); // false
 
 </details>
 
-### Strings
+## Strings
 
 A primitive type used for saving and working with text.
 
@@ -367,7 +367,7 @@ console.log(''.indexOf('hello')); // -1
 
 </details>
 
-### Variables
+## Variables
 
 Variables allow you to save values to use later in your program.
 
@@ -522,7 +522,7 @@ console.log(blockVariable); // ReferenceError: blockVariable is not defined
 
 </details>
 
-### Undefined
+## Undefined
 
 A primitive type used to represent nothing.
 
@@ -590,7 +590,7 @@ console.log(typeof variable); // 'undefined'
 
 </details>
 
-### Null
+## Null
 
 Another primitive type used to represent nothing.
 
@@ -663,7 +663,7 @@ console.log(typeof breakfast);
 
 </details>
 
-### User Interactions
+## User Interactions
 
 3 ways to display text to a user or ask them for program input.
 
@@ -737,7 +737,7 @@ console.log(typeof prompted); // 'string' or 'object'
 
 </details>
 
-### Control Flow
+## Control Flow
 
 Decide which lines of code to run depending on the values in your program.
 
@@ -971,7 +971,7 @@ for (let index = 0; index < input.length; index = index + 1) {
 
 </details>
 
-### Numbers
+## Numbers
 
 A primitive type used to represent numbers. The programs in this module will be string-based, so there will be very few numbers.
 
@@ -1226,7 +1226,7 @@ alert(typeof userNumber + ': ' + userNumber);
 
 </details>
 
-### Math
+## Math
 
 The `Math` object in JavaScript has some useful methods you will see in the Welcome to JS examples and exercises. You don't need to master these, but should know what they are doing when you come across them in the code.
 
