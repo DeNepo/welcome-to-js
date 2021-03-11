@@ -199,13 +199,17 @@ The exercises in this module focus on how to read and understand programs that i
 
 #### Before Break
 
-- Go over [just-enough-javascript.md](./just-enough-javascript.md)
-- Practice [Reading Code](./reading-code/README.md)
+[just-enough-javascript.md](./just-enough-javascript.md)
+
+- **all together**: examples
+- **in groups**: exercises
 
 #### After Break
 
-- [Forest and Trees](./forest-and-trees/README.md)
-  - How to study a JavaScript program
+[Reading Code](./reading-code/README.md)
+
+- **all together**: examples
+- **in groups**: exercises
 
 ### After Class
 
@@ -237,13 +241,17 @@ No project. Just lots of study time, alone and in groups. Keep asking questions!
 
 #### Before Break
 
-- Practice Reading and Analyzing programs with loops
+[Forest and Trees](./forest-and-trees/README.md)
+
+- **all together**: examples
+- **in groups**: exercises
 
 #### After Break
 
-- [Naming Variables](./naming-variables/README.md)
-  - study the example together
-  - complete an exercise
+[Naming Variables](./naming-variables/README.md)
+
+- **all together**: examples
+- **in groups**: exercises
 
 ### After Class
 
