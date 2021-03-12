@@ -103,11 +103,11 @@ These two games are deceptively simple. You will be given pseudo-code and will n
 
 In this module you will only learn a small part of what JavaScript has to offer. You will learn _just enough_ JavaScript to make small programs that process text and interact with users. Why just enough, and not a little more? Because reading and understanding program logic is more important than JavaScript, so why let the code get in the way?
 
-- [just-enough-javascript.md](./just-enough-javascript.md)
+- [just-enough-javascript](./just-enough-javascript)
 
 ### Tutorials
 
-A selection of tutorial sites with interactive exercises, these tutorial will help you learn the JS Syntax you need to study the exercises in this repository. As you're setting your study plans and priorities, remember: [Just Enough JavaScript](./just-enough-javascript.md). These tutorials will each cover different topics in different orders and in different ways. Find the one that works for you:
+A selection of tutorial sites with interactive exercises, these tutorial will help you learn the JS Syntax you need to study the exercises in this repository. As you're setting your study plans and priorities, remember: [Just Enough JavaScript](./just-enough-javascript). These tutorials will each cover different topics in different orders and in different ways. Find the one that works for you:
 
 - [programiz](https://www.programiz.com/javascript/get-started): through while loops
 - [sololearn](https://www.sololearn.com/learning/1024): through Conditionals and Loops
@@ -189,7 +189,8 @@ The exercises in this module focus on how to read and understand programs that i
 
 - [What is Programming?](#what-is-programming), [What is JavaScript?](#what-is-javascript)
 - Follow the instructions in [Getting Started](#getting-started) to install `study-lenses`
-- Look through [./just-enough-javascript.md](./just-enough-javascript.md)
+- Read through [./just-enough-javascript](./just-enough-javascript)
+  - Through conditionals
 - In your favorite tutorial learn about:
   - variables
   - primitive types
@@ -199,17 +200,17 @@ The exercises in this module focus on how to read and understand programs that i
 
 #### Before Break
 
-[just-enough-javascript.md](./just-enough-javascript.md)
+[just-enough-javascript](./just-enough-javascript)
 
-- **all together**: examples
-- **in groups**: exercises
+- **all together**: Variables and Interactions
+- **in groups**: Conditionals and While Loops
 
 #### After Break
 
 [Reading Code](./reading-code/README.md)
 
-- **all together**: examples
-- **in groups**: exercises
+- **all together**: Remebery
+- **in groups**: Madlib and Getting an Orange
 
 ### After Class
 
