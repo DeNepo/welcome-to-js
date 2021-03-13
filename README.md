@@ -103,11 +103,11 @@ These two games are deceptively simple. You will be given pseudo-code and will n
 
 In this module you will only learn a small part of what JavaScript has to offer. You will learn _just enough_ JavaScript to make small programs that process text and interact with users. Why just enough, and not a little more? Because reading and understanding program logic is more important than JavaScript, so why let the code get in the way?
 
-- [just-enough-javascript.md](./just-enough-javascript.js)
+- [just-enough-javascript](./just-enough-javascript)
 
 ### Tutorials
 
-A selection of tutorial sites with interactive exercises, these tutorial will help you learn the JS Syntax you need to study the exercises in this repository. As you're setting your study plans and priorities, remember: [Just Enough JavaScript](./just-enough-javascript.md). These tutorials will each cover different topics in different orders and in different ways. Find the one that works for you:
+A selection of tutorial sites with interactive exercises, these tutorial will help you learn the JS Syntax you need to study the exercises in this repository. As you're setting your study plans and priorities, remember: [Just Enough JavaScript](./just-enough-javascript). These tutorials will each cover different topics in different orders and in different ways. Find the one that works for you:
 
 - [programiz](https://www.programiz.com/javascript/get-started): through while loops
 - [sololearn](https://www.sololearn.com/learning/1024): through Conditionals and Loops
@@ -148,6 +148,8 @@ There's a good reason these have been around forever, they work. Quiz yourself o
 - ([how do computers read code?](https://www.youtube.com/watch?v=QXjU9qTsYCc))
 - [Reading code is harder than writing it](https://trishagee.github.io/presentation/reading_code/)
 - [Learn to read the Source, Luke](https://blog.codinghorror.com/learn-to-read-the-source-luke/)
+- [Close-Reading Code](https://kylefdoherty.github.io/blog/2014/06/26/close-reading-code/)
+- [Read Code Good](https://www.youtube.com/watch?v=mW_xKGUKLpk)
 - [How to read code?](https://itnext.io/how-to-read-code-bf478c262932)
 - [5 tips](https://medium.com/@smilin.robin/5-tips-on-how-to-read-someone-elses-code-b931b6a059ec)
 - [How to read other people's code](https://selftaughtcoders.com/how-to-quickly-and-effectively-read-other-peoples-code/)
@@ -187,7 +189,8 @@ The exercises in this module focus on how to read and understand programs that i
 
 - [What is Programming?](#what-is-programming), [What is JavaScript?](#what-is-javascript)
 - Follow the instructions in [Getting Started](#getting-started) to install `study-lenses`
-- Look through [./just-enough-javascript.md](./just-enough-javascript.md)
+- Read through [./just-enough-javascript](./just-enough-javascript)
+  - Through conditionals
 - In your favorite tutorial learn about:
   - variables
   - primitive types
@@ -197,13 +200,17 @@ The exercises in this module focus on how to read and understand programs that i
 
 #### Before Break
 
-- Go over [just-enough-javascript.md](./just-enough-javascript.md)
-- Practice [Reading Code](./reading-code/README.md)
+[just-enough-javascript](./just-enough-javascript)
+
+- **all together**: Variables and Interactions
+- **in groups**: Conditionals and While Loops
 
 #### After Break
 
-- [Forest and Trees](./forest-and-trees/README.md)
-  - How to study a JavaScript program
+[Reading Code](./reading-code/README.md)
+
+- **all together**: Remebery
+- **in groups**: Madlib and Getting an Orange
 
 ### After Class
 
@@ -235,13 +242,17 @@ No project. Just lots of study time, alone and in groups. Keep asking questions!
 
 #### Before Break
 
-- Practice Reading and Analyzing programs with loops
+[Forest and Trees](./forest-and-trees/README.md)
+
+- **all together**: examples
+- **in groups**: exercises
 
 #### After Break
 
-- [Naming Variables](./naming-variables/README.md)
-  - study the example together
-  - complete an exercise
+[Naming Variables](./naming-variables/README.md)
+
+- **all together**: examples
+- **in groups**: exercises
 
 ### After Class
 
