@@ -1,5 +1,3 @@
-> copied from [CodeReadingClub/Resources](https://github.com/CodeReadingClubs/Resources/blob/trunk/exercises.md), follow this link for their most up-to-date agenda
-
 # Exercises
 
 This page contains a set of exercises which can be used in Code Reading Clubs. Of course, your club does not need to use all exercises, they are meant as a starting point. If you are trying out variants, do let us know!
@@ -9,11 +7,15 @@ For now we have divided them into basic and advanced. Advanced exercises can be 
 
 You will need:
 
+- a timer
+
+  -and-
+
 - a printed copy of the code for the club and coloured pens, crayons or pencils
 
   -or-
 
-- an electronic means of scribbling on a code PDF (e.g. a tablet and tablet pen or PDF annotation software)
+- an electronic means of scribbling on code (e.g. a tablet and tablet pen, PDF annotation software, study-lenses)
 
 ### First glance
 
@@ -36,7 +38,7 @@ Talk about why things might have jumped out for different people. It might be te
 
 Reflect also on what kind of knowledge you used in this exercise:
 
-- Knowledge of the domain, of the programming language? Of a framework?
+- Knowledge of the domain, of the programming language?
 - What knowledge do you think might be needed to better understand this code?
 
 ### Code structure
@@ -50,19 +52,19 @@ Variables
 - Go through the code and circle all variables in red
 - Then draw a link between variables and their uses
 
-Function / method calls
+Interactions
 
-- Go through the code and circle all methods in blue
-- Then draw a link between methods and their invocations
+- Go through the code and circle all user interactions
+- Then draw a link between interactions and the variables they are associated with
 
-Instantiation
+Control Flow
 
-- Go through the code and circle all instances of classes in green
-- Then draw a link between classes and their instances
+- Go through the code and circle all control flow in blue
+- Then draw a link between control flow tests and the variables tested
 
 #### (10 mins) Together - Discuss the results
 
-- Did anyone have trouble deciding what constituted a variable, function or class?
+- Did anyone have trouble deciding what constituted a variable, interaction or control flow?
 - What patterns are visible from the colors and links only?
 - How does the data flow through the code?
 - What parts of the code seem to warrant more attention?
@@ -75,7 +77,7 @@ The goal of these exercises is to start to think about which lines in the code d
 
 Start by examining the names of things. This is one method for discovering how the code fits together and its intentions. It can help make the identifying important lines exercises less intimidating.
 
-##### All variable/class/method names (5 mins)
+##### All variable names (5 mins)
 
 As a group, go through the code mechanically and create a list of all identifier names in the snippet. This can be done with one person scribing while others call out. If you have done the "examine structure" exercise before, this should be relatively quick and easy; but sometimes, you will need short discussions to agree on things.
 
@@ -88,6 +90,8 @@ As a group, go through the code mechanically and create a list of all identifier
 #### Option 2
 
 ##### A random line (5 mins)
+
+> if you are using the `?highlight` lens to study your code, there is a [random line] button you can use for this step.
 
 Select a random line from the code in whatever way you like. It can be helpful to randomly pick 3 line numbers and have the facilitator choose from them, which they think will be most interesting to talk about; but surprisingly, even a blank line can generate some conversation!
 
@@ -119,7 +123,7 @@ Take turns in the group, and let every member talk about the code for 30 seconds
 
 ### Summary
 
-The goal of this exercise is to think about the core purpose or function of this code.
+The goal of this exercise is to think about the core purpose or use of this code.
 
 #### (5 mins) Independently - Summarize
 
@@ -128,7 +132,7 @@ The goal of this exercise is to think about the core purpose or function of this
 #### (10 mins) Together - Discuss
 
 - topics covered by many vs few
-- strategies used to create the summary (e.g. method names, documentation, variable names, prior knowledge of system)
+- strategies used to create the summary (e.g. variable names, documentation, prior knowledge, )
 
 #### Independently - homework?
 
@@ -137,7 +141,7 @@ The goal of this exercise is to think about the core purpose or function of this
 
 ## Advanced Exercises
 
-These exercises are more advanced, in the sense that you might need a bit more understanding of the code for these to make sense. This might be because the group is familiar with the code before the session, or because you are doing a second club on the same code snippet. In our experience, the first code club on one code snippet is mainly understanding what the code does, a second session typically goes deeper and sheds more light on the architectural patterns in the code.
+These exercises are more advanced, in the sense that you might need a bit more understanding of the code for these to make sense. This might be because the group is familiar with the code before the session, or because you are doing a second club on the same code snippet. In our experience, the first code club on one code snippet is mainly understanding what the code does, a second session typically goes deeper and sheds more light on the patterns in the code.
 
 ### Code structure
 
@@ -156,12 +160,12 @@ Go back to your markings of the code where you examined the structure of the cod
 
 #### Central thematic concepts (5 mins)
 
-Each participant gets 5 minutes to individually name the 5 most central concepts of the code. These could be names, themes, classes, or information found in comments. It is important to note that there are no right or wrong answers here! We are not looking for the correct 5 concepts, we are together trying to practice reading code and gain insights into how each other people approach and understand reading code. We have found that one of the most important things people gain from the reading club is realising that people do not all comprehend and create code in the same way.
+Each participant gets 5 minutes to individually name the 5 most central concepts of the code. These could be names, themes, language features, or information found in comments. It is important to note that there are no right or wrong answers here! We are not looking for the correct 5 concepts, we are together trying to practice reading code and gain insights into how each other people approach and understand reading code. We have found that one of the most important things people gain from the reading club is realising that people do not all comprehend and create code in the same way.
 
 #### Discussion (10 mins)
 
 - Topics covered by many vs few
-- Strategies used to decide (e.g. method names, documentation, variable names, prior knowledge of system)
+- Strategies used to decide (e.g. variable names, comments, documentation, prior knowledge of the program)
 
 #### Central programming concepts (5 mins)
 
@@ -170,11 +174,11 @@ Each participant gets 5 minutes to individually name the 5 most central programm
 #### Discussion (10 mins)
 
 - Topics covered by many vs few
-- Strategies used to decide (e.g. method names, documentation, variable names, prior knowledge of system)
+- Strategies used to decide (e.g. variable names, comments, documentation, prior knowledge of the program)
 
 ### The decisions made in the code (5 mins)
 
-Each participant gets 5 minutes to individually understand the decisions that were visible in the code. Reexamine the code snippet and list decisions of the creator(s) of the code, for example a decision to use a certain design pattern or use a certain library or API.
+Each participant gets 5 minutes to individually understand the decisions that were visible in the code. Reexamine the code snippet and list decisions of the creator(s) of the code, for example a decision to use a certain design pattern or use a certain language feature or operator.
 
 You might want to think about these questions:
 
@@ -183,7 +187,7 @@ You might want to think about these questions:
 #### Discussion (10 mins)
 
 - Decisions covered by many vs few
-- Strategies used to decide (e.g. method names, documentation, variable names, prior knowledge of system)
+- Strategies used to decide (e.g. variable names, comments, documentation, prior knowledge of the program)
 
 ### Consequences of the decisions (5 mins)
 
@@ -192,13 +196,12 @@ Each participant gets 5 minutes to individually understand the consequences of t
 You might want to think consider the impact of the decisions this code on:
 
 - readability
-- performance
-- extendability
+- user experience
+- strategy
 
 #### Discussion (10 mins)
 
 - Consequences covered by many vs few
-- Different "ilities" chosen
 - Pros of these decisions
 - Possible cons of these decisions
 
@@ -214,3 +217,7 @@ Each participant gets 5 minutes to individually understand the 'why' of the deci
 
 - Assumptions/alternatives covered by many vs few
 - Alternative solutions
+
+---
+
+> adapted from [CodeReadingClub/Resources](https://github.com/CodeReadingClubs/Resources/blob/trunk/exercises.md), modified to line up with the programs in this module
