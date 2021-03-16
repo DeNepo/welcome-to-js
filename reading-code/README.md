@@ -50,6 +50,10 @@ There is no magic rule to find this balance. It will depend on the program you'r
   - Where is it assigned? and what value?
   - Where is it read?
   - _hint: try the `?variables` lens_
+- **Interactions:**
+  - Where is each interaction written (scope, control flow, ...)?
+  - Which variables do they write to?
+  - How are the user-provided values used in the program?
 - **Data Operations:**
   - What is the main program data? (what goes in at the beginning, what comes out at the end?)
   - How is the data used in each line of code?

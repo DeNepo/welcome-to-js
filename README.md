@@ -14,6 +14,7 @@ Take your first steps into programming by learning to read, trace, and analyze s
 
 - [Getting Started](#getting-started)
 - [Study Tips](#study-tips)
+- [About Programming](#about-programming)
 - [Suggested Study](#suggested-study)
 - Break-Down
   - [Week 1](#week-1)
@@ -66,6 +67,49 @@ If you can't finish all the material in this repository, that's expected! Anythi
 - 🥚 `:egg:` - Understanding this material is required, it covers the base skills you'll need for this module. You do not need to finish all of them but should feel comfortable that you could with enough time.
 - 🐣 `:hatching_chick:` - Do your best to start this material. you don't need to master it or finish it but getting the main idea will be helpful for taking the next steps.
 - 🐥 `:hatched_chick:` - Have you finished all the 🥚's and started all the 🐣's? push yourself with these challenges.
+
+[TOP](#welcome-to-js)
+
+---
+
+## About Programming
+
+Software Development is a many layered skill. One way to break it down is to think of these layers:
+
+<details>
+<summary>expand/collapse</summary>
+<br>
+
+1. **Source Code**: _The basic literacy of programming_
+   - Learning the key words (_vocabulary_) and syntax (_grammar_) for your programming language
+   - Being able to read your code out loud, tracing it's execution as a computer would
+   - Understanding what the developer wanted to say with their code
+   - > **Welcome to JS** will focus on these skills\_
+2. **Machine Instructions**: _The basic mechanics of programming_
+   - Understanding the life-cycle of your program
+   - Understand how the computer will interpret your source code to create a running program
+   - Understand what about your code matters to the computer, and what matters to people
+   - Fixing syntax errors that occur when you try to run your code
+   - Predicting which lines of code will be executed in which order
+   - Predicting how each line of code will change what is stored in program memory
+   - Reading error messages & callstacks to fix fix semantic errors that occur when you run your code
+   - > **Debugging** will focus on these skills\_
+3. **Problem Solving & Algorithms**: _Breaking down large problems to be solved in small steps_
+   - Understanding a coding challenge and being able to break it down in different ways
+   - Determining which solution strategies are correct for which types of problems
+   - Understanding how test cases are used to describe your solution strategy
+   - Identifying the best language feature to use with your strategy
+   - Reading test cases to understand how code is _supposed to_ behave
+   - Using Test Cases to structure your solution design process (Test Driven Development)
+   - Identifying and isolating mistakes in your code by reading failing test cases
+   - Demonstrating your code does what you think it does by passing test cases
+   - > _**Behavior, Strategy, Implementation** Module will focus on these skills_
+4. **Software Design**: _Organizing smaller pieces of code into full software solutions_
+   - All in good time ;)
+   - > _Every module starting with **Separation of Concerns** will focus on these skills_
+
+</details>
+<br>
 
 [TOP](#welcome-to-js)
 
