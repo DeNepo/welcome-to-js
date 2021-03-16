@@ -321,4 +321,11 @@ Screen recordings of class. Coaches, when sending your PR's with links please ..
 
 ---
 
-### class-13-14
+## [class-13-14](https://github.com/hackyourfuturebelgium/class-13-14)
+
+> Thibault, Evan
+
+1. Week 1:
+   - [Tracing Variables pt. 1](https://vimeo.com/524232825/)
+   - [Tracing Variables pt. 2](https://vimeo.com/524233174/)
+   - [Reading Code](https://vimeo.com/524232999/)
