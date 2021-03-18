@@ -116,8 +116,8 @@ console.log(1 < 1); // false
 
 console.log(' >=');
 // is the left number bigger than OR equal to the right one?
-console.log(3 >= 22); // true
-console.log(22 >= 3); // false
+console.log(3 >= 22); // false
+console.log(22 >= 3); // true
 console.log(1 >= 1); // true
 
 console.log(' <=');
