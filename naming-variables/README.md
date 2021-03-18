@@ -2,6 +2,11 @@
 
 Your code should be written first for humans, and then for computers. One of the best tools you have for helping humans is a good variable name.
 
+- [Variable Analysis](#variable-analysis)
+- [Variable Roles](#variable-roles)
+- [Naming the Variable](#naming-the-variable)
+- [Naming Conventions](#naming-conventions)
+
 ---
 
 ## Variable Analysis
@@ -31,7 +36,7 @@ In the Naming Variables examples & exercises you will learn a structured approac
 
 ```js
 /*
-  input: used to store the user's input
+  _a: used to store the user's input
     declaration:
       init: yes
       types: object (null)
@@ -44,17 +49,20 @@ In the Naming Variables examples & exercises you will learn a structured approac
       scopes: while
 */
 
-// input: init, null
-let input = null;
-// input: read
-while (input === null) {
-  // input: write, string or null
-  input = prompt('enter something');
+// declare, initialize: null
+let _a = null;
+// read: the value of _a
+while (_a === null) {
+  // assign: string or null, depending on the user
+  _a = prompt('enter your name');
 }
 
-// input: read
-alert(input);
+// read: the user's valid input
+// call alert: display the user's valid input
+alert(_a);
 ```
+
+[TOP](#naming-variables)
 
 ---
 
@@ -64,7 +72,7 @@ The JavaScript language treats variables like a blank slate, you can name them w
 
 Learning to identify these roles in code will help understand other people's code and to write your own. Your goal in this chapter is to explore the different roles a variable can play in a program and how you can come up with names that describe not only the values stored in a variable, but also how it's used in the program.
 
-In this module you will only learn a few different roles, but there are more that you will encounter over your time as a programmer. Learning to use different roles will help you develope more cleanly and effectively. You aren't required to assign a role to each variable in these exercises, but keeping roles in mind will help to think of better names.
+In this module you will only learn a few different roles, but there are more that you will encounter over your time as a programmer. Learning to use different roles will help you write more clean and effective code. You aren't required to assign a role to each variable in these exercises, but keeping roles in mind will help to think of better names.
 
 Can you think of any other roles whiles studying these exercises?
 
@@ -81,6 +89,52 @@ To learn more about roles of variables check out these links:
 - [saja.kapsi.fi](http://saja.kapsi.fi/var_roles/stud_vers/stud_Python3_eng.html)
 - [counter vs. accumulator](https://stackoverflow.com/questions/12983063/what-is-the-difference-between-a-counter-and-an-accumulator)
 
+[TOP](#naming-variables)
+
+---
+
+## Name the Variable
+
+Now you understand how the variable is used in the program, it's time to give it a name! In these exercises you'll need to give two different names to each variable, one _generic_ name and one _specific_ name:
+
+- **Generic**: Generic names that describe the variables' roles in the program. A generic names could be used in any program with similar logic.
+
+  ```js
+  /* specific
+
+    _a -> input:
+      it holds a string of user input to be processed in the program
+
+  */
+
+  let input = null;
+  while (input === null) {
+    input = prompt('enter your name');
+  }
+
+  alert(input);
+  ```
+
+- **Specific**: Specific names relate to your program's use case. A specific names may not make sense if you use them in a different program:
+
+  ```js
+  /* generic
+
+    _a -> userName:
+      this variable stores the user's name as a string
+
+  */
+
+  let userName = null;
+  while (userName === null) {
+    userName = prompt('enter your name');
+  }
+
+  alert(userName);
+  ```
+
+[TOP](#naming-variables)
+
 ---
 
 ## Naming Conventions
@@ -93,3 +147,5 @@ There are no real rules to naming variables but there are some conventions, some
 - [nexTRIE](https://www.youtube.com/watch?v=O5WlRR-lEDE)
 - [Best Practices (swlh)](https://medium.com/swlh/javascript-best-practices-variable-naming-conventions-ea121ca389c5)
 - [Chidre's Tech Tutorials](https://www.youtube.com/watch?v=CZ9iNTLYhfw)
+
+[TOP](#naming-variables)

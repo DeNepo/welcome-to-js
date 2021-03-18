@@ -126,7 +126,7 @@ Helpful links, examples and exercises.
 
 These two games are deceptively simple. You will be given pseudo-code and will need to follow the instructions the same way a computer would. Practicing this game will help you learn how to trace code, and prepare you for learning about program memory in the next module - Debugging.
 
-- 🥚 [compute-it](http://compute-it.toxicode.fr/) (through #44)
+- 🥚 [compute-it](http://compute-it.toxicode.fr/)
 - 🐥 [little-dot](http://little-dot.toxicode.fr/)
 
 ### What is Programming?
@@ -153,10 +153,10 @@ In this module you will only learn a small part of what JavaScript has to offer.
 
 A selection of tutorial sites with interactive exercises, these tutorial will help you learn the JS Syntax you need to study the exercises in this repository. As you're setting your study plans and priorities, remember: [Just Enough JavaScript](./just-enough-javascript). These tutorials will each cover different topics in different orders and in different ways. Find the one that works for you:
 
-- [programiz](https://www.programiz.com/javascript/get-started): through while loops
 - [sololearn](https://www.sololearn.com/learning/1024): through Conditionals and Loops
-- [launchcode](https://education.launchcode.org/intro-to-professional-web-dev/index.html): chapters 1 -> 5
 - [javascript.express](https://www.javascript.express/): the chapters that cover Just Enough JavaScript
+- [launchcode](https://education.launchcode.org/intro-to-professional-web-dev/index.html): chapters 1 -> 5
+- [programiz](https://www.programiz.com/javascript/get-started): through while loops
 - [freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/): through for loops. (more advanced)
 - [Headfirst JavaScript](https://www.oreilly.com/library/view/head-first-javascript/9781449340124/ch01.html): an outstanding (paid) book for understanding JS and the web. comes with code samples you can run locally
 
@@ -260,6 +260,14 @@ The exercises in this module focus on how to read and understand programs that i
 
 No project. Just lots of study time, alone and in groups. Keep asking questions!
 
+1. Take a look through the tutorials in _Suggested Study_ and choose your 1 or two favorites.
+   - Use _Just Enough JavaScript_ to help you stay focused, if you are blocked on something in your tutorial that isn't in _Just Enough JavaScript_ then you can set it aside for now.
+   - Try out the _Parsons Problems_ for each language feature as you learn them in the tutorial. You can even try making your own Parsons Problems from code in your tutorial!
+2. With your classmates:
+   - practice _Reading Code_
+   - complete at least 3-4 _Forest and Trees_ exercises
+   - practice _Logging_, can you create a helpful trace of the programs using `console.log`?
+
 </details>
 <br>
 
@@ -301,6 +309,14 @@ No project. Just lots of study time, alone and in groups. Keep asking questions!
 ### After Class
 
 No project. Just lots of study time, alone and in groups. Keep asking questions!
+
+1. Keep working through your favorite tutorial(s):
+   - Use _Just Enough JavaScript_ to help you stay focused, if you are blocked on something in your tutorial that isn't in _Just Enough JavaScript_ then you can set it aside for now.
+   - Try out the _Parsons Problems_ for each language feature as you learn them in the tutorial. You can even try making your own Parsons Problems from code in your tutorial!
+2. With your classmates:
+   - practice _Reading Code_
+   - complete as many _Word Blanks_ as possible
+   - complete at least 3-4 _Naming Variables_ exercises
 
 </details>
 <br>
