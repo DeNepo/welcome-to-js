@@ -127,7 +127,7 @@ Helpful links, examples and exercises.
 These two games are deceptively simple. You will be given pseudo-code and will need to follow the instructions the same way a computer would. Practicing this game will help you learn how to trace code, and prepare you for learning about program memory in the next module - Debugging.
 
 - 🥚 [compute-it](http://compute-it.toxicode.fr/)
-- 🐥 [little-dot](http://little-dot.toxicode.fr/)
+- 🐣 [little-dot](http://little-dot.toxicode.fr/)
 
 ### What is Programming?
 
@@ -297,14 +297,14 @@ No project. Just lots of study time, alone and in groups. Keep asking questions!
 [Forest and Trees](./forest-and-trees/README.md)
 
 - **all together**: examples
-- **in groups**: exercises
+- **in groups**: Frogopedia 1 & 2
 
 #### After Break
 
 [Naming Variables](./naming-variables/README.md)
 
 - **all together**: examples
-- **in groups**: exercises
+- **in groups**: Animalopedia
 
 ### After Class
 
