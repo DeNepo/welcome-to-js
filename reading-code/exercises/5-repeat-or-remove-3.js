@@ -22,7 +22,7 @@ if (keepLetters) {
   for (let i = 0; i < phrase.length; i = i + 1) {
     let smallLetter = phrase[i].toLowerCase();
     if (smallLetters.includes(smallLetter)) {
-      newPhrase = phrase + smallLetter;
+      newPhrase = newPhrase + smallLetter;
     }
   }
 } else if (!keepLetters) {

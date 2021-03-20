@@ -32,7 +32,7 @@ if (!dontRemoveLetters) {
   while (index < phrase.length) {
     let letter = phrase[index];
     if (theAlphabet.includes(letter.toLowerCase())) {
-      newPhrase = phrase + letter;
+      newPhrase = newPhrase + letter;
     }
     index = index + 1;
   }
