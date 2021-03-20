@@ -3,14 +3,14 @@
   generic names that describe the variables' roles in the program
   generic names could be used in any program with similar logic or behavior
 
-  input:
+  _a -> input:
     named because it holds a string of user input to be processed in the program
 
-  output:
+  _b -> output:
     named because it will hold the final output value of this program
     the output will be created based on the input
 
-  next:
+  _c -> next:
     the next character in the input string, stepped by the for-of loop
 
 */
