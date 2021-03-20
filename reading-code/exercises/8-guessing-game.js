@@ -39,10 +39,12 @@ if (userInput === '-h') {
 
   let secretPhrase = '';
   while (secretPhrase === '') {
-    prompt('Player 1: enter a secret phrase');
+    secretPhrase = prompt('Player 1: enter a secret phrase');
   }
 
-  if (secretPhraseInput === null) {
+  debugger;
+
+  if (secretPhrase === null) {
     /* -- player 1 exited the game -- */
     alert('good bye');
   } else {
@@ -84,7 +86,7 @@ if (userInput === '-h') {
         );
       }
 
-      if (guessInput === null) {
+      if (guess === null) {
         /* -- player 2 exited the game -- */
         alert('good bye');
       } else if (guess === secretPhrase) {
@@ -118,7 +120,7 @@ if (userInput === '-h') {
   }
 
   /* -- announce the winner -- */
-  alert('game over. the winner is: ', winner);
+  alert('game over. the winner is: ' + winner);
 } else if (userInput === null) {
   /* -- exit the game -- */
 
