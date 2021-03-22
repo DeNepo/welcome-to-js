@@ -21,7 +21,7 @@ if (!dontRemoveLetters) {
   let index = 0;
   while (index < phrase.length) {
     let char = phrase[index];
-    newPhrase = newPrase + char + char;
+    newPhrase = newPhrase + char + char;
     index = index + 1;
   }
 } else {
