@@ -20,7 +20,7 @@ let userInput = '';
 //   a boolean flag variable used to determine when the I/O loop is finished
 let inputIsAboutFrogs = false;
 
-// test: the opposite of inputIsAboutFrogs (a boolean variable)
+// check: the opposite of inputIsAboutFrogs (a boolean variable)
 //   this is the Input/Output loop where user input is validated
 //   it will continue looping until the user enters something about frogs
 while (!inputIsAboutFrogs) {
@@ -33,7 +33,7 @@ while (!inputIsAboutFrogs) {
 
   /* -- did the user input nothing? -- */
 
-  // test: check if `userInput` is an empty string or null
+  // check: check if `userInput` is an empty string or null
   //   if the user input nothing, it can't be about frogs
   if (userInput === '' || userInput === null) {
     // call alert: the cancel message
@@ -48,7 +48,7 @@ while (!inputIsAboutFrogs) {
 
   /* -- does the input include 'frog'? -- */
 
-  // test: check if "frog" (case insensitive) exists in the `userInput`
+  // check: check if "frog" (case insensitive) exists in the `userInput`
   //   if the user's input includes "frog", then it's valid!
   if (userInput.toLowerCase().includes('frog')) {
     // write: inputIsAboutFrogs to true

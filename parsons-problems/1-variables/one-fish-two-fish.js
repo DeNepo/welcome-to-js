@@ -9,19 +9,17 @@
 
 /* -- declare initial value -- */
 
-let phrase = '';
+let phrase = ' ';
 
 /* -- one fish -- */
 
-phrase += 'fish';
-
-phrase += 'one ' + phrase;
+phrase = 'one' + phrase + 'fish';
 
 /* -- two fish -- */
 
-phrase += phrase + ' two ';
+phrase = phrase + ' two';
 
-phrase += 'fish';
+phrase = phrase + ' fish';
 
 /* -- log it -- */
 
@@ -29,8 +27,10 @@ console.log(phrase); // 'one fish two fish'
 
 // begin distractors
 
-phrase += 'fish'; // distractor
+phrase === 'one ' + phrase; // distractor
 
-phrase = 'one ' + phrase; // distractor
+phrase === phrase + ' two'; // distractor
 
-phrase === phrase + ' two '; // distractor
+phrase = 'fish' + phrase; // distractor
+
+phrase = phrase + 'fish'; // distractor

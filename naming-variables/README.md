@@ -3,8 +3,8 @@
 Your code should be written first for humans, and then for computers. One of the best tools you have for helping humans is a good variable name.
 
 - [Variable Analysis](#variable-analysis)
-- [Variable Roles](#variable-roles)
 - [Naming the Variable](#naming-the-variable)
+- [Variable Roles](#variable-roles)
 - [Naming Conventions](#naming-conventions)
 
 ---
@@ -26,7 +26,7 @@ Taking a closer look at each time a variable is used you can describe them furth
 
 - **Types**: What types are assigned to this variable? Is there only one type, or does it store different types at different times?
 - **Scopes**: In which scope is this variable declared? In which scopes is it used? Does it store a value that was created in a different scope?
-- **Tests**: Is this variable used in control flow tests? What types of control flow? How often?
+- **checks**: Is this variable used in control flow checks? What types of control flow? How often?
 
 Finally you're ready for the big one ...
 
@@ -43,7 +43,7 @@ In the Naming Variables examples & exercises you will learn a structured approac
       scopes: global
     reads: 2
       scopes: global
-      tests: while
+      checks: while
     assignments: 1
       types: string, object (null)
       scopes: while
@@ -61,6 +61,50 @@ while (_a === null) {
 // call alert: display the user's valid input
 alert(_a);
 ```
+
+[TOP](#naming-variables)
+
+---
+
+## Name the Variable
+
+Now you understand how the variable is used in the program, it's time to give it a name! In these exercises you'll need to give two different names to each variable, one _generic_ name and one _specific_ name:
+
+- **Generic**: Generic names that describe the variables' roles in the program. A generic names could be used in any program with similar logic.
+
+  ```js
+  /* generic
+
+    _a -> input:
+      it holds a string of user input to be processed in the program
+
+  */
+
+  let input = null;
+  while (input === null) {
+    input = prompt('enter your name');
+  }
+
+  alert(input);
+  ```
+
+- **Specific**: Specific names relate to your program's use case. A specific names may not make sense if you use them in a different program:
+
+  ```js
+  /* specific
+
+    _a -> userName:
+      this variable stores the user's name as a string
+
+  */
+
+  let userName = null;
+  while (userName === null) {
+    userName = prompt('enter your name');
+  }
+
+  alert(userName);
+  ```
 
 [TOP](#naming-variables)
 
@@ -88,50 +132,6 @@ To learn more about roles of variables check out these links:
 - [einarsen](https://www.einarsen.no/variables-and-the-roles-they-play/)
 - [saja.kapsi.fi](http://saja.kapsi.fi/var_roles/stud_vers/stud_Python3_eng.html)
 - [counter vs. accumulator](https://stackoverflow.com/questions/12983063/what-is-the-difference-between-a-counter-and-an-accumulator)
-
-[TOP](#naming-variables)
-
----
-
-## Name the Variable
-
-Now you understand how the variable is used in the program, it's time to give it a name! In these exercises you'll need to give two different names to each variable, one _generic_ name and one _specific_ name:
-
-- **Generic**: Generic names that describe the variables' roles in the program. A generic names could be used in any program with similar logic.
-
-  ```js
-  /* specific
-
-    _a -> input:
-      it holds a string of user input to be processed in the program
-
-  */
-
-  let input = null;
-  while (input === null) {
-    input = prompt('enter your name');
-  }
-
-  alert(input);
-  ```
-
-- **Specific**: Specific names relate to your program's use case. A specific names may not make sense if you use them in a different program:
-
-  ```js
-  /* generic
-
-    _a -> userName:
-      this variable stores the user's name as a string
-
-  */
-
-  let userName = null;
-  while (userName === null) {
-    userName = prompt('enter your name');
-  }
-
-  alert(userName);
-  ```
 
 [TOP](#naming-variables)
 

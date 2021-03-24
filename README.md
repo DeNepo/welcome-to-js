@@ -33,8 +33,17 @@ Take your first steps into programming by learning to read, trace, and analyze s
 1. Install OR update the `study-lenses` package globally
    - `$ npm install -g study-lenses` (if you do not have it already)
    - `$ npm update -g study-lenses` (if you already have it installed)
-2. Clone this repository:
-   - `$ git clone git@github.com:HackYourFutureBelgium/welcome-to-js.git`
+   - Didn't work? you may need to try:
+     - (mac) `$ sudo npm install -g study-lenses`
+   - having trouble updating?
+     - check your version: `$ npm ls -g study-lenses`
+     - uninstall, then reinstall: `$ npm uninstall -g study-lenses && npm install -g study-lenses`
+2. Fork and clone this repository:
+   1. fork the HackYourFuture repository to your personal account
+   2. clone your fork to your computer
+   3. when there are updates to the module:
+      1. update your fork with a PR
+      2. pull the changes from your fork to your computer
 3. Navigate to the module repository in terminal
    - `$ cd welcome-to-js-prep`
 4. Run the `study` command from your CLI

@@ -1,27 +1,27 @@
 /* -- get an orange -- */
 
-let theOrange = "";
-while (theOrange === "") {
-  let input = prompt("give me an orange, lower or upper case");
+let theOrange = '';
+while (theOrange === '') {
+  let input = prompt('give me an orange, lower or upper case');
 
   if (input === null) {
     continue;
   }
 
-  if (input.toLowerCase() === "orange") {
+  if (input.toLowerCase() === 'orange') {
     theOrange = input;
   }
 }
 
 /* -- describe the orange -- */
 
-let description = "";
-if (theOrange === "orange") {
-  description = "small";
-} else if (theOrange === "ORANGE") {
-  description = "big";
+let description = '';
+if (theOrange === 'orange') {
+  description = 'small';
+} else if (theOrange === 'ORANGE') {
+  description = 'big';
 } else {
-  description = "lumpy";
+  description = 'small and big';
 }
 
-alert(theOrange + " is a " + description + " orange");
+alert(theOrange + ' is a ' + description + ' orange');

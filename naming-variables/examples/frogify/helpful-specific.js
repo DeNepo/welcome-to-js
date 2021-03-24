@@ -12,7 +12,7 @@
 
   _c -> maybeF:
     named because the character we care about is either "f" or "F"
-    so the variable name is focusing on how it will be tested in the conditionals
+    so the variable name is focusing on how it will be checked in the conditionals
 
 */
 
