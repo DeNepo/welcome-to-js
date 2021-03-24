@@ -17,7 +17,7 @@ while (!_c) {
 
   if (_b === '' || _b === null) {
     alert('that is not something');
-  } else if (_b.toLowerCase().includes(_a)) {
+  } else if (_b.toLowerCase().includes(_a.toLowerCase())) {
     _c = true;
   } else {
     alert('nope, not about ' + _a + '.  try again.');
