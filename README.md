@@ -354,3 +354,6 @@ Screen recordings of class. Coaches, when sending your PR's with links please ..
    - [Tracing Variables pt. 1](https://vimeo.com/524232825/)
    - [Tracing Variables pt. 2](https://vimeo.com/524233174/)
    - [Reading Code](https://vimeo.com/524232999/)
+2. Week 2:
+   - [Studying MadLibs pt. 1](https://vimeo.com/528300558)
+   - [Studying MadLibs pt. 2](https://vimeo.com/528300446)
