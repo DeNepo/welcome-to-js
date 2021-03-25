@@ -8,15 +8,15 @@
 let before = 'toadstools';
 let after = '';
 
-for (let i = userInput.length - 1; i !== 0; i = i - 1) {
-  let nextLetter = userInput[i];
+for (let i = before.length - 1; i >= 0; i = i - 1) {
+  let nextLetter = before[i];
   after = after + nextLetter;
 }
 
 // begin distractors
 
-let nextLetter = userInput.i; // distractor
+let nextLetter = before.i; // distractor
 
-for (let i = userInput.length; i === 0; i = i - 1) { // distractor
-for (let i = userInput.length - 1; i !== 0; i = i + 1) { // distractor
-for (let i = userInput - 1; i !== 0; i = i - 1) { // distractor
+for (let i = before.length; i === 0; i = i - 1) { // distractor
+for (let i = before.length - 1; i !== 0; i = i + 1) { // distractor
+for (let i = before - 1; i !== 0; i = i - 1) { // distractor
