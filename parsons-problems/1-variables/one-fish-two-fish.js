@@ -1,4 +1,4 @@
-/* this exercise has 3 distracting lines */
+/* this exercise has 4 distracting lines */
 
 /*
   declare a variable named "phrase"
