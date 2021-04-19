@@ -36,9 +36,9 @@ alert(
     '"'
 );
 
-let guess1 = prompt('Player 1, guess the first phrase:');
-let guess2 = prompt('Player 1, guess the second phrase:');
-let guess3 = prompt('Player 1, guess the third phrase:');
+let guess1 = prompt('Player 2, guess the first phrase:');
+let guess2 = prompt('Player 2, guess the second phrase:');
+let guess3 = prompt('Player 2, guess the third phrase:');
 
 /* -- player 2's score is calculated -- */
 

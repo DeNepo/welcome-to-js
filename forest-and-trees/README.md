@@ -108,19 +108,19 @@ let userInput = prompt('enter the word "yes", upper or lower case');
 
 // declare, init: an empty string
 let reaction = '';
-// test: compare the input to null
+// check: compare the input to null
 if (userInput === null) {
-  // write: a sad face
+  // assign: a sad face
   reaction = ':(';
 }
-// test: convert the input to lower case and compare it to 'yes'
+// check: convert the input to lower case and compare it to 'yes'
 else if (userInput.toLowerCase() === 'yes') {
-  // write: the input concatenated with an exclamation mark
+  // assign: the input concatenated with an exclamation mark
   reaction = userInput + '!';
 }
 // the input is not null, and is not 'yes'
 else {
-  // write: baaaad concatenated with the input
+  // assign: baaaad concatenated with the input
   reaction = 'baaaaad: ' + userInput;
 }
 
@@ -163,18 +163,18 @@ let userInput = prompt('enter the word "yes", upper or lower case');
 //  this variable will be assigned a different values depending on what the user provided
 //  the value in `reaction` will be used at the end of the program to alert the user
 let reaction = '';
-// test: compare the input to null
+// check: compare the input to null
 //  this is to check if they canceled the prompt
 if (userInput === null) {
-  // write: a sad face
+  // assign: a sad face
   //  let the user know how much they have disappointed you
   reaction = ':(';
 }
-// test: convert the input to lower case and compare it to 'yes'
+// check: convert the input to lower case and compare it to 'yes'
 //   checking the user input to make sure they put in a valid string
 //   this line uses .toLowerCase so that it doesn't matter what letter were upper or lower case
 else if (userInput.toLowerCase() === 'yes') {
-  // write: the input concatenated with an exclamation mark
+  // assign: the input concatenated with an exclamation mark
   //   this is the path for valid user inputs
   //   the user will be congratulated for following instructions
   reaction = userInput + '!';
@@ -182,7 +182,7 @@ else if (userInput.toLowerCase() === 'yes') {
 // the input is not null, and is not 'yes'
 //  they did input something, but it was not correct
 else {
-  // write: baaaad concatenated with the input
+  // assign: baaaad concatenated with the input
   //   this is the path for invalid user inputs (things that aren't some form of "yes")
   //   it will tell users that they messed up baaaaadly
   reaction = 'baaaaad: ' + userInput;
@@ -229,18 +229,18 @@ let userInput = prompt('enter the word "yes", upper or lower case');
 // declare, init: an empty string
 let reaction = '';
 
-// test: compare the input to null
+// check: compare the input to null
 //  this is to check if they canceled the prompt
 if (userInput === null) {
-  // write: a sad face
+  // assign: a sad face
   //  let the user know how much they have disappointed you
   reaction = ':(';
 }
-// test: convert the input to lower case and compare it to 'yes'
+// check: convert the input to lower case and compare it to 'yes'
 //   checking the user input to make sure they put in a valid string
 //   this line uses .toLowerCase so that it doesn't matter what letter were upper or lower case
 else if (userInput.toLowerCase() === 'yes') {
-  // write: the input concatenated with an exclamation mark
+  // assign: the input concatenated with an exclamation mark
   //   this is the path for valid user inputs
   //   the user will be congratulated for following instructions
   reaction = userInput + '!';
@@ -248,7 +248,7 @@ else if (userInput.toLowerCase() === 'yes') {
 // the input is not null, and is not 'yes'
 //  they did input something, but it was not correct
 else {
-  // write: baaaad concatenated with the input
+  // assign: baaaad concatenated with the input
   //   this is the path for invalid user inputs (things that aren't some form of "yes")
   //   it will tell users that they messed up baaaaadly
   reaction = 'baaaaad: ' + userInput;

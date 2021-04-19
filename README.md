@@ -14,6 +14,7 @@ Take your first steps into programming by learning to read, trace, and analyze s
 
 - [Getting Started](#getting-started)
 - [Study Tips](#study-tips)
+- [About Programming](#about-programming)
 - [Suggested Study](#suggested-study)
 - Break-Down
   - [Week 1](#week-1)
@@ -32,8 +33,17 @@ Take your first steps into programming by learning to read, trace, and analyze s
 1. Install OR update the `study-lenses` package globally
    - `$ npm install -g study-lenses` (if you do not have it already)
    - `$ npm update -g study-lenses` (if you already have it installed)
-2. Clone this repository:
-   - `$ git clone git@github.com:HackYourFutureBelgium/welcome-to-js.git`
+   - Didn't work? you may need to try:
+     - (mac) `$ sudo npm install -g study-lenses`
+   - having trouble updating?
+     - check your version: `$ npm ls -g study-lenses`
+     - uninstall, then reinstall: `$ npm uninstall -g study-lenses && npm install -g study-lenses`
+2. Fork and clone this repository:
+   1. fork the HackYourFuture repository to your personal account
+   2. clone your fork to your computer
+   3. when there are updates to the module:
+      1. update your fork with a PR
+      2. pull the changes from your fork to your computer
 3. Navigate to the module repository in terminal
    - `$ cd welcome-to-js-prep`
 4. Run the `study` command from your CLI
@@ -71,6 +81,49 @@ If you can't finish all the material in this repository, that's expected! Anythi
 
 ---
 
+## About Programming
+
+Software Development is a many layered skill. One way to break it down is to think of these layers:
+
+<details>
+<summary>expand/collapse</summary>
+<br>
+
+1. **Source Code**: _The basic literacy of programming_
+   - Learning the key words (_vocabulary_) and syntax (_grammar_) for your programming language
+   - Being able to read your code out loud, tracing it's execution as a computer would
+   - Understanding what the developer wanted to say with their code
+   - > **Welcome to JS** will focus on these skills\_
+2. **Machine Instructions**: _The basic mechanics of programming_
+   - Understanding the life-cycle of your program
+   - Understand how the computer will interpret your source code to create a running program
+   - Understand what about your code matters to the computer, and what matters to people
+   - Fixing syntax errors that occur when you try to run your code
+   - Predicting which lines of code will be executed in which order
+   - Predicting how each line of code will change what is stored in program memory
+   - Reading error messages & callstacks to fix fix semantic errors that occur when you run your code
+   - > **Debugging** will focus on these skills\_
+3. **Problem Solving & Algorithms**: _Breaking down large problems to be solved in small steps_
+   - Understanding a coding challenge and being able to break it down in different ways
+   - Determining which solution strategies are correct for which types of problems
+   - Understanding how test cases are used to describe your solution strategy
+   - Identifying the best language feature to use with your strategy
+   - Reading test cases to understand how code is _supposed to_ behave
+   - Using Test Cases to structure your solution design process (Test Driven Development)
+   - Identifying and isolating mistakes in your code by reading failing test cases
+   - Demonstrating your code does what you think it does by passing test cases
+   - > _**Behavior, Strategy, Implementation** Module will focus on these skills_
+4. **Software Design**: _Organizing smaller pieces of code into full software solutions_
+   - All in good time ;)
+   - > _Every module starting with **Separation of Concerns** will focus on these skills_
+
+</details>
+<br>
+
+[TOP](#welcome-to-js)
+
+---
+
 ## Suggested Study
 
 Helpful links, examples and exercises.
@@ -82,8 +135,8 @@ Helpful links, examples and exercises.
 
 These two games are deceptively simple. You will be given pseudo-code and will need to follow the instructions the same way a computer would. Practicing this game will help you learn how to trace code, and prepare you for learning about program memory in the next module - Debugging.
 
-- 🥚 [compute-it](http://compute-it.toxicode.fr/) (through #44)
-- 🐥 [little-dot](http://little-dot.toxicode.fr/)
+- 🥚 [compute-it](http://compute-it.toxicode.fr/)
+- 🐣 [little-dot](http://little-dot.toxicode.fr/)
 
 ### What is Programming?
 
@@ -103,16 +156,16 @@ These two games are deceptively simple. You will be given pseudo-code and will n
 
 In this module you will only learn a small part of what JavaScript has to offer. You will learn _just enough_ JavaScript to make small programs that process text and interact with users. Why just enough, and not a little more? Because reading and understanding program logic is more important than JavaScript, so why let the code get in the way?
 
-- [just-enough-javascript.md](./just-enough-javascript.md)
+- [just-enough-javascript](./just-enough-javascript)
 
 ### Tutorials
 
-A selection of tutorial sites with interactive exercises, these tutorial will help you learn the JS Syntax you need to study the exercises in this repository. As you're setting your study plans and priorities, remember: [Just Enough JavaScript](./just-enough-javascript.md). These tutorials will each cover different topics in different orders and in different ways. Find the one that works for you:
+A selection of tutorial sites with interactive exercises, these tutorial will help you learn the JS Syntax you need to study the exercises in this repository. As you're setting your study plans and priorities, remember: [Just Enough JavaScript](./just-enough-javascript). These tutorials will each cover different topics in different orders and in different ways. Find the one that works for you:
 
-- [programiz](https://www.programiz.com/javascript/get-started): through while loops
 - [sololearn](https://www.sololearn.com/learning/1024): through Conditionals and Loops
-- [launchcode](https://education.launchcode.org/intro-to-professional-web-dev/index.html): chapters 1 -> 5
 - [javascript.express](https://www.javascript.express/): the chapters that cover Just Enough JavaScript
+- [launchcode](https://education.launchcode.org/intro-to-professional-web-dev/index.html): chapters 1 -> 5
+- [programiz](https://www.programiz.com/javascript/get-started): through while loops
 - [freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/): through for loops. (more advanced)
 - [Headfirst JavaScript](https://www.oreilly.com/library/view/head-first-javascript/9781449340124/ch01.html): an outstanding (paid) book for understanding JS and the web. comes with code samples you can run locally
 
@@ -189,7 +242,8 @@ The exercises in this module focus on how to read and understand programs that i
 
 - [What is Programming?](#what-is-programming), [What is JavaScript?](#what-is-javascript)
 - Follow the instructions in [Getting Started](#getting-started) to install `study-lenses`
-- Look through [./just-enough-javascript.md](./just-enough-javascript.md)
+- Read through [./just-enough-javascript](./just-enough-javascript)
+  - Through conditionals
 - In your favorite tutorial learn about:
   - variables
   - primitive types
@@ -199,17 +253,29 @@ The exercises in this module focus on how to read and understand programs that i
 
 #### Before Break
 
-- Go over [just-enough-javascript.md](./just-enough-javascript.md)
-- Practice [Reading Code](./reading-code/README.md)
+[just-enough-javascript](./just-enough-javascript)
+
+- **all together**: Variables and Interactions
+- **in groups**: Conditionals and While Loops
 
 #### After Break
 
-- [Forest and Trees](./forest-and-trees/README.md)
-  - How to study a JavaScript program
+[Reading Code](./reading-code/README.md)
+
+- **all together**: Remebery
+- **in groups**: Madlib and Getting an Orange
 
 ### After Class
 
 No project. Just lots of study time, alone and in groups. Keep asking questions!
+
+1. Take a look through the tutorials in _Suggested Study_ and choose your 1 or two favorites.
+   - Use _Just Enough JavaScript_ to help you stay focused, if you are blocked on something in your tutorial that isn't in _Just Enough JavaScript_ then you can set it aside for now.
+   - Try out the _Parsons Problems_ for each language feature as you learn them in the tutorial. You can even try making your own Parsons Problems from code in your tutorial!
+2. With your classmates:
+   - practice _Reading Code_
+   - complete at least 3-4 _Forest and Trees_ exercises
+   - practice _Logging_, can you create a helpful trace of the programs using `console.log`?
 
 </details>
 <br>
@@ -237,17 +303,29 @@ No project. Just lots of study time, alone and in groups. Keep asking questions!
 
 #### Before Break
 
-- Practice Reading and Analyzing programs with loops
+[Forest and Trees](./forest-and-trees/README.md)
+
+- **all together**: examples
+- **in groups**: Frogopedia 1 & 2
 
 #### After Break
 
-- [Naming Variables](./naming-variables/README.md)
-  - study the example together
-  - complete an exercise
+[Naming Variables](./naming-variables/README.md)
+
+- **all together**: examples
+- **in groups**: Animalopedia
 
 ### After Class
 
 No project. Just lots of study time, alone and in groups. Keep asking questions!
+
+1. Keep working through your favorite tutorial(s):
+   - Use _Just Enough JavaScript_ to help you stay focused, if you are blocked on something in your tutorial that isn't in _Just Enough JavaScript_ then you can set it aside for now.
+   - Try out the _Parsons Problems_ for each language feature as you learn them in the tutorial. You can even try making your own Parsons Problems from code in your tutorial!
+2. With your classmates:
+   - practice _Reading Code_
+   - complete as many _Word Blanks_ as possible
+   - complete at least 3-4 _Naming Variables_ exercises
 
 </details>
 <br>
@@ -268,4 +346,14 @@ Screen recordings of class. Coaches, when sending your PR's with links please ..
 
 ---
 
-### class-13-14
+## [class-13-14](https://github.com/hackyourfuturebelgium/class-13-14)
+
+> Thibault, Evan
+
+1. Week 1:
+   - [Tracing Variables pt. 1](https://vimeo.com/524232825/)
+   - [Tracing Variables pt. 2](https://vimeo.com/524233174/)
+   - [Reading Code](https://vimeo.com/524232999/)
+2. Week 2:
+   - [Studying MadLibs pt. 1](https://vimeo.com/528300558)
+   - [Studying MadLibs pt. 2](https://vimeo.com/528300446)

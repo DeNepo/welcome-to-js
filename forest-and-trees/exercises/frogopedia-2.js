@@ -1,20 +1,18 @@
 let frog = 'frog';
 
-let coolThing = '';
+let userInput = '';
 
-while (true) {
-  coolThing = prompt('tell me something about frogs');
+let isNotFroggy = true;
+while (isNotFroggy) {
+  userInput = prompt('tell me something about frogs');
 
-  if (coolThing === '' || coolThing === null) {
+  if (userInput === '' || userInput === null) {
     alert('that is not something');
-    continue;
+  } else if (userInput.toLowerCase().includes(frog)) {
+    isNotFroggy = false;
+  } else {
+    alert('nope, not about frogs.  try again.');
   }
-
-  if (coolThing.toLowerCase().includes(frog)) {
-    break;
-  }
-
-  alert('nope, not about frogs.  try again.');
 }
 
-alert('i just learned something cool about frogs!\n\n- "' + coolThing + '"');
+alert('i just learned something cool about frogs!\n\n- "' + userInput + '"');

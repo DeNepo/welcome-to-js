@@ -7,7 +7,7 @@
       scopes: global
     reads: 2
       scopes: global
-      tests: while, for-of
+      checks: while, for-of
     assignments: 1
       types: object (null), string
       scopes: while
@@ -30,7 +30,7 @@
       scopes: for-of loop
     reads: 3
       scopes: conditions inside for-of
-      tests: both conditions inside for-of
+      checks: both conditions inside for-of
     assignments: 0
 
 */
