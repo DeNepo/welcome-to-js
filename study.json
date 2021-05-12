@@ -11,23 +11,34 @@
     "trace": true,
     "strict": true,
     "variables": true,
-    "highlight": true
+    "highlight": true,
+    "loopGuard": true,
+    "ask": {
+      "functions": false
+    },
+    "table": true
   },
   "highlight": {
     "run": true,
-    "trace": {
-      "controlFlow": false,
-      "operators": false,
+    "flowchart": true,
+    "variables": true,
+    "ask": {
       "functions": false
     },
-    "flowchart": true,
-    "variables": true
+    "table": true
   },
   "variables": {
-    "trace": {
+    "trace": true,
+    "ask": {
+      "functions": false,
       "controlFlow": false,
-      "operators": false,
-      "functions": false
+      "operators": false
     }
+  },
+  "parsons": {
+    "study": true,
+    "table": true,
+    "trace": true,
+    "run": true
   }
 }

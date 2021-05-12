@@ -30,22 +30,22 @@ Take your first steps into programming by learning to read, trace, and analyze s
 >
 > Using a browser with good DevTools will make your life easier: [Chromium](http://www.chromium.org/getting-involved/download-chromium), [FireFox](https://www.mozilla.org/en-US/firefox/new/), [Edge](https://www.microsoft.com/edge), [Chrome](https://www.google.com/chrome/)
 
-1. Install OR update the `study-lenses` package globally
-   - `$ npm install -g study-lenses` (if you do not have it already)
+1. Install o update the `study-lenses` package globally
+   - `$ npm install -g study-lenses` (if you do not have it installed)
    - `$ npm update -g study-lenses` (if you already have it installed)
    - Didn't work? you may need to try:
      - (mac) `$ sudo npm install -g study-lenses`
    - having trouble updating?
-     - check your version: `$ npm ls -g study-lenses`
-     - uninstall, then reinstall: `$ npm uninstall -g study-lenses && npm install -g study-lenses`
+     - try this: `$ npm uninstall -g study-lenses && npm install -g study-lenses`
 2. Fork and clone this repository:
    1. fork the HackYourFuture repository to your personal account
+      - `git@github.com:HackYourFutureBelgium/welcome-to-js.git`
    2. clone your fork to your computer
    3. when there are updates to the module:
       1. update your fork with a PR
       2. pull the changes from your fork to your computer
 3. Navigate to the module repository in terminal
-   - `$ cd welcome-to-js-prep`
+   - `$ cd welcome-to-js`
 4. Run the `study` command from your CLI
    - `$ study`
 5. The material will open in your default browser, you're good to go!
@@ -65,17 +65,33 @@ Take your first steps into programming by learning to read, trace, and analyze s
 
 - Don't rush, understand! Programming is hard.
   - The examples and exercises will still be there to study later.
-  - It's better to fail tests slowly and learn from your mistakes than to pass tests quickly and not understand why.
+  - It's better to move slowly and learn from your mistakes than to go quickly and need to re-learn later.
 - Don't skip the examples! Understanding and experimenting with working code is a very effective way to learn programming.
 - Practice Pair Programming: two people, one computer.
 - Read the code out loud
 - Take a look through the [HYF Study Tips](https://home.hackyourfuture.be/students/study-tips) for more inspiration
+
+### Priorities
 
 If you can't finish all the material in this repository, that's expected! Anything you don't finish now will always be waiting for you to review when you need it. These 3 emoji's will help you prioritize your study time and to measure your progress:
 
 - 🥚 `:egg:` - Understanding this material is required, it covers the base skills you'll need for this module. You do not need to finish all of them but should feel comfortable that you could with enough time.
 - 🐣 `:hatching_chick:` - Do your best to start this material. you don't need to master it or finish it but getting the main idea will be helpful for taking the next steps.
 - 🐥 `:hatched_chick:` - Have you finished all the 🥚's and started all the 🐣's? push yourself with these challenges.
+
+### Hashtags
+
+There's sooo many examples and exercises in this repository, it's easy to forget of what you still need to finish or what you want to review again. Luckily VSCode is really good at searching through folders of code.
+
+You can write hashtags in your comments while you're studying, then search for those hashtags later so you don't miss anything. Here's some ideas:
+
+- `// #not-done, still a few blanks left` - search for `#not-done` in VScode to find all the exercises you've started and not finished
+- `// coercion is confusing, #review this again next week` - search for `#review` to find the files you need to study again
+- ... anything goes! Find the hashtags that work for you
+
+### Module Project Boards
+
+If you create a fork of this repository you can open a project board in your fork to track your progress through the module. Just 3 columns can be enough: _Todo_, _Doing_, _Done_.
 
 [TOP](#welcome-to-js)
 
@@ -146,7 +162,7 @@ These two games are deceptively simple. You will be given pseudo-code and will n
 
 ### What is JavaScript?
 
-- [Andrew Mosh](https://www.youtube.com/watch?v=upDLs1sn7g4)
+- [Andrew Mosh](https://www.youtube.com/watch?v=W6NZfCO5SIk) (first 5 minutes)
 - [Code School](https://www.youtube.com/watch?v=nItSSTwBvSU)
 - [MDN: First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 - [javascript.info](https://javascript.info/intro)
@@ -167,6 +183,7 @@ A selection of tutorial sites with interactive exercises, these tutorial will he
 - [launchcode](https://education.launchcode.org/intro-to-professional-web-dev/index.html): chapters 1 -> 5
 - [programiz](https://www.programiz.com/javascript/get-started): through while loops
 - [freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/): through for loops. (more advanced)
+- [speaking js](http://speakingjs.com/) (online book)
 - [Headfirst JavaScript](https://www.oreilly.com/library/view/head-first-javascript/9781449340124/ch01.html): an outstanding (paid) book for understanding JS and the web. comes with code samples you can run locally
 
 Is there another tutorial you like better than these? not a problem! Just us a PR so other students can find it ;)
@@ -215,14 +232,10 @@ There's a good reason these have been around forever, they work. Quiz yourself o
 
 ### Exercises in this Repo
 
-The exercises in this module focus on how to read and understand programs that interact with a user. As a programmer you will spend more of your time reading, understanding and adjusting code than you will writing it. So why not start there?
+The exercises in this module focus on how to read and understand programs that interact with a user. These exercises are a few steps above what you are expected to write or easily understand, that's the idea! As a programmer you will spend more of your time reading, understanding and adjusting code than you will writing it. So why not start there?
 
-- 🥚 **[reading-code](./reading-code)**: Practice reading files of code. This includes identifying variables, tracing code like the computer, drawing on the code, and asking good questions.
-- 🐣 **[forest-and-trees](./forest-and-trees)**: Analyze programs in detail learning to explain what is happening on each line, and explaining how each line contributes to the program's overall behavior.
-- 🐣 **[parsons-problems](./parsons-problems)**: You will be given many lines of code, scrambled out of order. You need to move them back into the correct order and indentation. Careful! there may be some extra lines
-- 🐣 **[word-banks](./word-banks)**: Complete programs by filling in the blanks. All the missing words and symbols will be provided, you need to figure out where they go.
-- 🐣 **[naming-variables](./naming-variables)**: Code should be written for people first, computers second. Learn to give helpful names to your variables that describe what data they store and how they are used in your program.
-- 🐣 **[logging](./logging)**: Learn how to create your own trace of a program's execution using `console.log`. Practice tracing different aspects of the same program's execution.
+- 🐣 **[reading-programs](./reading-programs)**: Practice reading interactive programs. This includes identifying variables, tracing code like the computer, drawing on the code, and asking good questions.
+- 🐣 **[describing-programs](./describing-programs)**: Analyze programs in detail learning to explain what is happening on each line, and explaining how each line contributes to the program's overall behavior.
 - 🐥 **[explorations](./explorations)**: Experiment with JS language features that interest you, try modifying the programs in this repo, or try writing your own. This folder is yours to explore JS and programming.
 
 </details>
@@ -234,6 +247,8 @@ The exercises in this module focus on how to read and understand programs that i
 
 ## Week 1
 
+Begin learning JS syntax and vocabulary, reading code out loud, and tracing variables.
+
 <details>
 <summary>expand/collapse</summary>
 <br>
@@ -242,40 +257,44 @@ The exercises in this module focus on how to read and understand programs that i
 
 - [What is Programming?](#what-is-programming), [What is JavaScript?](#what-is-javascript)
 - Follow the instructions in [Getting Started](#getting-started) to install `study-lenses`
-- Read through [./just-enough-javascript](./just-enough-javascript)
-  - Through conditionals
-- In your favorite tutorial learn about:
-  - variables
-  - primitive types
-  - conditions
+- Skim these chapters from [./just-enough-javascript](./just-enough-javascript)
+  - Comments and Logs
+  - `guide-tracing.mp4`
+  - Variables
+  - Conditionals
 
 ### During Class
 
+Learn how to use a Trace Table to understand what is happening in a program.
+
 #### Before Break
 
-[just-enough-javascript](./just-enough-javascript)
-
-- **all together**: Variables and Interactions
-- **in groups**: Conditionals and While Loops
+- Q/A about "What is JavaScript?"
+- How to open and study the module
+- What are variables? How can you study them?
+  - the `?variables` lens
+  - the `?highlight` lens
+  - the `trace` button
+  - trace tables
+  - parsons problems
+- Study the exercises in `/just-enough-javascript/variables/trace`
 
 #### After Break
 
-[Reading Code](./reading-code/README.md)
-
-- **all together**: Remebery
-- **in groups**: Madlib and Getting an Orange
+- Study the exercises in `/just-enough-javascript/conditionals/trace/not-interactive`
 
 ### After Class
 
-No project. Just lots of study time, alone and in groups. Keep asking questions!
+No project. Just lots of study time, alone and in groups. Here's some ideas for what to focus on this week:
 
-1. Take a look through the tutorials in _Suggested Study_ and choose your 1 or two favorites.
-   - Use _Just Enough JavaScript_ to help you stay focused, if you are blocked on something in your tutorial that isn't in _Just Enough JavaScript_ then you can set it aside for now.
-   - Try out the _Parsons Problems_ for each language feature as you learn them in the tutorial. You can even try making your own Parsons Problems from code in your tutorial!
-2. With your classmates:
-   - practice _Reading Code_
-   - complete at least 3-4 _Forest and Trees_ exercises
-   - practice _Logging_, can you create a helpful trace of the programs using `console.log`?
+- 🥚 [compute-it](http://compute-it.toxicode.fr/), 🐣 [little-dot](http://little-dot.toxicode.fr/)
+- [ASCII Pronunciation Rules for Programmers](https://blog.codinghorror.com/ascii-pronunciation-rules-for-programmers/)
+- [./just-enough-javascript](./just-enough-javascript) through While Loops
+  - you do not need to complete every exercise in each chapter, just enough that you're comfortable to move on
+  - you can always return to study these chapters again, or to complete what you didn't finish
+- Study through While Loops in your favorite online tutorial
+
+Keep the question coming!
 
 </details>
 <br>
@@ -286,46 +305,47 @@ No project. Just lots of study time, alone and in groups. Keep asking questions!
 
 ## Week 2
 
+Practice reading, understanding and describing larger programs.
+
 <details>
 <summary>expand/collapse</summary>
 <br>
 
 ### Before Class
 
-- In your favorite tutorial learn about:
-  - while loops
-  - for loops
-- Naming Variables:
-  - read the [README](./naming-variables/README.md)
-  - watch the [guide](./naming-variables/guide.mp4)
+- Skim these chapters from [./just-enough-javascript](./just-enough-javascript)
+  - Break, Continue
+  - For-of Loops
+- Look through the READMEs of
+  - [./reading-programs](./reading-programs)
+  - [./describing-programs](./describing-programs)
+- Try out the "ask me" button if you haven't yet
 
 ### During Class
 
+Practice reading and describing programs
+
 #### Before Break
 
-[Forest and Trees](./forest-and-trees/README.md)
-
-- **all together**: examples
-- **in groups**: Frogopedia 1 & 2
+- How do you read a program? Why?
+- Practice answering questions from the "ask me" button
 
 #### After Break
 
-[Naming Variables](./naming-variables/README.md)
-
-- **all together**: examples
-- **in groups**: Animalopedia
+- How do you describe a program? Why?
+- Practice writing comments to describe small programs
 
 ### After Class
 
 No project. Just lots of study time, alone and in groups. Keep asking questions!
 
-1. Keep working through your favorite tutorial(s):
-   - Use _Just Enough JavaScript_ to help you stay focused, if you are blocked on something in your tutorial that isn't in _Just Enough JavaScript_ then you can set it aside for now.
-   - Try out the _Parsons Problems_ for each language feature as you learn them in the tutorial. You can even try making your own Parsons Problems from code in your tutorial!
-2. With your classmates:
-   - practice _Reading Code_
-   - complete as many _Word Blanks_ as possible
-   - complete at least 3-4 _Naming Variables_ exercises
+- The rest of [./just-enough-javascript](./just-enough-javascript)
+  - you do not need to complete every exercise in each chapter, just enough that you're comfortable to move on
+  - you can always return to study these chapters again, or to complete what you didn't finish
+- Study through for-of Loops in your favorite online tutorial
+- Read and describe as many programs as you can
+  - the goal is to become comfortable investigating code you _don't_ understand yet
+  - it's okay if you don't understand a program completely, as long as you understand more each time
 
 </details>
 <br>

@@ -1,7 +1,13 @@
-let i = 0;
+let toggle = true;
+
 while (true) {
-  console.log(i);
-  i = i + 1;
+  if (toggle) {
+    console.log('<');
+  } else {
+    console.log('>');
+  }
+  toggle = !toggle;
 }
+
 // unreachable code:
 console.log('all done');
