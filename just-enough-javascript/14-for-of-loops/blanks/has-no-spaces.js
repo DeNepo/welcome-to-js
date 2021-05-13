@@ -1,14 +1,3 @@
-/*
-
-  unused:
-    true
-    false
-    break
-    continue
-  used:
-
-*/
-
 let input = null;
 while (input === null) {
   input = prompt(
@@ -16,12 +5,12 @@ while (input === null) {
   );
 }
 
-let noSpaces = _;
+let noSpaces = true;
 
 for (let letter of input) {
   if (letter === ' ') {
-    noSpaces = _;
-    _;
+    noSpaces = false;
+    break;
   }
 }
 
@@ -30,7 +19,3 @@ if (noSpaces) {
 } else {
   alert('"' + input + '" has at least one space');
 }
-
-/* -- errors --
-
-*/

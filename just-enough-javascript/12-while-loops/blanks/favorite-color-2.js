@@ -1,33 +1,18 @@
-/*
-
-  unused:
-    false
-    true
-    message
-    input
-  used:
-
-*/
-
 let message = 'your favorite color is ';
 
-let unconfirmed = _;
+let unconfirmed = true;
 while (unconfirmed) {
   let input = prompt('what is your favorite color?');
 
-  if (_ === null) {
+  if (input === null) {
     alert('there is no escape');
   } else {
     let confirmed = confirm('is this correct? "' + input + '"');
-    if (confirmed === _) {
-      _ = _ + input;
-      unconfirmed = _;
+    if (confirmed === true) {
+      message = message + input;
+      unconfirmed = false;
     }
   }
 }
 
 alert(message);
-
-/* -- error --
-
-*/

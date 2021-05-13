@@ -6,9 +6,9 @@ let temp;
 /* 2. swap the values between a and b
   this can be done with 3 assignments
 */
-temp = _;
-a = _;
-_ = temp;
+temp = a;
+a = b;
+b = temp;
 
 /* 3. compare the final values
   all the comparisons should be true

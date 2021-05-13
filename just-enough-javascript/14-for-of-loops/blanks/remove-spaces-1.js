@@ -1,15 +1,3 @@
-/*
-
-  unused:
-    continue
-    ' '
-    letter
-    input
-    ''
-  used:
-
-*/
-
 let input = null;
 
 let hasSpaces = false;
@@ -29,16 +17,12 @@ while (!hasSpaces) {
   }
 }
 
-let spaceless = _;
-for (let letter of _) {
-  if (letter === _) {
-    _;
+let spaceless = '';
+for (let character of input) {
+  if (character === ' ') {
+    continue;
   }
-  spaceless = spaceless + _;
+  spaceless = spaceless + character;
 }
 
 alert(input + ' -> ' + spaceless);
-
-/* -- errors --
-
-*/

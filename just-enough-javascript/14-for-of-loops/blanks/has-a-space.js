@@ -1,17 +1,3 @@
-/*
-
-  unused:
-    ' '
-    break
-    continue
-    char
-    true
-    false
-    input
-  used
-
-*/
-
 let input = null;
 while (input === null) {
   input = prompt(
@@ -19,12 +5,12 @@ while (input === null) {
   );
 }
 
-let hasASpace = _;
+let hasASpace = false;
 
-for (let _ of _) {
+for (let char of input) {
   if (char === ' ') {
-    hasASpace = _;
-    _;
+    hasASpace = true;
+    break;
   }
 }
 
@@ -33,7 +19,3 @@ if (hasASpace) {
 } else {
   alert('"' + input + '" does not have any spaces');
 }
-
-/* -- errors --
-
-*/

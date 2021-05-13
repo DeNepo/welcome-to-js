@@ -16,7 +16,8 @@
     "ask": {
       "functions": false
     },
-    "table": true
+    "table": true,
+    "blanks": true
   },
   "highlight": {
     "run": true,

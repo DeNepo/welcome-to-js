@@ -1,13 +1,3 @@
-/*
-
-  unused:
-    spaceless
-    letter
-    of
-  used:
-
-*/
-
 let input = null;
 
 while (true) {
@@ -32,14 +22,10 @@ while (true) {
 }
 
 let spaceless = '';
-for (let letter _ input) {
-  if (_ !== ' ') {
-    _ = _ + letter;
+for (let char of input) {
+  if (char !== ' ') {
+    spaceless = spaceless + char;
   }
 }
 
 alert(input + ' -> ' + spaceless);
-
-/* -- errors --
-
-*/

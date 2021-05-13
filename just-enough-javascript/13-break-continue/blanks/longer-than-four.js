@@ -1,37 +1,19 @@
-/*
-
-  unused:
-    length
-    true
-    null
-    false
-    input
-    break
-    continue
-  used:
-
-*/
-
 let input = '';
 
-while (_) {
+while (true) {
   input = prompt('enter something longer than 4 characters');
 
-  if (_ === _) {
+  if (input === null) {
     alert('there is no escape');
-    _;
+    continue;
   }
 
-  if (_._ <= 4) {
+  if (input.length <= 4) {
     alert('your input is too short');
-    _;
+    continue;
   }
 
-  _;
+  break;
 }
 
 alert(input);
-
-/* -- errors --
-
-*/

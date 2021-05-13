@@ -1,29 +1,14 @@
-/*
-
-  unused:
-    length
-    true
-    false
-    input
-  used:
-
-*/
-
 let input = '';
-let prompting = _;
+let prompting = true;
 while (prompting) {
   input = prompt(
     'enter something longer than 4 characters, or "cancel" to leave'
   );
   if (input === null) {
-    prompting = _;
+    prompting = false;
     input = 'you canceled';
-  } else if (_._ > 4) {
-    prompting = _;
+  } else if (input.length > 4) {
+    prompting = false;
   }
 }
 alert(input);
-
-/* -- errors --
-
-*/

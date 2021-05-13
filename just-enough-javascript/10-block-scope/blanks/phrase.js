@@ -10,4 +10,4 @@ let phrase = '';
   phrase = phrase + ' ' + word;
 }
 
-console.log(phrase === _); // true
+console.log(phrase === 'hello world'); // true

@@ -1,28 +1,15 @@
-/*
-  unused:
-    response
-    input
-    didConfirm
-  used:
-
-*/
-
-let input = prompt('enter something');
+let input = prompt("enter something");
 
 let response;
-if (_ === null) {
-  response = ':(';
+if (input === null) {
+  response = ":(";
 } else {
-  let didConfirm = confirm('is this what you meant to input?\n-> ' + _);
-  if (_ === false) {
-    _ = 'try again';
+  let didConfirm = confirm("is this what you meant to input?\n-> " + input);
+  if (didConfirm === false) {
+    response = "try again";
   } else {
-    _ = 'great!';
+    response = "great!";
   }
 }
 
 alert(response);
-
-/* -- errors --
-
-*/
