@@ -22,6 +22,8 @@ There are a few different kinds of exercises in Just Enough JavaScript. None of 
 
 Instead the exercises will be built around completed programs. You will need to either fill in missing pieces, rearranged the lines, or trace how the variables are used.
 
+---
+
 ### Fill in the Blanks
 
 Fill-in-the-blanks exercises will be JS scripts with some blanks for you to fill in and (sometimes) a comment describing what should happen. Some exercises will simple like this:
@@ -32,6 +34,8 @@ console.log(true && _); // true
 
 But others will be more complex. Larger exercises will open with the `?blanks` lens where you will be able to decide how many words you want to remove from the program. You will be shown a list of all the words that have ben removed from the program, and have the option to compare the modified program to the correct solution using a _diff editor_.
 
+---
+
 ### Parsons Problems
 
 Parsons problems are designed to help you study snippets of code without getting caught by errors. You'll be given lines of code and your task is to place them in order. But it's not always as easy as it sounds!
@@ -40,6 +44,8 @@ Exercises will have extra lines as distraction, you'll need to figure out which 
 - [all of the learning, less of the time time](https://computinged.wordpress.com/2017/11/17/parsons-problems-have-same-learning-gains-as-writing-or-fixing-code-in-less-time-koli-calling-2017-preview)
 - [How to study programming](https://medium.com/swlh/how-to-study-computer-programming-parsons-problems-2bfdefabfd86)
 - [what are these?](https://georgejmount.com/parsons-problems/)
+
+---
 
 ### Tracing Execution
 
@@ -53,7 +59,8 @@ Because it can be hard to know if you are tracing correctly without someone by y
 
 If you like to draw on code as you trace what's happening you can do that with any file! Just replace `?--defaults` in your browser's URL bar with `?highlight` and you're good to go.
 
-#### Trace Tables
+<details>
+<summary>Trace Tables</summary>
 
 Trace tables have been around as long as computer programming (probably). The challenge with a trace table is to run the code in your head, keeping track of all the variables in your program by hand. This is also called a _dry run_ or a _desk check_.
 
@@ -82,5 +89,262 @@ Later on you may prefer the **values** table because it allows you to look at th
   - [ibcomputerscience](https://ibcomputerscience.xyz/trace-tables/)
   - [wikipedia](https://en.wikipedia.org/wiki/Trace_table)
   - [bits of bytes](https://www.bitsofbytes.co/trace-tables.html)
+
+</details>
+
+</details>
+
+---
+
+### Specs
+
+> these exercises can be more challenging, if you get lots of errors or can't finish them right away that's normal.
+
+"Specs" is short for "specifications". In development a [_specification_](https://en.wikipedia.org/wiki/Software_requirements_specification#Structure) is a description of the software that needs to be built - specific enough that the team can get started but general enough that it doesn't tell them how to write each file of code. Importantly, specs will also help a team know when their software is good enough to call it done.
+
+The `specs` exercises will ask you to write small interactive programs that meet certain specifications. None of these exercises will be large programs, and each one can be solved using only what you have learned in previous chapters of Just Enough JavaScript.
+
+All exercises will have these 4 parts:
+
+1. **User Stories**: those are the interactions a user can have with this software when it is finished. You will also be given _acceptance criteria_ to help you know when you've satisfied the user story.
+2. **Test Cases**: example input/output pairs - What data can you expect to come out of your program when you input certain values? You can use these test cases to make sure your software functions correctly. But don't stop there! See if you can think of other strange inputs that might break your program.
+3. **Starter Code**: each exercise will have some starter code with a couple `_` blanks. You can change this as much as you want, it's just a suggestion
+4. **Checklist**: working code does not mean you're finished! There is a checklist to help you know when your code is complete. You will need to make sure your code is formatted, has good variable names, is well-commented and error-free.
+
+Even with these constraints, there are many different solutions to each problem. See how many you can find! Below are 3 different ways to write a program that meet the same specifications - to add excitement to the user's input (and there are still many more solutions):
+
+<details>
+<summary>the challenge</summary>
+
+```js
+/*
+  1. ===== the user story =====
+
+  a user can provide any input to a prompt
+    - given the input is null, the program is sad
+    - given the input is not null, the program is excited
+
+  2. ===== the test cases =====
+
+  test cases:
+    the user cancels:
+      null -> ':('
+    any input is exciting:
+      '' -> '!'
+      'hi' -> 'hi!'
+      'javascript' -> 'javascript!'
+*/
+
+// 3.  ===== the starter code =====
+
+console.log('--- begin program ---');
+
+// --- gather user input ---
+let input = prompt(_);
+console.log('input:', input);
+
+// --- declare initial output ---
+let output = _;
+
+// --- create final output ---
+
+// --- alert the result ---
+console.log('output:', output);
+alert(output);
+
+console.log('--- end program ---');
+
+/*
+  4. ===== the checklist =====
+
+  checklist:
+    [ ] the code is formatted
+    [ ] variable names are clear and helpful
+    [ ] each line of code is explained in a comment above that line
+      - use full sentences and correct JS vocabulary
+    [ ] the program runs
+    [ ] the program has no errors
+    [ ] all of the test cases work
+    [ ] you tested strange inputs that could break your program (edge cases)
+*/
+```
+
+</details>
+
+<details>
+<summary>solution 1</summary>
+
+```js
+/*
+  a user can provide any input to a prompt
+    - given the input is null, the program is sad
+    - given the input is not null, the program is excited
+
+  test cases:
+    the user cancels:
+      null -> ':('
+    any input is exciting:
+      '' -> '!'
+      'hi' -> 'hi!'
+      'javascript' -> 'javascript!'
+*/
+
+console.log('--- begin program ---');
+
+// --- gather user input ---
+// maybe not the most clear instructions, but it's good enough for now
+let input = prompt('if you cancel i will be sad. otherwise i will be excited.');
+console.log('input:', input);
+
+// --- declare initial output ---
+// declaring output to an empty string
+//  it will be assigned the correct value in a conditional later on
+let output = '';
+
+// --- create final output ---
+// input will only be null if the user canceled
+if (input === null) {
+  // assign the sad output value because the user canceled
+  output = ':(';
+} else {
+  // this is the path for any input that is not from the user canceling
+  //  since the user didn't cancel, i assigned added some excitement
+  output = input + '!';
+}
+
+// --- alert the result ---
+console.log('output:', output);
+alert(output);
+
+console.log('--- end program ---');
+
+/*
+  checklist:
+    [x] the code is formatted
+    [x] variable names are clear and helpful
+    [x] each line of code is explained in a comment above that line
+      - use full sentences and correct JS vocabulary
+    [x] the program runs
+    [x] the program has no errors
+    [x] all of the test cases work
+    [x] you tested strange inputs that could break your program (edge cases)
+*/
+```
+
+</details>
+
+<details>
+<summary>solution 2</summary>
+
+```js
+/*
+  a user can provide any input to a prompt
+    - given the input is null, the program is sad
+    - given the input is not null, the program is excited
+
+  test cases:
+    the user cancels:
+      null -> ':('
+    any input is exciting:
+      '' -> '!'
+      'hi' -> 'hi!'
+      'javascript' -> 'javascript!'
+*/
+
+console.log('--- begin program ---');
+
+// --- gather user input ---
+// maybe not the most clear instructions, but it's good enough for now
+let input = prompt('give me something to be excited about:');
+console.log('input:', input);
+
+// --- declare initial output ---
+// initialized the output to the sad output, assuming the user canceled
+//  if they didn't cancel, the program will later reassign the correct value
+let output = ':(';
+
+// --- create final output ---
+// check if the user inputted a string value
+if (input !== null) {
+  // if they did not cancel, be excited about their input
+  output = input + '!';
+}
+
+// --- alert the result ---
+console.log('output:', output);
+alert(output);
+
+console.log('--- end program ---');
+
+/*
+  checklist:
+    [x] the code is formatted
+    [x] variable names are clear and helpful
+    [x] each line of code is explained in a comment above that line
+      - use full sentences and correct JS vocabulary
+    [x] the program runs
+    [x] the program has no errors
+    [x] all of the test cases work
+    [x] you tested strange inputs that could break your program (edge cases)
+*/
+```
+
+</details>
+
+<details>
+<summary>solution 3</summary>
+
+```js
+/*
+  a user can provide any input to a prompt
+    - given the input is null, the program is sad
+    - given the input is not null, the program is excited
+
+  test cases:
+    the user cancels:
+      null -> ':('
+    any input is exciting:
+      '' -> '!'
+      'hi' -> 'hi!'
+      'javascript' -> 'javascript!'
+*/
+
+console.log('--- begin program ---');
+
+// --- gather user input ---
+// maybe not the most clear instructions, but it's good enough for now
+let input = prompt('give me something to be excited about:');
+console.log('input:', input);
+
+// --- declare initial output ---
+// initialize the output to be excited, assuming the user didn't cancel
+//  if they did cancel, the program will later reassign the correct value
+let output = input + '!';
+
+// --- create final output ---
+// check if the user actually canceled
+if (input === null) {
+  // if they did cancel, be sad
+  output = ':(';
+}
+
+// --- alert the result ---
+console.log('output:', output);
+alert(output);
+
+console.log('--- end program ---');
+
+/*
+  checklist:
+    [x] the code is formatted
+    [x] variable names are clear and helpful
+    [x] each line of code is explained in a comment above that line
+      - use full sentences and correct JS vocabulary
+    [x] the program runs
+    [x] the program has no errors
+    [x] all of the test cases work
+    [x] you tested strange inputs that could break your program (edge cases)
+*/
+```
 
 </details>

@@ -10,7 +10,7 @@ while (!userConfirmed) {
   }
 
   userConfirmed = confirm(
-    'do you want to use this phrase?\n\n' + '- "' + input + '"'
+    'do you want to use this phrase?\n\n- "' + input + '"'
   );
 }
 

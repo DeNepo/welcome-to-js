@@ -236,6 +236,42 @@ console.log(''.indexOf('hello')); // -1
 ```
 
 </details>
+<details>
+<summary>🐣 .slice</summary>
+
+```js
+console.log('-- strings: .slice --');
+
+console.log('one argument');
+// when you pass in only one number
+//  .slice returns the rest of the string from that index
+console.log('abcd'.slice(0)); // 'abcd'
+console.log('abcd'.slice(1)); //  'bcd'
+console.log('abcd'.slice(2)); //   'cd'
+console.log('abcd'.slice(3)); //    'd'
+console.log('abcd'.slice(5)); // undefined
+
+console.log('two arguments');
+// when you pass in two numbers
+//  .slice returns the characters from the first index to the second
+console.log('abcd'.slice(0, 4)); // 'abcd'
+console.log('abcd'.slice(1, 4)); //  'bcd'
+console.log('abcd'.slice(1, 3)); //  'bc'
+console.log('abcd'.slice(2, 3)); //   'c'
+console.log('abcd'.slice(2, 2)); // undefined
+
+console.log('negative arguments');
+// when you pass negative numbers
+//  the array indexes are counted backwards from the end of the string
+console.log('abcd'.slice(-1)); //   'd'
+console.log('abcd'.slice(-2)); //  'cd'
+console.log('abcd'.slice(-3)); // 'bcd'
+console.log('abcd'.slice(-4, -1)); // 'abc'
+console.log('abcd'.slice(-3, -1)); //  'bc'
+console.log('abcd'.slice(-3, -2)); //  'b'
+```
+
+</details>
 
 ---
 
