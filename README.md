@@ -281,7 +281,7 @@ Learn how to use a Trace Table to understand what is happening in a program.
 
 #### After Break
 
-- Study the exercises in `/just-enough-javascript/conditionals/trace/not-interactive`
+- Study the exercises in `/just-enough-javascript/conditionals/trace`
 
 ### After Class
 
