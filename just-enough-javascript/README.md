@@ -18,32 +18,9 @@ You know you have mastered an example when you can answer all the `[ask me]` que
 
 ## Exercises
 
-There are a few different kinds of exercises in Just Enough JavaScript. None of these exercises will ask you to write code from an empty file, to write functions, or to pass tests.
+There are a few different kinds of exercises in Just Enough JavaScript. None of these exercises will ask you to write code from an empty file, to write functions, or to pass some automated tests.
 
 Instead the exercises will be built around completed programs. You will need to either fill in missing pieces, rearranged the lines, or trace how the variables are used.
-
----
-
-### Fill in the Blanks
-
-Fill-in-the-blanks exercises will be JS scripts with some blanks for you to fill in and (sometimes) a comment describing what should happen. Some exercises will simple like this:
-
-```js
-console.log(true && _); // true
-```
-
-But others will be more complex. Larger exercises will open with the `?blanks` lens where you will be able to decide how many words you want to remove from the program. You will be shown a list of all the words that have ben removed from the program, and have the option to compare the modified program to the correct solution using a _diff editor_.
-
----
-
-### Parsons Problems
-
-Parsons problems are designed to help you study snippets of code without getting caught by errors. You'll be given lines of code and your task is to place them in order. But it's not always as easy as it sounds!
-Exercises will have extra lines as distraction, you'll need to figure out which lines are part of the program and which are there to confuse you.
-
-- [all of the learning, less of the time time](https://computinged.wordpress.com/2017/11/17/parsons-problems-have-same-learning-gains-as-writing-or-fixing-code-in-less-time-koli-calling-2017-preview)
-- [How to study programming](https://medium.com/swlh/how-to-study-computer-programming-parsons-problems-2bfdefabfd86)
-- [what are these?](https://georgejmount.com/parsons-problems/)
 
 ---
 
@@ -93,6 +70,29 @@ Later on you may prefer the **values** table because it allows you to look at th
 </details>
 
 </details>
+
+---
+
+### Fill in the Blanks
+
+Fill-in-the-blanks exercises will be JS scripts with some blanks for you to fill in and (sometimes) a comment describing what should happen. Some exercises will simple like this:
+
+```js
+console.log(true && _); // true
+```
+
+But others will be more complex. Larger exercises will open with the `?blanks` lens where you will be able to decide how many words you want to remove from the program. You will be shown a list of all the words that have ben removed from the program, and have the option to compare the modified program to the correct solution using a _diff editor_.
+
+---
+
+### Parsons Problems
+
+Parsons problems are designed to help you study snippets of code without getting caught by errors. You'll be given lines of code and your task is to place them in order. But it's not always as easy as it sounds!
+Exercises will have extra lines as distraction, you'll need to figure out which lines are part of the program and which are there to confuse you.
+
+- [all of the learning, less of the time time](https://computinged.wordpress.com/2017/11/17/parsons-problems-have-same-learning-gains-as-writing-or-fixing-code-in-less-time-koli-calling-2017-preview)
+- [How to study programming](https://medium.com/swlh/how-to-study-computer-programming-parsons-problems-2bfdefabfd86)
+- [what are these?](https://georgejmount.com/parsons-problems/)
 
 ---
 
