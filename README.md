@@ -377,3 +377,11 @@ Screen recordings of class. Coaches, when sending your PR's with links please ..
 2. Week 2:
    - [Studying MadLibs pt. 1](https://vimeo.com/528300558)
    - [Studying MadLibs pt. 2](https://vimeo.com/528300446)
+
+## [class-15](https://github.com/hackyourfuturebelgium/class-15)
+
+> Evan
+
+1. Week 1:
+   - [learning JS & tracing variables](https://vimeo.com/551365120)
+   - [tracing conditionals](https://vimeo.com/551365422)

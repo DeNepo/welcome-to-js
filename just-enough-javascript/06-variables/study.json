@@ -3,8 +3,7 @@
     "trace": {
       "functions": false,
       "controlFlow": false,
-      "operators": false,
-      "console": false
+      "operators": false
     },
     "flowchart": false,
     "openIn": true,
