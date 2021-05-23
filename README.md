@@ -182,6 +182,7 @@ A selection of tutorial sites with interactive exercises, these tutorial will he
 - [javascript.express](https://www.javascript.express/): the chapters that cover Just Enough JavaScript
 - [launchcode](https://education.launchcode.org/intro-to-professional-web-dev/index.html): chapters 1 -> 5
 - [programiz](https://www.programiz.com/javascript/get-started): through while loops
+- [the net ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc) (video series)
 - [freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/): through for loops. (more advanced)
 - [speaking js](http://speakingjs.com/) (online book)
 - [Headfirst JavaScript](https://www.oreilly.com/library/view/head-first-javascript/9781449340124/ch01.html): an outstanding (paid) book for understanding JS and the web. comes with code samples you can run locally

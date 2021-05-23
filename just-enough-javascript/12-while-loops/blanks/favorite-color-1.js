@@ -6,7 +6,9 @@ while (isEmpty) {
 
   if (input === null) {
     alert('there is no escape');
-  } else if (input.length !== 0) {
+  } else if (input.length === 0) {
+    alert('input cannot be empty');
+  } else {
     message = message + input;
     isEmpty = false;
   }

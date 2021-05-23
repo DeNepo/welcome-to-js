@@ -26,7 +26,8 @@
     "ask": {
       "functions": false
     },
-    "table": true
+    "table": true,
+    "trace": true
   },
   "variables": {
     "trace": true,
