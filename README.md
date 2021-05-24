@@ -381,8 +381,10 @@ Screen recordings of class. Coaches, when sending your PR's with links please ..
 
 ## [class-15](https://github.com/hackyourfuturebelgium/class-15)
 
-> Evan
+> Evan, Unmesh
 
 1. Week 1:
    - [learning JS & tracing variables](https://vimeo.com/551365120)
    - [tracing conditionals](https://vimeo.com/551365422)
+2. Week 2:
+   - [Reading Code](https://vimeo.com/554219000)

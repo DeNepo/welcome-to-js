@@ -30,6 +30,6 @@ while (verb === null) {
 
 madlib = madlib + ' likes to ' + verb;
 
-/* -- make the use laugh -- */
+/* -- make the user laugh -- */
 
 alert(madlib);

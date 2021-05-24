@@ -8,7 +8,7 @@ while (!userConfirmed) {
     alert('nope, enter something');
   } else {
     userConfirmed = confirm(
-      'do you want to spell this word?\n\n' + '- "' + userInput + '"'
+      'do you want to spell this word?\n\n- "' + userInput + '"'
     );
   }
 }

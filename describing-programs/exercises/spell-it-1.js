@@ -9,9 +9,7 @@ while (!didConfirm) {
     continue;
   }
 
-  didConfirm = confirm(
-    'do you want to spell this word?\n\n' + '- "' + word + '"'
-  );
+  didConfirm = confirm('do you want to spell this word?\n\n- "' + word + '"');
 }
 
 let spellIt = 'all spelled out:\n';
