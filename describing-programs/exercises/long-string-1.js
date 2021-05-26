@@ -26,5 +26,5 @@ while (!isValid) {
 // assigning the value of isValid to "true"
   isValid = true;
 }
-// it will show an alert with the value of unserInput and the number of the characters
+// it will show an alert with the value of userInput and the number of the characters
 alert('"' + userInput + '" is ' + userInput.length + ' characters long');
