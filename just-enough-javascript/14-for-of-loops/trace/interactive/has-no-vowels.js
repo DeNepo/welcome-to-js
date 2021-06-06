@@ -6,7 +6,7 @@ while (letters === null) {
 let noVowels = true;
 
 for (let letter of letters) {
-  if ('aeiou'.includes(letter)) {
+  if ('aeiouAEIOU'.includes(letter)) {
     noVowels = false;
     break;
   }

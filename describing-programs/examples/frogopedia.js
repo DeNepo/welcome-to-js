@@ -1,8 +1,19 @@
 /* Frogopedia (program behavior)
 
-  this program asks the user to input some information about frogs
-    it will continually prompt the user until they input something with "frog" in it
-  after the user inputs valid data, the program will display the cool new frog fact
+  A user can share cool facts about frogs.
+  - given the user cancels, they will be prompted again
+  - given the input does not contain "frog", the user is told so and prompted for new input
+  - given the input contains "frog" (case-insensitive), the program learns something cool
+
+  test cases
+  - given the user cancels
+    (no output, the input is invalid)
+  - given the input does not contain "frog"
+    (no output, the input is invalid)
+  - fiven the input does contain "frog"
+    'frog' -> 'i just learned something cool about frogs!\n\n- "frog"'
+    'FROGZZ' -> 'i just learned something cool about frogs!\n\n- "FROGZZ"'
+    'green frogs do not exist.' -> 'i just learned something cool about frogs!\n\n- "green frogs do not exist."'
 
 */
 

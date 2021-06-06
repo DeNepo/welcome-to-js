@@ -8,7 +8,18 @@ This set of examples and exercises will help you learn how to do a close reading
 
 ```js
 /*
-  describe what the program does from the user's perspective
+  (describe what the program does from the user's perspective)
+
+  A user can ...
+  - given ...
+  - given ...
+
+  test cases
+  - given ...
+    'input' -> 'output'
+    'input' -> 'output'
+  - given ...
+    ...
 */
 
 /* -- goal (an important step in the program) -- */
@@ -40,7 +51,7 @@ alert(line);
 
 ## Zooming Out
 
-Understanding what the entire program does, without looking at any single line of code.
+Understanding what the entire program does just by running, without looking at any single line of code.
 
 - can a user interact with the program?
   - when do they interact? (beginning, middle, end, ...)
@@ -51,15 +62,26 @@ Understanding what the entire program does, without looking at any single line o
 - what is the user's journey? how many different paths can it take?
 - ... what else can you say about the program?
 
+Practice writing your thoughts as user stories, acceptance criteria, and test cases:
+
 ```js
 /*
-  this program asks a user to input "yes", with upper or lower case letters
-  these are some example correct inputs:
-  - YeS, yes, YEs, YES, ...
+  A user can input anything, if the input is "yes" the program is excited
+  - given the user cancels, the program is sad
+  - given the user inputs 'yes' (case insensitive) the program is excited
+  - given any other inputs, the program says it's "baaaaad"
 
-  if the user inputs a valid string, they'll be congratulated.
-  if they input an invalid string, they are told it is baaaad
-  otherwise the program is sad :(
+  test cases:
+  - the user cancels
+    null -> ':('
+  - any sort of 'yes'
+    'yes' -> 'yes!'
+    'Yes' -> 'Yes!'
+    'yES' -> 'yES!'
+  - any other input
+    'hello' -> 'baaaaad: hello'
+    '' -> 'baaaaad: '
+    'good bye' -> 'baaaaad: good bye'
 */
 
 let userInput = prompt('enter the word "yes", upper or lower case');
@@ -96,13 +118,22 @@ Understanding what each line of code does and how it works, without taking a ste
 
 ```js
 /*
-  this program asks a user to input "yes", with upper or lower case letters
-  these are some example correct inputs:
-  - YeS, yes, YEs, YES, ...
+  A user can input anything, if the input is "yes" the program is excited
+  - given the user cancels, the program is sad
+  - given the user inputs 'yes' (case insensitive) the program is excited
+  - given any other inputs, the program says it's "baaaaad"
 
-  if the user inputs a valid string, they'll be congratulated.
-  if they input an invalid string, they are told it is baaaad
-  otherwise the program is sad :(
+  test cases:
+  - the user cancels
+    null -> ':('
+  - any sort of 'yes'
+    'yes' -> 'yes!'
+    'Yes' -> 'Yes!'
+    'yES' -> 'yES!'
+  - any other input
+    'hello' -> 'baaaaad: hello'
+    '' -> 'baaaaad: '
+    'good bye' -> 'baaaaad: good bye'
 */
 
 // call prompt: instructions for the program
@@ -145,13 +176,22 @@ Start finding connections between different lines of code across the program.
 
 ```js
 /*
-  this program asks a user to input "yes", with upper or lower case letters
-  these are some example correct inputs:
-  - YeS, yes, YEs, YES, ...
+  A user can input anything, if the input is "yes" the program is excited
+  - given the user cancels, the program is sad
+  - given the user inputs 'yes' (case insensitive) the program is excited
+  - given any other inputs, the program says it's "baaaaad"
 
-  if the user inputs a valid string, they'll be congratulated.
-  if they input an invalid string, they are told it is baaaad
-  otherwise the program is sad :(
+  test cases:
+  - the user cancels
+    null -> ':('
+  - any sort of 'yes'
+    'yes' -> 'yes!'
+    'Yes' -> 'Yes!'
+    'yES' -> 'yES!'
+  - any other input
+    'hello' -> 'baaaaad: hello'
+    '' -> 'baaaaad: '
+    'good bye' -> 'baaaaad: good bye'
 */
 
 // call prompt: instructions for the program
@@ -212,13 +252,22 @@ You can label goals with commented line dividers and a short title describe what
 
 ```js
 /*
-  this program asks a user to input "yes", with upper or lower case letters
-  these are some example correct inputs:
-  - YeS, yes, YEs, YES, ...
+  A user can input anything, if the input is "yes" the program is excited
+  - given the user cancels, the program is sad
+  - given the user inputs 'yes' (case insensitive) the program is excited
+  - given any other inputs, the program says it's "baaaaad"
 
-  if the user inputs a valid string, they'll be congratulated.
-  if they input an invalid string, they are told it is baaaad
-  otherwise the program is sad :(
+  test cases:
+  - the user cancels
+    null -> ':('
+  - any sort of 'yes'
+    'yes' -> 'yes!'
+    'Yes' -> 'Yes!'
+    'yES' -> 'yES!'
+  - any other input
+    'hello' -> 'baaaaad: hello'
+    '' -> 'baaaaad: '
+    'good bye' -> 'baaaaad: good bye'
 */
 
 /* --- gather user input --- */
