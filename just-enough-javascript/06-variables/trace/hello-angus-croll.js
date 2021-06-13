@@ -1,3 +1,5 @@
+'use strict';
+
 let first = 'angus';
 let last = 'croll';
 

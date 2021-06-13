@@ -1,3 +1,5 @@
+'use strict';
+
 /*
   a user can input string of letters to be converted into a bouncy string
     (a bouncy string is one with every other letter uppercase)

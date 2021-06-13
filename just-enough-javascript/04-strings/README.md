@@ -3,6 +3,7 @@
 A primitive type used for saving and working with text. A string is anything wrapped in quotes: `'something'` or `"something"`:
 
 ```js
+'use strict';
 console.log('-- strings --');
 
 console.log('this is a string');
@@ -24,6 +25,7 @@ console.log('');
 <summary>🥚 typeof</summary>
 
 ```js
+'use strict';
 console.log('-- typeof strings --');
 
 // strings are anything wrapped in quotations, ' or "
@@ -45,6 +47,7 @@ console.log(typeof 'apple "the green" fruit'); // 'string'
 <summary>🥚 strict equality</summary>
 
 ```js
+'use strict';
 console.log('-- strings: strict equality --');
 
 // two strings are the same thing if they have exactly the same characters
@@ -70,6 +73,7 @@ console.log('hello' === 100); // false
 <summary>🥚 strict inequality</summary>
 
 ```js
+'use strict';
 console.log('-- strings: strict inequality --');
 // the opposite of strict equality
 
@@ -96,6 +100,7 @@ console.log('hello' !== 100); // true
 <summary>🥚 string concatenation</summary>
 
 ```js
+'use strict';
 console.log('-- string concatenation --');
 
 // you can combine strings using +
@@ -115,6 +120,7 @@ _String methods_ come built into JavaScript and are very useful for modifying yo
 <summary>🥚 .toLowerCase and .toUpperCase</summary>
 
 ```js
+'use strict';
 console.log('-- .toLowerCase and .toUpperCase --');
 
 // returns a new string with all lower case letters
@@ -129,6 +135,7 @@ console.log('HackYourFuture'.toUpperCase()); // 'HACKYOURFUTURE'
 <summary>🥚 .includes</summary>
 
 ```js
+'use strict';
 console.log('-- .includes --');
 
 // returns true or false
@@ -146,6 +153,7 @@ console.log('Abc'.includes('BC')); // false
 <summary>🥚 .replaceAll</summary>
 
 ```js
+'use strict';
 console.log('-- .replaceAll --');
 
 // returns a new string with the first argument replaced by the second
@@ -159,6 +167,7 @@ console.log('hi from me, hi to you'.replaceAll('hi', 'bye')); // 'bye from me, b
 <summary>🥚 .trim</summary>
 
 ```js
+'use strict';
 console.log('-- .trim --');
 
 // returns a new string with all the white space removed from the ends
@@ -179,6 +188,7 @@ A string is made up of individual characters. You can find out how many characte
 <summary>🥚 .length</summary>
 
 ```js
+'use strict';
 console.log('-- .length --');
 
 // out how many characters are in a string
@@ -193,6 +203,7 @@ console.log('abc'.length); // 3
 <summary>🥚 character indexes</summary>
 
 ```js
+'use strict';
 console.log('-- character indexes --');
 
 // get a specific character from a string
@@ -209,6 +220,7 @@ console.log('abc'[3]); // undefined
 <summary>🐣 .indexOf</summary>
 
 ```js
+'use strict';
 console.log('-- strings: .indexOf --');
 
 console.log('single characters');
@@ -240,6 +252,7 @@ console.log(''.indexOf('hello')); // -1
 <summary>🐣 .slice</summary>
 
 ```js
+'use strict';
 console.log('-- strings: .slice --');
 
 console.log('one argument');

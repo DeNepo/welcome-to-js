@@ -1,3 +1,5 @@
+'use strict';
+
 /* this exercise has 0 extra lines */
 
 /* parsons-collapse: hint

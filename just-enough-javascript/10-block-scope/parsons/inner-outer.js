@@ -1,3 +1,5 @@
+'use strict';
+
 /* this exercise has 2 extra lines */
 /* parsons-collapse: hint
   1. declare and initialize greeting

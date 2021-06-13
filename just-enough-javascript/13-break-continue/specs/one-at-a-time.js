@@ -1,3 +1,5 @@
+'use strict';
+
 /*
   a user can add single characters to a string until they confirm they have finished
     - given they cancel, they see a helpful message and are prompted again

@@ -1,3 +1,5 @@
+'use strict';
+
 // combining .toUpperCase or .toLowerCase with .includes is helpful
 //  you can now search strings without worrying about upper or lower case
 

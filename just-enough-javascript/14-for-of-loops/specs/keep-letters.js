@@ -1,3 +1,5 @@
+'use strict';
+
 /*
   a user can input a non-empty string and all characters which are not letters will be removed
     - given the user cancels, they will be prompted again

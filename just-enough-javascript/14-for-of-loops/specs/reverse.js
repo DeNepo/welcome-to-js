@@ -1,3 +1,5 @@
+'use strict';
+
 /*
   a user can input a non-empty string and it will be reversed
     - given the user cancels, they will be prompted again

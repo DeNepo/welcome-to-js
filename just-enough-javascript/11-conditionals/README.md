@@ -1,6 +1,7 @@
 # Conditionals
 
 ```js
+'use strict';
 console.log('-- conditionals --');
 
 let isLeftHanded = confirm('are you left handed?');
@@ -16,6 +17,7 @@ if (isLeftHanded) {
 <summary>🥚 if</summary>
 
 ```js
+'use strict';
 console.log('-- if --');
 
 let input = prompt("please don't cancel");
@@ -34,6 +36,7 @@ alert(response);
 <summary>🥚 if else</summary>
 
 ```js
+'use strict';
 console.log('--  if else  --');
 
 let input = prompt("please don't cancel");
@@ -55,6 +58,7 @@ alert(response);
 <summary>🥚 if else if else</summary>
 
 ```js
+'use strict';
 console.log('-- if else if else --');
 
 let input = prompt('enter something');
@@ -88,6 +92,7 @@ Creating trace tables, and using the `trace` or `openIn` buttons will help you u
 <summary>🥚 2 paths: if else</summary>
 
 ```js
+'use strict';
 console.log('-- 2 paths: if else --');
 
 let input = prompt('enter something');
@@ -107,6 +112,7 @@ alert(path);
 <summary>🥚 3 paths: if else if else</summary>
 
 ```js
+'use strict';
 console.log('-- 3 paths: if else if else --');
 
 let input = prompt('enter something');
@@ -128,6 +134,7 @@ alert(path);
 <summary>🥚 4 paths: nested</summary>
 
 ```js
+'use strict';
 console.log('-- 4 paths: nested --');
 
 let input = prompt('enter "something"');
@@ -161,6 +168,7 @@ Programs with more execution paths are more complex to understand, but can also 
 <summary>🐣 memory game</summary>
 
 ```js
+'use strict';
 console.log('-- memory game --');
 
 let thingToRemember = prompt(
@@ -204,6 +212,7 @@ The **not interactive** exercises will have a few variable declarations at the t
 <summary>🥚 example not-interactive exercise</summary>
 
 ```js
+'use strict';
 let value = -1;
 // let value = -0.5;
 // let value = 0;

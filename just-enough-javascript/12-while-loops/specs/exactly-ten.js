@@ -1,3 +1,5 @@
+'use strict';
+
 /*
   a user can provide input that is 10 characters long
     - given they cancel, a message is displayed and they are prompted again

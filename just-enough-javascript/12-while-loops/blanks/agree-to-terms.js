@@ -1,3 +1,5 @@
+'use strict';
+
 let loggedIn = false;
 
 while (!loggedIn) {

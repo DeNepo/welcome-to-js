@@ -5,6 +5,7 @@ The `for-of` loop is a convenient syntax for iterating through a string one char
 The loop body will be executed once for each character in the string. With each iteration the variable will be re-declared and reassigned with the next character in the array. You can use the variable however you like inside the loop body.
 
 ```js
+'use strict';
 console.log('-- for-of --');
 
 let input = null;
@@ -32,6 +33,7 @@ Here are a few small programs to give you an idea of what's possible.
 <summary>🥚 reverse a string</summary>
 
 ```js
+'use strict';
 console.log('-- for-of: reverse a string --');
 
 let input = null;
@@ -52,6 +54,7 @@ alert(input + ' -> ' + reversed);
 <summary>🥚 remove vowels</summary>
 
 ```js
+'use strict';
 console.log('-- for-of: remove vowels --');
 
 let input = null;
@@ -75,6 +78,7 @@ alert(input + ' -> ' + noVowels);
 <summary>🥚 check for vowels</summary>
 
 ```js
+'use strict';
 console.log('-- for-of: check for vowels --');
 
 let input = null;

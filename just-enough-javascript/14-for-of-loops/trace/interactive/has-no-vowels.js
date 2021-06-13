@@ -1,3 +1,5 @@
+'use strict';
+
 let letters = null;
 while (letters === null) {
   letters = prompt('enter some letters');

@@ -1,3 +1,5 @@
+'use strict';
+
 let noun = null;
 while (noun === null) {
   noun = prompt('enter a noun');

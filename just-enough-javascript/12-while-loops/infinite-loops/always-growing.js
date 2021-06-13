@@ -1,3 +1,5 @@
+'use strict';
+
 let excitement = '';
 
 while (excitement !== 10) {

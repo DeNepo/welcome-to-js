@@ -1,3 +1,5 @@
+'use strict';
+
 /* this exercise has 5 extra lines */
 
 let dots = '';

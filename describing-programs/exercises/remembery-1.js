@@ -1,3 +1,5 @@
+'use strict';
+
 alert(`Guess a phrase in 3 tries
 
   Player 1:

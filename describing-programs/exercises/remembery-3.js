@@ -1,3 +1,5 @@
+'use strict';
+
 alert(`Guess 3 inputs in 3 tries
 
   Player 1:

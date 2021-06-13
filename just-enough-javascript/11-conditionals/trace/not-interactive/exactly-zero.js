@@ -1,3 +1,5 @@
+'use strict';
+
 let toCompare = -1;
 // let toCompare = -0.5;
 // let toCompare = 0;

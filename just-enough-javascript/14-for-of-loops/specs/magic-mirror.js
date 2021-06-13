@@ -1,3 +1,5 @@
+'use strict';
+
 /*
   a user can input a non-empty string and only the letters will be turned into a mirror
     - given the user cancels, they will be prompted again

@@ -9,7 +9,6 @@
     "flowchart": true,
     "save": true,
     "trace": true,
-    "strict": true,
     "variables": true,
     "highlight": true,
     "loopGuard": true,

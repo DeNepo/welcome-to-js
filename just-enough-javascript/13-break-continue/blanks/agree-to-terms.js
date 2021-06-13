@@ -1,3 +1,5 @@
+'use strict';
+
 while (true) {
   let didAgree = confirm('do you agree to our terms of service?');
   if (didAgree === true) {

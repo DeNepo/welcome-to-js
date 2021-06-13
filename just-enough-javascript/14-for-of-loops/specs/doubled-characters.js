@@ -1,3 +1,5 @@
+'use strict';
+
 /*
   a user can input string of letters (upper or lower case), each letter will be doubled
     - given the user cancels, they will be prompted again

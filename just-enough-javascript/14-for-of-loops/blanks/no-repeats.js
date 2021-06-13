@@ -1,3 +1,5 @@
+'use strict';
+
 let phrase = '';
 while (phrase === '' || phrase === null) {
   phrase = prompt('enter some text');

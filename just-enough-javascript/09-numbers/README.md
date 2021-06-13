@@ -8,6 +8,7 @@ Numbers in JavaScript are challenging to work with and understand, even for expe
 <summary>🥚 typeof</summary>
 
 ```js
+'use strict';
 console.log('-- typeof numbers --');
 
 // you write numbers in JS by writing numbers. without quotes
@@ -26,6 +27,7 @@ console.log(typeof 12.3); // 'number'
 <summary>🐣  strict equality</summary>
 
 ```js
+'use strict';
 console.log('-- numbers: strict equality --');
 
 // are two numbers the same?
@@ -48,6 +50,7 @@ console.log(0 === null); // false
 <summary>🐣  strict inequality</summary>
 
 ```js
+'use strict';
 console.log('-- numbers: strict inequality --');
 // this will always be the opposite of strict equality
 
@@ -71,6 +74,7 @@ console.log(0 !== null); // true
 <summary>🐣 arithmetic</summary>
 
 ```js
+'use strict';
 console.log('-- numbers: arithmetic --');
 
 console.log(' +');
@@ -100,6 +104,7 @@ console.log(12 * 3); // 4
 <summary>🐣  comparisons</summary>
 
 ```js
+'use strict';
 console.log('-- relational operators --');
 
 console.log(' >');

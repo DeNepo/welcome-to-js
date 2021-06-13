@@ -1,3 +1,5 @@
+'use strict';
+
 /* Boolean Flag Variable
 
   Declare a variable with a boolean value and check it's value in the loop head

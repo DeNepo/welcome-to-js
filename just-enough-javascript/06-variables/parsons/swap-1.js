@@ -1,3 +1,5 @@
+'use strict';
+
 /* this exercise has 2 extra lines */
 
 /* 1. declare 3 variables */

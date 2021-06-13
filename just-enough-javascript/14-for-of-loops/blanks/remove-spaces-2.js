@@ -1,3 +1,5 @@
+'use strict';
+
 let input = null;
 
 while (true) {

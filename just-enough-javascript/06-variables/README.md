@@ -5,6 +5,7 @@ Variables allow you to save values to use later in your program.
 They're kind of like a box that can only hold one thing at a time.
 
 ```js
+'use strict';
 // let -> the declaration
 // iAm -> the variable name
 // = -> the assignment operator
@@ -17,6 +18,7 @@ console.log(iAm);
 <summary>🥚 declare, initialize, assign</summary>
 
 ```js
+'use strict';
 console.log('-- declare, initialize, assign --');
 
 // declare a value and initialize it's value
@@ -41,6 +43,7 @@ console.log(bread); // 'stale'
 <summary>🥚 uninitialized variables</summary>
 
 ```js
+'use strict';
 console.log('-- uninitialized variables --');
 
 // declaring a variable without an initial value
@@ -73,6 +76,7 @@ Below is a few examples of what you can do with variables, the [naming-variables
 <summary>🥚 different types</summary>
 
 ```js
+'use strict';
 console.log('-- variables: different types --');
 // variables can store any type
 //  and you can change the types all you want
@@ -99,6 +103,7 @@ console.log(typeof variable); // 'boolean'
 <summary>🥚 assigning results</summary>
 
 ```js
+'use strict';
 console.log('-- assigning results --');
 // you can assign the result of an operation to a variable
 
@@ -124,6 +129,7 @@ console.log(hasAnApple); // true
 <summary>🥚 reading variables</summary>
 
 ```js
+'use strict';
 console.log('-- reading variables --');
 
 // you can read the values stored in a variable
@@ -157,6 +163,7 @@ console.log(includesName); // true
 <summary>🥚 swapping values</summary>
 
 ```js
+'use strict';
 console.log('-- swapping values --');
 
 /*
@@ -202,6 +209,7 @@ You may get different error messages depending on which browser you are using, b
 Using a variable that has not been declared will throw an error (when you're in strict mode, but that's a story for another day. All the exercises in this repo are run in strict mode).
 
 ```js
+'use strict';
 console.log('-- not declaring 1 --');
 
 // let animal; // uncomment this line to fix the error
@@ -209,6 +217,7 @@ animal = 'horse'; // ReferenceError
 ```
 
 ```js
+'use strict';
 console.log('-- not declaring 2 --');
 
 // a common mistake is spelling your variables incorrectly
@@ -221,6 +230,7 @@ console.log(spelingMistake); // ReferenceError
 <summary>🥚 using a variable before it is declared</summary>
 
 ```js
+'use strict';
 console.log('-- using before declaration --');
 
 // read the variable - will throw an error!
@@ -244,6 +254,7 @@ Declaring a variable tells JavaScript to prepare a place in memory with that nam
 - Firefox: `SyntaxError: redeclaration of let _`
 
 ```js
+'use strict';
 // ! this log never happens !
 //  syntax errors happen before the program runs
 //  so no single line of code will happen
@@ -271,6 +282,7 @@ In JavaScript there are a few rules about naming variables. There aren't too man
 <summary>🥚 variable names <em>can</em> use numbers, letters, $, or _</summary>
 
 ```js
+'use strict';
 console.log('-- valid variable names --');
 // all of these variable names are ok
 
@@ -289,6 +301,7 @@ let b_e_l_g_i_u_m = 7;
 <summary>🥚 variable names <em>are</em> case-sensitive</summary>
 
 ```js
+'use strict';
 console.log('-- variable names are case-sensitive --');
 
 // notice, there is no error.
@@ -305,6 +318,7 @@ console.log(JavaScript); // 'upper case!'
 <summary>🥚 variable names can <em>not</em> start with a number</summary>
 
 ```js
+'use strict';
 console.log('-- variable names cannot start with a number --')
 
 let a1 = 'this works';
@@ -317,18 +331,22 @@ let 1a = 'will throw an error';
 <summary>🥚 variable names can not use any other characters</summary>
 
 ```js
+'use strict';
 let a*a = 'will throw an error';
 ```
 
 ```js
+'use strict';
 let a-b-c = 'will throw an error';
 ```
 
 ```js
+'use strict';
 let @hyf = 'will throw an error';
 ```
 
 ```js
+'use strict';
 // spaces count as other characters
 let hack your future = 'will throw an error';
 ```
@@ -341,18 +359,22 @@ let hack your future = 'will throw an error';
 In JavaScript there are some words that you cannot use as variable names. These are called _Reserved Words_. Some of them are words which carry special meaning in JS like `let` or `null`. Other reserved words don't have any special meaning yet, but may in the future.
 
 ```js
+'use strict';
 let var = 'will throw an error';
 ```
 
 ```js
+'use strict';
 let null = 'will throw an error';
 ```
 
 ```js
+'use strict';
 let function = 'will throw an error';
 ```
 
 ```js
+'use strict';
 let public = 'will throw an error';
 ```
 
@@ -373,6 +395,7 @@ A good variable name is easy to read and helps you understand what the program d
 <summary>🐣 confusing variable names</summary>
 
 ```js
+'use strict';
 let thisThing = 'hello';
 let thatThing = '';
 
@@ -389,6 +412,7 @@ console.log(thatThing); // 'olleh'
 <summary>🐣 helpful variable names</summary>
 
 ```js
+'use strict';
 let forwards = 'hello';
 let backwards = '';
 
@@ -413,6 +437,7 @@ Here are some examples of using built-in variable names in your programs. These 
 <summary>🐥 assigning to a built-in variable</summary>
 
 ```js
+'use strict';
 // this log will work because console has not been reassigned
 console.log('-- assigning to console --');
 
@@ -430,6 +455,7 @@ console.log('will throw an error');
 <summary>🐥 declaring a built-in name</summary>
 
 ```js
+'use strict';
 console.log('-- declaring a variable named alert 1 --');
 
 // this will not work!
@@ -442,6 +468,7 @@ console.log(alert);
 ```
 
 ```js
+'use strict';
 console.log('-- declaring a variable named alert 2 --');
 
 let alert = 'hello';

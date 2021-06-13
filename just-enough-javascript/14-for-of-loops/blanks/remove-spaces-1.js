@@ -1,3 +1,5 @@
+'use strict';
+
 let input = null;
 
 let hasSpaces = false;

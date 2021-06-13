@@ -1,3 +1,5 @@
+'use strict';
+
 console.log('-- using .includes for case-sensitive searching --');
 
 // examples

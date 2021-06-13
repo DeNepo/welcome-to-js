@@ -1,3 +1,5 @@
+'use strict';
+
 while (true) {
   let youAreADuck = confirm('are you a duck?');
   if (youAreADuck) {

@@ -1,3 +1,5 @@
+'use strict';
+
 /* -- gather and confirm user input -- */
 
 let phrase = '';

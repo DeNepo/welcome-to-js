@@ -1,3 +1,5 @@
+'use strict';
+
 /*
   a user can provide input that starts with a capital letter and ends with a period
     - given the user cancels, they will be prompted again

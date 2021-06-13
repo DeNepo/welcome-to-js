@@ -1,3 +1,5 @@
+'use strict';
+
 /* -- get an orange -- */
 
 let theOrange = '';

@@ -1,3 +1,5 @@
+'use strict';
+
 /* -- gather user input -- */
 
 let toBeFrogged = null;

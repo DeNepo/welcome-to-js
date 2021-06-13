@@ -3,6 +3,7 @@
 Curly braces create a new _block scope_. There are lots of great explanations of block scope out there, but let's see if you can come up with your own after studying these examples.
 
 ```js
+'use strict';
 console.log('-- block scope --');
 
 {
@@ -15,6 +16,7 @@ innerVariable; // ReferenceError
 <summary>🥚 inner and outer scope</summary>
 
 ```js
+'use strict';
 console.log('-- block scope: inner and outer scope --');
 
 let outerVariable = 'declared outside';
@@ -39,6 +41,7 @@ console.log(outerVariable); // 'assigned inside'
 <summary>🥚 shadowing</summary>
 
 ```js
+'use strict';
 console.log('-- block scope: shadowing --');
 
 // shadowing is when you declare a variable inside a scope
@@ -73,6 +76,7 @@ Scopes are useful for making your programs easy to read, understand and debug, b
 <summary>🥚 declaring in a scope, using out of scope</summary>
 
 ```js
+'use strict';
 console.log('-- declaring in a scope, using out of scope --');
 
 // begin a new block scope
@@ -95,6 +99,7 @@ You can create scopes inside of scopes. This is common in control flow, for exam
 <summary>🥚 nested scopes</summary>
 
 ```js
+'use strict';
 // hint: try the 'variables' button
 console.log('-- nested scopes --');
 

@@ -1,3 +1,5 @@
+'use strict';
+
 let a = 'y';
 let b = 'x';
 let temp;

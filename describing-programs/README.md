@@ -7,6 +7,7 @@
 This set of examples and exercises will help you learn how to do a close reading of JavaScript programs. You will practice writing many comments in a file to describe what is happening and why.
 
 ```js
+'use strict';
 /*
   (describe what the program does from the user's perspective)
 
@@ -65,6 +66,7 @@ Understanding what the entire program does just by running, without looking at a
 Practice writing your thoughts as user stories, acceptance criteria, and test cases:
 
 ```js
+'use strict';
 /*
   A user can input anything, if the input is "yes" the program is excited
   - given the user cancels, the program is sad
@@ -117,6 +119,7 @@ Understanding what each line of code does and how it works, without taking a ste
 > if a line is not clear you you can use `?`
 
 ```js
+'use strict';
 /*
   A user can input anything, if the input is "yes" the program is excited
   - given the user cancels, the program is sad
@@ -175,6 +178,7 @@ Start finding connections between different lines of code across the program.
 - ... what other connections do you notice between lines?
 
 ```js
+'use strict';
 /*
   A user can input anything, if the input is "yes" the program is excited
   - given the user cancels, the program is sad
@@ -251,6 +255,7 @@ A "goal" an important step in the program, it can be a single line of code or ma
 You can label goals with commented line dividers and a short title describe what important step happens in those lines:
 
 ```js
+'use strict';
 /*
   A user can input anything, if the input is "yes" the program is excited
   - given the user cancels, the program is sad

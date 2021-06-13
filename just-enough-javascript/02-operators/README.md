@@ -13,6 +13,7 @@ Here are a few of the operators you will learn about in Welcome to JS, you will 
 <summary>🥚 <code>typeof</code> (type of)</summary>
 
 ```js
+'use strict';
 console.log('-> type of: typeof');
 
 /* the typeof operator will tell you the type of a value
@@ -42,6 +43,7 @@ console.log(typeof 12); // 'number'
 <summary>🥚 <code>===</code> (strict equality)</summary>
 
 ```js
+'use strict';
 console.log('-> strict equality: ===');
 
 /* the strict comparison operator will tell you if two primitives are the same
@@ -81,6 +83,7 @@ console.log(true === 1); // false
 <summary>🥚 <code>+</code> (concatenation or addition)</summary>
 
 ```js
+'use strict';
 /*
   the plus operator is more complex
   it behaves differently depending on the types passed in

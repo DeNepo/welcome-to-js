@@ -1,3 +1,5 @@
+'use strict';
+
 /* -- gather a valid sentence from the user -- */
 
 let sentence = '';

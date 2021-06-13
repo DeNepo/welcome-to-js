@@ -1,3 +1,5 @@
+'use strict';
+
 let letters = 'xyz';
 // let letters = 'aeiou';
 // let letters = 'zaei';

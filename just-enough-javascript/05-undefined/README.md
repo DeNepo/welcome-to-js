@@ -3,6 +3,7 @@
 A primitive type used to show that there is no value.
 
 ```js
+'use strict';
 console.log('-- undefined --');
 
 // just this, nothing more to it
@@ -13,6 +14,7 @@ console.log(undefined);
 <summary>🥚 typeof</summary>
 
 ```js
+'use strict';
 console.log('-- typeof undefined --');
 
 console.log(typeof undefined); // 'undefined'
@@ -23,6 +25,7 @@ console.log(typeof undefined); // 'undefined'
 <summary>🥚 strict equality</summary>
 
 ```js
+'use strict';
 console.log('-- undefined: strict equality --');
 
 // undefined is only strictly equal to undefined
@@ -39,6 +42,7 @@ console.log(undefined === null); // false
 <summary>🥚  strict inequality</summary>
 
 ```js
+'use strict';
 console.log('-- undefined: strict inequality --');
 // this will always be the opposite of strict equality
 

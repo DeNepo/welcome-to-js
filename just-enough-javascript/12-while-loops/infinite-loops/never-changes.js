@@ -1,3 +1,5 @@
+'use strict';
+
 let word = 'hello';
 
 while (word.length < 10) {

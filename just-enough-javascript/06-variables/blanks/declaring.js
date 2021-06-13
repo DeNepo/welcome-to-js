@@ -1,3 +1,5 @@
+'use strict';
+
 // declare a variable named isBelgian
 //   initialize it with the boolean true
 

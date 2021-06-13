@@ -1,3 +1,5 @@
+'use strict';
+
 let word = '';
 
 let didConfirm = false;

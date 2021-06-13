@@ -1,3 +1,5 @@
+'use strict';
+
 let word = 'a';
 // let word = 'be';
 // let word = 'sea';

@@ -1,3 +1,5 @@
+'use strict';
+
 /* -- get a phrase from the user -- */
 
 let phrase = null;

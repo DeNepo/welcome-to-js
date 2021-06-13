@@ -1,3 +1,5 @@
+'use strict';
+
 // your answers should only include numbers and +
 
 console.log('--- find 5 ways to log the number 5 ---');

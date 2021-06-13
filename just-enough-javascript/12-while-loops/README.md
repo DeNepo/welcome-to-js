@@ -9,6 +9,7 @@ While loops allow you to write a block of code that will repeat _while_ a condit
 The major difference between a while loop and a conditional is that a conditional will only test the value once. A while loop will test the value as many times as necessary until it is false.
 
 ```js
+'use strict';
 console.log('-- while --');
 
 let input = null;
@@ -23,6 +24,7 @@ alert(input + '!');
 <summary>🥚 while null</summary>
 
 ```js
+'use strict';
 console.log('-- while null --');
 
 let input = null;
@@ -41,6 +43,7 @@ alert(input + '!');
 <summary>🥚 while null or empty string</summary>
 
 ```js
+'use strict';
 console.log('-- while null or empty string --');
 
 let input = null;
@@ -59,6 +62,7 @@ alert(input + '!');
 <summary>🥚 while not "bread"</summary>
 
 ```js
+'use strict';
 console.log('-- while not "bread" --');
 
 let input = null;
@@ -78,6 +82,7 @@ alert(input + '!');
 <summary>🥚 while not "bread" and not "water"</summary>
 
 ```js
+'use strict';
 console.log('-- while not "bread" or "water" --');
 
 let input = null;
@@ -107,6 +112,7 @@ Write the logic for your loop directly in the parenthesis of the `while` loop. T
 <summary>🥚 logic in condition</summary>
 
 ```js
+'use strict';
 // yup, nothing new here
 // all of the examples so far have been written this way
 
@@ -129,6 +135,7 @@ Boolean flags are useful when the logic of your for loop is more complicated:
 <summary>🐣 boolean flag</summary>
 
 ```js
+'use strict';
 let input = '';
 let prompting = true;
 while (prompting) {
@@ -152,6 +159,7 @@ alert(input);
 ## Infinite Loops
 
 ```js
+'use strict';
 console.log('-- while true --');
 
 // this is the simplest infinite loop
@@ -178,6 +186,7 @@ A loop guard is a little extra code in your program that throws an error if a lo
 <summary>loop guard: 10 iterations</summary>
 
 ```js
+'use strict';
 console.log('-- loop guard: 10 iterations --');
 
 let loopGuard = 0;
@@ -200,6 +209,7 @@ When you use the `?study` lens there is an option that will automatically add lo
 ## No `else`!
 
 ```js
+'use strict';
 // this is not allowed in JS! you will get a syntax error
 //  it looks logical and useful, but does not exist
 

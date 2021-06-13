@@ -1,3 +1,5 @@
+'use strict';
+
 let userInput = '';
 
 let isTooShort = true;

@@ -1,3 +1,5 @@
+'use strict';
+
 let favoriteVegetable = 'potato';
 console.log(favoriteVegetable); // 'potato'
 

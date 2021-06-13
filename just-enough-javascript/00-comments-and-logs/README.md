@@ -9,6 +9,7 @@ Comments and logging will not change what your program does, just how easy it is
 ## 🥚 Comments
 
 ```js
+'use strict';
 // comments are for people to read, not computers
 // these are both one-line comments
 
@@ -16,6 +17,7 @@ Comments and logging will not change what your program does, just how easy it is
 ```
 
 ```js
+'use strict';
 /* this is a block comment
 
   block comments are useful for writing longer messages
@@ -33,6 +35,7 @@ Comments and logging will not change what your program does, just how easy it is
 ## 🥚 Logging
 
 ```js
+'use strict';
 // print a message to the browser's console
 console.log('-- logging --');
 

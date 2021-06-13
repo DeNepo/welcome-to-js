@@ -1,3 +1,5 @@
+'use strict';
+
 // fill in the _ to complete the exercises
 
 console.log('Xyz'._()); // 'xyz'

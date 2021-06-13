@@ -9,6 +9,7 @@ Adding interactions into your programs will make them more interesting to study.
 Trace this example and see each type of interaction in action:
 
 ```js
+'use strict';
 console.log('-- user interactions --');
 
 let alertValue = alert('this is an alert');
@@ -25,6 +26,7 @@ console.log(promptValue); // a string or null
 <summary>🥚 alert</summary>
 
 ```js
+'use strict';
 console.log('-- alert --');
 // alert: displays a message to the user
 //  the user can only read the message, they can't input anything to your program
@@ -40,6 +42,7 @@ console.log(typeof alerted); // 'undefined'
 <summary>🥚 confirm</summary>
 
 ```js
+'use strict';
 console.log('-- confirm --');
 // confirm: display a message and ask the user to say "yes" or "no"
 
@@ -62,6 +65,7 @@ console.log(typeof confirmed); // 'boolean'
 <summary>🥚 prompt</summary>
 
 ```js
+'use strict';
 console.log('-- prompt --');
 
 // prompt: display a message and allow the user to input some text
@@ -102,6 +106,7 @@ Here's a small program that uses `prompt`, `alert` and `confirm`. You'll learn h
 <summary>check it out</summary>
 
 ```js
+'use strict';
 console.log('-- user interactions --');
 
 let input = null;

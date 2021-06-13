@@ -1,3 +1,5 @@
+'use strict';
+
 let message = 'your favorite color is';
 
 while (true) {

@@ -1,3 +1,5 @@
+'use strict';
+
 /* Frogopedia (program behavior)
 
   A user can share cool facts about frogs.

@@ -1,3 +1,5 @@
+'use strict';
+
 /* Logic in the Loop Head
 
   write your loop logic directly in the while loop head

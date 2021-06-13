@@ -1,3 +1,5 @@
+'use strict';
+
 let normalPhrase = null;
 while (normalPhrase === null) {
   normalPhrase = prompt('enter something to flipflop');

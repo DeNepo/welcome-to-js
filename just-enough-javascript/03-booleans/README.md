@@ -5,6 +5,7 @@ A primitive type with two values: `true` and `false`.
 These are helpful for making decisions in your programs, it's like asking `yes` or `no`.
 
 ```js
+'use strict';
 console.log('-- booleans --');
 
 // there are only two boolean values:
@@ -16,6 +17,7 @@ console.log(false); // false
 <summary>🥚 typeof</summary>
 
 ```js
+'use strict';
 console.log('-- typeof booleans --');
 
 // they both have the type "boolean"
@@ -28,6 +30,7 @@ console.log(typeof false); // 'boolean'
 <summary>🥚 strict equality</summary>
 
 ```js
+'use strict';
 console.log('-- booleans: strict equality --');
 
 // boolean values are only strictly equal to themselves
@@ -50,6 +53,7 @@ console.log(false === undefined); // false
 <summary>🥚 strict inequality</summary>
 
 ```js
+'use strict';
 console.log('-- booleans: strict inequality --');
 
 // boolean values are strictly inequal to everything but themselves
@@ -72,6 +76,7 @@ console.log(false !== undefined); // true
 <summary>🥚 not</summary>
 
 ```js
+'use strict';
 console.log('-- not --');
 
 // you can use ! to reverse true and false
@@ -84,6 +89,7 @@ console.log(!false); // true
 <summary>🐣 and</summary>
 
 ```js
+'use strict';
 console.log('-- and --');
 
 console.log(true && true); // true
@@ -97,6 +103,7 @@ console.log(false && false); // false
 <summary>🐣 or</summary>
 
 ```js
+'use strict';
 console.log('-- or --');
 
 console.log(true || true); // true

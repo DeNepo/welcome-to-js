@@ -1,3 +1,5 @@
+'use strict';
+
 let input = '';
 let prompting = true;
 while (prompting) {

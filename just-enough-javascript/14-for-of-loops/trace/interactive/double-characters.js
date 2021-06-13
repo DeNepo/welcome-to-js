@@ -1,3 +1,5 @@
+'use strict';
+
 let text = null;
 while (text === null) {
   text = prompt('enter some text, each character will be repeated');

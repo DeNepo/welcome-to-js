@@ -1,3 +1,5 @@
+'use strict';
+
 // your answers must use typeof, but can use any values
 typeof asdf
 console.log('-- write 2 values with the type "boolean" --');

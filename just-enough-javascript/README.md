@@ -78,6 +78,7 @@ Later on you may prefer the **values** table because it allows you to look at th
 Fill-in-the-blanks exercises will be JS scripts with some blanks for you to fill in and (sometimes) a comment describing what should happen. Some exercises will simple like this:
 
 ```js
+'use strict';
 console.log(true && _); // true
 ```
 
@@ -117,6 +118,7 @@ Even with these constraints, there are many different solutions to each problem.
 <summary>the challenge</summary>
 
 ```js
+'use strict';
 /*
   1. ===== the user story =====
 
@@ -175,6 +177,7 @@ console.log('--- end program ---');
 <summary>solution 1</summary>
 
 ```js
+'use strict';
 /*
   a user can provide any input to a prompt
     - given the input is null, the program is sad
@@ -237,6 +240,7 @@ console.log('--- end program ---');
 <summary>solution 2</summary>
 
 ```js
+'use strict';
 /*
   a user can provide any input to a prompt
     - given the input is null, the program is sad
@@ -295,6 +299,7 @@ console.log('--- end program ---');
 <summary>solution 3</summary>
 
 ```js
+'use strict';
 /*
   a user can provide any input to a prompt
     - given the input is null, the program is sad

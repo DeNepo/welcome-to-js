@@ -1,3 +1,5 @@
+'use strict';
+
 let a = 'bye';
 let b = 'hi';
 let temp;

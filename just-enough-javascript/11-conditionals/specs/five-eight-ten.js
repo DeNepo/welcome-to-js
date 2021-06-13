@@ -1,3 +1,5 @@
+'use strict';
+
 /*
   a user can provide any input they want to a prompt
     - given they cancel, the program is sad

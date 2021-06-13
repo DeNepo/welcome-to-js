@@ -1,3 +1,5 @@
+'use strict';
+
 /*
   a user can enter two values and learn if the first includes the second.
     - given the user cancels either prompt, the program is sad

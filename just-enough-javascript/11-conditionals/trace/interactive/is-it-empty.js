@@ -1,3 +1,5 @@
+'use strict';
+
 let input = prompt('do whatever you want');
 
 let message = 'your input is ';

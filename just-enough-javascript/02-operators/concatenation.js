@@ -1,3 +1,5 @@
+'use strict';
+
 // your answers should only include strings and +
 
 console.log('--- find 3 ways to log "hello" ---');

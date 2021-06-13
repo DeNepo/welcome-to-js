@@ -1,3 +1,5 @@
+'use strict';
+
 /* -- declare program variables -- */
 
 let madlib = '';

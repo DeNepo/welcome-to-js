@@ -6,6 +6,7 @@
 - `continue` will skip the rest of the loop body and go back to check the condition
 
 ```js
+'use strict';
 let input = null;
 
 // normally while (true) would create an infinite loop

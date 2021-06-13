@@ -1,3 +1,5 @@
+'use strict';
+
 let adjective = null;
 while (adjective === null) {
   adjective = prompt('enter an adjective');

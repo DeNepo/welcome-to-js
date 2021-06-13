@@ -235,6 +235,7 @@ There's a good reason these have been around forever, they work. Quiz yourself o
 
 The exercises in this module focus on how to read and understand programs that interact with a user. These exercises are a few steps above what you are expected to write or easily understand, that's the idea! As a programmer you will spend more of your time reading, understanding and adjusting code than you will writing it. So why not start there?
 
+- 🥚 **[strict-mode](./strict-mode)**: a quick read and a couple examples. long story short: always use strict mode.
 - 🐣 **[reading-programs](./reading-programs)**: Practice reading interactive programs. This includes identifying variables, tracing code like the computer, drawing on the code, and asking good questions.
 - 🐣 **[describing-programs](./describing-programs)**: Analyze programs in detail learning to explain what is happening on each line, and explaining how each line contributes to the program's overall behavior.
 - 🐥 **[explorations](./explorations)**: Experiment with JS language features that interest you, try modifying the programs in this repo, or try writing your own. This folder is yours to explore JS and programming.
@@ -290,6 +291,7 @@ No project. Just lots of study time, alone and in groups. Here's some ideas for 
 
 - 🥚 [compute-it](http://compute-it.toxicode.fr/), 🐣 [little-dot](http://little-dot.toxicode.fr/)
 - [ASCII Pronunciation Rules for Programmers](https://blog.codinghorror.com/ascii-pronunciation-rules-for-programmers/)
+- 🥚 [strict-mode](./strict-mode)
 - [./just-enough-javascript](./just-enough-javascript) through While Loops
   - you do not need to complete every exercise in each chapter, just enough that you're comfortable to move on
   - you can always return to study these chapters again, or to complete what you didn't finish

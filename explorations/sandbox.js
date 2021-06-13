@@ -1,3 +1,5 @@
+'use strict';
+
 let toggle = true;
 
 while (true) {

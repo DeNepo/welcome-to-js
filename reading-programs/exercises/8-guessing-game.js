@@ -1,3 +1,5 @@
+'use strict';
+
 /* Execution Paths
 
   try predicting how this game works just by reading the code

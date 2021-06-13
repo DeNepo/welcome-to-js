@@ -5,6 +5,7 @@ Another primitive type used to represent nothing.
 The practical difference between `null` and `undefined` is that `null` will never appear in your program by accident, `undefined` can appear in your program if you forgot to initialize a variable but `null` always need to be assigned. If a variable stores `null` it was put there on purpose.
 
 ```js
+'use strict';
 console.log('-- null --');
 
 // that's it, plain and simple
@@ -15,6 +16,7 @@ console.log(null);
 <summary>🥚 typeof</summary>
 
 ```js
+'use strict';
 console.log('-- typeof null --');
 
 // this is not intuitive, you just need to memorize it
@@ -27,6 +29,7 @@ console.log(typeof null); // 'object'
 <summary>🥚 strict equality</summary>
 
 ```js
+'use strict';
 console.log('-- null: strict equality --');
 
 // null is only strictly equal to null
@@ -43,6 +46,7 @@ console.log(null === undefined); // false
 <summary>🥚  strict inequality</summary>
 
 ```js
+'use strict';
 console.log('-- null: strict inequality --');
 // this will always be the opposite of strict equality
 
@@ -59,6 +63,7 @@ console.log(null !== undefined); // true
 <summary>🥚 variables with null</summary>
 
 ```js
+'use strict';
 console.log('-- variables with null --');
 
 // you need to assign null to a variable

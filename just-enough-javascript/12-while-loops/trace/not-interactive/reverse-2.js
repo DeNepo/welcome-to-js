@@ -1,3 +1,5 @@
+'use strict';
+
 let word = 'racecar';
 // let word = 'bike';
 // let word = 'f';

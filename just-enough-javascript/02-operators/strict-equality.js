@@ -1,3 +1,5 @@
+'use strict';
+
 // your answers must include ===, but can use any type
 
 console.log('--- write 5 comparisons that evaluate to true ---');

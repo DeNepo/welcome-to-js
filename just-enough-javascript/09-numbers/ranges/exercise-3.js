@@ -1,3 +1,5 @@
+'use strict';
+
 let number = 0;
 // let number = 0.5;
 // let number = 1;

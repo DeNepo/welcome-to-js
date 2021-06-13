@@ -1,3 +1,5 @@
+'use strict';
+
 /*
   a user can provide input that contains only uppercase and lowercase letters
     - given the user cancels, they will be prompted again
