@@ -8,19 +8,19 @@ This set of examples and exercises will help you learn how to do a close reading
 
 ```js
 'use strict';
-/**
- * (describe what the program does from the user's perspective)
- *
- * A user can ...
- * - given ...
- * - given ...
- *
- * test cases
- * - given ...
- *   'input' -> 'output'
- *   'input' -> 'output'
- * - given ...
- *   ...
+/*
+   (describe what the program does from the user's perspective)
+
+   A user can ...
+   - given ...
+   - given ...
+
+   test cases
+   - given ...
+     'input' -> 'output'
+     'input' -> 'output'
+   - given ...
+     ...
  */
 
 /* -- goal (an important step in the program) -- */
@@ -67,23 +67,23 @@ Practice writing your thoughts as user stories, acceptance criteria, and test ca
 
 ```js
 'use strict';
-/**
- * A user can input anything, if the input is "yes" the program is excited
- * - given the user cancels, the program is sad
- * - given the user inputs 'yes' (case insensitive) the program is excited
- * - given any other inputs, the program says it's "baaaaad"
- *
- * test cases:
- * - the user cancels
- *   null -> ':('
- * - any sort of 'yes'
- *   'yes' -> 'yes!'
- *   'Yes' -> 'Yes!'
- *   'yES' -> 'yES!'
- * - any other input
- *   'hello' -> 'baaaaad: hello'
- *   '' -> 'baaaaad: '
- *   'good bye' -> 'baaaaad: good bye'
+/*
+   A user can input anything, if the input is "yes" the program is excited
+   - given the user cancels, the program is sad
+   - given the user inputs 'yes' (case insensitive) the program is excited
+   - given any other inputs, the program says it's "baaaaad"
+
+   test cases:
+   - the user cancels
+     null -> ':('
+   - any sort of 'yes'
+     'yes' -> 'yes!'
+     'Yes' -> 'Yes!'
+     'yES' -> 'yES!'
+   - any other input
+     'hello' -> 'baaaaad: hello'
+     '' -> 'baaaaad: '
+     'good bye' -> 'baaaaad: good bye'
  */
 
 let userInput = prompt('enter the word "yes", upper or lower case');
@@ -120,23 +120,23 @@ Understanding what each line of code does and how it works, without taking a ste
 
 ```js
 'use strict';
-/**
- * A user can input anything, if the input is "yes" the program is excited
- * - given the user cancels, the program is sad
- * - given the user inputs 'yes' (case insensitive) the program is excited
- * - given any other inputs, the program says it's "baaaaad"
- *
- * test cases:
- * - the user cancels
- *   null -> ':('
- * - any sort of 'yes'
- *   'yes' -> 'yes!'
- *   'Yes' -> 'Yes!'
- *   'yES' -> 'yES!'
- * - any other input
- *   'hello' -> 'baaaaad: hello'
- *   '' -> 'baaaaad: '
- *   'good bye' -> 'baaaaad: good bye'
+/*
+   A user can input anything, if the input is "yes" the program is excited
+   - given the user cancels, the program is sad
+   - given the user inputs 'yes' (case insensitive) the program is excited
+   - given any other inputs, the program says it's "baaaaad"
+
+   test cases:
+   - the user cancels
+     null -> ':('
+   - any sort of 'yes'
+     'yes' -> 'yes!'
+     'Yes' -> 'Yes!'
+     'yES' -> 'yES!'
+   - any other input
+     'hello' -> 'baaaaad: hello'
+     '' -> 'baaaaad: '
+     'good bye' -> 'baaaaad: good bye'
  */
 
 // call prompt: instructions for the program
@@ -179,23 +179,23 @@ Start finding connections between different lines of code across the program.
 
 ```js
 'use strict';
-/**
- * A user can input anything, if the input is "yes" the program is excited
- * - given the user cancels, the program is sad
- * - given the user inputs 'yes' (case insensitive) the program is excited
- * - given any other inputs, the program says it's "baaaaad"
- *
- * test cases:
- * - the user cancels
- *   null -> ':('
- * - any sort of 'yes'
- *   'yes' -> 'yes!'
- *   'Yes' -> 'Yes!'
- *   'yES' -> 'yES!'
- * - any other input
- *   'hello' -> 'baaaaad: hello'
- *   '' -> 'baaaaad: '
- *   'good bye' -> 'baaaaad: good bye'
+/*
+   A user can input anything, if the input is "yes" the program is excited
+   - given the user cancels, the program is sad
+   - given the user inputs 'yes' (case insensitive) the program is excited
+   - given any other inputs, the program says it's "baaaaad"
+
+   test cases:
+   - the user cancels
+     null -> ':('
+   - any sort of 'yes'
+     'yes' -> 'yes!'
+     'Yes' -> 'Yes!'
+     'yES' -> 'yES!'
+   - any other input
+     'hello' -> 'baaaaad: hello'
+     '' -> 'baaaaad: '
+     'good bye' -> 'baaaaad: good bye'
  */
 
 // call prompt: instructions for the program
@@ -256,23 +256,23 @@ You can label goals with commented line dividers and a short title describe what
 
 ```js
 'use strict';
-/**
- * A user can input anything, if the input is "yes" the program is excited
- * - given the user cancels, the program is sad
- * - given the user inputs 'yes' (case insensitive) the program is excited
- * - given any other inputs, the program says it's "baaaaad"
- *
- * test cases:
- * - the user cancels
- *   null -> ':('
- * - any sort of 'yes'
- *   'yes' -> 'yes!'
- *   'Yes' -> 'Yes!'
- *   'yES' -> 'yES!'
- * - any other input
- *   'hello' -> 'baaaaad: hello'
- *   '' -> 'baaaaad: '
- *   'good bye' -> 'baaaaad: good bye'
+/*
+   A user can input anything, if the input is "yes" the program is excited
+   - given the user cancels, the program is sad
+   - given the user inputs 'yes' (case insensitive) the program is excited
+   - given any other inputs, the program says it's "baaaaad"
+
+   test cases:
+   - the user cancels
+     null -> ':('
+   - any sort of 'yes'
+     'yes' -> 'yes!'
+     'Yes' -> 'Yes!'
+     'yES' -> 'yES!'
+   - any other input
+     'hello' -> 'baaaaad: hello'
+     '' -> 'baaaaad: '
+     'good bye' -> 'baaaaad: good bye'
  */
 
 /* --- gather user input --- */

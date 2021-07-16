@@ -9,7 +9,7 @@ let repeated = '';
 let i = 0;
 while (i < input.length) {
   repeated = repeated + '\n' + input;
-  i++;
+  i = i + 1;
 }
 
 alert(repeated);

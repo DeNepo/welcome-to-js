@@ -24,6 +24,19 @@ Instead the exercises will be built around completed programs. You will need to 
 
 ---
 
+### WriteMe
+
+With WriteMe exercises you will practice writing out programs from a blank page. On the left is an empty editor, on the right is the finished code: you need to re-write the program _exactly_ into the editor on the left. But there's a catch! You can only see one of the editors at a time, and you can't copy-paste >:)
+
+You can study these exercises alone to memorize and master JS syntax, flipping between _read_ and \_write like a flashcard. Or you can do them in pairs. If you study these in pairs you and your study buddy should take turns in each role:
+
+- **Reader**: The _reader_ will open the finished program and will read the program out loud, guiding the _writer_ as they complete the program. The reader's challenge is help the writer _exactly_ reproduce the code; each space, each new line, each character, each capital letter, everything!
+- **Writer**: the _writer_ will try to write down _exactly_ the correct program following only the instructions of reader. No peaking! The writer should not look at the finished program, only listen to the advice of their reader and follow the hints of the editor.
+
+Looking for an extra challenge? Try to complete these exercises _without ever_ showing each other your screens!
+
+---
+
 ### Tracing Execution
 
 You will learn how to _be the computer_, how to execute code line by line with your mind the same way the computer does. Until you learn how to _trace_ code, programs and bugs will be a mystery! After you've learned how to trace, it will still be hard to understand programs but you'll at least know how to start :) Learning to trace is tricky, but will save you many many hours in the future.
