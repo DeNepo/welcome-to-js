@@ -238,6 +238,7 @@ The exercises in this module focus on how to read and understand programs that i
 - 🥚 **[strict-mode](./strict-mode)**: a quick read and a couple examples. long story short: always use strict mode.
 - 🐣 **[reading-programs](./reading-programs)**: Practice reading interactive programs. This includes identifying variables, tracing code like the computer, drawing on the code, and asking good questions.
 - 🐣 **[describing-programs](./describing-programs)**: Analyze programs in detail learning to explain what is happening on each line, and explaining how each line contributes to the program's overall behavior.
+- 🥚 **[plain-text-programs](./plain-text-programs)**: Programs in `.txt` files that have no color and that you cannot run. How is it different to study
 - 🐥 **[explorations](./explorations)**: Experiment with JS language features that interest you, try modifying the programs in this repo, or try writing your own. This folder is yours to explore JS and programming.
 
 </details>
