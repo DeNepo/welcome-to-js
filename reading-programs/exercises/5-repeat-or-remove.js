@@ -1,45 +1,36 @@
 'use strict';
 
-/* -- get a phrase from the user -- */
-
+/* --- get a phrase from the user --- */
 let phrase = null;
 while (phrase === null) {
   phrase = prompt('enter a phrase');
 }
 
-/* -- ask the user how to process the phrase -- */
-
-let dontRemoveLetters = confirm(
+/* --- ask the user how to process the phrase --- */
+let keepLetters = confirm(
   '"ok" to remove everything that is not a letter\n' +
     '"cancel" to repeat each character'
 );
 
-/* -- decide which logic to use -- */
-
+/* --- either keep the letters, or repeat the characters --- */
 let newPhrase = '';
-if (!dontRemoveLetters) {
-  /* -- repeat each character -- */
-
-  let index = 0;
-  while (index < phrase.length) {
-    let char = phrase[index];
-    newPhrase = newPhrase + char + char;
-    index = index + 1;
+if (keepLetters) {
+  /* --- create a variable storing all letters, lower cased --- */
+  let letters = 'abcdefghijklmnopqrstuvwxyz';
+  /* --- iterate through each character of the user's phrase --- */
+  for (let character of phrase) {
+    /* --- if the character is a letter, add it to the new phrase --- */
+    if (letters.includes(character.toLowerCase())) {
+      newPhrase = newPhrase + character;
+    }
   }
 } else {
-  /* -- remove everything that is not a letter -- */
-
-  let theAlphabet = 'abcdefghijklmnopqrstuvwxyz';
-  let index = 0;
-  while (index < phrase.length) {
-    let letter = phrase[index];
-    if (theAlphabet.includes(letter.toLowerCase())) {
-      newPhrase = newPhrase + letter;
-    }
-    index = index + 1;
+  /* --- iterate through each character in the user's phrase --- */
+  for (let character of phrase) {
+    /* --- append each character twice to the new phrase --- */
+    newPhrase = newPhrase + character + character;
   }
 }
 
-/* -- communicate the result -- */
-
+/* --- alert the new phrase --- */
 alert(newPhrase);
