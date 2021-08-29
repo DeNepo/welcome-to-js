@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
   a user can provide input that is 10 characters long
@@ -17,7 +17,7 @@
 
 */
 
-console.log('--- begin program ---');
+console.log("--- begin program ---");
 
 // --- declare initial output ---
 let output = _;
@@ -26,10 +26,10 @@ let output = _;
 while (_) {}
 
 // --- alert the result ---
-console.log('output:', output);
+console.log("output:", output);
 alert(output);
 
-console.log('--- end program ---');
+console.log("--- end program ---");
 
 /*
   checklist:

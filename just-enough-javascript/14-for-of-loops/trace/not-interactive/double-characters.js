@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 let animal = "dog";
 // let animal = 'cat';

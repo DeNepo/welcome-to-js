@@ -5,6 +5,7 @@
   "highlight": {
     "run": true,
     "trace": true,
+    "debug": true,
     "flowchart": true,
     "variables": true,
     "ask": {

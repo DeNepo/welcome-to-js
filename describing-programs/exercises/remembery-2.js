@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 alert(`Guess 3 secrets in 3 tries
 
@@ -11,16 +11,16 @@ alert(`Guess 3 secrets in 3 tries
     if you get one wrong - game over!
 `);
 
-alert('Player 2: go hide');
+alert("Player 2: go hide");
 
-let secret1 = prompt('Player 1, enter your first secret:');
-let secret2 = prompt('Player 1, enter your second secret:');
-let secret3 = prompt('Player 1, enter your third secret:');
+let secret1 = prompt("Player 1, enter your first secret:");
+let secret2 = prompt("Player 1, enter your second secret:");
+let secret3 = prompt("Player 1, enter your third secret:");
 
-alert('Player 2, get back here');
+alert("Player 2, get back here");
 
 alert(
-  'Player 2, remember these:' +
+  "Player 2, remember these:" +
     '\n1. "' +
     secret1 +
     '"' +
@@ -34,19 +34,19 @@ alert(
 
 let score = 0;
 
-let firstTry = prompt('Player 1, guess the first secret:');
+let firstTry = prompt("Player 1, guess the first secret:");
 if (firstTry === secret1) {
   score = score + 1;
 
-  let secondTry = prompt('Player 1, guess the second secret:');
+  let secondTry = prompt("Player 1, guess the second secret:");
   if (secondTry === secret2) {
     score = score + 1;
 
-    let thirdTry = prompt('Player 1, guess the third secret:');
+    let thirdTry = prompt("Player 1, guess the third secret:");
     if (thirdTry === secret3) {
       score = score + 1;
     }
   }
 }
 
-alert('your score: ' + score);
+alert("your score: " + score);

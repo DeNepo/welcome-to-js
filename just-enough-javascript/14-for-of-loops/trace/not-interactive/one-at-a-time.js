@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-let animal = 'dog';
+let animal = "dog";
 // let animal = 'cat';
 // let animal = 'horse';
 // let animal = 'fish';

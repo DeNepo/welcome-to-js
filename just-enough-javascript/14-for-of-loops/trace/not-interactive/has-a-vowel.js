@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-let letters = 'xyz';
+let letters = "xyz";
 // let letters = 'aeiou';
 // let letters = 'zaei';
 // let letters = 'aeiz';
@@ -11,7 +11,7 @@ let letters = 'xyz';
 let hasAVowel = false;
 
 for (let letter of letters) {
-  if ('aeiou'.includes(letter)) {
+  if ("aeiou".includes(letter)) {
     hasAVowel = true;
     break;
   }

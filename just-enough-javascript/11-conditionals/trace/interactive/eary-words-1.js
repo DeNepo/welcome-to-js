@@ -1,14 +1,14 @@
-'use strict';
+"use strict";
 
 let input = prompt('enter something with "ear" in it');
 
 let message;
 if (input === null) {
-  message = 'you canceled';
-} else if (input.includes('ear')) {
-  message = 'eary!';
+  message = "you canceled";
+} else if (input.includes("ear")) {
+  message = "eary!";
 } else {
-  message = 'not eary :(';
+  message = "not eary :(";
 }
 
 alert(message);

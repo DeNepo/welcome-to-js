@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
   a user can input string of letters (upper or lower case), each letter will be doubled
@@ -18,12 +18,12 @@
       'jello' -> 'jjeelllloo'
 */
 
-console.log('--- begin program ---');
+console.log("--- begin program ---");
 
 // --- gather user input ---
 let input = _;
 while (_) {}
-console.log('input:', input);
+console.log("input:", input);
 
 // --- declare initial output ---
 let output = _;
@@ -33,10 +33,10 @@ for (let _ of _) {
 }
 
 // --- alert the result ---
-console.log('output:', output);
+console.log("output:", output);
 alert(output);
 
-console.log('--- end program ---');
+console.log("--- end program ---");
 
 /*
   checklist:

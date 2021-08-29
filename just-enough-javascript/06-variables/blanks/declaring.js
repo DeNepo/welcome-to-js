@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // declare a variable named isBelgian
 //   initialize it with the boolean true
@@ -15,5 +15,5 @@ console.log(height); // 4
 // declare a variable named frog
 //  initialize it with the string 'frog'
 
-let frog = 'frog';
+let frog = "frog";
 console.log(frog); // 'frog'

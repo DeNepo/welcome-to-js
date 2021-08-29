@@ -1,0 +1,66 @@
+{
+  "plugins": ["prettier"],
+  "env": {
+    "browser": false
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "globals": {
+    "prompt": true,
+    "alert": true,
+    "confirm": true,
+    "console": true
+  },
+  "overrides": [
+    {
+      "files": ["./strict-mode/*.js"],
+      "rules": {
+        "no-undef": 0
+      }
+    }
+  ],
+  "ignorePatterns": ["strict-mode/*.js"],
+  "extends": ["eslint:recommended", "prettier"],
+  "rules": {
+    "no-var": 1,
+    "prefer-const": 0,
+    "no-extra-parens": 1,
+    "no-unreachable-loop": 1,
+    "eqeqeq": 1,
+    "no-implicit-coercion": 1,
+    "no-implicit-globals": 1,
+    "no-lone-blocks": 1,
+    "no-return-assign": 1,
+    "no-unused-expressions": 1,
+    "no-useless-computed-key": 1,
+    "no-useless-rename": 1,
+    "no-label-var": 1,
+    "no-shadow": 1,
+    "no-undefined": 1,
+    "arrow-parens": 1,
+    "arrow-body-style": 0,
+    "no-confusing-arrow": 1,
+    "vars-on-top": 0,
+    "no-plusplus": 0,
+    "guard-for-in": 0,
+    "no-unmodified-loop-condition": 0,
+    "no-warning-comments": 1,
+    "prefer-destructuring": 1,
+    "no-nested-ternary": 0,
+    "no-empty": 0,
+    "no-constant-condition": 0,
+    "no-restricted-syntax": [
+      0,
+      {
+        "selector": "ForInStatement"
+      },
+      {
+        "selector": "ForOfStatement"
+      }
+    ],
+    "camelcase": [2, { "properties": "never" }],
+
+    "prettier/prettier": ["error"]
+  }
+}

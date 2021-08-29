@@ -1,13 +1,13 @@
-'use strict';
+"use strict";
 
 let text = null;
 while (text === null) {
-  text = prompt('enter some text to reverse');
+  text = prompt("enter some text to reverse");
 }
 
-let reversed = '';
+let reversed = "";
 for (let letter of text) {
   reversed = letter + reversed;
 }
 
-alert(text + ' -> ' + reversed);
+alert(text + " -> " + reversed);

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // fill in the _ to complete the exercises
 //  your answers should all be boolean values

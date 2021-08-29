@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
-let favorteColor = 'red';
+let favorteColor = "red";
 console.log(favoriteColor); // 'red'

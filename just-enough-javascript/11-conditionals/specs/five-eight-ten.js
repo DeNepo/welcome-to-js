@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
   a user can provide any input they want to a prompt
@@ -34,11 +34,11 @@
       'watermelons' -> 'too long'
 */
 
-console.log('--- begin program ---');
+console.log("--- begin program ---");
 
 // --- gather user input ---
 let input = prompt(_);
-console.log('input:', input);
+console.log("input:", input);
 
 // --- declare initial output ---
 let output = _;
@@ -46,10 +46,10 @@ let output = _;
 // --- create final output ---
 
 // --- alert the result ---
-console.log('output:', output);
+console.log("output:", output);
 alert(output);
 
-console.log('--- end program ---');
+console.log("--- end program ---");
 
 /*
   checklist:

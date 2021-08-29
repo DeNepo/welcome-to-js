@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /* --- get a phrase from the user --- */
 let phrase = null;
 while (phrase === null) {
-  phrase = prompt('enter a phrase');
+  phrase = prompt("enter a phrase");
 }
 
 /* --- ask the user how to process the phrase --- */
@@ -13,10 +13,10 @@ let keepLetters = confirm(
 );
 
 /* --- either keep the letters, or repeat the characters --- */
-let newPhrase = '';
+let newPhrase = "";
 if (keepLetters) {
   /* --- create a variable storing all letters, lower cased --- */
-  let letters = 'abcdefghijklmnopqrstuvwxyz';
+  let letters = "abcdefghijklmnopqrstuvwxyz";
   /* --- iterate through each character of the user's phrase --- */
   for (let character of phrase) {
     /* --- if the character is a letter, add it to the new phrase --- */

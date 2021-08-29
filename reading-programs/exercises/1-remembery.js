@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /* -- show the instructions -- */
 
@@ -15,18 +15,18 @@ alert(`Guess 3 phrases in 3 tries
 
 /* -- gather player 1's phrases -- */
 
-alert('Player 2: go hide');
+alert("Player 2: go hide");
 
-let phrase1 = prompt('Player 1, enter your first phrase:');
-let phrase2 = prompt('Player 1, enter your second phrase:');
-let phrase3 = prompt('Player 1, enter your third phrase:');
+let phrase1 = prompt("Player 1, enter your first phrase:");
+let phrase2 = prompt("Player 1, enter your second phrase:");
+let phrase3 = prompt("Player 1, enter your third phrase:");
 
-alert('Player 2, get back here');
+alert("Player 2, get back here");
 
 /* -- player 2 tries to remember the phrases -- */
 
 alert(
-  'Player 2, remember these:' +
+  "Player 2, remember these:" +
     '\n1. "' +
     phrase1 +
     '"' +
@@ -38,9 +38,9 @@ alert(
     '"'
 );
 
-let guess1 = prompt('Player 2, guess the first phrase:');
-let guess2 = prompt('Player 2, guess the second phrase:');
-let guess3 = prompt('Player 2, guess the third phrase:');
+let guess1 = prompt("Player 2, guess the first phrase:");
+let guess2 = prompt("Player 2, guess the second phrase:");
+let guess3 = prompt("Player 2, guess the third phrase:");
 
 /* -- player 2's score is calculated -- */
 

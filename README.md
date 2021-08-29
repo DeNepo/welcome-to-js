@@ -1,20 +1,25 @@
 # Welcome to JS
 
-[<< UX/UI Design](https://github.com/hackyourfuturebelgium/ux-ui-design) | [Home](https://home.hackyourfuture.be) | [Debugging >>](https://github.com/hackyourfuturebelgium/debugging)
+[<< UX/UI Design](https://github.com/hackyourfuturebelgium/ux-ui-design) |
+[Home](https://home.hackyourfuture.be) |
+[Debugging >>](https://github.com/hackyourfuturebelgium/debugging)
 
 ---
 
-> _JavaScript_: Don't judge me by my bad parts, learn the good stuff and stick with that!
+> _JavaScript_: Don't judge me by my bad parts, learn the good stuff and stick
+> with that!
 >
 > - [Eric Freeman](https://www.oreilly.com/library/view/head-first-javascript/9781449340124/ch01.html)
 
-Take your first steps into programming by learning to read, trace, and analyze small programs.
+Take your first steps into programming by learning to read, trace, and analyze
+small programs.
 
 ## Contents
 
 - [Getting Started](#getting-started)
 - [Study Tips](#study-tips)
 - [About Programming](#about-programming)
+- [Learning Objectives](#learning-objectives)
 - [Suggested Study](#suggested-study)
 - Break-Down
   - [Week 1](#week-1)
@@ -26,9 +31,16 @@ Take your first steps into programming by learning to read, trace, and analyze s
 
 ## Getting Started
 
-> You will need [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) on your computer to study this material
+> You will need
+> [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and
+> [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) on your computer
+> to study this material
 >
-> Using a browser with good DevTools will make your life easier: [Chromium](http://www.chromium.org/getting-involved/download-chromium), [FireFox](https://www.mozilla.org/en-US/firefox/new/), [Edge](https://www.microsoft.com/edge), [Chrome](https://www.google.com/chrome/)
+> Using a browser with good DevTools will make your life easier:
+> [Chromium](http://www.chromium.org/getting-involved/download-chromium),
+> [FireFox](https://www.mozilla.org/en-US/firefox/new/),
+> [Edge](https://www.microsoft.com/edge),
+> [Chrome](https://www.google.com/chrome/)
 
 1. Install o update the `study-lenses` package globally
    - `$ npm install -g study-lenses` (if you do not have it installed)
@@ -36,7 +48,8 @@ Take your first steps into programming by learning to read, trace, and analyze s
    - Didn't work? you may need to try:
      - (mac) `$ sudo npm install -g study-lenses`
    - having trouble updating?
-     - try this: `$ npm uninstall -g study-lenses && npm install -g study-lenses`
+     - try this:
+       `$ npm uninstall -g study-lenses && npm install -g study-lenses`
 2. Fork and clone this repository:
    1. fork the HackYourFuture repository to your personal account
       - `git@github.com:HackYourFutureBelgium/welcome-to-js.git`
@@ -49,13 +62,16 @@ Take your first steps into programming by learning to read, trace, and analyze s
 4. Run the `study` command from your CLI
    - `$ study`
 5. The material will open in your default browser, you're good to go!
-   - you can read the `study-lenses` user guide from your browser by navigating to `localhost:xxxx?--help`
+   - you can read the `study-lenses` user guide from your browser by navigating
+     to `localhost:xxxx?--help`
 
 > If you have a windows computer and get this error:
 >
 > - `... /study.ps1 cannot be loaded because running scripts ...`
 >
-> follow the instructions in [this StackOverflow answer](https://stackoverflow.com/a/63424744), that should take care of it ; )
+> follow the instructions in
+> [this StackOverflow answer](https://stackoverflow.com/a/63424744), that should
+> take care of it ; )
 
 [TOP](#welcome-to-js)
 
@@ -65,33 +81,52 @@ Take your first steps into programming by learning to read, trace, and analyze s
 
 - Don't rush, understand! Programming is hard.
   - The examples and exercises will still be there to study later.
-  - It's better to move slowly and learn from your mistakes than to go quickly and need to re-learn later.
-- Don't skip the examples! Understanding and experimenting with working code is a very effective way to learn programming.
+  - It's better to move slowly and learn from your mistakes than to go quickly
+    and need to re-learn later.
+- Don't skip the examples! Understanding and experimenting with working code is
+  a very effective way to learn programming.
 - Practice Pair Programming: two people, one computer.
 - Read the code out loud
-- Take a look through the [HYF Study Tips](https://home.hackyourfuture.be/students/study-tips) for more inspiration
+- Take a look through the
+  [HYF Study Tips](https://home.hackyourfuture.be/students/study-tips) for more
+  inspiration
 
 ### Priorities
 
-If you can't finish all the material in this repository, that's expected! Anything you don't finish now will always be waiting for you to review when you need it. These 3 emoji's will help you prioritize your study time and to measure your progress:
+If you can't finish all the material in this repository, that's expected!
+Anything you don't finish now will always be waiting for you to review when you
+need it. These 3 emoji's will help you prioritize your study time and to measure
+your progress:
 
-- 🥚 `:egg:` - Understanding this material is required, it covers the base skills you'll need for this module. You do not need to finish all of them but should feel comfortable that you could with enough time.
-- 🐣 `:hatching_chick:` - Do your best to start this material. you don't need to master it or finish it but getting the main idea will be helpful for taking the next steps.
-- 🐥 `:hatched_chick:` - Have you finished all the 🥚's and started all the 🐣's? push yourself with these challenges.
+- 🥚 `:egg:` - Understanding this material is required, it covers the base
+  skills you'll need for this module. You do not need to finish all of them but
+  should feel comfortable that you could with enough time.
+- 🐣 `:hatching_chick:` - Do your best to start this material. you don't need to
+  master it or finish it but getting the main idea will be helpful for taking
+  the next steps.
+- 🐥 `:hatched_chick:` - Have you finished all the 🥚's and started all the
+  🐣's? push yourself with these challenges.
 
 ### Hashtags
 
-There's sooo many examples and exercises in this repository, it's easy to forget of what you still need to finish or what you want to review again. Luckily VSCode is really good at searching through folders of code.
+There's sooo many examples and exercises in this repository, it's easy to forget
+of what you still need to finish or what you want to review again. Luckily
+VSCode is really good at searching through folders of code.
 
-You can write hashtags in your comments while you're studying, then search for those hashtags later so you don't miss anything. Here's some ideas:
+You can write hashtags in your comments while you're studying, then search for
+those hashtags later so you don't miss anything. Here's some ideas:
 
-- `// #not-done, still a few blanks left` - search for `#not-done` in VScode to find all the exercises you've started and not finished
-- `// coercion is confusing, #review this again next week` - search for `#review` to find the files you need to study again
+- `// #not-done, still a few blanks left` - search for `#not-done` in VScode to
+  find all the exercises you've started and not finished
+- `// coercion is confusing, #review this again next week` - search for
+  `#review` to find the files you need to study again
 - ... anything goes! Find the hashtags that work for you
 
 ### Module Project Boards
 
-If you create a fork of this repository you can open a project board in your fork to track your progress through the module. Just 3 columns can be enough: _Todo_, _Doing_, _Done_.
+If you create a fork of this repository you can open a project board in your
+fork to track your progress through the module. Just 3 columns can be enough:
+_Todo_, _Doing_, _Done_.
 
 [TOP](#welcome-to-js)
 
@@ -99,39 +134,90 @@ If you create a fork of this repository you can open a project board in your for
 
 ## About Programming
 
-Software Development is a many layered skill. One way to break it down is to think of these layers:
+Software Development is a many layered skill. One way to break it down is to
+think of these layers:
 
 <details>
 <summary>expand/collapse</summary>
 <br>
 
 1. **Source Code**: _The basic literacy of programming_
-   - Learning the key words (_vocabulary_) and syntax (_grammar_) for your programming language
-   - Being able to read your code out loud, tracing it's execution as a computer would
+   - Learning the key words (_vocabulary_) and syntax (_grammar_) for your
+     programming language
+   - Being able to read your code out loud, tracing it's execution as a computer
+     would
    - Understanding what the developer wanted to say with their code
    - > **Welcome to JS** will focus on these skills\_
 2. **Machine Instructions**: _The basic mechanics of programming_
    - Understanding the life-cycle of your program
-   - Understand how the computer will interpret your source code to create a running program
-   - Understand what about your code matters to the computer, and what matters to people
+   - Understand how the computer will interpret your source code to create a
+     running program
+   - Understand what about your code matters to the computer, and what matters
+     to people
    - Fixing syntax errors that occur when you try to run your code
    - Predicting which lines of code will be executed in which order
-   - Predicting how each line of code will change what is stored in program memory
-   - Reading error messages & callstacks to fix fix semantic errors that occur when you run your code
+   - Predicting how each line of code will change what is stored in program
+     memory
+   - Reading error messages & callstacks to fix fix semantic errors that occur
+     when you run your code
    - > **Debugging** will focus on these skills\_
-3. **Problem Solving & Algorithms**: _Breaking down large problems to be solved in small steps_
-   - Understanding a coding challenge and being able to break it down in different ways
-   - Determining which solution strategies are correct for which types of problems
+3. **Problem Solving & Algorithms**: _Breaking down large problems to be solved
+   in small steps_
+   - Understanding a coding challenge and being able to break it down in
+     different ways
+   - Determining which solution strategies are correct for which types of
+     problems
    - Understanding how test cases are used to describe your solution strategy
    - Identifying the best language feature to use with your strategy
    - Reading test cases to understand how code is _supposed to_ behave
-   - Using Test Cases to structure your solution design process (Test Driven Development)
-   - Identifying and isolating mistakes in your code by reading failing test cases
+   - Using Test Cases to structure your solution design process (Test Driven
+     Development)
+   - Identifying and isolating mistakes in your code by reading failing test
+     cases
    - Demonstrating your code does what you think it does by passing test cases
-   - > _**Behavior, Strategy, Implementation** Module will focus on these skills_
-4. **Software Design**: _Organizing smaller pieces of code into full software solutions_
+   - > _**Behavior, Strategy, Implementation** Module will focus on these
+     > skills_
+4. **Software Design**: _Organizing smaller pieces of code into full software
+   solutions_
    - All in good time ;)
-   - > _Every module starting with **Separation of Concerns** will focus on these skills_
+   - > _Every module starting with **Separation of Concerns** will focus on
+     > these skills_
+
+</details>
+<br>
+
+[TOP](#welcome-to-js)
+
+---
+
+## Learning Objectives
+
+What can you expect to learn in this module?
+
+<details>
+<summary>expand/collapse</summary>
+<br>
+
+> all of these skills are scoped to programs under 30 lines using
+> [Just Enough JavaScript](./just-enough-javascript)
+
+- 🥚 **Reading and Listening**:
+  - You can verbally direct a peer to exactly reproduce a piece of code.
+  - You can exactly reproduce a piece of code following a peer's dictations.
+- 🐣 **Tracing Execution**: You can complete a "steps" trace table and correct
+  your table using console output from the "trace" button.
+- 🐣 **Stepping Through**: You can pause a script in the debugger, arrange the
+  debugger, collapse extra panels, and step through a script written with Just
+  Enough JS. At each point in execution you can make a prediction of the next
+  line before executing, and can check your prediction using the _scopes_ panel.
+- 🐣 **Program Description**: You can describe a program with comments according
+  to this methodology: zooming out -> zooming in -> connections -> goals
+- 🐣 **Program Completion**: You can successfully fill in blanks for a program
+  when the missing identifiers are provided and no distractors are present.
+- 🐥 **Program Construction**: You can reconstruct a program's lines and
+  indentation, successfully identifying distractor lines.
+- 🐔 **Program Authoring**: You can write a small program to match specs (user
+  stories + test cases), given basic starter code with labeled goals
 
 </details>
 <br>
@@ -149,7 +235,10 @@ Helpful links, examples and exercises.
 
 ### Be the Computer
 
-These two games are deceptively simple. You will be given pseudo-code and will need to follow the instructions the same way a computer would. Practicing this game will help you learn how to trace code, and prepare you for learning about program memory in the next module - Debugging.
+These two games are deceptively simple. You will be given pseudo-code and will
+need to follow the instructions the same way a computer would. Practicing this
+game will help you learn how to trace code, and prepare you for learning about
+program memory in the next module - Debugging.
 
 - 🥚 [compute-it](http://compute-it.toxicode.fr/)
 - 🐣 [little-dot](http://little-dot.toxicode.fr/)
@@ -170,32 +259,56 @@ These two games are deceptively simple. You will be given pseudo-code and will n
 
 ### Just Enough JavaScript
 
-In this module you will only learn a small part of what JavaScript has to offer. You will learn _just enough_ JavaScript to make small programs that process text and interact with users. Why just enough, and not a little more? Because reading and understanding program logic is more important than JavaScript, so why let the code get in the way?
+In this module you will only learn a small part of what JavaScript has to offer.
+You will learn _just enough_ JavaScript to make small programs that process text
+and interact with users. Why just enough, and not a little more? Because reading
+and understanding program logic is more important than JavaScript, so why let
+the code get in the way?
 
 - [just-enough-javascript](./just-enough-javascript)
 
 ### Tutorials
 
-A selection of tutorial sites with interactive exercises, these tutorial will help you learn the JS Syntax you need to study the exercises in this repository. As you're setting your study plans and priorities, remember: [Just Enough JavaScript](./just-enough-javascript). These tutorials will each cover different topics in different orders and in different ways. Find the one that works for you:
+A selection of tutorial sites with interactive exercises, these tutorial will
+help you learn the JS Syntax you need to study the exercises in this repository.
+As you're setting your study plans and priorities, remember:
+[Just Enough JavaScript](./just-enough-javascript). These tutorials will each
+cover different topics in different orders and in different ways. Find the one
+that works for you:
 
-- [sololearn](https://www.sololearn.com/learning/1024): through Conditionals and Loops
-- [javascript.express](https://www.javascript.express/): the chapters that cover Just Enough JavaScript
-- [launchcode](https://education.launchcode.org/intro-to-professional-web-dev/index.html): chapters 1 -> 5
-- [programiz](https://www.programiz.com/javascript/get-started): through while loops
-- [the net ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc) (video series)
-- [freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/): through for loops. (more advanced)
+- [sololearn](https://www.sololearn.com/learning/1024): through Conditionals and
+  Loops
+- [javascript.express](https://www.javascript.express/): the chapters that cover
+  Just Enough JavaScript
+- [launchcode](https://education.launchcode.org/intro-to-professional-web-dev/index.html):
+  chapters 1 -> 5
+- [programiz](https://www.programiz.com/javascript/get-started): through while
+  loops
+- [the net ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
+  (video series)
+- [freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/):
+  through for loops. (more advanced)
 - [speaking js](http://speakingjs.com/) (online book)
-- [Headfirst JavaScript](https://www.oreilly.com/library/view/head-first-javascript/9781449340124/ch01.html): an outstanding (paid) book for understanding JS and the web. comes with code samples you can run locally
+- [Headfirst JavaScript](https://www.oreilly.com/library/view/head-first-javascript/9781449340124/ch01.html):
+  an outstanding (paid) book for understanding JS and the web. comes with code
+  samples you can run locally
 
-Is there another tutorial you like better than these? not a problem! Just us a PR so other students can find it ;)
+Is there another tutorial you like better than these? not a problem! Just us a
+PR so other students can find it ;)
 
 ### References
 
-Resources you can use to look up specific concepts when you are stuck or curious.
+Resources you can use to look up specific concepts when you are stuck or
+curious.
 
-- [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/javascript): _the_ reference for JavaScript. It will take time to learn how to read and understand MDN, but it's worth the wait.
-- [javascript.info](https://javascript.info): for short and clear explanations of everything you will need in JS
-- [hackyourfuture.github.io/study](https://hackyourfuture.github.io/study): a collection of explanations and resources put together by the HYF community. PR's are welcome!
+- [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/javascript):
+  _the_ reference for JavaScript. It will take time to learn how to read and
+  understand MDN, but it's worth the wait.
+- [javascript.info](https://javascript.info): for short and clear explanations
+  of everything you will need in JS
+- [hackyourfuture.github.io/study](https://hackyourfuture.github.io/study): a
+  collection of explanations and resources put together by the HYF community.
+  PR's are welcome!
 - [codeacademy cheat-sheets](https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
 
 ### Asking and Searching
@@ -229,17 +342,30 @@ There's a good reason these have been around forever, they work. Quiz yourself o
 - [How to teach programming (and other things)?](https://www.youtube.com/watch?v=g1ib43q3uXQ&feature=youtu.be&t=1209)
 - Code Reading Clubs - [code-reading.org](https://code-reading.org/)
   - [Resources](https://github.com/CodeReadingClubs/Resources)
-  - [pdf-maker](https://github.com/CodeReadingClubs/pdf-maker) - convert code from GitHub into a PDF for reading
+  - [pdf-maker](https://github.com/CodeReadingClubs/pdf-maker) - convert code
+    from GitHub into a PDF for reading
 
 ### Exercises in this Repo
 
-The exercises in this module focus on how to read and understand programs that interact with a user. These exercises are a few steps above what you are expected to write or easily understand, that's the idea! As a programmer you will spend more of your time reading, understanding and adjusting code than you will writing it. So why not start there?
+The exercises in this module focus on how to read and understand programs that
+interact with a user. These exercises are a few steps above what you are
+expected to write or easily understand, that's the idea! As a programmer you
+will spend more of your time reading, understanding and adjusting code than you
+will writing it. So why not start there?
 
-- 🥚 **[strict-mode](./strict-mode)**: a quick read and a couple examples. long story short: always use strict mode.
-- 🐣 **[reading-programs](./reading-programs)**: Practice reading interactive programs. This includes identifying variables, tracing code like the computer, drawing on the code, and asking good questions.
-- 🐣 **[describing-programs](./describing-programs)**: Analyze programs in detail learning to explain what is happening on each line, and explaining how each line contributes to the program's overall behavior.
-- 🥚 **[plain-text-programs](./plain-text-programs)**: JavaScript programs written in `.txt` files that have no color. How is it different to study?
-- 🐥 **[explorations](./explorations)**: Experiment with JS language features that interest you, try modifying the programs in this repo, or try writing your own. This folder is yours to explore JS and programming.
+- 🥚 **[strict-mode](./strict-mode)**: a quick read and a couple examples. long
+  story short: always use strict mode.
+- 🐣 **[reading-programs](./reading-programs)**: Practice reading interactive
+  programs. This includes identifying variables, tracing code like the computer,
+  drawing on the code, and asking good questions.
+- 🐣 **[describing-programs](./describing-programs)**: Analyze programs in
+  detail learning to explain what is happening on each line, and explaining how
+  each line contributes to the program's overall behavior.
+- 🥚 **[plain-text-programs](./plain-text-programs)**: JavaScript programs
+  written in `.txt` files that have no color. How is it different to study?
+- 🐥 **[explorations](./explorations)**: Experiment with JS language features
+  that interest you, try modifying the programs in this repo, or try writing
+  your own. This folder is yours to explore JS and programming.
 
 </details>
 <br>
@@ -250,7 +376,8 @@ The exercises in this module focus on how to read and understand programs that i
 
 ## Week 1
 
-Begin learning JS syntax and vocabulary, reading code out loud, and tracing variables.
+Begin learning JS syntax and vocabulary, reading code out loud, and tracing
+variables.
 
 <details>
 <summary>expand/collapse</summary>
@@ -258,8 +385,10 @@ Begin learning JS syntax and vocabulary, reading code out loud, and tracing vari
 
 ### Before Class
 
-- [What is Programming?](#what-is-programming), [What is JavaScript?](#what-is-javascript)
-- Follow the instructions in [Getting Started](#getting-started) to install `study-lenses`
+- [What is Programming?](#what-is-programming),
+  [What is JavaScript?](#what-is-javascript)
+- Follow the instructions in [Getting Started](#getting-started) to install
+  `study-lenses`
 - Skim these chapters from [./just-enough-javascript](./just-enough-javascript)
   - Comments and Logs
   - `guide-tracing.mp4`
@@ -288,14 +417,18 @@ Learn how to use a Trace Table to understand what is happening in a program.
 
 ### After Class
 
-No project. Just lots of study time, alone and in groups. Here's some ideas for what to focus on this week:
+No project. Just lots of study time, alone and in groups. Here's some ideas for
+what to focus on this week:
 
-- 🥚 [compute-it](http://compute-it.toxicode.fr/), 🐣 [little-dot](http://little-dot.toxicode.fr/)
+- 🥚 [compute-it](http://compute-it.toxicode.fr/), 🐣
+  [little-dot](http://little-dot.toxicode.fr/)
 - [ASCII Pronunciation Rules for Programmers](https://blog.codinghorror.com/ascii-pronunciation-rules-for-programmers/)
 - 🥚 [strict-mode](./strict-mode)
 - [./just-enough-javascript](./just-enough-javascript) through While Loops
-  - you do not need to complete every exercise in each chapter, just enough that you're comfortable to move on
-  - you can always return to study these chapters again, or to complete what you didn't finish
+  - you do not need to complete every exercise in each chapter, just enough that
+    you're comfortable to move on
+  - you can always return to study these chapters again, or to complete what you
+    didn't finish
 - Study through While Loops in your favorite online tutorial
 
 Keep the question coming!
@@ -344,13 +477,18 @@ Practice reading and describing programs
 No project. Just lots of study time, alone and in groups. Keep asking questions!
 
 - The rest of [./just-enough-javascript](./just-enough-javascript)
-  - you do not need to complete every exercise in each chapter, just enough that you're comfortable to move on
-  - you can always return to study these chapters again, or to complete what you didn't finish
+  - you do not need to complete every exercise in each chapter, just enough that
+    you're comfortable to move on
+  - you can always return to study these chapters again, or to complete what you
+    didn't finish
 - Study through for-of Loops in your favorite online tutorial
 - Read and describe as many programs as you can
-  - the goal is to become comfortable investigating code you _don't_ understand yet
-  - it's okay if you don't understand a program completely, as long as you understand more each time
-  - take some time to study the [plain-text-programs](./plain-text-programs), how is it different to study these than the programs in .js files?
+  - the goal is to become comfortable investigating code you _don't_ understand
+    yet
+  - it's okay if you don't understand a program completely, as long as you
+    understand more each time
+  - take some time to study the [plain-text-programs](./plain-text-programs),
+    how is it different to study these than the programs in .js files?
 
 </details>
 <br>
@@ -361,7 +499,8 @@ No project. Just lots of study time, alone and in groups. Keep asking questions!
 
 ## Class Recordings
 
-Screen recordings of class. Coaches, when sending your PR's with links please ...
+Screen recordings of class. Coaches, when sending your PR's with links please
+...
 
 - Add a link to your video in the correct module's section
 - Indicate which class you were teaching

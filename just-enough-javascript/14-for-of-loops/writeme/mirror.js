@@ -1,11 +1,11 @@
-'use strict';
+"use strict";
 
 let text = null;
 while (text === null) {
-  text = prompt('enter some text, it will be mirrored');
+  text = prompt("enter some text, it will be mirrored");
 }
 
-let mirrored = '|';
+let mirrored = "|";
 for (let character of text) {
   mirrored = character + mirrored + character;
 }

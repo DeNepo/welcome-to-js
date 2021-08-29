@@ -1,12 +1,12 @@
-'use strict';
+"use strict";
 
 /* -- gather and confirm user input -- */
 
-let phrase = '';
+let phrase = "";
 
 let userConfirmedPhrase = false;
 while (!userConfirmedPhrase) {
-  phrase = prompt('enter a phrase to search');
+  phrase = prompt("enter a phrase to search");
   if (phrase === null) {
     continue;
   }
@@ -16,16 +16,16 @@ while (!userConfirmedPhrase) {
 
 /* -- configure the search: case-sensitive or case-insensitive -- */
 
-let caseSensitive = confirm('do you want a case-sensitive search?');
+let caseSensitive = confirm("do you want a case-sensitive search?");
 
 /* -- gather and confirm the search query -- */
 
-let query = '';
+let query = "";
 
 let userConfirmedQuery = false;
 while (!userConfirmedQuery) {
   query = prompt(
-    'enter a search query, this program will check if it exists in your phrase'
+    "enter a search query, this program will check if it exists in your phrase"
   );
   if (query === null) {
     continue;
@@ -51,11 +51,11 @@ if (caseSensitive) {
 
 /* -- generate and communicate search result -- */
 
-let doesOrNot = '';
+let doesOrNot = "";
 if (phraseIncludesQuery) {
-  doesOrNot = 'does';
+  doesOrNot = "does";
 } else {
-  doesOrNot = 'does not';
+  doesOrNot = "does not";
 }
 
 alert(
@@ -66,6 +66,6 @@ alert(
     ' include "' +
     query +
     '"\n\n' +
-    'case sensitive: ' +
+    "case sensitive: " +
     caseSensitive
 );

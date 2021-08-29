@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // let number = 0; // false
 // let number = 0.5; // false
@@ -10,7 +10,7 @@ let number = 2.5; // false
 // let number = 3.5; // false
 // let number = 4; // false
 
-console.log(number + ' is 1, 2 or 3');
+console.log(number + " is 1, 2 or 3");
 
 // number is equal to 1
 console.log(_);

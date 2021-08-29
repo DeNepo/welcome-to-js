@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-let word = '';
+let word = "";
 // let word = 'a';
 // let word = 'be';
 // let word = 'eat';
@@ -14,13 +14,13 @@ let word = '';
 
 let message;
 if (word.length >= 3) {
-  if (word.includes('ear')) {
-    message = 'eary word!';
+  if (word.includes("ear")) {
+    message = "eary word!";
   } else {
-    message = 'not eary :(';
+    message = "not eary :(";
   }
 } else {
-  message = 'word is too short';
+  message = "word is too short";
 }
 
 console.log(message);

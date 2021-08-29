@@ -1,15 +1,15 @@
-'use strict';
+"use strict";
 
 let toggle = true;
 
 while (true) {
   if (toggle) {
-    console.log('<');
+    console.log("<");
   } else {
-    console.log('>');
+    console.log(">");
   }
   toggle = !toggle;
 }
 
 // unreachable code:
-console.log('all done');
+console.log("all done");

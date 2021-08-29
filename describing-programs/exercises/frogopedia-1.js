@@ -1,19 +1,19 @@
-'use strict';
+"use strict";
 
-let animalName = 'frog';
+let animalName = "frog";
 
-let userInput = '';
+let userInput = "";
 
 let isFroggy = false;
 while (isFroggy === false) {
-  userInput = prompt('tell me something about frogs');
+  userInput = prompt("tell me something about frogs");
 
-  if (userInput === '' || userInput === null) {
-    alert('that is not something');
+  if (userInput === "" || userInput === null) {
+    alert("that is not something");
   } else if (userInput.toLowerCase().includes(animalName)) {
     isFroggy = true;
   } else {
-    alert('nope, not about frogs.  try again.');
+    alert("nope, not about frogs.  try again.");
   }
 }
 

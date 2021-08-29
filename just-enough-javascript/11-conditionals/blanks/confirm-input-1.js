@@ -1,14 +1,14 @@
-'use strict';
+"use strict";
 
-let input = prompt('enter something');
+let input = prompt("enter something");
 
-let response = ':(';
+let response = ":(";
 if (input !== null) {
-  let didConfirm = confirm('is this what you meant to input?\n-> ' + input);
+  let didConfirm = confirm("is this what you meant to input?\n-> " + input);
   if (didConfirm === true) {
-    response = 'great!';
+    response = "great!";
   } else {
-    response = 'try again';
+    response = "try again";
   }
 }
 

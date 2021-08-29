@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-let letters = 'xyz';
+let letters = "xyz";
 // let letters = 'aeiou';
 // let letters = 'zaei';
 // let letters = 'aeiz';
@@ -13,7 +13,7 @@ let hasAVowel = false;
 let index = 0;
 while (index < letters.length) {
   let nextLetter = letters[index];
-  if ('aeiou'.includes(nextLetter)) {
+  if ("aeiou".includes(nextLetter)) {
     hasAVowel = true;
     break;
   }

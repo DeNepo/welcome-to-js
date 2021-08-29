@@ -1,3 +1,3 @@
-'use strict'; // run this code with and without 'use strict'
+"use strict"; // run this code with and without 'use strict'
 
-undeclaredVariable = 'must be a typo';
+undeclaredVariable = "must be a typo";

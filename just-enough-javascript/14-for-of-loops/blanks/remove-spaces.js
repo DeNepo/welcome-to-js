@@ -1,33 +1,33 @@
-'use strict';
+"use strict";
 
 let input = null;
 
 while (true) {
   input = prompt(
-    'enter something with at least one space, the spaces will be removed'
+    "enter something with at least one space, the spaces will be removed"
   );
 
   if (input === null) {
-    alert('no escape');
+    alert("no escape");
     continue;
   }
-  if (input === '') {
-    alert('gotta enter something');
+  if (input === "") {
+    alert("gotta enter something");
     continue;
   }
-  if (!input.includes(' ')) {
-    alert('there must be a space!');
+  if (!input.includes(" ")) {
+    alert("there must be a space!");
     continue;
   }
 
   break;
 }
 
-let spaceless = '';
+let spaceless = "";
 for (let char of input) {
-  if (char !== ' ') {
+  if (char !== " ") {
     spaceless = spaceless + char;
   }
 }
 
-alert(input + ' -> ' + spaceless);
+alert(input + " -> " + spaceless);

@@ -1,22 +1,22 @@
-'use strict';
+"use strict";
 
 let number = -2;
-let number = -1;
+// let number = -1;
 // let number = 0;
 // let number = 1;
 // let number = 2;
 
-let message = 'your number is ';
+let message = "your number is ";
 if (number >= 0) {
   let relation;
   if (number === 0) {
-    relation = 'exactly ';
+    relation = "exactly ";
   } else {
-    relation = 'greater than ';
+    relation = "greater than ";
   }
-  message = message + relation + 'zero';
+  message = message + relation + "zero";
 } else {
-  message = message + 'negative';
+  message = message + "negative";
 }
 
 console.log(message);

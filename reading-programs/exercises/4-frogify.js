@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /* -- gather user input -- */
 
@@ -6,7 +6,7 @@ let toBeFrogged = null;
 
 while (toBeFrogged === null) {
   toBeFrogged = prompt(
-    'enter some text to frogify.\n' +
+    "enter some text to frogify.\n" +
       '- "f" will be replaced with "frog"\n' +
       '- "F" will be replaced with "FROG"'
   );
@@ -14,16 +14,16 @@ while (toBeFrogged === null) {
 
 /* -- generate a new string -- */
 
-let frogged = '';
+let frogged = "";
 
 for (let character of toBeFrogged) {
   /* -- append to new string -- */
-  if (character === 'f') {
-    frogged = frogged + 'frog';
+  if (character === "f") {
+    frogged = frogged + "frog";
     continue;
   }
-  if (character === 'F') {
-    frogged = frogged + 'FROG';
+  if (character === "F") {
+    frogged = frogged + "FROG";
     continue;
   }
   frogged = frogged + character;

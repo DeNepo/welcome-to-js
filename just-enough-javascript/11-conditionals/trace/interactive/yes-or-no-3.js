@@ -1,12 +1,12 @@
-'use strict';
+"use strict";
 
-let didConfirm = confirm('yes?');
+let didConfirm = confirm("yes?");
 
 let message;
 if (didConfirm === false) {
-  message = 'no';
+  message = "no";
 } else {
-  message = 'ok';
+  message = "ok";
 }
 
 alert(message);

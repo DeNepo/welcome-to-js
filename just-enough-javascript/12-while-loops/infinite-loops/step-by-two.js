@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 let x = 0;
 
@@ -7,4 +7,4 @@ while (x !== 9) {
   console.log(x);
 }
 
-console.log('all done.');
+console.log("all done.");

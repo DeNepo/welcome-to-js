@@ -1,14 +1,14 @@
-'use strict';
+"use strict";
 
 let input = null;
 while (input === null) {
-  input = prompt('enter some text');
+  input = prompt("enter some text");
 }
 
-let repeated = '';
+let repeated = "";
 let i = 0;
 while (i < input.length) {
-  repeated = repeated + '\n' + input;
+  repeated = repeated + "\n" + input;
   i = i + 1;
 }
 

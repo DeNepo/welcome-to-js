@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /* this exercise has 0 extra lines */
 
@@ -15,9 +15,9 @@
 
 */
 
-let before = 'camel';
+let before = "camel";
 
-let after = '';
+let after = "";
 
 let upperCase = false;
 for (let char of before) {
@@ -29,4 +29,4 @@ for (let char of before) {
   upperCase = !upperCase;
 }
 
-console.log(after === 'cAmEl');
+console.log(after === "cAmEl");

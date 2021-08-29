@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-let input = '';
+let input = "";
 let prompting = true;
 while (prompting) {
   input = prompt(
@@ -8,7 +8,7 @@ while (prompting) {
   );
   if (input === null) {
     prompting = false;
-    input = 'you canceled';
+    input = "you canceled";
   } else if (input.length > 4) {
     prompting = false;
   }
