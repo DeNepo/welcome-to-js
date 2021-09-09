@@ -198,7 +198,7 @@ What can you expect to learn in this module?
 <summary>expand/collapse</summary>
 <br>
 
-> all of these skills are scoped to programs under 30 lines using
+> all of these skills are limited to programs under 30 lines using
 > [Just Enough JavaScript](./just-enough-javascript)
 
 - 🥚 **Static vs. Dynamic Analysis**: You can identify and use these two ways of
@@ -207,7 +207,7 @@ What can you expect to learn in this module?
   organized into _static_ and _dynamic_ study options:
   - **Static**: Studying the text in a code file _without_ running it. Some
     static study methods are creating a flowchart, analyzing variables, filling
-    out a trace table, and drawing on codes.
+    out a trace table, and drawing on code.
   - **Dynamic**: _Running_ code and studying the computer's behavior. Some
     dynamic study methods are running code and reading console logs, using the
     _trace_ button, and stepping through in the debugger or JS Tutor.

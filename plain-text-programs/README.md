@@ -7,4 +7,5 @@ helpful but not actually part of JavaScript.
 - How do you read this code differently from the colorized programs in other
   folders?
 - Is it easier or harder to find what's more important?
-- How do you study the program differently when you can't run it?
+- How do you study the program differently when you can't run it? (When you can
+  only study it _statically_)

@@ -1,6 +1,9 @@
 "use strict";
 
-/* -- show the instructions -- */
+/* -- 1. show the instructions --
+
+  - are there any variables used in this goal?
+*/
 
 alert(`Guess 3 phrases in 3 tries
 
@@ -13,7 +16,11 @@ alert(`Guess 3 phrases in 3 tries
     you will get one point for each correct guess
 `);
 
-/* -- gather player 1's phrases -- */
+/* -- 2. gather player 1's phrases --
+
+  - what types can be assigned to the `phrase` variables?
+  - is it possible that all 3 `phrase` variables have the same value?
+*/
 
 alert("Player 2: go hide");
 
@@ -23,7 +30,12 @@ let phrase3 = prompt("Player 1, enter your third phrase:");
 
 alert("Player 2, get back here");
 
-/* -- player 2 tries to remember the phrases -- */
+/* -- 3. player 2 tries to remember the phrases --
+
+  - can you know what values will assigned to the `guess` variables without running the program?
+  - what happens if a user cancels all of their guesses?
+  - how is this goal of the program different from goal 2?
+*/
 
 alert(
   "Player 2, remember these:" +
@@ -42,7 +54,13 @@ let guess1 = prompt("Player 2, guess the first phrase:");
 let guess2 = prompt("Player 2, guess the second phrase:");
 let guess3 = prompt("Player 2, guess the third phrase:");
 
-/* -- player 2's score is calculated -- */
+/* -- 4. player 2's score is calculated --
+
+  - which operator is used in the conditional checks?
+  - what are the possible scores a user can earn?
+  - what is the scope of the `points` variable?
+  - is the `points` variable used in any other parts of the program?
+*/
 
 let points = 3;
 
@@ -58,6 +76,6 @@ if (guess3 !== phrase3) {
   points = points - 1;
 }
 
-/* -- show player 2's final score -- */
+/* -- 5. show player 2's final score -- */
 
 alert("player 2's score: " + points);
