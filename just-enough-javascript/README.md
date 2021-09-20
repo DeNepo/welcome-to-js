@@ -39,7 +39,7 @@ are used.
 
 ---
 
-### WriteMe
+### 🥚 WriteMe
 
 With WriteMe exercises you will practice writing out programs from a blank page.
 On the left is an empty editor, on the right is the finished code: you need to
@@ -66,7 +66,7 @@ showing each other your screens!
 
 ---
 
-### Tracing Execution
+### 🥚 Tracing Execution
 
 You will learn how to _be the computer_, how to execute code line by line with
 your mind the same way the computer does. Until you learn how to _trace_ code,
@@ -144,7 +144,7 @@ program.
 
 ---
 
-### Fill in the Blanks
+### 🐣 Fill in the Blanks
 
 Fill-in-the-blanks exercises will be JS scripts with some blanks for you to fill
 in and (sometimes) a comment describing what should happen. Some exercises will
@@ -163,7 +163,7 @@ solution using a _diff editor_.
 
 ---
 
-### Parsons Problems
+### 🐥 Parsons Problems
 
 Parsons problems are designed to help you study snippets of code without getting
 caught by errors. You'll be given lines of code and your task is to place them
@@ -177,7 +177,7 @@ program and which are there to confuse you.
 
 ---
 
-### Specs
+### 🐔 Specs
 
 > these exercises can be more challenging, if you get lots of errors or can't
 > finish them right away that's normal.

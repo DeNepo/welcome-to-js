@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "no-alert": 0,
+    "no-confirm": 0,
+    "no-restricted-globals": 0,
+    "no-console": 0,
+    "prefer-template": 0
+  },
+  "env": {
+    "browser": true
+  }
+}

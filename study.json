@@ -15,7 +15,8 @@
       "functions": false
     },
     "table": true,
-    "blanks": true
+    "blanks": true,
+    "eslint": true
   },
   "highlight": {
     "run": true,

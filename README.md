@@ -207,7 +207,7 @@ What can you expect to learn in this module?
   organized into _static_ and _dynamic_ study options:
   - **Static**: Studying the text in a code file _without_ running it. Some
     static study methods are creating a flowchart, analyzing variables, filling
-    out a trace table, and drawing on code.
+    out a trace table, drawing on code, and linting.
   - **Dynamic**: _Running_ code and studying the computer's behavior. Some
     dynamic study methods are running code and reading console logs, using the
     _trace_ button, and stepping through in the debugger or JS Tutor.
@@ -377,16 +377,18 @@ expected to write or easily understand, that's the idea! As a programmer you
 will spend more of your time reading, understanding and adjusting code than you
 will writing it. So why not start there?
 
-- 🥚 **[strict-mode](./strict-mode)**: a quick read and a couple examples. long
-  story short: always use strict mode.
+- 🥚 **[./strict-mode](./strict-mode)**: a quick read and a couple examples.
+  long story short: always use strict mode.
+- 🥚 **[./linting](./linting)**: Practice using feedback from ESLint to write
+  code that uses consistent style and best practices.
+- 🥚 **[plain-text-programs](./plain-text-programs)**: JavaScript programs
+  written in `.txt` files that have no color. How is it different to study?
 - 🐣 **[reading-programs](./reading-programs)**: Practice reading interactive
   programs. This includes identifying variables, tracing code like the computer,
   drawing on the code, and asking good questions.
 - 🐣 **[describing-programs](./describing-programs)**: Analyze programs in
   detail learning to explain what is happening on each line, and explaining how
   each line contributes to the program's overall behavior.
-- 🥚 **[plain-text-programs](./plain-text-programs)**: JavaScript programs
-  written in `.txt` files that have no color. How is it different to study?
 - 🐥 **[explorations](./explorations)**: Experiment with JS language features
   that interest you, try modifying the programs in this repo, or try writing
   your own. This folder is yours to explore JS and programming.
