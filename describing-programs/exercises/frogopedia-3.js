@@ -5,7 +5,7 @@ let animalName = "frog";
 let coolThing = "";
 
 while (true) {
-  coolThing = prompt("tell me something about frogs");
+  coolThing = prompt("tell me something about " + animalName + "s");
 
   if (coolThing === "" || coolThing === null) {
     alert("that is not something");

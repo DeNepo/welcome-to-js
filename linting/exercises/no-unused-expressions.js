@@ -5,7 +5,7 @@
 
 */
 
-const likesApples = confirm("do you like apples?");
+let likesApples = confirm("do you like apples?");
 
 let greeting = "hello, ";
 if (likesApples) {

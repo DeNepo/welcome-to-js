@@ -8,9 +8,9 @@
 
 */
 
-const userInput = prompt("enter something or nothing");
+let userInput = prompt("enter something or nothing");
 
-const didInputSomething = !!userInput;
+let didInputSomething = !!userInput;
 
 if (didInputSomething) {
   alert("you inputted something");

@@ -10,13 +10,16 @@
     "trace": true,
     "variables": true,
     "highlight": true,
-    "loopGuard": true,
+    "loopGuard": {
+      "active": false
+    },
     "ask": {
       "functions": false
     },
     "table": true,
     "blanks": true,
-    "eslint": true
+    "eslint": true,
+    "writeme": true
   },
   "highlight": {
     "run": true,
