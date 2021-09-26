@@ -17,7 +17,10 @@ while (toBeFrogged === null) {
 let frogged = "";
 
 for (let character of toBeFrogged) {
-  /* -- append to new string -- */
+  /* -- append to new string
+
+    - can you think of a way to combine these two conditionals?
+  -- */
   if (character === "f") {
     frogged = frogged + "frog";
     continue;

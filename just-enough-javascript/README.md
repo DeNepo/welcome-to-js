@@ -39,6 +39,20 @@ are used.
 
 ---
 
+### 🥚 Quiz
+
+Some chapters will have a `/quiz` folder, these contain multiple choice
+questions to test your knowledge. By the end of this module you should be
+comfortable finding the right answers for each quiz **_and_** understanding why
+the wrong answers are incorrect.
+
+Careful, passing the quizzes is not enough! Being able to answer questions is
+not the same thing as building and practicing skills. Even if you are
+comfortable with the quiz in a chapter, you should _still_ keep practice the
+exercises.
+
+---
+
 ### 🥚 WriteMe
 
 With WriteMe exercises you will practice writing out programs from a blank page.

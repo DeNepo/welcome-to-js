@@ -19,13 +19,10 @@ let keepLetters = confirm(
 let newPhrase = "";
 
 if (keepLetters) {
-  /* --- create a variable storing all letters, lower cased --- */
+  /* --- iterate through each character of the user's phrase --- */
   let letters = "abcdefghijklmnopqrstuvwxyz";
 
-  /* --- iterate through each character of the user's phrase --- */
-
   for (let character of phrase) {
-    /* --- if the character is a letter, add it to the new phrase --- */
     if (letters.includes(character.toLowerCase())) {
       newPhrase = newPhrase + character;
     }
@@ -34,7 +31,6 @@ if (keepLetters) {
   /* --- iterate through each character in the user's phrase --- */
 
   for (let character of phrase) {
-    /* --- append each character twice to the new phrase --- */
     newPhrase = newPhrase + character + character;
   }
 }
