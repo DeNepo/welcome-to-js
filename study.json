@@ -2,7 +2,7 @@
   "--defaults": {
     ".md": "study"
   },
-  "--port": 4001,
+  "--port": 4005,
   "study": {
     "run": true,
     "flowchart": true,
