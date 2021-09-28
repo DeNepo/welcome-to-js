@@ -1,5 +1,5 @@
 {
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "sonarjs", "spellcheck"],
   "env": {
     "browser": false
   },
@@ -10,18 +10,15 @@
     "prompt": true,
     "alert": true,
     "confirm": true,
-    "console": true
+    "console": true,
+    "_": true
   },
-  "overrides": [
-    {
-      "files": ["./strict-mode/*.js"],
-      "rules": {
-        "no-undef": 0
-      }
-    }
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "airbnb-base",
+    "plugin:sonarjs/recommended"
   ],
-  "ignorePatterns": ["strict-mode/*.js"],
-  "extends": ["eslint:recommended", "prettier"],
   "rules": {
     "no-var": 1,
     "prefer-const": 0,
@@ -61,6 +58,15 @@
     ],
     "camelcase": [2, { "properties": "never" }],
 
-    "prettier/prettier": ["error"]
+    "prettier/prettier": ["error"],
+
+    "spellcheck/spell-checker": ["warn"],
+
+    "spellcheck/spell-checker": [
+      "warn",
+      { "minLength": 4, "identifiers": false, "strings": false }
+    ],
+
+    "sonarjs/prefer-immediate-return": 0
   }
 }
