@@ -1,3 +1,5 @@
+'use strict';
+
 /* https://eslint.org/docs/rules/eqeqeq
 
   you should never use == or !=, instead use === and !==

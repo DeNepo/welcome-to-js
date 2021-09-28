@@ -1,3 +1,5 @@
+'use strict';
+
 /* https://eslint.org/docs/rules/no-unused-expressions
 
   having extra code that does not do anything can be confusing

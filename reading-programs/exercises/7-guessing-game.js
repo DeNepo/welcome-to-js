@@ -101,7 +101,7 @@ if (userInput === '-h') {
         /* -- player 2 can reveal the secret -- */
 
         let revealTheSecret = confirm(
-          'Nope, not correct.\n\n' + 'do you want to know the secret?',
+          'Nope, not correct.\n\ndo you want to know the secret?',
         );
 
         if (revealTheSecret) {

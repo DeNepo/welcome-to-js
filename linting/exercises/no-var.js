@@ -1,3 +1,5 @@
+'use strict';
+
 /* https://eslint.org/docs/rules/no-var
 
   this rule means you can't use `var` in your code

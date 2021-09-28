@@ -42,7 +42,7 @@ if (caseSensitive) {
 
   phraseIncludesQuery = phrase.includes(query);
 } else {
-  /* -- perform a case-INsensitive search -- */
+  /* -- perform a case-insensitive search -- */
 
   let lowerCasePhrase = phrase.toLowerCase();
   let lowerCaseQuery = query.toLowerCase();

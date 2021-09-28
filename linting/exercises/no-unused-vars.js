@@ -1,3 +1,5 @@
+'use strict';
+
 /* https://eslint.org/docs/rules/no-unused-vars
 
   don't declare variables that are never used

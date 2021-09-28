@@ -1,3 +1,5 @@
+'use strict';
+
 /* https://eslint.org/docs/rules/no-implicit-coercion
 
   JavaScript has lots of sneaky ways to change types behind the scenes

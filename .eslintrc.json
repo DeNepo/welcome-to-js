@@ -1,17 +1,17 @@
 {
-  "plugins": ["prettier", "sonarjs", "spellcheck"],
+  "plugins": ["prettier", "sonarjs"],
   "env": {
     "browser": false
   },
   "parserOptions": {
-    "ecmaVersion": 2021
+    "ecmaVersion": 2021,
+    "sourceType": "script"
   },
   "globals": {
-    "prompt": true,
-    "alert": true,
-    "confirm": true,
-    "console": true,
-    "_": true
+    "prompt": false,
+    "alert": false,
+    "confirm": false,
+    "console": false
   },
   "extends": [
     "eslint:recommended",
@@ -46,7 +46,15 @@
     "prefer-destructuring": 1,
     "no-nested-ternary": 0,
     "no-empty": 0,
+    "no-alert": 0,
+    "no-console": 0,
+    "no-continue": 0,
+    "prefer-template": 0,
     "no-constant-condition": 0,
+    "operator-linebreak": 0,
+    "strict": [2, "global"],
+    "no-restricted-globals": 0,
+    "operator-assignment": 0,
     "no-restricted-syntax": [
       0,
       {
@@ -59,13 +67,6 @@
     "camelcase": [2, { "properties": "never" }],
 
     "prettier/prettier": ["error"],
-
-    "spellcheck/spell-checker": ["warn"],
-
-    "spellcheck/spell-checker": [
-      "warn",
-      { "minLength": 4, "identifiers": false, "strings": false }
-    ],
 
     "sonarjs/prefer-immediate-return": 0
   }

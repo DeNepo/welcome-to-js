@@ -71,24 +71,24 @@ console.log('hello' === 100); // false
 
 </details>
 <details>
-<summary>🥚 strict inequality</summary>
+<summary>🥚 strict unequality</summary>
 
 ```js
 'use strict';
 console.log('-- strings: strict inequality --');
 // the opposite of strict equality
 
-// two strings are not inequal if they have exactly the same characters
+// two strings are not unequal if they have exactly the same characters
 console.log('' !== ''); // false
 console.log('asdf' !== 'asdf'); // false
 console.log('12D' !== '12D'); // false
 
-// two strings with different characters are inequal
+// two strings with different characters are unequal
 console.log('' !== ' '); // true
 console.log('asdf' !== 'Asdf'); // true
 console.log('cow' !== 'horse'); // true
 
-// strings are always inequal to different types
+// strings are always unequal to different types
 console.log('' !== true); // true
 console.log('true' !== true); // true
 console.log('12' !== 12); // true

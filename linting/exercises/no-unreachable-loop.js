@@ -1,3 +1,5 @@
+'use strict';
+
 /* https://eslint.org/docs/rules/no-unreachable-loop
 
   a loop that never repeats is confusing
