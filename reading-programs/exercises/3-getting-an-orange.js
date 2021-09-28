@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /* -- 1. get an orange --
 
@@ -7,11 +7,11 @@
   - how many paths are there through this Input/Output (I/O) loop?
 */
 
-let theOrange = "";
+let theOrange = '';
 
-while (theOrange === "") {
+while (theOrange === '') {
   /* -- 1.a gather user input -- */
-  let input = prompt("give me an orange, lower or upper case");
+  let input = prompt('give me an orange, lower or upper case');
 
   /* -- 1.b check if the user canceled --
     - which user action will pass this condition?
@@ -24,7 +24,7 @@ while (theOrange === "") {
     - what is the scope for `theOrange`?
     - what is the scope for `input`?
   */
-  if (input.toLowerCase() === "orange") {
+  if (input.toLowerCase() === 'orange') {
     theOrange = input;
   }
 }
@@ -37,16 +37,16 @@ while (theOrange === "") {
   - which variables are used in this goal, where were they declared?
 */
 
-let description = "";
+let description = '';
 
-if (theOrange === "orange") {
-  description = "small";
-} else if (theOrange === "ORANGE") {
-  description = "big";
+if (theOrange === 'orange') {
+  description = 'small';
+} else if (theOrange === 'ORANGE') {
+  description = 'big';
 } else {
-  description = "small and big";
+  description = 'small and big';
 }
 
 /* -- 3. alert the description for the user -- */
 
-alert(theOrange + " is a " + description + " orange");
+alert(theOrange + ' is a ' + description + ' orange');

@@ -18,8 +18,8 @@ learn more about operators as you need them:
 <summary>🥚 <code>typeof</code> (type of)</summary>
 
 ```js
-"use strict";
-console.log("-> type of: typeof");
+'use strict';
+console.log('-> type of: typeof');
 
 /* the typeof operator will tell you the type of a value
 
@@ -37,7 +37,7 @@ console.log("-> type of: typeof");
 */
 
 console.log(typeof true); // 'boolean'
-console.log(typeof "hello"); // 'string'
+console.log(typeof 'hello'); // 'string'
 console.log(typeof undefined); // 'undefined'
 console.log(typeof null); // 'object'
 console.log(typeof 12); // 'number'
@@ -48,8 +48,8 @@ console.log(typeof 12); // 'number'
 <summary>🥚 <code>===</code> (strict equality)</summary>
 
 ```js
-"use strict";
-console.log("-> strict equality: ===");
+'use strict';
+console.log('-> strict equality: ===');
 
 /* the strict comparison operator will tell you if two primitives are the same
 
@@ -66,20 +66,20 @@ console.log("-> strict equality: ===");
 // true comparisons: same type, same value
 console.log(true === true); // true
 console.log(12 === 12); // true
-console.log("hello" === "hello"); // true
+console.log('hello' === 'hello'); // true
 console.log(undefined === undefined); // true
 console.log(null === null); // true
 
 // false comparisons: same type, different value
 console.log(12 === 1); // false
-console.log("hello" === "Hello"); // false
+console.log('hello' === 'Hello'); // false
 console.log(true === false); // false
 
 // false comparisons: different type, different value
-console.log("12" === 12); // false
-console.log("undefined" === undefined); // false
-console.log(true === "true"); // false
-console.log(100 === "true"); // false
+console.log('12' === 12); // false
+console.log('undefined' === undefined); // false
+console.log(true === 'true'); // false
+console.log(100 === 'true'); // false
 console.log(true === 1); // false
 ```
 
@@ -88,7 +88,7 @@ console.log(true === 1); // false
 <summary>🥚 <code>+</code> (concatenation or addition)</summary>
 
 ```js
-"use strict";
+'use strict';
 /*
   the plus operator is more complex
   it behaves differently depending on the types passed in
@@ -96,7 +96,7 @@ console.log(true === 1); // false
   (but the syntax is always the same)
 */
 
-console.log("-> concatenation: +");
+console.log('-> concatenation: +');
 
 /* string concatenation
 
@@ -111,10 +111,10 @@ console.log("-> concatenation: +");
 
 */
 
-console.log("hello " + "goode bye"); // 'hello good bye'
-console.log("hello " + "goode " + "bye"); // 'hello good bye'
+console.log('hello ' + 'goode bye'); // 'hello good bye'
+console.log('hello ' + 'goode ' + 'bye'); // 'hello good bye'
 
-console.log("-> addition: +");
+console.log('-> addition: +');
 /* number addition
 
   syntax: the + operator takes in two values

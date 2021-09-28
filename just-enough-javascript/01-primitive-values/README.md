@@ -13,37 +13,37 @@ You will learn more about each of these types as you work your way through Just
 Enough JavaScript:
 
 ```js
-"use strict";
-console.log("--- booleans: true and false ---");
+'use strict';
+console.log('--- booleans: true and false ---');
 console.log(true);
 console.log(false);
 ```
 
 ```js
-"use strict";
-console.log("--- strings: anything wrapped in quotation marks ---");
-console.log("hello");
-console.log("good bye");
-console.log("12"); // <- this  actually a string!
-console.log(""); // an empty string
+'use strict';
+console.log('--- strings: anything wrapped in quotation marks ---');
+console.log('hello');
+console.log('good bye');
+console.log('12'); // <- this  actually a string!
+console.log(''); // an empty string
 ```
 
 ```js
-"use strict";
+'use strict';
 console.log('--- undefined: one way to say "there is nothing here" ---');
 console.log(undefined);
 ```
 
 ```js
-"use strict";
+'use strict';
 console.log('--- null: another way to say "there is nothing here" ---');
 console.log(null);
 // we will later cover the difference between null and undefined
 ```
 
 ```js
-"use strict";
-console.log("--- numbers: numbers that are not wrapped in quotation marks ---");
+'use strict';
+console.log('--- numbers: numbers that are not wrapped in quotation marks ---');
 console.log(12);
 console.log(0);
 console.log(-12);

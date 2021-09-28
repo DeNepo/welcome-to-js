@@ -1,15 +1,15 @@
-"use strict";
+'use strict';
 
 let letters = null;
 while (letters === null) {
-  letters = prompt("enter some letters");
+  letters = prompt('enter some letters');
 }
 
 let noConsonants = true;
 
 for (let letter of letters) {
   let lowerCaseLetter = letter.toLowerCase();
-  if ("bcdfghjklmnpqrstvwxyz".includes(lowerCaseLetter)) {
+  if ('bcdfghjklmnpqrstvwxyz'.includes(lowerCaseLetter)) {
     noConsonants = false;
     break;
   }

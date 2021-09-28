@@ -1,13 +1,13 @@
 # Initial, Intermediate and Final Value
 
 ```js
-"use strict"; // line 1
+'use strict'; // line 1
 
 let animal = `"dog"`; // line 2
 
 console.log(animal); // line 3
 
-animal = "cat"; // line 4
+animal = 'cat'; // line 4
 ```
 
 ## what is the initial value of the variable?

@@ -10,12 +10,12 @@ character in the array. You can use the variable however you like inside the
 loop body.
 
 ```js
-"use strict";
-console.log("-- for-of --");
+'use strict';
+console.log('-- for-of --');
 
 let input = null;
 while (input === null) {
-  input = prompt("enter something");
+  input = prompt('enter something');
 }
 
 for (let character of input) {
@@ -23,7 +23,7 @@ for (let character of input) {
 }
 
 // input has not been changed!
-alert(input + "!");
+alert(input + '!');
 ```
 
 ---
@@ -40,20 +40,20 @@ Here are a few small programs to give you an idea of what's possible.
 <summary>🥚 reverse a string</summary>
 
 ```js
-"use strict";
-console.log("-- for-of: reverse a string --");
+'use strict';
+console.log('-- for-of: reverse a string --');
 
 let input = null;
 while (input === null) {
-  input = prompt("enter something");
+  input = prompt('enter something');
 }
 
-let reversed = "";
+let reversed = '';
 for (let character of input) {
   reversed = character + reversed;
 }
 
-alert(input + " -> " + reversed);
+alert(input + ' -> ' + reversed);
 ```
 
 </details>
@@ -61,23 +61,23 @@ alert(input + " -> " + reversed);
 <summary>🥚 remove vowels</summary>
 
 ```js
-"use strict";
-console.log("-- for-of: remove vowels --");
+'use strict';
+console.log('-- for-of: remove vowels --');
 
 let input = null;
 while (input === null) {
-  input = prompt("enter something, all vowels will be removed");
+  input = prompt('enter something, all vowels will be removed');
 }
 
-let noVowels = "";
+let noVowels = '';
 for (let character of input) {
-  if ("aeiouAEIOU".includes(character)) {
+  if ('aeiouAEIOU'.includes(character)) {
     continue;
   }
   noVowels = noVowels + character;
 }
 
-alert(input + " -> " + noVowels);
+alert(input + ' -> ' + noVowels);
 ```
 
 </details>
@@ -85,19 +85,19 @@ alert(input + " -> " + noVowels);
 <summary>🥚 check for vowels</summary>
 
 ```js
-"use strict";
-console.log("-- for-of: check for vowels --");
+'use strict';
+console.log('-- for-of: check for vowels --');
 
 let input = null;
 while (input === null) {
   input = prompt(
-    "enter something, the program will check if it has any vowels"
+    'enter something, the program will check if it has any vowels',
   );
 }
 
 let hasVowels = false;
 for (let character of input) {
-  if ("aeiouAEIOU".includes(character)) {
+  if ('aeiouAEIOU'.includes(character)) {
     hasVowels = true;
     break;
   }

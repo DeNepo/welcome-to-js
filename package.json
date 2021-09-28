@@ -5,14 +5,18 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier --write ./",
-    "lint": "eslint --max-warnings=0 --ext=.js --format=codeframe"
+    "spell-check": "cspell  './**'",
+    "lint:md": "markdownlint --ignore node_modules --config ./.markdownlint.jsonc --fix ./ ",
+    "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe"
   },
   "author": "HackYourFutureBelgium",
   "license": "MIT",
   "devDependencies": {
+    "cspell": "^5.9.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
+    "markdownlint-cli": "^0.28.1",
     "prettier": "^2.3.2"
   }
 }

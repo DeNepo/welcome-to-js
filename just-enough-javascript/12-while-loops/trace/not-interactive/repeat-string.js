@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-let animal = "dog";
+let animal = 'dog';
 // let animal = 'cat';
 // let animal = 'horse';
 // let animal = 'fish';
@@ -9,10 +9,10 @@ let animal = "dog";
 // let animal = 'snake';
 // let animal = 'dove';
 
-let repeated = "";
+let repeated = '';
 let i = 0;
 while (i < animal.length) {
-  repeated = repeated + "\n" + animal;
+  repeated = repeated + '\n' + animal;
   i++;
 }
 

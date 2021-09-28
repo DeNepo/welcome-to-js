@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 // let number = -1;
 // let number = 0;
@@ -9,7 +9,7 @@ let number = 1.5;
 // let number = 2.5;
 // let number = 3;
 
-console.log(number + " is between 1 and 2 (including 1 and 2)");
+console.log(number + ' is between 1 and 2 (including 1 and 2)');
 
 // numbers is less than 1
 console.log(number < 1);

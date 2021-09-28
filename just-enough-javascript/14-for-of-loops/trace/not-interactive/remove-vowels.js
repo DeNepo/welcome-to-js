@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-let letters = "xyz";
+let letters = 'xyz';
 // let letters = 'aeiou';
 // let letters = 'zaei';
 // let letters = 'aeiz';
@@ -8,12 +8,12 @@ let letters = "xyz";
 // let letters = 'axyz';
 // let letters = '';
 
-let noVowels = "";
+let noVowels = '';
 for (let character of letters) {
-  if ("aeiouAEIOU".includes(character)) {
+  if ('aeiouAEIOU'.includes(character)) {
     continue;
   }
   noVowels = noVowels + character;
 }
 
-console.log(letters + " -> " + noVowels);
+console.log(letters + ' -> ' + noVowels);

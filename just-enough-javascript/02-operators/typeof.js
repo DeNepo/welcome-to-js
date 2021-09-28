@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 // your answers must use typeof, but can use any values
 console.log('-- write 2 values with the type "boolean" --');
@@ -10,8 +10,8 @@ console.log(typeof _); // 'object'
 
 console.log('-- write 5 values with the type "string" --');
 // examples
-console.log(typeof "hello"); // 'string'
-console.log(typeof ""); // 'string'
+console.log(typeof 'hello'); // 'string'
+console.log(typeof ''); // 'string'
 // exercises
 console.log(typeof _); // 'string'
 console.log(typeof _); // 'string'

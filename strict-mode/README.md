@@ -37,13 +37,13 @@ Of all the differences between "strict" and "sloppy" mode, the most important
 for you right now is undeclared variables:
 
 ```js
-undeclaredVariable = "hello"; // no error! not in strict mode
+undeclaredVariable = 'hello'; // no error! not in strict mode
 ```
 
 ```js
-"use strict";
+'use strict';
 
-undeclaredVariable = "hello"; // ReferenceError
+undeclaredVariable = 'hello'; // ReferenceError
 ```
 
 It's likely that you will come across some confusions with this difference if

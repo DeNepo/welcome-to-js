@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
-favoriteVegetable = "potato";
+favoriteVegetable = 'potato';
 console.log(favoriteVegetable); // 'potato'
 
-let favoriteVegetable = "carrot";
+let favoriteVegetable = 'carrot';
 console.log(favoriteVegetable); // 'carrot'

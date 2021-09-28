@@ -1,10 +1,10 @@
-"use strict";
+'use strict';
 
-let word = "hello";
+let word = 'hello';
 
 while (word.length < 10) {
-  word + "!";
+  word + '!';
   console.log(word);
 }
 
-console.log("all done.");
+console.log('all done.');

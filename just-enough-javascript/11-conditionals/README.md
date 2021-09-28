@@ -1,15 +1,15 @@
 # Conditionals
 
 ```js
-"use strict";
-console.log("-- conditionals --");
+'use strict';
+console.log('-- conditionals --');
 
-let isLeftHanded = confirm("are you left handed?");
+let isLeftHanded = confirm('are you left handed?');
 
 if (isLeftHanded) {
-  alert("you are left handed");
+  alert('you are left handed');
 } else {
-  alert("you are not left handed");
+  alert('you are not left handed');
 }
 ```
 
@@ -17,15 +17,15 @@ if (isLeftHanded) {
 <summary>🥚 if</summary>
 
 ```js
-"use strict";
-console.log("-- if --");
+'use strict';
+console.log('-- if --');
 
 let input = prompt("please don't cancel");
 
-let response = "";
+let response = '';
 if (input === null) {
   // enter this block if the condition is true
-  response = "you are a canceler";
+  response = 'you are a canceler';
 }
 
 alert(response);
@@ -36,15 +36,15 @@ alert(response);
 <summary>🥚 if else</summary>
 
 ```js
-"use strict";
-console.log("--  if else  --");
+'use strict';
+console.log('--  if else  --');
 
 let input = prompt("please don't cancel");
 
-let response = "";
+let response = '';
 if (input === null) {
   // enter this block if the condition is true
-  response = "you are a canceler";
+  response = 'you are a canceler';
 } else {
   // enter this block if the condition is false
   response = input;
@@ -58,18 +58,18 @@ alert(response);
 <summary>🥚 if else if else</summary>
 
 ```js
-"use strict";
-console.log("-- if else if else --");
+'use strict';
+console.log('-- if else if else --');
 
-let input = prompt("enter something");
+let input = prompt('enter something');
 
-let response = "";
+let response = '';
 if (input === null) {
   // enter this block if the first condition is true
-  response = "you are a canceler";
-} else if (input === "") {
+  response = 'you are a canceler';
+} else if (input === '') {
   // enter this block if the second condition is true
-  response = "come on, type something";
+  response = 'come on, type something';
 } else {
   // enter this block if all conditions are false
   response = '"' + input + '" is something';
@@ -97,16 +97,16 @@ understand how programs with conditionals behave.
 <summary>🥚 2 paths: if else</summary>
 
 ```js
-"use strict";
-console.log("-- 2 paths: if else --");
+'use strict';
+console.log('-- 2 paths: if else --');
 
-let input = prompt("enter something");
+let input = prompt('enter something');
 
-let path = "";
+let path = '';
 if (input === null) {
-  path = "a";
+  path = 'a';
 } else {
-  path = "b";
+  path = 'b';
 }
 
 alert(path);
@@ -117,18 +117,18 @@ alert(path);
 <summary>🥚 3 paths: if else if else</summary>
 
 ```js
-"use strict";
-console.log("-- 3 paths: if else if else --");
+'use strict';
+console.log('-- 3 paths: if else if else --');
 
-let input = prompt("enter something");
+let input = prompt('enter something');
 
-let path = "";
+let path = '';
 if (input === null) {
-  path = "a";
-} else if (input === "") {
-  path = "b";
+  path = 'a';
+} else if (input === '') {
+  path = 'b';
 } else {
-  path = "c";
+  path = 'c';
 }
 
 alert(path);
@@ -139,23 +139,23 @@ alert(path);
 <summary>🥚 4 paths: nested</summary>
 
 ```js
-"use strict";
-console.log("-- 4 paths: nested --");
+'use strict';
+console.log('-- 4 paths: nested --');
 
 let input = prompt('enter "something"');
 
-let path = "";
+let path = '';
 if (input !== null) {
-  path = "a";
-  if (input === "") {
-    path = path + "1";
-  } else if (input === "something") {
-    path = path + "2";
+  path = 'a';
+  if (input === '') {
+    path = path + '1';
+  } else if (input === 'something') {
+    path = path + '2';
   } else {
-    path = path + "3";
+    path = path + '3';
   }
 } else {
-  path = "b";
+  path = 'b';
 }
 
 alert(path);
@@ -175,32 +175,32 @@ programs is to use _nested conditionals_ (conditionals inside of conditionals)
 <summary>🐣 memory game</summary>
 
 ```js
-"use strict";
-console.log("-- memory game --");
+'use strict';
+console.log('-- memory game --');
 
 let thingToRemember = prompt(
-  "enter some text, then remember it.\n\n" +
-    "if you remember it correctly you win"
+  'enter some text, then remember it.\n\n' +
+    'if you remember it correctly you win',
 );
 
 if (thingToRemember !== null) {
   let displayTheText = confirm(
-    "would you like to see your text one more time?"
+    'would you like to see your text one more time?',
   );
   if (displayTheText) {
     alert(thingToRemember);
   }
-  let guess = prompt("now try to remember what it was:");
+  let guess = prompt('now try to remember what it was:');
   if (guess !== null) {
     if (guess === thingToRemember) {
-      alert("you win!");
+      alert('you win!');
     } else {
-      alert("try again.");
+      alert('try again.');
     }
   }
 }
 
-alert("good bye");
+alert('good bye');
 ```
 
 </details>
@@ -224,7 +224,7 @@ variables to see how the program behaves with different values:
 <summary>🥚 example not-interactive exercise</summary>
 
 ```js
-"use strict";
+'use strict';
 let value = -1;
 // let value = -0.5;
 // let value = 0;
@@ -233,13 +233,13 @@ let value = -1;
 
 let message;
 if (value < 0) {
-  message = "too small";
+  message = 'too small';
 } else if (value === 0) {
-  message = "perfect";
+  message = 'perfect';
 } else if (value > 0) {
-  message = "too big";
+  message = 'too big';
 } else {
-  message = "this path is unreachable!";
+  message = 'this path is unreachable!';
 }
 
 console.log(message);

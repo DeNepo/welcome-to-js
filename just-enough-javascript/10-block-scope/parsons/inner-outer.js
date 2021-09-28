@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /* this exercise has 2 extra lines */
 /* parsons-collapse: hint
@@ -9,16 +9,16 @@
   3. compare greeting to 'bye'
 */
 
-let greeting = "hello";
+let greeting = 'hello';
 
 {
-  let newGreeting = "bye";
+  let newGreeting = 'bye';
   greeting = newGreeting;
 }
 
-console.log(greeting === "bye");
+console.log(greeting === 'bye');
 
 // ------------
 
 let greeting = newGreeting; // distractor
-let newGreeting = "bye"; // distractor
+let newGreeting = 'bye'; // distractor

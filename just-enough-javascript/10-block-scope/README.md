@@ -5,11 +5,11 @@ block scope out there, but let's see if you can come up with your own after
 studying these examples.
 
 ```js
-"use strict";
-console.log("-- block scope --");
+'use strict';
+console.log('-- block scope --');
 
 {
-  let innerVariable = "not available outside the curly braces";
+  let innerVariable = 'not available outside the curly braces';
 }
 innerVariable; // ReferenceError
 ```
@@ -18,19 +18,19 @@ innerVariable; // ReferenceError
 <summary>🥚 inner and outer scope</summary>
 
 ```js
-"use strict";
-console.log("-- block scope: inner and outer scope --");
+'use strict';
+console.log('-- block scope: inner and outer scope --');
 
-let outerVariable = "declared outside";
+let outerVariable = 'declared outside';
 console.log(outerVariable); // 'declared outside'
 
 // begin a new block scope
 {
   // variables declared outside of curly are available inside the curly braces
-  outerVariable = "assigned inside";
+  outerVariable = 'assigned inside';
   console.log(outerVariable); // 'assigned inside'
 
-  let innerVariable = "declared inside";
+  let innerVariable = 'declared inside';
   console.log(innerVariable); // 'declared inside'
 }
 
@@ -43,8 +43,8 @@ console.log(outerVariable); // 'assigned inside'
 <summary>🥚 shadowing</summary>
 
 ```js
-"use strict";
-console.log("-- block scope: shadowing --");
+'use strict';
+console.log('-- block scope: shadowing --');
 
 // shadowing is when you declare a variable inside a scope
 //  that has the same name as a variable in the outer scope
@@ -52,15 +52,15 @@ console.log("-- block scope: shadowing --");
 // you should avoid variable shadowing
 //  it makes your code harder to understand
 
-let favoriteTree = "palm";
+let favoriteTree = 'palm';
 console.log(favoriteTree); // 'palm'
 {
   // the outer variable is "replaced" inside by the new variable
   // it's no longer possible to modify the outer variable from the inner scope
-  let favoriteTree = "date"; // no error!
+  let favoriteTree = 'date'; // no error!
   console.log(favoriteTree); // 'date'
 
-  favoriteTree = "cedar";
+  favoriteTree = 'cedar';
   console.log(favoriteTree); // 'cedar'
 }
 console.log(favoriteTree); // 'palm'
@@ -79,12 +79,12 @@ but now you can make some mistakes that weren't possible before:
 <summary>🥚 declaring in a scope, using out of scope</summary>
 
 ```js
-"use strict";
-console.log("-- declaring in a scope, using out of scope --");
+'use strict';
+console.log('-- declaring in a scope, using out of scope --');
 
 // begin a new block scope
 {
-  let innerVariable = "declared inside";
+  let innerVariable = 'declared inside';
   console.log(innerVariable); // 'declared inside'
 }
 
@@ -104,19 +104,19 @@ chapters).
 <summary>🥚 nested scopes</summary>
 
 ```js
-"use strict";
+'use strict';
 // hint: try the 'variables' button
-console.log("-- nested scopes --");
+console.log('-- nested scopes --');
 
-let outer = "a";
+let outer = 'a';
 {
-  let inner = "-";
+  let inner = '-';
   {
-    let innerInner = "b";
+    let innerInner = 'b';
     outer = outer + inner + innerInner;
   }
   {
-    let innerInner = "c";
+    let innerInner = 'c';
     outer = outer + inner + innerInner;
   }
   outer = inner + outer + inner;

@@ -1,12 +1,12 @@
-"use strict";
+'use strict';
 
-let message = "your favorite color is";
+let message = 'your favorite color is';
 
 while (true) {
-  let input = prompt("what is your favorite color?");
+  let input = prompt('what is your favorite color?');
 
   if (input === null) {
-    alert("there is no escape");
+    alert('there is no escape');
     continue;
   }
 

@@ -1,11 +1,11 @@
-"use strict";
+'use strict';
 
 while (true) {
-  let didAgree = confirm("do you agree to our terms of service?");
+  let didAgree = confirm('do you agree to our terms of service?');
   if (didAgree === true) {
-    alert("welcome to social media!");
+    alert('welcome to social media!');
     break;
   }
 
-  alert("not an option, you must agree");
+  alert('not an option, you must agree');
 }

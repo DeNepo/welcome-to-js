@@ -195,22 +195,11 @@ pointing out your mistakes _before_ they cause problems in your program.
 Some linting errors will take some practice to understand and fix, but it will
 be a good use of time.
 
-### `npm run lint:css`
+### `npm run lint:js`
 
-Just like `lint:md`, but for `.css` files. This script will lint all of the CSS
+Just like `lint:md`, but for `.js` files. This script will lint all of the JS
 files in this repository, letting you know if there are any syntax errors or bad
 practices.
-
-### `npm run validate:html`
-
-Validating HTML is sort of like linting, but a little more involved. When you
-validate an HTML file the script will not only check the source code, but
-actually open the file in a _headless browser_ and check the website for
-mistakes.
-
-You can think of a headless browser as a normal browser, but one where you can't
-see the web page. They're generally used for testing and validation when it's
-not important that a user can interact directly with the web page
 
 </details>
 

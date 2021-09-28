@@ -1,12 +1,12 @@
-"use strict";
+'use strict';
 
-let word = "racecar";
+let word = 'racecar';
 // let word = 'bike';
 // let word = 'f';
 // let word = ' i o u ';
 // let word = 'done.';
 
-let reversed = "";
+let reversed = '';
 
 let index = word.length - 1;
 while (index >= 0) {

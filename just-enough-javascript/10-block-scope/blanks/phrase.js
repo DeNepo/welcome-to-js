@@ -1,15 +1,15 @@
-"use strict";
+'use strict';
 
-let phrase = "";
+let phrase = '';
 
 {
-  let word = "hello";
+  let word = 'hello';
   phrase = phrase + word;
 }
 
 {
-  let word = "world";
-  phrase = phrase + " " + word;
+  let word = 'world';
+  phrase = phrase + ' ' + word;
 }
 
-console.log(phrase === "hello world"); // true
+console.log(phrase === 'hello world'); // true

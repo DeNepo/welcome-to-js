@@ -1,16 +1,16 @@
-"use strict";
+'use strict';
 
 let letters = null;
 while (letters === null) {
-  letters = prompt("enter some letters");
+  letters = prompt('enter some letters');
 }
 
-let noVowels = "";
+let noVowels = '';
 for (let character of letters) {
-  if ("aeiouAEIOU".includes(character)) {
+  if ('aeiouAEIOU'.includes(character)) {
     continue;
   }
   noVowels = noVowels + character;
 }
 
-alert(letters + " -> " + noVowels);
+alert(letters + ' -> ' + noVowels);

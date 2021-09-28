@@ -1,7 +1,3 @@
-- which lines can happen after a line
-
----
-
 # While Loops
 
 While loops allow you to write a block of code that will repeat _while_ a
@@ -14,33 +10,33 @@ conditional will only test the value once. A while loop will test the value as
 many times as necessary until it is false.
 
 ```js
-"use strict";
-console.log("-- while --");
+'use strict';
+console.log('-- while --');
 
 let input = null;
 while (input === null) {
-  input = prompt("do not cancel");
+  input = prompt('do not cancel');
 }
 
-alert(input + "!");
+alert(input + '!');
 ```
 
 <details>
 <summary>🥚 while null</summary>
 
 ```js
-"use strict";
-console.log("-- while null --");
+'use strict';
+console.log('-- while null --');
 
 let input = null;
 
 // continue prompting the user until they enter
 //  an empty string is ok, because it is not canceling
 while (input === null) {
-  input = prompt("do not cancel");
+  input = prompt('do not cancel');
 }
 
-alert(input + "!");
+alert(input + '!');
 ```
 
 </details>
@@ -48,18 +44,18 @@ alert(input + "!");
 <summary>🥚 while null or empty string</summary>
 
 ```js
-"use strict";
-console.log("-- while null or empty string --");
+'use strict';
+console.log('-- while null or empty string --');
 
 let input = null;
 
 // continue prompting the user until they enter something
 //  an empty string is not allowed!
-while (input === null || input === "") {
-  input = prompt("enter something");
+while (input === null || input === '') {
+  input = prompt('enter something');
 }
 
-alert(input + "!");
+alert(input + '!');
 ```
 
 </details>
@@ -67,7 +63,7 @@ alert(input + "!");
 <summary>🥚 while not "bread"</summary>
 
 ```js
-"use strict";
+'use strict';
 console.log('-- while not "bread" --');
 
 let input = null;
@@ -75,11 +71,11 @@ let input = null;
 // continue prompting the user until they enter "bread"
 //  this loop is different because it finishes when the user's input IS a specific value
 //  the other loops ended when the user's input was NOT a specific value
-while (input !== "bread") {
+while (input !== 'bread') {
   input = prompt('enter "bread"');
 }
 
-alert(input + "!");
+alert(input + '!');
 ```
 
 </details>
@@ -87,18 +83,18 @@ alert(input + "!");
 <summary>🥚 while not "bread" and not "water"</summary>
 
 ```js
-"use strict";
+'use strict';
 console.log('-- while not "bread" or "water" --');
 
 let input = null;
 
 // continue prompting the user until they enter "bread" or "water"
 //  notice that this example use !== with &&, but the previous used === with ||
-while (input !== "bread" && input !== "water") {
+while (input !== 'bread' && input !== 'water') {
   input = prompt('enter "bread" or "water"');
 }
 
-alert(input + "!");
+alert(input + '!');
 ```
 
 </details>
@@ -118,13 +114,13 @@ This is good for loops where the logic is simple:
 <summary>🥚 logic in condition</summary>
 
 ```js
-"use strict";
+'use strict';
 // yup, nothing new here
 // all of the examples so far have been written this way
 
 let input = null;
 while (input === null) {
-  input = prompt("do not cancel");
+  input = prompt('do not cancel');
 }
 alert(input);
 ```
@@ -143,16 +139,16 @@ Boolean flags are useful when the logic of your for loop is more complicated:
 <summary>🐣 boolean flag</summary>
 
 ```js
-"use strict";
-let input = "";
+'use strict';
+let input = '';
 let prompting = true;
 while (prompting) {
   input = prompt(
-    'enter something longer than 4 characters, or "cancel" to leave'
+    'enter something longer than 4 characters, or "cancel" to leave',
   );
   if (input === null) {
     prompting = false;
-    input = "you canceled";
+    input = 'you canceled';
   } else if (input.length > 4) {
     prompting = false;
   }
@@ -167,8 +163,8 @@ alert(input);
 ## Infinite Loops
 
 ```js
-"use strict";
-console.log("-- while true --");
+'use strict';
+console.log('-- while true --');
 
 // this is the simplest infinite loop
 //  while loops continue so long as the condition is true
@@ -176,7 +172,7 @@ console.log("-- while true --");
 
 while (true) {
   // the only way to end this loop is to close the browser tab
-  console.log("... forever ...");
+  console.log('... forever ...');
 }
 ```
 
@@ -200,17 +196,17 @@ in your professional code, but it's very helpful while you're learning.
 <summary>loop guard: 10 iterations</summary>
 
 ```js
-"use strict";
-console.log("-- loop guard: 10 iterations --");
+'use strict';
+console.log('-- loop guard: 10 iterations --');
 
 let loopGuard = 0;
 while (true) {
   loopGuard = loopGuard + 1;
   if (loopGuard > 10) {
-    throw new RangeError("loopGuard exceeded 10 iterations");
+    throw new RangeError('loopGuard exceeded 10 iterations');
   }
 
-  console.log("(not) forever");
+  console.log('(not) forever');
 }
 ```
 

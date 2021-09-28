@@ -1,16 +1,16 @@
-"use strict";
+'use strict';
 
-let input = prompt("do whatever you want");
+let input = prompt('do whatever you want');
 
-let message = "your input is ";
+let message = 'your input is ';
 if (input === null) {
-  let maybeNot = "";
+  let maybeNot = '';
   if (input.length !== 0) {
-    maybeNot = "not ";
+    maybeNot = 'not ';
   }
-  message = message + maybeNot + "empty";
+  message = message + maybeNot + 'empty';
 } else {
-  message = message + "null";
+  message = message + 'null';
 }
 
 alert(message);

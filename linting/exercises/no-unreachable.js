@@ -5,23 +5,23 @@
 
 */
 
-let input = "";
+let input = '';
 
-while (input === "") {
-  input = prompt("input something");
+while (input === '') {
+  input = prompt('input something');
 
   if (input === null) {
-    alert("no canceling");
+    alert('no canceling');
     continue;
   }
 
-  if (input === "") {
-    alert("nope, enter someething");
+  if (input === '') {
+    alert('nope, enter someething');
     continue;
   }
 
   continue;
-  alert("try again");
+  alert('try again');
 }
 
-alert("input: " + input);
+alert('input: ' + input);

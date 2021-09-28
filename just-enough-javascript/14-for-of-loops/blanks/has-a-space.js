@@ -1,16 +1,16 @@
-"use strict";
+'use strict';
 
 let input = null;
 while (input === null) {
   input = prompt(
-    "enter some text, the program will check if it has any spaces"
+    'enter some text, the program will check if it has any spaces',
   );
 }
 
 let hasASpace = false;
 
 for (let char of input) {
-  if (char === " ") {
+  if (char === ' ') {
     hasASpace = true;
     break;
   }

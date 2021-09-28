@@ -1,10 +1,10 @@
-"use strict";
+'use strict';
 
 /* this exercise has 3 extra lines */
 
 /* 1. declare 3 variables */
-let a = "y";
-let b = "x";
+let a = 'y';
+let b = 'x';
 let temp;
 
 /* 2. swap the values between a and b */
@@ -18,9 +18,9 @@ b = a;
 a = temp;
 
 /* 3. compare the final values */
-console.log(a === "x");
-console.log(b === "y");
-console.log(temp === "x");
+console.log(a === 'x');
+console.log(b === 'y');
+console.log(temp === 'x');
 
 // --------------
 

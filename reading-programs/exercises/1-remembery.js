@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /* -- 1. show the instructions --
 
@@ -22,13 +22,13 @@ alert(`Guess 3 phrases in 3 tries
   - is it possible that all 3 `phrase` variables have the same value?
 */
 
-alert("Player 2: go hide");
+alert('Player 2: go hide');
 
-let phrase1 = prompt("Player 1, enter your first phrase:");
-let phrase2 = prompt("Player 1, enter your second phrase:");
-let phrase3 = prompt("Player 1, enter your third phrase:");
+let phrase1 = prompt('Player 1, enter your first phrase:');
+let phrase2 = prompt('Player 1, enter your second phrase:');
+let phrase3 = prompt('Player 1, enter your third phrase:');
 
-alert("Player 2, get back here");
+alert('Player 2, get back here');
 
 /* -- 3. player 2 tries to remember the phrases --
 
@@ -38,7 +38,7 @@ alert("Player 2, get back here");
 */
 
 alert(
-  "Player 2, remember these:" +
+  'Player 2, remember these:' +
     '\n1. "' +
     phrase1 +
     '"' +
@@ -47,12 +47,12 @@ alert(
     '"' +
     '\n3. "' +
     phrase3 +
-    '"'
+    '"',
 );
 
-let guess1 = prompt("Player 2, guess the first phrase:");
-let guess2 = prompt("Player 2, guess the second phrase:");
-let guess3 = prompt("Player 2, guess the third phrase:");
+let guess1 = prompt('Player 2, guess the first phrase:');
+let guess2 = prompt('Player 2, guess the second phrase:');
+let guess3 = prompt('Player 2, guess the third phrase:');
 
 /* -- 4. player 2's score is calculated --
 

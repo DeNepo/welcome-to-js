@@ -1,14 +1,14 @@
-"use strict";
+'use strict';
 
 let letters = null;
 while (letters === null) {
-  letters = prompt("enter some letters");
+  letters = prompt('enter some letters');
 }
 
 let hasAVowel = false;
 
 for (let letter of letters) {
-  if ("aeiouAEIOU".includes(letter)) {
+  if ('aeiouAEIOU'.includes(letter)) {
     hasAVowel = true;
     break;
   }

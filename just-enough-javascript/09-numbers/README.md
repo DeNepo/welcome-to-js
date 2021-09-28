@@ -1,4 +1,4 @@
-## Numbers
+# Numbers
 
 A primitive type used to represent numbers. The programs in this module used
 mostly strings, but there will be few numbers.
@@ -11,8 +11,8 @@ module - Debugging. For now you just need to know this:
 <summary>🥚 typeof</summary>
 
 ```js
-"use strict";
-console.log("-- typeof numbers --");
+'use strict';
+console.log('-- typeof numbers --');
 
 // you write numbers in JS by writing numbers. without quotes
 console.log(-1); // -1
@@ -30,8 +30,8 @@ console.log(typeof 12.3); // 'number'
 <summary>🐣  strict equality</summary>
 
 ```js
-"use strict";
-console.log("-- numbers: strict equality --");
+'use strict';
+console.log('-- numbers: strict equality --');
 
 // are two numbers the same?
 console.log(1 === 1.0); // true
@@ -44,7 +44,7 @@ console.log(0.3 === 3.0); // false
 
 // comparing with any other type will always be false
 console.log(1 === true); // false
-console.log(12 === "12"); // false
+console.log(12 === '12'); // false
 console.log(0 === null); // false
 ```
 
@@ -53,8 +53,8 @@ console.log(0 === null); // false
 <summary>🐣  strict inequality</summary>
 
 ```js
-"use strict";
-console.log("-- numbers: strict inequality --");
+'use strict';
+console.log('-- numbers: strict inequality --');
 // this will always be the opposite of strict equality
 
 // are two numbers different?
@@ -68,7 +68,7 @@ console.log(0.3 !== 3.0); // true
 
 // comparing with any other type will always be true
 console.log(1 !== true); // true
-console.log(12 !== "12"); // true
+console.log(12 !== '12'); // true
 console.log(0 !== null); // true
 ```
 
@@ -77,25 +77,25 @@ console.log(0 !== null); // true
 <summary>🐣 arithmetic</summary>
 
 ```js
-"use strict";
-console.log("-- numbers: arithmetic --");
+'use strict';
+console.log('-- numbers: arithmetic --');
 
-console.log(" +");
+console.log(' +');
 // adding numbers
 console.log(1 + 1); // 2
 console.log(-1 + 1); // 0
 
-console.log(" -");
+console.log(' -');
 // subtracting numbers
 console.log(3 - 2); // 1
 console.log(2 - 3); // -1
 
-console.log(" *");
+console.log(' *');
 // multiplying numbers
 console.log(3 * 2); // 6
 console.log(3 * 5); // 15
 
-console.log(" /");
+console.log(' /');
 // dividing numbers
 console.log(30 / 2); // 15
 console.log(12 * 3); // 4
@@ -107,28 +107,28 @@ console.log(12 * 3); // 4
 <summary>🐣  comparisons</summary>
 
 ```js
-"use strict";
-console.log("-- relational operators --");
+'use strict';
+console.log('-- relational operators --');
 
-console.log(" >");
+console.log(' >');
 // is the left number bigger than the right one?
 console.log(3 > 22); // false
 console.log(22 > 3); // true
 console.log(1 > 1); // false
 
-console.log(" <");
+console.log(' <');
 // is the left number smaller than the right one?
 console.log(3 < 22); // true
 console.log(22 < 3); // false
 console.log(1 < 1); // false
 
-console.log(" >=");
+console.log(' >=');
 // is the left number bigger than OR equal to the right one?
 console.log(3 >= 22); // false
 console.log(22 >= 3); // true
 console.log(1 >= 1); // true
 
-console.log(" <=");
+console.log(' <=');
 // is the left number smaller than OR equal to the right one?
 console.log(3 <= 22); // true
 console.log(22 <= 3); // false

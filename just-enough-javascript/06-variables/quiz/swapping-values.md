@@ -1,11 +1,11 @@
 # Swapping Values
 
 ```js
-"use strict"; // line 1
+'use strict'; // line 1
 
 // declare and initialize variables
-let a = "y"; // line 2
-let b = "x"; // line 3
+let a = 'y'; // line 2
+let b = 'x'; // line 3
 let temp; // line 4
 
 // swap the values stored in `a` and `b`

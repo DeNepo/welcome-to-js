@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-let animal = "cat";
+let animal = 'cat';
 // let animal = 'horse';
 // let animal = 'fish';
 // let animal = 'whale';
@@ -8,9 +8,9 @@ let animal = "cat";
 // let animal = 'snake';
 // let animal = 'dove';
 
-let reversed = "";
+let reversed = '';
 for (let letter of animal) {
   reversed = letter + reversed;
 }
 
-console.log(animal + " -> " + reversed);
+console.log(animal + ' -> ' + reversed);

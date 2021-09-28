@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /*
   a user can input a non-empty string and all characters which are not letters will be removed
@@ -20,12 +20,12 @@
       'let input = ""' -> 'letinput'
 */
 
-console.log("--- begin program ---");
+console.log('--- begin program ---');
 
 // --- gather user input ---
 let input = _;
 while (_) {}
-console.log("input:", input);
+console.log('input:', input);
 
 // --- declare initial output ---
 let output = _;
@@ -35,10 +35,10 @@ for (let _ of _) {
 }
 
 // --- alert the result ---
-console.log("output:", output);
+console.log('output:', output);
 alert(output);
 
-console.log("--- end program ---");
+console.log('--- end program ---');
 
 /*
   checklist:

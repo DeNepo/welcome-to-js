@@ -1,10 +1,10 @@
-"use strict";
+'use strict';
 
-let excitement = "";
+let excitement = '';
 
 while (excitement !== 10) {
-  excitement = excitement + "!";
+  excitement = excitement + '!';
   console.log(excitement);
 }
 
-console.log("all done.");
+console.log('all done.');

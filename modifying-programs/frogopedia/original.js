@@ -1,15 +1,15 @@
-"use strict";
+'use strict';
 
-let animal = "frog";
+let animal = 'frog';
 
-let userInput = "";
+let userInput = '';
 let inputIsAboutAnimal = false;
 
 while (!inputIsAboutAnimal) {
-  userInput = prompt("tell me something about " + animal + "s");
+  userInput = prompt('tell me something about ' + animal + 's');
 
-  if (userInput === "" || userInput === null) {
-    alert("that is not something");
+  if (userInput === '' || userInput === null) {
+    alert('that is not something');
     continue;
   }
 
@@ -18,13 +18,13 @@ while (!inputIsAboutAnimal) {
     continue;
   }
 
-  alert("nope, not about " + animal + "s.  try again.");
+  alert('nope, not about ' + animal + 's.  try again.');
 }
 
 alert(
-  "i just learned something cool about " +
+  'i just learned something cool about ' +
     animal +
     's!\n\n- "' +
     userInput +
-    '"'
+    '"',
 );

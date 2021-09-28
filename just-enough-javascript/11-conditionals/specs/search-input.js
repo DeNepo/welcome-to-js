@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /*
   a user can enter two values and learn if the first includes the second.
@@ -31,14 +31,14 @@
       'Java Script', 'as' -> '"Java Script" does not include "as"'
 */
 
-console.log("--- begin program ---");
+console.log('--- begin program ---');
 
 // --- gather user input ---
 let text = prompt(_);
-console.log("text:", text);
+console.log('text:', text);
 
 let query = prompt(_);
-console.log("query:", query);
+console.log('query:', query);
 
 // --- declare initial output ---
 let output = _;
@@ -46,10 +46,10 @@ let output = _;
 // --- create final output ---
 
 // --- alert the result ---
-console.log("output:", output);
+console.log('output:', output);
 alert(output);
 
-console.log("--- end program ---");
+console.log('--- end program ---');
 
 /*
   checklist:

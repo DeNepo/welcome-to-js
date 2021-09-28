@@ -5,11 +5,11 @@
 
 */
 
-let likesApples = confirm("do you like apples?");
+let likesApples = confirm('do you like apples?');
 
-let greeting = "";
+let greeting = '';
 if (likesApples) {
-  greeting = "hello, welcome to my apple garden";
+  greeting = 'hello, welcome to my apple garden';
 } else {
-  greeting = "hello, welcome to my orange garden";
+  greeting = 'hello, welcome to my orange garden';
 }

@@ -1,8 +1,8 @@
-"use strict";
+'use strict';
 
 /* -- declare program variables -- */
 
-let madlib = "";
+let madlib = '';
 
 let noun = null;
 let adjective = null;
@@ -11,26 +11,26 @@ let verb = null;
 /* -- fill in the adjective -- */
 
 while (adjective === null) {
-  adjective = prompt("enter an adjective");
+  adjective = prompt('enter an adjective');
 }
 
-madlib = "the " + adjective;
+madlib = 'the ' + adjective;
 
 /* -- fill in the noun -- */
 
 while (noun === null) {
-  noun = prompt("enter a noun");
+  noun = prompt('enter a noun');
 }
 
-madlib = madlib + " " + noun;
+madlib = madlib + ' ' + noun;
 
 /* -- fill in the verb -- */
 
 while (verb === null) {
-  verb = prompt("enter a verb");
+  verb = prompt('enter a verb');
 }
 
-madlib = madlib + " likes to " + verb;
+madlib = madlib + ' likes to ' + verb;
 
 /* -- make the user laugh -- */
 

@@ -1,20 +1,20 @@
-"use strict";
+'use strict';
 
 let limit = 5;
 
-let phrase = "";
+let phrase = '';
 
 let longEnough = false;
 while (!longEnough) {
-  phrase = prompt("enter anything longer than " + limit + " characters");
+  phrase = prompt('enter anything longer than ' + limit + ' characters');
 
   if (phrase === null) {
-    alert("there is no escape");
+    alert('there is no escape');
   } else if (phrase.length <= limit) {
-    alert("too short");
+    alert('too short');
   } else {
     longEnough = true;
   }
 }
 
-alert('"' + phrase + '" is ' + phrase.length + " characters long");
+alert('"' + phrase + '" is ' + phrase.length + ' characters long');

@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /* this exercise has 0 extra lines */
 
@@ -11,14 +11,14 @@
       2. incorrect
 */
 
-let input = prompt("something longer than 4 characters:");
+let input = prompt('something longer than 4 characters:');
 
 if (input === null) {
-  alert(":(");
+  alert(':(');
 } else {
   if (input.length > 4) {
-    alert("perfect");
+    alert('perfect');
   } else {
-    alert("too short!");
+    alert('too short!');
   }
 }

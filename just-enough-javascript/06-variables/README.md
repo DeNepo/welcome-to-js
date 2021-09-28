@@ -5,12 +5,12 @@ Variables allow you to save values to use later in your program.
 They're kind of like a box that can only hold one thing at a time.
 
 ```js
-"use strict";
+'use strict';
 // let -> the declaration
 // iAm -> the variable name
 // = -> the assignment operator
 // 'a variable' -> the initial value
-let iAm = "a variable";
+let iAm = 'a variable';
 console.log(iAm);
 ```
 
@@ -18,23 +18,23 @@ console.log(iAm);
 <summary>🥚 declare, initialize, assign</summary>
 
 ```js
-"use strict";
-console.log("-- declare, initialize, assign --");
+'use strict';
+console.log('-- declare, initialize, assign --');
 
 // declare a value and initialize it's value
-let favoriteTree = "palm";
+let favoriteTree = 'palm';
 console.log(favoriteTree); // 'palm'
 
 // assigning a different value
-favoriteTree = "oak";
+favoriteTree = 'oak';
 console.log(favoriteTree); // 'oak'
 
 // declare variable with an initial value
-let bread = "fresh";
+let bread = 'fresh';
 console.log(bread); // 'fresh'
 
 // re-assign the variable
-bread = "stale";
+bread = 'stale';
 console.log(bread); // 'stale'
 ```
 
@@ -43,8 +43,8 @@ console.log(bread); // 'stale'
 <summary>🥚 uninitialized variables</summary>
 
 ```js
-"use strict";
-console.log("-- uninitialized variables --");
+'use strict';
+console.log('-- uninitialized variables --');
 
 // declaring a variable without an initial value
 //  it will be initialized to undefined by default
@@ -52,7 +52,7 @@ let uninitialized;
 console.log(uninitialized); // undefined
 
 // you can assign values to uninitialized variables
-uninitialized = "something";
+uninitialized = 'something';
 console.log(uninitialized); // 'something'
 
 // initializing a variable to undefined does the same thing
@@ -81,8 +81,8 @@ different ways you can use a variable in your programs.
 <summary>🥚 different types</summary>
 
 ```js
-"use strict";
-console.log("-- variables: different types --");
+'use strict';
+console.log('-- variables: different types --');
 // variables can store any type
 //  and you can change the types all you want
 
@@ -91,7 +91,7 @@ let variable = true;
 console.log(typeof variable); // 'boolean'
 
 // assign a string to the variable
-variable = "computers";
+variable = 'computers';
 console.log(typeof variable); // 'string'
 
 // assign undefined to the variable
@@ -108,8 +108,8 @@ console.log(typeof variable); // 'boolean'
 <summary>🥚 assigning results</summary>
 
 ```js
-"use strict";
-console.log("-- assigning results --");
+'use strict';
+console.log('-- assigning results --');
 // you can assign the result of an operation to a variable
 
 // boolean logic
@@ -117,15 +117,15 @@ let falseOrTrue = false || true;
 console.log(falseOrTrue); // true
 
 // string concatenation
-let favoriteTree = "p" + "a" + "l" + "m";
+let favoriteTree = 'p' + 'a' + 'l' + 'm';
 console.log(favoriteTree); // 'palm'
 
 // replacing things in a string
-let noJoy = "enjoy life".replaceAll("joy", "");
+let noJoy = 'enjoy life'.replaceAll('joy', '');
 console.log(noJoy); // 'en life'
 
 // searching a string with .includes
-let hasAnApple = "bananaapplemango".includes("apple");
+let hasAnApple = 'bananaapplemango'.includes('apple');
 console.log(hasAnApple); // true
 ```
 
@@ -134,29 +134,29 @@ console.log(hasAnApple); // true
 <summary>🥚 reading variables</summary>
 
 ```js
-"use strict";
-console.log("-- reading variables --");
+'use strict';
+console.log('-- reading variables --');
 
 // you can read the values stored in a variable
 //  and use them anywhere you can use the value it stores
 
 // operate on a string stored in a variable
-let car = "vrooom";
+let car = 'vrooom';
 let loudCar = car.toUpperCase();
-let excitedCar = loudCar.replaceAll("O", "!");
+let excitedCar = loudCar.replaceAll('O', '!');
 console.log(excitedCar); // 'VR!!!M'
 
 // use a string stored in a variable as an argument
-let oldLetter = "f";
-let newLetter = "d";
-let happyAnimal = "fog".replaceAll(oldLetter, newLetter);
+let oldLetter = 'f';
+let newLetter = 'd';
+let happyAnimal = 'fog'.replaceAll(oldLetter, newLetter);
 console.log(happyAnimal); // 'dog'
 
 // all together
-let characterName = "  harry potter   ";
+let characterName = '  harry potter   ';
 let trimmedName = characterName.trim(); // 'harry potter'
 
-let bookTitle = "Harry Potter and the Magical Thing";
+let bookTitle = 'Harry Potter and the Magical Thing';
 let titleLowerCase = bookTitle.toLowerCase(); // 'harry potter and the magical thing'
 
 let includesName = titleLowerCase.includes(trimmedName);
@@ -168,8 +168,8 @@ console.log(includesName); // true
 <summary>🥚 swapping values</summary>
 
 ```js
-"use strict";
-console.log("-- swapping values --");
+'use strict';
+console.log('-- swapping values --');
 
 /*
   swapping values between two variables is a good little exericse
@@ -220,19 +220,19 @@ strict mode, but that's a story for another day. All the exercises in this repo
 are run in strict mode).
 
 ```js
-"use strict";
-console.log("-- not declaring 1 --");
+'use strict';
+console.log('-- not declaring 1 --');
 
 // let animal; // uncomment this line to fix the error
-animal = "horse"; // ReferenceError
+animal = 'horse'; // ReferenceError
 ```
 
 ```js
-"use strict";
-console.log("-- not declaring 2 --");
+'use strict';
+console.log('-- not declaring 2 --');
 
 // a common mistake is spelling your variables incorrectly
-let spellingMistake = "oops!";
+let spellingMistake = 'oops!';
 console.log(spelingMistake); // ReferenceError
 ```
 
@@ -241,14 +241,14 @@ console.log(spelingMistake); // ReferenceError
 <summary>🥚 using a variable before it is declared</summary>
 
 ```js
-"use strict";
-console.log("-- using before declaration --");
+'use strict';
+console.log('-- using before declaration --');
 
 // read the variable - will throw an error!
 console.log(favoriteColor);
 
 // declare and initialize the variable
-let favoriteColor = "red";
+let favoriteColor = 'red';
 
 // read the variable
 console.log(favoriteColor);
@@ -268,15 +268,15 @@ error.
 - Firefox: `SyntaxError: redeclaration of let _`
 
 ```js
-"use strict";
+'use strict';
 // ! this log never happens !
 //  syntax errors happen before the program runs
 //  so no single line of code will happen
 //  you will learn more about program life cycle in Debugging
-console.log("-- declaring twice --");
+console.log('-- declaring twice --');
 
-let vegetable = "carrot";
-let vegetable = "potato"; // SyntaxError
+let vegetable = 'carrot';
+let vegetable = 'potato'; // SyntaxError
 // vegetable = 'potato'; // no error
 ```
 
@@ -294,11 +294,11 @@ many rules and the rules aren't very complicated, you just need to learn them:
 - [launchcode](ntro-to-professional-web-dev/chapters/data-and-variables/more-on-variables.html#naming-variables)
 
 <details>
-<summary>🥚 variable names <em>can</em> use numbers, letters, $, or _</summary>
+<summary>🥚 variable names <strong>can</strong> use numbers, letters, $, or _</summary>
 
 ```js
-"use strict";
-console.log("-- valid variable names --");
+'use strict';
+console.log('-- valid variable names --');
 // all of these variable names are ok
 
 let $ = 1;
@@ -313,16 +313,16 @@ let b_e_l_g_i_u_m = 7;
 
 </details>
 <details>
-<summary>🥚 variable names <em>are</em> case-sensitive</summary>
+<summary>🥚 variable names <strong>are</strong> case-sensitive</summary>
 
 ```js
-"use strict";
-console.log("-- variable names are case-sensitive --");
+'use strict';
+console.log('-- variable names are case-sensitive --');
 
 // notice, there is no error.
 //  JS does not consider this as declaring the same variable twice
-let javascript = "a programming language";
-let JavaScript = "upper case!";
+let javascript = 'a programming language';
+let JavaScript = 'upper case!';
 
 console.log(javascript); // 'a programming language'
 console.log(JavaScript); // 'upper case!'
@@ -330,7 +330,7 @@ console.log(JavaScript); // 'upper case!'
 
 </details>
 <details>
-<summary>🥚 variable names can <em>not</em> start with a number</summary>
+<summary>🥚 variable names can <strong>not</strong> start with a number</summary>
 
 ```js
 'use strict';
@@ -368,7 +368,7 @@ let hack your future = 'will throw an error';
 
 </details>
 <details>
-<summary>🥚 variable names can not be <em>reserved words</em></summary>
+<summary>🥚 variable names can not be <strong>reserved words</strong></summary>
 <br>
 
 In JavaScript there are some words that you cannot use as variable names. These
@@ -392,8 +392,8 @@ let function = 'will throw an error';
 ```
 
 ```js
-"use strict";
-let public = "will throw an error";
+'use strict';
+let public = 'will throw an error';
 ```
 
 all the reserved works, in a list:
@@ -417,9 +417,9 @@ names help, and bad names can be confusing:
 <summary>🐣 confusing variable names</summary>
 
 ```js
-"use strict";
-let thisThing = "hello";
-let thatThing = "";
+'use strict';
+let thisThing = 'hello';
+let thatThing = '';
 
 for (let oneThing of thisThing) {
   thatThing = oneThing + thatThing;
@@ -434,9 +434,9 @@ console.log(thatThing); // 'olleh'
 <summary>🐣 helpful variable names</summary>
 
 ```js
-"use strict";
-let forwards = "hello";
-let backwards = "";
+'use strict';
+let forwards = 'hello';
+let backwards = '';
 
 for (let nextLetter of forwards) {
   backwards = nextLetter + backwards;
@@ -465,17 +465,17 @@ are just examples, not suggestions ;)
 <summary>🐥 assigning to a built-in variable</summary>
 
 ```js
-"use strict";
+'use strict';
 // this log will work because console has not been reassigned
-console.log("-- assigning to console --");
+console.log('-- assigning to console --');
 
-console = "hello";
+console = 'hello';
 
 // see? it's a string!
 alert(console);
 
 // this log will not work, console now stores a string
-console.log("will throw an error");
+console.log('will throw an error');
 ```
 
 </details>
@@ -483,27 +483,27 @@ console.log("will throw an error");
 <summary>🐥 declaring a built-in name</summary>
 
 ```js
-"use strict";
-console.log("-- declaring a variable named alert 1 --");
+'use strict';
+console.log('-- declaring a variable named alert 1 --');
 
 // this will not work!
 //  JS treats this like using a variable before it's declaration
-alert("huh?"); // ReferenceError - use before declare
+alert('huh?'); // ReferenceError - use before declare
 
-let alert = "hello";
+let alert = 'hello';
 
 console.log(alert);
 ```
 
 ```js
-"use strict";
-console.log("-- declaring a variable named alert 2 --");
+'use strict';
+console.log('-- declaring a variable named alert 2 --');
 
-let alert = "hello";
+let alert = 'hello';
 
 console.log(alert);
 
-alert("will throw an error"); // TypeError - not a function
+alert('will throw an error'); // TypeError - not a function
 ```
 
 </details>

@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 let number = 0;
 // let number = 0.5;
@@ -14,7 +14,7 @@ let number = 0;
 // let number = 5.5;
 // let number = 6;
 
-console.log(number + " between 1 and 2, OR between 4 and 5 (exclusive)");
+console.log(number + ' between 1 and 2, OR between 4 and 5 (exclusive)');
 
 // number is greater than 1 AND is less than 2 (exclusive)
 console.log(_);

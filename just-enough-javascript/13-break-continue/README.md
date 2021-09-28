@@ -9,30 +9,30 @@ loops for _control flow_.
   condition
 
 ```js
-"use strict";
+'use strict';
 let input = null;
 
 // normally while (true) would create an infinite loop
 //  you can use `break` to exit the loop, so it is not infinite
 while (true) {
-  input = prompt("enter something");
+  input = prompt('enter something');
 
   if (input === null) {
     // if the user canceled, repeat the loop
     //  the next conditional will be skipped
-    alert("there is no escape");
+    alert('there is no escape');
     continue;
   }
 
-  if (input !== "") {
+  if (input !== '') {
     // exit the loop completely
     break;
   }
 
-  alert("no empty text allowed");
+  alert('no empty text allowed');
 }
 
-alert(input + "!");
+alert(input + '!');
 ```
 
 ---

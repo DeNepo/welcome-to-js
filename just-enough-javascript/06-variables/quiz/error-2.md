@@ -1,13 +1,13 @@
 # Error 2
 
 ```js
-"use strict"; // line 1
+'use strict'; // line 1
 
-animal = "dog"; // line 2
+animal = 'dog'; // line 2
 
 console.log(animal); // line 3
 
-let animal = "cat"; // line 4
+let animal = 'cat'; // line 4
 ```
 
 ## Which error will be thrown by this code?

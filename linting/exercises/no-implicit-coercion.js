@@ -8,12 +8,12 @@
 
 */
 
-let userInput = prompt("enter something or nothing");
+let userInput = prompt('enter something or nothing');
 
 let didInputSomething = !!userInput;
 
 if (didInputSomething) {
-  alert("you inputted something");
+  alert('you inputted something');
 } else {
-  alert("you inputted nothing");
+  alert('you inputted nothing');
 }

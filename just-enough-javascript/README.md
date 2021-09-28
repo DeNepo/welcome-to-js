@@ -135,7 +135,7 @@ the bigger picture and see more clearly the _strategy_ (or _algorithm_) of a
 program.
 
 <details>
-<summary>links about <em>values</em> trace tables</summary>
+<summary>links about <strong>values</strong> trace tables</summary>
 <br>
 
 - videos
@@ -165,7 +165,7 @@ in and (sometimes) a comment describing what should happen. Some exercises will
 simple like this:
 
 ```js
-"use strict";
+'use strict';
 console.log(true && _); // true
 ```
 
@@ -233,7 +233,7 @@ are still many more solutions):
 <summary>the challenge</summary>
 
 ```js
-"use strict";
+'use strict';
 /*
   1. ===== the user story =====
 
@@ -254,11 +254,11 @@ are still many more solutions):
 
 // 3.  ===== the starter code =====
 
-console.log("--- begin program ---");
+console.log('--- begin program ---');
 
 // --- gather user input ---
 let input = prompt(_);
-console.log("input:", input);
+console.log('input:', input);
 
 // --- declare initial output ---
 let output = _;
@@ -266,10 +266,10 @@ let output = _;
 // --- create final output ---
 
 // --- alert the result ---
-console.log("output:", output);
+console.log('output:', output);
 alert(output);
 
-console.log("--- end program ---");
+console.log('--- end program ---');
 
 /*
   4. ===== the checklist =====
@@ -292,7 +292,7 @@ console.log("--- end program ---");
 <summary>solution 1</summary>
 
 ```js
-"use strict";
+'use strict';
 /*
   a user can provide any input to a prompt
     - given the input is null, the program is sad
@@ -307,34 +307,34 @@ console.log("--- end program ---");
       'javascript' -> 'javascript!'
 */
 
-console.log("--- begin program ---");
+console.log('--- begin program ---');
 
 // --- gather user input ---
 // maybe not the most clear instructions, but it's good enough for now
-let input = prompt("if you cancel i will be sad. otherwise i will be excited.");
-console.log("input:", input);
+let input = prompt('if you cancel i will be sad. otherwise i will be excited.');
+console.log('input:', input);
 
 // --- declare initial output ---
 // declaring output to an empty string
 //  it will be assigned the correct value in a conditional later on
-let output = "";
+let output = '';
 
 // --- create final output ---
 // input will only be null if the user canceled
 if (input === null) {
   // assign the sad output value because the user canceled
-  output = ":(";
+  output = ':(';
 } else {
   // this is the path for any input that is not from the user canceling
   //  since the user didn't cancel, i assigned added some excitement
-  output = input + "!";
+  output = input + '!';
 }
 
 // --- alert the result ---
-console.log("output:", output);
+console.log('output:', output);
 alert(output);
 
-console.log("--- end program ---");
+console.log('--- end program ---');
 
 /*
   checklist:
@@ -355,7 +355,7 @@ console.log("--- end program ---");
 <summary>solution 2</summary>
 
 ```js
-"use strict";
+'use strict';
 /*
   a user can provide any input to a prompt
     - given the input is null, the program is sad
@@ -370,30 +370,30 @@ console.log("--- end program ---");
       'javascript' -> 'javascript!'
 */
 
-console.log("--- begin program ---");
+console.log('--- begin program ---');
 
 // --- gather user input ---
 // maybe not the most clear instructions, but it's good enough for now
-let input = prompt("give me something to be excited about:");
-console.log("input:", input);
+let input = prompt('give me something to be excited about:');
+console.log('input:', input);
 
 // --- declare initial output ---
 // initialized the output to the sad output, assuming the user canceled
 //  if they didn't cancel, the program will later reassign the correct value
-let output = ":(";
+let output = ':(';
 
 // --- create final output ---
 // check if the user inputted a string value
 if (input !== null) {
   // if they did not cancel, be excited about their input
-  output = input + "!";
+  output = input + '!';
 }
 
 // --- alert the result ---
-console.log("output:", output);
+console.log('output:', output);
 alert(output);
 
-console.log("--- end program ---");
+console.log('--- end program ---');
 
 /*
   checklist:
@@ -414,7 +414,7 @@ console.log("--- end program ---");
 <summary>solution 3</summary>
 
 ```js
-"use strict";
+'use strict';
 /*
   a user can provide any input to a prompt
     - given the input is null, the program is sad
@@ -429,30 +429,30 @@ console.log("--- end program ---");
       'javascript' -> 'javascript!'
 */
 
-console.log("--- begin program ---");
+console.log('--- begin program ---');
 
 // --- gather user input ---
 // maybe not the most clear instructions, but it's good enough for now
-let input = prompt("give me something to be excited about:");
-console.log("input:", input);
+let input = prompt('give me something to be excited about:');
+console.log('input:', input);
 
 // --- declare initial output ---
 // initialize the output to be excited, assuming the user didn't cancel
 //  if they did cancel, the program will later reassign the correct value
-let output = input + "!";
+let output = input + '!';
 
 // --- create final output ---
 // check if the user actually canceled
 if (input === null) {
   // if they did cancel, be sad
-  output = ":(";
+  output = ':(';
 }
 
 // --- alert the result ---
-console.log("output:", output);
+console.log('output:', output);
 alert(output);
 
-console.log("--- end program ---");
+console.log('--- end program ---');
 
 /*
   checklist:

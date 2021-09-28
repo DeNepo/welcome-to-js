@@ -16,16 +16,16 @@ deal with some uncertainty!
 Trace this example and see each type of interaction in action:
 
 ```js
-"use strict";
-console.log("-- user interactions --");
+'use strict';
+console.log('-- user interactions --');
 
-let alertValue = alert("this is an alert");
+let alertValue = alert('this is an alert');
 console.log(alertValue); // undefined
 
-let confirmValue = confirm("this is a confirm");
+let confirmValue = confirm('this is a confirm');
 console.log(confirmValue); // true or false
 
-let promptValue = prompt("this is a prompt");
+let promptValue = prompt('this is a prompt');
 console.log(promptValue); // a string or null
 ```
 
@@ -33,11 +33,11 @@ console.log(promptValue); // a string or null
 <summary>🥚 alert</summary>
 
 ```js
-"use strict";
-console.log("-- alert --");
+'use strict';
+console.log('-- alert --');
 // alert: displays a message to the user
 //  the user can only read the message, they can't input anything to your program
-let alerted = alert("pancakes");
+let alerted = alert('pancakes');
 
 // alert will always return undefined, no matter what
 console.log(alerted); // undefined
@@ -49,8 +49,8 @@ console.log(typeof alerted); // 'undefined'
 <summary>🥚 confirm</summary>
 
 ```js
-"use strict";
-console.log("-- confirm --");
+'use strict';
+console.log('-- confirm --');
 // confirm: display a message and ask the user to say "yes" or "no"
 
 // run this example a few times with your console open. what happens if you:
@@ -58,7 +58,7 @@ console.log("-- confirm --");
 //  click "cancel"?
 //  press the "enter" key on your keyboard?
 //  pres the "esc" key on your keyboard?
-let confirmed = confirm("want some pancakes?");
+let confirmed = confirm('want some pancakes?');
 
 // confirm will always return a boolean value:
 //  true if the user clicks ok
@@ -72,8 +72,8 @@ console.log(typeof confirmed); // 'boolean'
 <summary>🥚 prompt</summary>
 
 ```js
-"use strict";
-console.log("-- prompt --");
+'use strict';
+console.log('-- prompt --');
 
 // prompt: display a message and allow the user to input some text
 
@@ -82,7 +82,7 @@ console.log("-- prompt --");
 //  type something -> click "ok" or press the "enter" key
 //  do not type anything -> click "cancel" or press the "esc" key
 //  do not type anything -> click "ok" or press the "enter" key
-let prompted = prompt("what is your favorite kind of pancake");
+let prompted = prompt('what is your favorite kind of pancake');
 
 // prompt will either return a string or null
 //  null: if the user clicks "cancel" or presses the "esc" key
@@ -118,24 +118,20 @@ how it all works in the coming chapters.
 <summary>check it out</summary>
 
 ```js
-"use strict";
-console.log("-- user interactions --");
+'use strict';
+console.log('-- user interactions --');
 
 let input = null;
 while (input === null) {
-  input = prompt("enter something");
+  input = prompt('enter something');
 }
 
 let didConfirm = confirm('is this correct?\n\n "' + input + '"');
 if (didConfirm) {
-  alert("yes!");
+  alert('yes!');
 } else {
-  alert("no :(");
+  alert('no :(');
 }
 ```
 
 </details>
-
----
-
-##

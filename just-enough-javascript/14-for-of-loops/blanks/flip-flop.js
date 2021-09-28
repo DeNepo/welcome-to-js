@@ -1,16 +1,16 @@
-"use strict";
+'use strict';
 
 let normalPhrase = null;
 while (normalPhrase === null) {
-  normalPhrase = prompt("enter something to flipflop");
+  normalPhrase = prompt('enter something to flipflop');
 }
 
-let previous = "";
-let flipFlopped = "";
+let previous = '';
+let flipFlopped = '';
 for (let current of normalPhrase) {
-  if (previous !== "") {
+  if (previous !== '') {
     flipFlopped = flipFlopped + current + previous;
-    previous = "";
+    previous = '';
   } else {
     previous = current;
   }
