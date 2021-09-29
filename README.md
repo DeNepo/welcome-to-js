@@ -195,7 +195,7 @@ pointing out your mistakes _before_ they cause problems in your program.
 Some linting errors will take some practice to understand and fix, but it will
 be a good use of time.
 
-### `npm run lint:js`
+### `npm run lint:js -- ./path/to/code`
 
 Just like `lint:md`, but for `.js` files. This script will lint all of the JS
 files in this repository, letting you know if there are any syntax errors or bad
