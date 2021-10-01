@@ -81,6 +81,9 @@ time as the other exercises.
 
 ### Chapter 1
 
+- 🥚 [compute-it](http://compute-it.toxicode.fr/), 🐣
+  [little-dot](http://little-dot.toxicode.fr/): not in this repo, but 200% worth
+  your time.
 - 🥚 **[./strict-mode](./strict-mode)**
 - 🥚 **[./errors](./errors)**
 - 🥚🐣🐥 **[./just-enough-javascript](./just-enough-javascript)**: through
