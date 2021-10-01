@@ -1,5 +1,7 @@
 'use strict';
 
+// you can copy-paste this into the challenge files if you get too lost
+
 let animal = 'frog';
 
 let userInput = '';

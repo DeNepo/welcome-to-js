@@ -2,6 +2,14 @@
 
 'use strict';
 
+/*
+  modify the program so it searches for only an uppercase "A"
+
+  you will need to change one condition
+  the user's instructions
+  and strings used to generate a reaction
+*/
+
 let userInput = prompt('please enter something with an "a" in it');
 
 let reaction;
