@@ -1,3 +1,5 @@
+// #todo
+
 'use strict';
 
 alert(`Guess 3 secrets in 3 tries

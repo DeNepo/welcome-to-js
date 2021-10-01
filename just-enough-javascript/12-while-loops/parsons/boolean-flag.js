@@ -20,3 +20,6 @@ alert('you confirmed');
 while (flag) { // distractor
 flag = prompt('you can only leave this loop if you confirm'); // distractor
 flag = alert('you can only leave this loop if you confirm'); // distractor
+
+
+// #todo

@@ -25,3 +25,6 @@ if (input === null) {
 alert(too short!); // distractor
 } else if (input.length < 4) { //distractor
 if (input !== null) { // distractor
+
+
+// #todo

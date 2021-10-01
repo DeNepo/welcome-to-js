@@ -28,3 +28,6 @@ console.log(reversedName === 'TpirCsavaj'); // distractor
 
 for (character of languageName) { // distractor
 reversedName = reversedName + character; // distractor
+
+
+// #todo

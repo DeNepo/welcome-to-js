@@ -28,3 +28,6 @@ if (input.toUpperCase() === 'yes') { // distractor
 output === 'you entered "yes"'; // distractor
 
 output === '"' + input + '" is not "yes"'; // distractor
+
+
+// #todo

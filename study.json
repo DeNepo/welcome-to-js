@@ -18,7 +18,6 @@
     },
     "table": true,
     "blanks": true,
-    "eslint": true,
     "writeme": true
   },
   "highlight": {

@@ -23,3 +23,6 @@ alert(userInput);
 while (userInput === null && userInput === '') { // distractor
 while (userInput !== null && userInput !== '') { // distractor
 while (userInput !== null || userInput !== '') { // distractor
+
+
+// #todo

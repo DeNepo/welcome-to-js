@@ -1,3 +1,5 @@
+// #todo
+
 'use strict';
 
 let message = 'your favorite color is ';

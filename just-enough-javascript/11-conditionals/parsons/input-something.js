@@ -32,3 +32,6 @@ if (userInput = null) { // distractor
 } else if (userInput = '') { // distractor
 
 } else (userInput === '') { // distractor
+
+
+// #todo

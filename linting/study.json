@@ -1,9 +1,0 @@
-{
-  "study": {
-    "eslint": true,
-    "flowchart": false,
-    "variables": false,
-    "loopGuard": false,
-    "tests": false
-  }
-}

@@ -1,3 +1,5 @@
+// #todo
+
 'use strict'; // run this code with and without 'use strict'
 
 false.greeting = 'hello, i am a boolean';

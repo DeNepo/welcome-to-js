@@ -15,3 +15,6 @@ alert('nice.  your favorite color is "' + favoriteColor + '"');
 while (favoriteColor = null) { // distractor
 while (favoriteColor !== null) { // distractor
 let favoriteColor = ''; // distractor
+
+
+// #todo

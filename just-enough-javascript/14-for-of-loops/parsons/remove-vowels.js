@@ -32,3 +32,6 @@ console.log(after === 'bcdfghjklmnpqrstvwxyz');
 if (vowels.includes(letter)) { // distractor
 for (let character of before) { // distractor
 continue; // distractor
+
+
+// #todo

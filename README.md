@@ -59,6 +59,8 @@ time as the other exercises.
 
 - 🥚 **[./strict-mode](./strict-mode)**: a quick read and a couple examples.
   long story short: always use strict mode.
+- 🥚 **[./errors](./errors)**: A quick read about what errors are and how you
+  can undo them. The Debugging module will go into much more depth on errors.
 - 🥚 **[./reading-programs](./reading-programs)**: Practice reading interactive
   programs. This includes identifying variables, tracing code like the computer,
   drawing on the code, and asking good questions.
@@ -71,11 +73,30 @@ time as the other exercises.
   with challenges for how to change it's behavior. Each exercise comes with a
   few files: the original, and one extra file for each challenge. If you get
   lost in an exercise you you can copy-paste the original to start over.
-- 🐥 **[./linting](./linting)**: Practice using feedback from ESLint to write
-  code that uses consistent style and best practices.
 - 🐔 **[./explorations](./explorations)**: Experiment with JS language features
   that interest you, try modifying the programs in this repo, or try writing
   your own. This folder is yours to explore JS and programming.
+
+### Chapter 1
+
+- 🥚 **[./strict-mode](./strict-mode)**
+- 🥚 **[./errors](./errors)**
+- 🥚🐣🐥 **[./just-enough-javascript](./just-enough-javascript)**: through
+  _Break, Continue_
+- 🥚 **[./reading-programs](./reading-programs)**: Programs that don't have a
+  `for-of` loop, as many as you can
+- 🐣 **[./describing-programs](./describing-programs)**: Programs that don't
+  have a `for-of` loop, as many as you can
+
+### Chapter 2
+
+- 🥚🐣🐥 **[./just-enough-javascript](./just-enough-javascript)**: for-of loops
+- 🥚 **[./reading-programs](./reading-programs)**: as many as you can
+- 🥚 **[./plain-text-programs](./plain-text-programs)**: now you have more
+  experience describing programs, what do you think about describing an
+  un-colored program?
+- 🐣 **[./describing-programs](./describing-programs)**: as many as you can
+- 🐥 **[./modifying-programs](./modifying-programs)**: as many as you can
 
 [TOP](#welcome-to-js)
 
@@ -131,9 +152,9 @@ VSCode is really good at searching through folders of code.
 You can write hashtags in your comments while you're studying, then search for
 those hashtags later so you don't miss anything. Here's some ideas:
 
-- `// #not-done, still a few blanks left` - search for `#not-done` in VScode to
-  find all the exercises you've started and not finished
-- `// coercion is confusing, #review this again next week` - search for
+- `// #todo, still a few blanks left` - search for `#todo` in Study Lenses or
+  VScode to find all the exercises you still need to study
+- `// #review, coercion is confusing this again next week` - search for
   `#review` to find the files you need to study again
 - ... anything goes! Find the hashtags that work for you
 

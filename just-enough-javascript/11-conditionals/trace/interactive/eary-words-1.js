@@ -1,3 +1,5 @@
+// #todo
+
 'use strict';
 
 let input = prompt('enter something with "ear" in it');
