@@ -77,6 +77,8 @@ time as the other exercises.
   that interest you, try modifying the programs in this repo, or try writing
   your own. This folder is yours to explore JS and programming.
 
+> PS. Check out [./printing-code.mp4](./printing-code.mp4)
+
 ### Chapter 1
 
 - 🥚 **[./strict-mode](./strict-mode)**
