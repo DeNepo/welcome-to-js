@@ -2,21 +2,22 @@
 
 'use strict';
 
-let userInput = '';
+let anything = '';
 
-let isTooShort = true;
-while (isTooShort) {
-  userInput = prompt('enter anything longer than 5 characters');
+while (true) {
+  anything = prompt('enter anything longer than 5 characters');
 
-  if (userInput === null) {
+  if (anything === null) {
     alert('there is no escape');
     continue;
   }
 
-  isTooShort = userInput.length <= 5;
-  if (isTooShort) {
+  if (anything.length <= 5) {
     alert('too short');
+    continue;
   }
+
+  break;
 }
 
-alert('"' + userInput + '" is ' + userInput.length + ' characters long');
+alert('"' + anything + '" is ' + anything.length + ' characters long');

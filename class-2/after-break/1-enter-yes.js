@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 let input = prompt('enter the word "yes", upper or lower case');

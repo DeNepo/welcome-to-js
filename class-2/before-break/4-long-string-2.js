@@ -1,11 +1,9 @@
-// #todo
-
 'use strict';
 
 let userInput = '';
 
-let isTooShort = true;
-while (isTooShort) {
+let isValid = false;
+while (!isValid) {
   userInput = prompt('enter anything longer than 5 characters');
 
   if (userInput === null) {
@@ -13,10 +11,12 @@ while (isTooShort) {
     continue;
   }
 
-  isTooShort = userInput.length <= 5;
-  if (isTooShort) {
+  if (userInput.length <= 5) {
     alert('too short');
+    continue;
   }
+
+  isValid = true;
 }
 
 alert('"' + userInput + '" is ' + userInput.length + ' characters long');

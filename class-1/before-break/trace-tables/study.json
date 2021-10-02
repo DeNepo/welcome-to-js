@@ -1,0 +1,10 @@
+{
+  "study": {
+    "writeme": false,
+    "flowchart": false,
+    "blanks": false,
+    "loopGuard": false,
+    "run": false,
+    "ask": false
+  }
+}

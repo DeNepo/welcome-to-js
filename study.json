@@ -1,7 +1,4 @@
 {
-  "--defaults": {
-    ".md": "study"
-  },
   "--port": 4005,
   "study": {
     "run": true,

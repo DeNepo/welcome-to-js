@@ -5,10 +5,10 @@
 let didConfirm = confirm('yes?');
 
 let message;
-if (didConfirm === false) {
-  message = 'no';
-} else {
+if (didConfirm === true) {
   message = 'ok';
+} else {
+  message = 'no';
 }
 
 alert(message);
