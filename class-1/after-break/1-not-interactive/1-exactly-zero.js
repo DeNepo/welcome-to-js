@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 let toCompare = -1;
