@@ -1,18 +1,16 @@
-// #todo
-
 'use strict';
 
-let message = 'your favorite color is';
+let message = 'your favorite color is: ';
 
-let isEmpty = true;
-while (isEmpty) {
+let inputIsEmpty = true;
+while (inputIsEmpty) {
   let input = prompt('what is your favorite color?');
 
   if (input === null) {
     alert('there is no escape');
   } else if (input.length !== 0) {
     message = message + input;
-    isEmpty = false;
+    inputIsEmpty = false;
   }
 }
 

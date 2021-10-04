@@ -1,9 +1,8 @@
 {
   "study": {
-    "writeme": false,
-    "flowchart": false,
+    "debug": true,
+    "ask": false,
     "blanks": false,
-    "loopGuard": false,
-    "openIn": "jsTutorLive"
+    "writeme": false
   }
 }

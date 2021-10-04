@@ -6,6 +6,9 @@
     "loopGuard": false,
     "run": false,
     "ask": false,
-    "variables": false
+    "trace": false,
+    "table": false,
+    "variables": false,
+    "debug": true
   }
 }
