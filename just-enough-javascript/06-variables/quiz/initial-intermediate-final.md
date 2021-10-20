@@ -3,19 +3,23 @@
 # Initial, Intermediate and Final Value
 
 ```js
-'use strict'; // line 1
+'use strict';
 
-let animal = `"dog"`; // line 2
+let animal = `"dog"`; // line 3
 
-console.log(animal); // line 3
+console.log(animal); // line 5
 
-animal = 'cat'; // line 4
+animal = 'cat'; // line 7
 ```
 
-## what is the initial value of the variable?
+---
 
 <details>
-<summary><strong>A. "animal"</strong></summary>
+<summary><strong>1. What is the initial value of the variable?</strong></summary>
+<br>
+
+<details>
+<summary><em>A. "animal"</em></summary>
 <br>
 
 Nope. `"animal"` is the _name_ of the variable, not the value stored inside it.
@@ -28,7 +32,7 @@ let animal = `"animal"`;
 
 </details>
 <details>
-<summary><strong>B. "dog"</strong></summary>
+<summary><em>B. "dog"</em></summary>
 <br>
 
 Yup! `"dog"` is the _initial value_ of our variable.
@@ -37,7 +41,7 @@ It will later be assigned a different value, but it is initialized with `"dog"`
 
 </details>
 <details>
-<summary><strong>C. "cat"</strong></summary>
+<summary><em>C. "cat"</em></summary>
 <br>
 
 Nope. "cat" _is_ assigned to our variable, but _after_ the variable has been
@@ -45,10 +49,16 @@ declared and initialized.
 
 </details>
 
-## what will be logged to the console?
+</details>
+
+---
 
 <details>
-<summary><strong>A. "animal"</strong></summary>
+<summary><strong>2. What will be logged to the console?</strong></summary>
+<br>
+
+<details>
+<summary><em>A. "animal"</em></summary>
 <br>
 
 Nope. `"animal"` is the _name_ of the variable, not the value stored inside it.
@@ -57,7 +67,7 @@ When you log a variable to the console the _value_ will be displayed.
 
 </details>
 <details>
-<summary><strong>B. "dog"</strong></summary>
+<summary><em>B. "dog"</em></summary>
 <br>
 
 Correct! The log statement is _before_ the reassignment, so it will log the
@@ -65,17 +75,23 @@ first value stored in `animal`.
 
 </details>
 <details>
-<summary><strong>C. "cat"</strong></summary>
+<summary><em>C. "cat"</em></summary>
 <br>
 
 Nope. "cat" is assigned to `animal` _after_ the log statement.
 
 </details>
 
-## what is the final value of the variable?
+</details>
+
+---
 
 <details>
-<summary><strong>A. "animal"</strong></summary>
+<summary><strong>3. What is the final value of the variable?</strong></summary>
+<br>
+
+<details>
+<summary><em>A. "animal"</em></summary>
 <br>
 
 Nope. `"animal"` is the _name_ of the variable, not the value stored inside it.
@@ -91,7 +107,7 @@ animal = `"animal"`;
 
 </details>
 <details>
-<summary><strong>B. "dog"</strong></summary>
+<summary><em>B. "dog"</em></summary>
 <br>
 
 Nope. `"dog"` is the _initial value_ of our variable, but the variable is
@@ -99,10 +115,12 @@ reassigned on the last line.
 
 </details>
 <details>
-<summary><strong>C. "cat"</strong></summary>
+<summary><em>C. "cat"</em></summary>
 <br>
 
-Correct! "cat" is the last value assigned to the variable in this program. it's
-final value will be "cat".
+Correct! "cat" is the last value assigned to the variable in this program, so
+it's final value will be "cat".
+
+</details>
 
 </details>

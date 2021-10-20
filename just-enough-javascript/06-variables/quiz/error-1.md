@@ -3,19 +3,23 @@
 # Error 1
 
 ```js
-'use strict'; // line 1
+'use strict';
 
-let animal = 'dog'; // line 2
+let animal = 'dog'; // line 3
 
-console.log(animal); // line 3
+console.log(animal); // line 5
 
-let animal = 'cat'; // line 4
+let animal = 'cat'; // line 7
 ```
 
-## Which error will be thrown by this code?
+---
 
 <details>
-<summary><strong>A. SyntaxError</strong></summary>
+<summary><strong>1. Which error will be thrown by this code?</strong></summary>
+<br>
+
+<details>
+<summary><em>A. SyntaxError</em></summary>
 <br>
 
 Correct! Declaring two variables with the same name is a _SyntaxError_.
@@ -25,7 +29,7 @@ running. (you'll learn more about this in Debugging)
 
 </details>
 <details>
-<summary><strong>B. ReferenceError</strong></summary>
+<summary><em>B. ReferenceError</em></summary>
 <br>
 
 Nope. _ReferenceErrors_ happen when you try to use a variable that was never
@@ -35,10 +39,16 @@ The problem here is that the variable was declared twice.
 
 </details>
 
-## On which line will the error occur?
+</details>
+
+---
 
 <details>
-<summary><strong>A. line 1</strong></summary>
+<summary><strong>2. On which line will the error occur?</strong></summary>
+<br>
+
+<details>
+<summary><em>A. line 1</em></summary>
 <br>
 
 Nope. Line 1 is the `"use strict";` directive, it changes the way JS interprets
@@ -48,7 +58,7 @@ Errors will never occur on the `"use strict";` line.
 
 </details>
 <details>
-<summary><strong>B. line 2</strong></summary>
+<summary><em>B. line 3</em></summary>
 <br>
 
 Nope. The first time you declared the variable `animal` everything is ok, you
@@ -56,7 +66,7 @@ can always declare a variable once.
 
 </details>
 <details>
-<summary><strong>C. line 3</strong></summary>
+<summary><em>C. line 5</em></summary>
 <br>
 
 Nope. This line is never actually executed!
@@ -66,13 +76,15 @@ phase), the value stored in `animal` is never logged.
 
 </details>
 <details>
-<summary><strong>D. line 4</strong></summary>
+<summary><em>D. line 7</em></summary>
 <br>
 
-Correct! The error occurs on _line 4_ because this is where `animal` is declared
+Correct! The error occurs on _line 7_ because this is where `animal` is declared
 for the **second** time.
 
 Declaring the same variable twice will cause an error. (unless they're in
 different _scopes_, more on this in a few chapters.)
+
+</details>
 
 </details>

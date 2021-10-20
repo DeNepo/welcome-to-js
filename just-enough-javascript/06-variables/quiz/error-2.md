@@ -3,19 +3,23 @@
 # Error 2
 
 ```js
-'use strict'; // line 1
+'use strict';
 
-animal = 'dog'; // line 2
+animal = 'dog'; // line 3
 
-console.log(animal); // line 3
+console.log(animal); // line 5
 
-let animal = 'cat'; // line 4
+let animal = 'cat'; // line 7
 ```
 
-## Which error will be thrown by this code?
+---
 
 <details>
-<summary><strong>A. SyntaxError</strong></summary>
+<summary><strong>1. Which error will be thrown by this code?</strong></summary>
+<br>
+
+<details>
+<summary><em>A. SyntaxError</em></summary>
 <br>
 
 Nope. A _SyntaxError_ occurs with `let` when you try to declare the same
@@ -25,20 +29,26 @@ In this snippet `animal` is only declared once, so that's not the problem.
 
 </details>
 <details>
-<summary><strong>B. ReferenceError</strong></summary>
+<summary><em>B. ReferenceError</em></summary>
 <br>
 
 Yup! This is a _ReferenceError_ because you are trying to use the variable
 `animal` _before_ it was declared.
 
-It is _declared_ on line 4, but it is first _read_ on line 2.
+It is _declared_ on line 7, but it is first _read_ on line 3.
 
 </details>
 
-## On which line will the error occur?
+</details>
+
+---
 
 <details>
-<summary><strong>A. line 1</strong></summary>
+<summary><strong>2. On which line will the error occur?</strong></summary>
+<br>
+
+<details>
+<summary><em>A. line 1</em></summary>
 <br>
 
 Nope. Line 1 is the `"use strict";` directive, it changes the way JS interprets
@@ -48,29 +58,31 @@ Errors will never occur on the `"use strict";` line.
 
 </details>
 <details>
-<summary><strong>B. line 2</strong></summary>
+<summary><em>B. line 3</em></summary>
 <br>
 
-Correct! On line 2 the `animal` is _read_, but `animal` is _declared_ on line 4.
+Correct! On line 3 the `animal` is _read_, but `animal` is _declared_ on line 7.
 Reading a variable before it is declared will cause a _ReferenceError_.
 
 </details>
 <details>
-<summary><strong>C. line 3</strong></summary>
+<summary><em>C. line 5</em></summary>
 <br>
 
 Nope. The error occurs earlier in the program so the program will never reach
-line 3.
+line 5.
 
 </details>
 <details>
-<summary><strong>D. line 4</strong></summary>
+<summary><em>D. line 7</em></summary>
 <br>
 
 Nope. The error occurs earlier in the program so the program will never reach
-line 4.
+line 7.
 
 Yes, this line does declare the variable `animal`. But that doesn't matter
-because `animal` is _read_ on line 2 before it is _declared_ on line 4.
+because `animal` is _read_ on line 3 before it is _declared_ on line 7.
+
+</details>
 
 </details>

@@ -170,7 +170,7 @@
   // MD033/no-inline-html - Inline HTML
   "MD033": {
     // Allowed elements
-    "allowed_elements": ["summary", "details", "br", "strong", "code"]
+    "allowed_elements": ["summary", "details", "br", "strong", "code", "em"]
   },
 
   // MD034/no-bare-urls - Bare URL used

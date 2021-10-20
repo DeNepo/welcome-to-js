@@ -2,6 +2,10 @@
 
 'use strict';
 
+/*
+  input the correct values to log the expected values
+*/
+
 let input1 = prompt('1. cancel this prompt');
 console.log(input1 === null); // true
 
