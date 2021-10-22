@@ -51,7 +51,9 @@ Nope! `prompt` will never return `undefined`, only a string or `null`.
 <summary><em>D. <code>"object"</code>, <code>null</code></em></summary>
 <br>
 
-Correct! Canceling a `prompt` returns `null`, and the type of is `"object"`.
+✔ Correct!
+
+Canceling a `prompt` returns `null`, and the type of is `"object"`.
 
 </details>
 <details>
@@ -104,7 +106,9 @@ Nope! `prompt` will never return `undefined`, only a string or `null`.
 <summary><em>D. <code>"object"</code>, <code>null</code></em></summary>
 <br>
 
-Correct! Canceling a `prompt` returns `null`, and the type of is `"object"`.
+✔ Correct!
+
+Canceling a `prompt` returns `null`, and the type of is `"object"`.
 
 </details>
 <details>
@@ -128,32 +132,40 @@ Nope, but close! Canceling a `prompt` _does_ return `null`, but the type of
 <summary><em>A. type <code>"string"</code> and click "cancel"</em></summary>
 <br>
 
-Nope. Canceling will always log `null`, no matter what text the user typed in
-the input.
+✖ Nope.
+
+Canceling will always log `null`, no matter what text the user typed in the
+input.
 
 </details>
 <details>
 <summary><em>B. type nothing and click "cancel"</em></summary>
 <br>
 
-Nope. Canceling will always log `null`, no matter what text the user typed in
-the input.
+✖ Nope.
+
+Canceling will always log `null`, no matter what text the user typed in the
+input.
 
 </details>
 <details>
 <summary><em>C. type nothing and click "ok"</em></summary>
 <br>
 
-Correct! Typing nothing and clicking "ok" will return an _empty string_, a value
-with the type `"string"` but no characters inside of it.
+✔ Correct!
+
+Typing nothing and clicking "ok" will return an _empty string_, a value with the
+type `"string"` but no characters inside of it.
 
 </details>
 <details>
 <summary><em>D. type <code>"string"</code> and click "ok"</em></summary>
 <br>
 
-Nope. Typing `"string"` and clicking ok will log `"string"` twice! Once because
-the input has the type "string", and a second type because the input _is_
+✖ Nope.
+
+Typing `"string"` and clicking ok will log `"string"` twice! Once because the
+input has the type "string", and a second type because the input _is_
 `"string"`!
 
 This may seem strange at first, but with practice it will make sense.

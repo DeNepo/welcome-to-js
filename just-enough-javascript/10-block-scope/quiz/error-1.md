@@ -23,16 +23,19 @@ console.log(animal); // line 8
 <summary><em>A. SyntaxError</em></summary>
 <br>
 
-Nope. There are not two variables declared with the same name, so there is no
-syntax error.
+✖ Nope.
+
+There are not two variables declared with the same name, so there is no syntax
+error.
 
 </details>
 <details>
 <summary><em>B. ReferenceError</em></summary>
 <br>
 
-Correct! _ReferenceErrors_ happen when you try to use a variable that was never
-declared.
+✔ Correct!
+
+_ReferenceErrors_ happen when you try to use a variable that was never declared.
 
 The `animal` variable was declared in this program, but it was declared _inside_
 the block so it is not available outside the block. When you try to use it
@@ -75,9 +78,11 @@ was declared. That is allowed!
 <summary><em>C. line 8</em></summary>
 <br>
 
-Correct! The `animal` variable was declared in this program, but it was declared
-_inside_ the block so it is not available outside the block. When you try to use
-it _outside_ of the block on line 8, this will throw an error.
+✔ Correct!
+
+The `animal` variable was declared in this program, but it was declared _inside_
+the block so it is not available outside the block. When you try to use it
+_outside_ of the block on line 8, this will throw an error.
 
 </details>
 

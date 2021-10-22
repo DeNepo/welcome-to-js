@@ -26,7 +26,9 @@ a = temp; // line 11
 <summary><em>A. undefined</em></summary>
 <br>
 
-Nope. `a` never stores the value `undefined` in this program.
+✖ Nope.
+
+`a` never stores the value `undefined` in this program.
 
 `a` is _initialized_ to `"y"` on line 4, and later _reassigned_ to `"x"` on
 line 11.
@@ -36,7 +38,9 @@ line 11.
 <summary><em>B. "x"</em></summary>
 <br>
 
-Correct! On line 11 `"x"` is _assigned_ to `a`.
+✔ Correct!
+
+On line 11 `"x"` is _assigned_ to `a`.
 
 Because this is the last time `a` is _assigned_ a value, `"x"` is the final
 value stored in `a`.
@@ -46,8 +50,10 @@ value stored in `a`.
 <summary><em>C. "y"</em></summary>
 <br>
 
-Nope. `"y"` is the _initial_ value stored in `a`, but on line 11 `a` is
-reassigned a new value.
+✖ Nope.
+
+`"y"` is the _initial_ value stored in `a`, but on line 11 `a` is reassigned a
+new value.
 
 Because line 11 is the _last time_ `a` is assigned a new value and it is
 assigned `"x"`, it's not possible for the final value to be `"y"`.
@@ -66,7 +72,9 @@ assigned `"x"`, it's not possible for the final value to be `"y"`.
 <summary><em>A. undefined</em></summary>
 <br>
 
-Nope. `b` never stores the value `undefined` in this program.
+✖ Nope.
+
+`b` never stores the value `undefined` in this program.
 
 `b` is _initialized_ to `"x"` on line 5, and later _reassigned_ to `"y"` on
 line 10.
@@ -76,8 +84,10 @@ line 10.
 <summary><em>B. "x"</em></summary>
 <br>
 
-Nope. `"x"` is the _initial_ value stored in `b`, but on line 10 `b` is
-reassigned a new value.
+✖ Nope.
+
+`"x"` is the _initial_ value stored in `b`, but on line 10 `b` is reassigned a
+new value.
 
 Because line 10 is the _last time_ `b` is assigned a new value and it is
 assigned `"y"`, it's not possible for the final value to be `"x"`.
@@ -87,7 +97,9 @@ assigned `"y"`, it's not possible for the final value to be `"x"`.
 <summary><em>C. "y"</em></summary>
 <br>
 
-Correct! On line 10 `"y"` is _assigned_ to `b`.
+✔ Correct!
+
+On line 10 `"y"` is _assigned_ to `b`.
 
 Because this is the last time `b` is _assigned_ a value, `"y"` is the final
 value stored in `b`.
@@ -106,7 +118,9 @@ value stored in `b`.
 <summary><em>A. undefined</em></summary>
 <br>
 
-Correct! On line 6 `temp` is _declared_ but not _initialized_, so it's value is
+✔ Correct!
+
+On line 6 `temp` is _declared_ but not _initialized_, so it's value is
 `undefined` by default.
 
 </details>
@@ -114,16 +128,20 @@ Correct! On line 6 `temp` is _declared_ but not _initialized_, so it's value is
 <summary><em>B. "x"</em></summary>
 <br>
 
-Nope. `temp` is _declared_ but not _initialized_. This means it's initial value
-will be `undefined` by default.
+✖ Nope.
+
+`temp` is _declared_ but not _initialized_. This means it's initial value will
+be `undefined` by default.
 
 </details>
 <details>
 <summary><em>C. "y"</em></summary>
 <br>
 
-Nope. `temp` is _declared_ but not _initialized_. This means it's initial value
-will be `undefined` by default.
+✖ Nope.
+
+`temp` is _declared_ but not _initialized_. This means it's initial value will
+be `undefined` by default.
 
 </details>
 
@@ -139,8 +157,10 @@ will be `undefined` by default.
 <summary><em>A. undefined</em></summary>
 <br>
 
-Nope. The _initial_ value for `temp` is `undefined`, but on line 9 it is
-assigned the value `"x"`.
+✖ Nope.
+
+The _initial_ value for `temp` is `undefined`, but on line 9 it is assigned the
+value `"x"`.
 
 Because this is the last time that `temp` is _reassigned_, `"x"` is the final
 value.
@@ -150,7 +170,9 @@ value.
 <summary><em>B. "x"</em></summary>
 <br>
 
-Correct! On line 9 `"x"` is _assigned_ to `temp`.
+✔ Correct!
+
+On line 9 `"x"` is _assigned_ to `temp`.
 
 Because this is the last time `temp` is _assigned_ a value, `"x"` is the final
 value stored in `temp`.
@@ -160,7 +182,9 @@ value stored in `temp`.
 <summary><em>C. "y"</em></summary>
 <br>
 
-Nope. `temp` never stores the value `"y"`. The only two values it stores in this
+✖ Nope.
+
+`temp` never stores the value `"y"`. The only two values it stores in this
 program are `undefined` and `"x"`.
 
 </details>

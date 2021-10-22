@@ -1,5 +1,6 @@
 {
   "--defaults": {
-    ".js": "highlight"
+    ".js": "highlight",
+    "debug": true
   }
 }

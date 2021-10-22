@@ -22,7 +22,9 @@ animal = 'cat'; // line 7
 <summary><em>A. "animal"</em></summary>
 <br>
 
-Nope. `"animal"` is the _name_ of the variable, not the value stored inside it.
+✖ Nope.
+
+`"animal"` is the _name_ of the variable, not the value stored inside it.
 
 The only way to have `"animal"` initialized in our variable would be like this:
 
@@ -44,8 +46,10 @@ It will later be assigned a different value, but it is initialized with `"dog"`
 <summary><em>C. "cat"</em></summary>
 <br>
 
-Nope. "cat" _is_ assigned to our variable, but _after_ the variable has been
-declared and initialized.
+✖ Nope.
+
+"cat" _is_ assigned to our variable, but _after_ the variable has been declared
+and initialized.
 
 </details>
 
@@ -61,7 +65,9 @@ declared and initialized.
 <summary><em>A. "animal"</em></summary>
 <br>
 
-Nope. `"animal"` is the _name_ of the variable, not the value stored inside it.
+✖ Nope.
+
+`"animal"` is the _name_ of the variable, not the value stored inside it.
 
 When you log a variable to the console the _value_ will be displayed.
 
@@ -70,15 +76,19 @@ When you log a variable to the console the _value_ will be displayed.
 <summary><em>B. "dog"</em></summary>
 <br>
 
-Correct! The log statement is _before_ the reassignment, so it will log the
-first value stored in `animal`.
+✔ Correct!
+
+The log statement is _before_ the reassignment, so it will log the first value
+stored in `animal`.
 
 </details>
 <details>
 <summary><em>C. "cat"</em></summary>
 <br>
 
-Nope. "cat" is assigned to `animal` _after_ the log statement.
+✖ Nope.
+
+"cat" is assigned to `animal` _after_ the log statement.
 
 </details>
 
@@ -94,7 +104,9 @@ Nope. "cat" is assigned to `animal` _after_ the log statement.
 <summary><em>A. "animal"</em></summary>
 <br>
 
-Nope. `"animal"` is the _name_ of the variable, not the value stored inside it.
+✖ Nope.
+
+`"animal"` is the _name_ of the variable, not the value stored inside it.
 
 the only way to have `"animal"` stored in our variable would be to _assign_ that
 string value:
@@ -110,16 +122,20 @@ animal = `"animal"`;
 <summary><em>B. "dog"</em></summary>
 <br>
 
-Nope. `"dog"` is the _initial value_ of our variable, but the variable is
-reassigned on the last line.
+✖ Nope.
+
+`"dog"` is the _initial value_ of our variable, but the variable is reassigned
+on the last line.
 
 </details>
 <details>
 <summary><em>C. "cat"</em></summary>
 <br>
 
-Correct! "cat" is the last value assigned to the variable in this program, so
-it's final value will be "cat".
+✔ Correct!
+
+"cat" is the last value assigned to the variable in this program, so it's final
+value will be "cat".
 
 </details>
 
