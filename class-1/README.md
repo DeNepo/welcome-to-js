@@ -7,6 +7,7 @@ Practice using different techniques to trace a program's execution.
 Learn these different techniques for tracing a program's execution:
 
 - trace tables + the "trace" button
+  ([tracing guide](../just-enough-javascript/guide-tracing.mp4))
 - the `?highlight` lens
 - the `?variables` lens
 - JS Tutor (_for not-interactive code_)
