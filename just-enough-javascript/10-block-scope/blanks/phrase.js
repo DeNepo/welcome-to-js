@@ -15,3 +15,11 @@ let phrase = '';
 }
 
 console.log(phrase === 'hello world'); // true
+
+/* distractors:
+
+  hello
+
+  world
+
+*/

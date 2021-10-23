@@ -6,7 +6,6 @@
 
   check something about your script's variables with each iteration.
 
-  this exercise has 3 extra lines
 */
 
 let userInput = '';

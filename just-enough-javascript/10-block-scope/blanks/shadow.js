@@ -11,3 +11,14 @@ let greeting = 'hello';
 }
 
 console.log(greeting === 'hello'); // true
+
+/* distractors:
+
+
+    Log
+
+  Console
+
+
+
+*/

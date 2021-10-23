@@ -2,7 +2,6 @@
 
 'use strict';
 
-/* this exercise has 2 extra lines */
 /* parsons-collapse: hint
   1. declare and initialize greeting
   2. enter a new scope

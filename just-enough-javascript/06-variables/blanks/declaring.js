@@ -19,3 +19,9 @@ console.log(height); // 4
 
 let frog = 'frog';
 console.log(frog); // 'frog'
+
+/* distractors:
+
+  var
+  const
+*/

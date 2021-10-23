@@ -15,3 +15,9 @@ console.log(phrase); // ' a car'
 
 phrase = 'drive' + phrase;
 console.log(phrase); // 'drive a car'
+
+/* distractors:
+
+
+
+*/

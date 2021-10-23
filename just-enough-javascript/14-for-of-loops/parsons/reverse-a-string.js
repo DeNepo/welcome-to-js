@@ -1,6 +1,5 @@
 'use strict';
 
-/* this exercise has 4 distracting lines */
 
 /* parsons-collapse: hint
 

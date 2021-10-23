@@ -2,8 +2,6 @@
 
 'use strict';
 
-/* this exercise has 0 extra lines */
-
 /* parsons-collapse: hint
 
   1. declare and initialize the animal

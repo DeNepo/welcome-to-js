@@ -11,6 +11,7 @@ console.log('-- block scope --');
 {
   let innerVariable = 'not available outside the curly braces';
 }
+
 innerVariable; // ReferenceError
 ```
 

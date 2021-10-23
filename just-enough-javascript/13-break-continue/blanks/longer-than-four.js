@@ -21,3 +21,13 @@ while (true) {
 }
 
 alert(input);
+
+/* distractors:
+
+
+    stop
+
+    goto
+
+
+*/

@@ -14,3 +14,9 @@ while (!loggedIn) {
 }
 
 alert('welcome to social media!');
+
+/* distractors:
+
+    prompt
+
+*/

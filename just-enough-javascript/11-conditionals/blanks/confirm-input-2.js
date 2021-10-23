@@ -17,3 +17,13 @@ if (input === null) {
 }
 
 alert(response);
+
+/* distractors:
+
+
+    if
+
+    else
+
+
+*/

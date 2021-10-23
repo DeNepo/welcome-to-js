@@ -1,6 +1,5 @@
 'use strict';
 
-/* this exercise has 3 distractors */
 
 let favoriteColor = null;
 while (favoriteColor === null) {

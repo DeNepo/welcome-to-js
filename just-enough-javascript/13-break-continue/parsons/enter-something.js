@@ -1,6 +1,5 @@
 'use strict';
 
-/* there are 3 extra lines in this exercise */
 /* parsons-collapse: hint
 
   your loop's condition should have no logic in it

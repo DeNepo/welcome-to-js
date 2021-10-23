@@ -16,3 +16,11 @@ while (prompting) {
   }
 }
 alert(input);
+
+/* distractors:
+
+
+    confirm
+
+
+*/

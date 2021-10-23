@@ -11,3 +11,9 @@ while (true) {
 
   alert('not an option, you must agree');
 }
+
+/* distractors:
+
+  continue
+
+*/

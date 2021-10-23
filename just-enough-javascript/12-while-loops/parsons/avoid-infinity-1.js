@@ -1,6 +1,5 @@
 'use strict';
 
-/* this exercise has 3 extra lines */
 
 let count = 0
 while (count < 10) {

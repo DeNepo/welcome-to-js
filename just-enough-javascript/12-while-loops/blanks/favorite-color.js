@@ -19,3 +19,11 @@ while (isEmpty) {
 }
 
 alert(message);
+
+/* distractors:
+
+
+    while
+
+
+*/

@@ -23,3 +23,12 @@ if (thingToRemember !== null) {
 }
 
 alert('good bye');
+
+/* distractors:
+
+
+    thing_to_remember
+
+    display_the_text
+
+*/

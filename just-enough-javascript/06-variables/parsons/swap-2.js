@@ -2,8 +2,6 @@
 
 'use strict';
 
-/* this exercise has 3 extra lines */
-
 /* 1. declare 3 variables */
 let a = 'y';
 let b = 'x';

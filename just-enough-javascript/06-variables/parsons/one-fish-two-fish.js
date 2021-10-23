@@ -6,8 +6,6 @@
 
 /*
   construct the phrase 'one fish two fish'
-
-  this exercise has 3 distracting lines
 */
 
 /* parsons-collapse: hint

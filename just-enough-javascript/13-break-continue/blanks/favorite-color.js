@@ -20,3 +20,13 @@ while (true) {
 }
 
 alert(message);
+
+/* distractors:
+
+
+    Continue
+
+    Break
+
+
+*/
