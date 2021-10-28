@@ -6,11 +6,24 @@ They're kind of like a box that can only hold one thing at a time.
 
 ```js
 'use strict';
-// let -> the declaration
-// iAm -> the variable name
-// = -> the assignment operator
-// 'a variable' -> the initial value
+
+/*
+  let           -> declaration
+  iAm           -> variable name
+  =             -> assignment operator (initialization)
+  'a variable'  -> the initial value
+*/
+
 let iAm = 'a variable';
+console.log(iAm);
+
+/*
+  iAm           -> variable name
+  =             -> assignment operator
+  'a variable'  -> the new value
+*/
+
+iAm = 'hungry';
 console.log(iAm);
 ```
 

@@ -23,7 +23,7 @@ alert(message);
 /* distractors:
 
 
-    while
+    While
 
 
 */

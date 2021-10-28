@@ -21,9 +21,9 @@ alert(response);
 /* distractors:
 
 
-    if
+    If
 
-    else
+    Else
 
 
 */

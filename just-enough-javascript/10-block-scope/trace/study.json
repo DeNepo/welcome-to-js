@@ -1,6 +1,5 @@
 {
-  "--defaults": {
-    ".js": "highlight",
+  "study": {
     "debug": true
   }
 }
