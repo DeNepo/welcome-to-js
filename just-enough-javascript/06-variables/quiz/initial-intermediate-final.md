@@ -29,7 +29,7 @@ animal = 'cat'; // line 7
 The only way to have `"animal"` initialized in our variable would be like this:
 
 ```js
-let animal = `"animal"`;
+let animal = 'animal';
 ```
 
 </details>
@@ -112,9 +112,9 @@ the only way to have `"animal"` stored in our variable would be to _assign_ that
 string value:
 
 ```js
-let animal = `"dog"`;
+let animal = 'dog';
 
-animal = `"animal"`;
+animal = 'animal';
 ```
 
 </details>
