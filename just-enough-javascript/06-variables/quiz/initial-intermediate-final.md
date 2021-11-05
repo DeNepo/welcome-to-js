@@ -5,7 +5,7 @@
 ```js
 'use strict';
 
-let animal = `"dog"`; // line 3
+let animal = 'dog'; // line 3
 
 console.log(animal); // line 5
 
