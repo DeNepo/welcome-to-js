@@ -4,9 +4,7 @@
 
 let input = null;
 while (input === null) {
-  input = prompt(
-    'enter some text, the program will check if it has any spaces',
-  );
+  input = prompt('enter some text, the program will check if it is excited');
 }
 
 let isExcited = false;
@@ -17,8 +15,11 @@ for (let char of input) {
   }
 }
 
+let message = '';
 if (isExcited) {
-  alert('"' + input + '" is excited');
+  message = '"' + input + '" is excited';
 } else {
-  alert('"' + input + '" is not excited');
+  message = '"' + input + '" is not excited';
 }
+
+alert(message);

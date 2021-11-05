@@ -25,7 +25,8 @@
       "functions": false
     },
     "table": true,
-    "trace": true
+    "trace": true,
+    "random": true
   },
   "variables": {
     "trace": true,

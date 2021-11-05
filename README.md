@@ -57,7 +57,12 @@ will learn _just enough_ JavaScript to make small programs that process text and
 interact with users. You'll need to study Just Enough JavaScript at the same
 time as the other exercises.
 
-- 🥚 **[./strict-mode](./strict-mode)**: a quick read and a couple examples.
+- 🥚🐣🐥🐔 **[./printables](./printables)**: A collection of cheat sheets,
+  diagrams, and other printable documents that can be helpful to keep by your
+  computer. Print the ones you like, ignore the others.
+- 🥚 **[./flashcards](./flashcards)**: A collection of flashcards with key
+  vocabulary and concepts for the module. You should study these every day.
+- 🥚 **[./strict-mode](./strict-mode)**: A quick read and a couple examples.
   long story short: always use strict mode.
 - 🥚 **[./errors](./errors)**: A quick read about what errors are and how you
   can undo them. The Debugging module will go into much more depth on errors.
@@ -72,7 +77,7 @@ time as the other exercises.
 - 🐥 **[./modifying-programs](./modifying-programs)**: A few working programs
   with challenges for how to change it's behavior. Each exercise comes with a
   few files: the original, and one extra file for each challenge. If you get
-  lost in an exercise you you can copy-paste the original to start over.
+  lost in an exercise you you can copy-type the original to start over.
 - 🐔 **[./explorations](./explorations)**: Experiment with JS language features
   that interest you, try modifying the programs in this repo, or try writing
   your own. This folder is yours to explore JS and programming.
@@ -81,11 +86,15 @@ time as the other exercises.
 
 ### Chapter 1
 
+Take a look through **[./printables](./printables)** and print the ones you
+think will be most helpful. Then move on to the practice:
+
 - 🥚 [compute-it](http://compute-it.toxicode.fr/), 🐣
   [little-dot](http://little-dot.toxicode.fr/): not in this repo, but 200% worth
   your time.
 - 🥚 **[./strict-mode](./strict-mode)**
 - 🥚 **[./errors](./errors)**
+- 🥚 **[./flashcards](./flashcards)**: ~20 minutes every day
 - 🥚🐣🐥 **[./just-enough-javascript](./just-enough-javascript)**: through
   _Break, Continue_
 - 🥚 **[./reading-programs](./reading-programs)**: Programs that don't have a
@@ -95,7 +104,9 @@ time as the other exercises.
 
 ### Chapter 2
 
-- 🥚🐣🐥 **[./just-enough-javascript](./just-enough-javascript)**: for-of loops
+- 🥚🐣🐥 **[./just-enough-javascript](./just-enough-javascript)**: through
+  _for-of loops_
+- 🥚 **[./flashcards](./flashcards)**: ~20 minutes every day
 - 🥚 **[./reading-programs](./reading-programs)**: as many as you can
 - 🥚 **[./plain-text-programs](./plain-text-programs)**: now you have more
   experience describing programs, what do you think about describing an

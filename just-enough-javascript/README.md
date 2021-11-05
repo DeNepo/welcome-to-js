@@ -41,6 +41,8 @@ are used.
 
 ### 🥚 Quiz
 
+> _static & dynamic analysis_
+
 Some chapters will have a `/quiz` folder, these contain multiple choice
 questions to test your knowledge. By the end of this module you should be
 comfortable finding the right answers for each quiz **_and_** understanding why
@@ -55,10 +57,12 @@ exercises.
 
 ### 🥚 WriteMe
 
+> _static analysis_
+
 With WriteMe exercises you will practice writing out programs from a blank page.
 On the left is an empty editor, on the right is the finished code: you need to
 re-write the program _exactly_ into the editor on the left. But there's a catch!
-You can only see one of the editors at a time, and you can't copy-paste >:) Your
+You can only see one of the editors at a time, and you can't copy-type >:) Your
 goal will be to memorize the syntax and structures of JavaScript, you will not
 be running these programs or changing them.
 
@@ -80,7 +84,19 @@ showing each other your screens!
 
 ---
 
+### 🥚 Reading
+
+> _static analysis_
+
+Practice reading small programs and identifying key features in the code. You
+will need to find syntax features, different scopes, variable usage, and much
+more.
+
+---
+
 ### 🥚 Tracing Execution
+
+> _dynamic analysis_
 
 You will learn how to _be the computer_, how to execute code line by line with
 your mind the same way the computer does. Until you learn how to _trace_ code,
@@ -160,12 +176,15 @@ program.
 
 ### 🐣 Fill in the Blanks
 
+> _static analysis_
+
 Fill-in-the-blanks exercises will be JS scripts with some blanks for you to fill
 in and (sometimes) a comment describing what should happen. Some exercises will
 simple like this:
 
 ```js
 'use strict';
+
 console.log(true && _); // true
 ```
 
@@ -177,7 +196,9 @@ solution using a _diff editor_.
 
 ---
 
-### 🐥 Parsons Problems
+### 🐣 Parsons Problems
+
+> _static & dynamic analysis_
 
 Parsons problems are designed to help you study snippets of code without getting
 caught by errors. You'll be given lines of code and your task is to place them
@@ -192,6 +213,8 @@ program and which are there to confuse you.
 ---
 
 ### 🐔 Specs
+
+> _static & dynamic analysis_
 
 > these exercises can be more challenging, if you get lots of errors or can't
 > finish them right away that's normal.

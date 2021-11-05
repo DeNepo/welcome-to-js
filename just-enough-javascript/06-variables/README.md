@@ -258,7 +258,7 @@ console.log(spelingMistake); // ReferenceError
 console.log('-- using before declaration --');
 
 // read the variable - will throw an error!
-console.log(favoriteColor);
+console.log(favoriteColor); // ReferenceError
 
 // declare and initialize the variable
 let favoriteColor = 'red';

@@ -108,7 +108,6 @@ agree on things.
 ### A random line (5 mins)
 
 > if you are using the `?highlight` lens to study your code, there is a [random
->
 > > line] button you can use for this step.
 
 Select a random line from the code in whatever way you like. It can be helpful

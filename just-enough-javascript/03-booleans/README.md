@@ -114,3 +114,45 @@ console.log(false || false); // false
 ```
 
 </details>
+
+---
+
+## 🐣 Truthiness
+
+Truthiness is a tricky but _very_ important concept in JavaScript, it has to do
+with whether a value becomes `true` or `false` when you convert it to the
+`"boolean"` type. You do not need to understand everything about truthiness in
+this module, but understanding the basic idea will make logical operators and
+control flow more clear.
+
+To convert a value to type `"boolean"` you just need to pass it to the `Boolean`
+function that comes built into JS. Maybe the easiest way to begin learning
+truthiness is to learn the _falsy_ values, there are not very many values that
+convert to `false`. All the rest become `true`!
+
+These are the falsy values you will come across in this module:
+
+```js
+'use strict';
+
+// the boolean value `false`
+console.log(Boolean(false)); // false
+
+// the empty string, no matter what type of quotes you use
+console.log(Boolean('')); // false
+
+// null
+console.log(Boolean(null)); // false
+
+// undefined
+console.log(Boolean(undefined)); // false
+
+// the number `0`
+console.log(Boolean(0)); // false
+console.log(Boolean(0.0)); // false
+// and the number NaN, but you'll learn more about this in the next module
+console.log(Boolean(NaN)); // false
+```
+
+> You will study _truthiness_ and _type casting_ in depth with the Debugging
+> module.

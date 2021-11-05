@@ -15,7 +15,7 @@ let repeated = '';
 let i = 0;
 while (i < animal.length) {
   repeated = repeated + '\n' + animal;
-  i++;
+  i = i + 1;
 }
 
 console.log(repeated);

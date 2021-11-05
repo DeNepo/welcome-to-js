@@ -2,10 +2,10 @@
 
 'use strict';
 
-let excitement = '';
+let excitement = 10;
 
-while (excitement !== 10) {
-  excitement = excitement + '!';
+while (excitement > 10) {
+  excitement = excitement + 1;
   console.log(excitement);
 }
 

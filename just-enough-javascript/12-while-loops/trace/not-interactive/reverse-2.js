@@ -12,8 +12,9 @@ let reversed = '';
 
 let index = word.length - 1;
 while (word.length !== reversed.length) {
-  reversed = reversed + word[index];
-  index--;
+  let nextChar = word[index];
+  reversed = reversed + nextChar;
+  index = index - 1;
 }
 
 console.log(word, reversed);

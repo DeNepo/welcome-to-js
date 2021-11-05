@@ -1,6 +1,6 @@
 'use strict';
 
-// you can copy-paste this into the challenge files if you get too lost
+// you can copy-type this into the challenge files if you get too lost
 
 alert(
   'enter many strings, they will be sorted by length.\n\n' +

@@ -10,6 +10,7 @@ loops for _control flow_.
 
 ```js
 'use strict';
+
 let input = null;
 
 // normally while (true) would create an infinite loop
@@ -19,7 +20,7 @@ while (true) {
 
   if (input === null) {
     // if the user canceled, repeat the loop
-    //  the next conditional will be skipped
+    //  the rest of the loop body` will be skipped
     alert('there is no escape');
     continue;
   }
