@@ -29,8 +29,11 @@ Describing Programs
 
 ### After Break
 
-- How do you describe a program? Why?
-- Practice writing comments to describe small programs
+Naming Variables
+
+- **All together**: read through **[../naming-variables](../naming-variables)**
+  and discuss why variable names are important
+- **In Small Groups**: practice giving variables _generic_ and _specific_ names
 
 ## After Class
 
