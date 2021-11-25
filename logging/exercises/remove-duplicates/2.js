@@ -16,7 +16,7 @@ while (phrase === null) {
 let previous = '';
 
 let noRepetitions = '';
-for (const next of phrase) {
+for (let next of phrase) {
   if (next !== previous) {
     noRepetitions = noRepetitions + next;
   }

@@ -8,7 +8,7 @@
   log the winner
 */
 
-const userInput = prompt(
+let userInput = prompt(
   'Welcome!\n\n' +
     '"play": begin the game\n' +
     '"-h": read the instructions\n' +
@@ -75,7 +75,7 @@ if (userInput === '-h') {
       } else {
         winner = 'Player 1';
 
-        const revealTheSecret = confirm(
+        let revealTheSecret = confirm(
           'Nope, not correct.\n\n' + 'do you want to know the secret?',
         );
 

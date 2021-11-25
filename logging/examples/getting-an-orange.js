@@ -17,7 +17,7 @@ console.log('-- getting the orange');
 
 let theOrange = '';
 while (theOrange === '') {
-  const input = prompt('give me an orange, lower or upper case');
+  let input = prompt('give me an orange, lower or upper case');
   // logging the user's input
   //  this will help us figure out what happens in the rest of the loop
   //  the type is logged as well because prompt can return object or string
