@@ -1,6 +1,6 @@
 {
   "study": {
-    "openIn": true,
+    "openIn": "jsTutor",
     "debug": true
   }
 }

@@ -1,0 +1,16 @@
+{
+  "--defaults": {
+    ".js": "highlight"
+  },
+  "study": {
+    "openIn": "jsTutor",
+    "flowchart": false,
+    "debug": true
+  },
+  "highlight": {
+    "openIn": "jsTutor",
+    "ask": false,
+    "debug": true,
+    "flowchart": false
+  }
+}

@@ -6,7 +6,7 @@
       "operators": false
     },
     "flowchart": false,
-    "openIn": true,
+    "openIn": "jsTutor",
     "ask": {
       "operators": false,
       "controlFlow": false
@@ -20,7 +20,7 @@
       "operators": false,
       "console": false
     },
-    "openIn": true,
+    "openIn": "jsTutor",
     "flowchart": false,
     "ask": {
       "operators": false,

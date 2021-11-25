@@ -21,8 +21,8 @@ help you get started reading the programs:
 
 Code printed out on paper is a great study resource. If you'd like to save these
 programs as a PDF or print them out you can open them in the browser by opening
-them with `study-lenses` then using `ctr-p` (the video guide in this repo has a
-demo).
+them with `study-lenses` then using the `?print` lens, there is a guide in the
+main repo: `../printing-code.mp4`.
 
 You can also draw on or print any of the JS programs in this repo after opening
 them with Study Lenses by replacing `?--defaults` with `?highlight`

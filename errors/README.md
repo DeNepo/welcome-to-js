@@ -9,9 +9,12 @@ Understanding and fixing errors in your code will take lots of practice, in the
 Debugging module you will study errors in depth. For now all you need to know
 about errors is:
 
-- the error _name_ and _message_ so you can search about it online
-- finding the line where the error occurred by reading the console output
-- `ctr-z`, so you can undo your error
+- the error _name_ and _message_ so you can search about it online. You don't
+  need to understand everything you read about the error, but you should be able
+  to find links about it.
+- finding the line where the error occurred by reading the error log and
+  clicking on the line number .
+- `ctr-z`, so you can undo your error and try again.
 
 As you complete each exercise you should keep track of all the errors you
 encountered. Try thinking of errors as the computer's best attempt at helping

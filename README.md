@@ -2,6 +2,10 @@
 
 Examples, exercises and guides for the
 [Welcome to JS module](https://home.hackyourfuture.be/curriculum/welcome-to-js)
+at HYF.
+
+Check out [./.study](./.study?study) for learning objectives, extra resources,
+and study plans.
 
 ## Getting Started
 
@@ -49,156 +53,7 @@ Examples, exercises and guides for the
 
 ---
 
-## Materials
-
-🥚🐣🐥🐔 **[./just-enough-javascript](./just-enough-javascript)**: In this
-module you will only learn a small part of what JavaScript has to offer. You
-will learn _just enough_ JavaScript to make small programs that process text and
-interact with users. You'll need to study Just Enough JavaScript at the same
-time as the other exercises.
-
-- 🥚🐣🐥🐔 **[./printables](./printables)**: A collection of cheat sheets,
-  diagrams, and other printable documents that can be helpful to keep by your
-  computer. Print the ones you like, ignore the others.
-- 🥚 **[./flashcards](./flashcards)**: A collection of flashcards with key
-  vocabulary and concepts for the module. You should study these every day.
-- 🥚 **[./strict-mode](./strict-mode)**: A quick read and a couple examples.
-  long story short: always use strict mode.
-- 🥚 **[./errors](./errors)**: A quick read about what errors are and how you
-  can undo them. The Debugging module will go into much more depth on errors.
-- 🥚 **[./reading-programs](./reading-programs)**: Practice reading interactive
-  programs. This includes identifying variables, tracing code like the computer,
-  drawing on the code, and asking good questions.
-- 🥚 **[./plain-text-programs](./plain-text-programs)**: JavaScript programs
-  written in `.txt` files that have no color. How is it different to study?
-- 🐣 **[./describing-programs](./describing-programs)**: Analyze programs in
-  detail learning to explain what is happening on each line, and explaining how
-  each line contributes to the program's overall behavior.
-- 🐥 **[./modifying-programs](./modifying-programs)**: A few working programs
-  with challenges for how to change it's behavior. Each exercise comes with a
-  few files: the original, and one extra file for each challenge. If you get
-  lost in an exercise you you can copy-type the original to start over.
-- 🐔 **[./explorations](./explorations)**: Experiment with JS language features
-  that interest you, try modifying the programs in this repo, or try writing
-  your own. This folder is yours to explore JS and programming.
-
-> PS. Check out [./printing-code.mp4](./printing-code.mp4)
-
-### Chapter 1
-
-Take a look through **[./printables](./printables)** and print the ones you
-think will be most helpful. Then move on to the practice:
-
-- 🥚 [compute-it](http://compute-it.toxicode.fr/), 🐣
-  [little-dot](http://little-dot.toxicode.fr/): not in this repo, but 200% worth
-  your time.
-- 🥚 **[./strict-mode](./strict-mode)**
-- 🥚 **[./errors](./errors)**
-- 🥚 **[./flashcards](./flashcards)**: ~20 minutes every day
-- 🥚🐣🐥 **[./just-enough-javascript](./just-enough-javascript)**: through
-  _Break, Continue_
-- 🥚 **[./reading-programs](./reading-programs)**: Programs that don't have a
-  `for-of` loop, as many as you can
-- 🐣 **[./describing-programs](./describing-programs)**: Programs that don't
-  have a `for-of` loop, as many as you can
-
-### Chapter 2
-
-- 🥚🐣🐥 **[./just-enough-javascript](./just-enough-javascript)**: through
-  _for-of loops_
-- 🥚 **[./flashcards](./flashcards)**: ~20 minutes every day
-- 🥚 **[./reading-programs](./reading-programs)**: as many as you can
-- 🥚 **[./plain-text-programs](./plain-text-programs)**: now you have more
-  experience describing programs, what do you think about describing an
-  un-colored program?
-- 🐣 **[./describing-programs](./describing-programs)**: as many as you can
-- 🐥 **[./modifying-programs](./modifying-programs)**: as many as you can
-
-[TOP](#welcome-to-js)
-
----
-
-## Study Tips
-
-<details>
-<summary>expand/collapse</summary>
-<br>
-
-- Don't rush, understand! Programming is hard.
-  - The examples and exercises will still be there to study later.
-  - It's better to fail tests slowly and learn from your mistakes than to pass
-    tests quickly and not understand why.
-- Don't skip the examples! Understanding and experimenting with working code is
-  a very effective way to learn programming.
-- Write lots of comments in the examples and exercises. The code in this
-  repository is yours to study, modify and re-use in projects.
-- Practice
-  [Pair Programming](https://home.hackyourfuture.be/students/study-tips/pair-programming):
-  two people, one computer.
-- Take a look through the
-  [Learning From Code](https://home.hackyourfuture.be/students/study-tips/learning-from-code)
-  guide for more study tips
-
-### Priorities
-
-If you can't finish all the material in this repository, that's expected!
-Anything you don't finish now will always be waiting for you to review when you
-need it. These 4 emoji's will help you prioritize your study time and to measure
-your progress:
-
-- 🥚: Understanding this material is required, it covers the base skills you'll
-  need for this module and the next. You do not need to finish all of them but
-  should feel comfortable that you could with enough time.
-- 🐣: You have started all of these exercises and feel you could complete them
-  all if you just had more time. It may not be easy for you but with effort you
-  can make it through.
-- 🐥: You have studied the examples and started some exercises if you had time.
-  You should have a big-picture understanding of these concepts/skills, but may
-  not be confident completing the exercises.
-- 🐔: These concepts or skills are not necessary but are related to this module.
-  If you are finished with 🥚, 🐣 and 🐥 you can use the 🐔 exercises to push
-  yourself without getting distracted from the module's main objectives.
-
-### Hashtags
-
-There's so many examples and exercises in this repository, it's easy to forget
-of what you still need to finish or what you want to review again. Luckily
-VSCode is really good at searching through folders of code.
-
-You can write hashtags in your comments while you're studying, then search for
-those hashtags later so you don't miss anything. Here's some ideas:
-
-- `// #todo, still a few blanks left` - search for `#todo` in Study Lenses or
-  VScode to find all the exercises you still need to study
-- `// #review, coercion is confusing this again next week` - search for
-  `#review` to find the files you need to study again
-- ... anything goes! Find the hashtags that work for you
-
-### Study Board
-
-Creating a project board on your GitHub account for tracking your study at HYF
-can help you keep track of everything you're learning. You can create the board
-at this link: `https://github.com/your_user_name?tab=projects`.
-
-These 4 columns may be helpful:
-
-- **todo**: material you have not studied yet
-- **studying**: material you are currently studying
-- **to review**: material you want to review again in the future
-- **learned**: material you know well enough that you could help your classmates
-  learn it
-
-</details>
-
-[TOP](#welcome-to-js)
-
----
-
 ## Code Quality Scripts
-
-<details>
-<summary>expand/collapse</summary>
-<br>
 
 This repository comes with some scripts to check the quality of this code. You
 can run these scripts to check the code provided by HYF, and to check the code
@@ -237,7 +92,3 @@ be a good use of time.
 Just like `lint:md`, but for `.js` files. This script will lint all of the JS
 files in this repository, letting you know if there are any syntax errors or bad
 practices.
-
-</details>
-
-[TOP](#welcome-to-js)

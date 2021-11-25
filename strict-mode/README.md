@@ -9,11 +9,12 @@ powerful JavaScript has added new features that help developers write better
 code. But because of it's legacy JavaScript cannot remove features from the
 language.
 
-So, _strict mode_. Strict mode effectively turns any code below that line into
-"JavaScript 2.0", enforcing and good practices while throwing errors when you
-try to use older insecure features or bad practice. This compromise allows old
-websites to continue working, while at the same time letting developers write
-new code with more security.
+So, `'use strict';` is an instruction for the computer telling it to interpret
+your code differently. Strict mode enforces and good practices while throwing
+errors when you try to use bad practices or certain insecure language features.
+This compromise allows old websites to continue working (without using strict
+mode), while at the same time letting developers write new code with better
+constraints.
 
 - [javascript.info](https://javascript.info/strict-mode)
 - [mdn: strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)

@@ -67,17 +67,18 @@ goal will be to memorize the syntax and structures of JavaScript, you will not
 be running these programs or changing them.
 
 You can study these exercises alone to memorize and master JS syntax, flipping
-between _read_ and \_write like a flashcard. Or you can do them in pairs. If you
-study these in pairs you and your study buddy should take turns in each role:
+between _read_ and \_write like a flashcard. Or you can do them in small groups.
+If you study these in groups you and your group members should take turns in
+each role:
 
 - **Reader**: The _reader_ will open the finished program and will read the
   program out loud, guiding the _writer_ as they complete the program. The
   reader's challenge is help the writer _exactly_ reproduce the code; each
   space, each new line, each character, each capital letter, everything!
-- **Writer**: the _writer_ will try to write down _exactly_ the correct program
-  following only the instructions of reader. No peaking! The writer should not
-  look at the finished program, only listen to the advice of their reader and
-  follow the hints of the editor.
+- **Writers**: the _writers_ will try to write down _exactly_ the correct
+  program following only the instructions of reader. No peaking! The writers
+  should not look at the finished program, only listen to the advice of their
+  reader and follow the hints in the editor.
 
 Looking for an extra challenge? Try to complete these exercises _without ever_
 showing each other your screens!
@@ -113,8 +114,8 @@ the way:
 - **trace**: the _trace_ button will log a trace of the program's execution to
   the console. You can use this to learn how to step through a program, and to
   see if your trace tables are correct.
-- **openIn JsTutorLive**: exercises without user interactions can be opened in
-  JS Tutor, this website will show you what is happening in program memory with
+- **openIn jsTutor**: exercises without user interactions can be opened in JS
+  Tutor, this website will show you what is happening in program memory with
   each step.
 
 If you like to draw on code as you trace what's happening you can do that with
@@ -130,7 +131,7 @@ all the variables in your program by hand. This is also called a _dry run_ or a
 _desk check_.
 
 You can write trace tables on paper with a pencil, or you can use the trace
-tables built into Study Lenses. There are two different types of trace table
+tables built into Study Lenses. There are three different types of trace table
 available in Study Lenses:
 
 1. **steps**: The _steps_ table asks you to be the computer and to go step by
@@ -140,7 +141,9 @@ available in Study Lenses:
 2. **values**: The _values_ table is the traditional type of trace table. With
    the _values_ table you only keep track of each time a variable is assigned a
    new value. You can also check your _values_ table by using the `trace` button
-   but it will take a little more practice
+   and only checking against the _assign_ logs
+3. **Operators**: This table is for studying operator precedence, you'll learn
+   more about this in Debugging.
 
 You may find that the **steps** table is more helpful in the beginning when you
 are first learning. It forces you to pay close attention to each step of program

@@ -5,6 +5,6 @@
     },
     "environment": true,
     "debug": true,
-    "openIn": true
+    "openIn": "jsTutor"
   }
 }

@@ -11,8 +11,11 @@ let temp;
   this is done using 3 assignments
 */
 temp = b;
+console.log(a, b, temp); // ?, ?, ?
 b = a;
+console.log(a, b, temp); // ?, ?, ?
 a = temp;
+console.log(a, b, temp); // ?, ?, ?
 
 /* 3. compare the final values
   all the comparisons should be true

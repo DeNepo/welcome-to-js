@@ -9,6 +9,8 @@ Things that can be useful to print and leave under your pillow at night:
   diagram with labels for all the parts of a variable
   declaration+initialization, (from
   [blog.jordanholt.com](https://blog.jordanholt.dev/learn-javascript-variables/))
+- [./variable-box.png](./variable-box.png): a simple way to think of variables,
+  from [javascript.info](https://javascript.info/variables).
 - [./data-types.jpg](./data-types.jpg): a diagram showing the main data types in
   JS (from
   [simplesnippets](https://simplesnippets.tech/javascript-variables-data-types/))

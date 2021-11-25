@@ -1,0 +1,14 @@
+{
+  "study": {
+    "run": true,
+    "flowchart": false,
+    "trace": true,
+    "variables": false,
+    "loopGuard": false,
+    "ask": false,
+    "table": false,
+    "writeme": false,
+    "trace": false,
+    "blanks": false
+  }
+}
