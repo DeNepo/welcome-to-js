@@ -68,11 +68,19 @@ small programs.
   Imperative.
 - 🐣 **Tracing Execution**: You can complete a "steps" trace table and correct
   your table using console output from the "trace" button.
+- 🐣 **Logging**: You can tracing specific aspects of a program's execution and
+  log them to the console.
+- 🐣 **Completing Programs**: You can successfully fill in blanks for a program
+  when the missing words are provided, including distractors.
 - 🐣 **Describing Programs**: You can read a program and describe it with
   comments using to the methodology from `/describing-programs`: zooming out
   -&gt; zooming in -&gt; connections -&gt; goals
-- 🐣 **Completing Programs**: You can successfully fill in blanks for a program
-  when the missing words are provided, including distractors.
+- 🐣 **Naming Variables**: You can analyze how a variable is used in a program
+  and give it two names:
+  - **Generic**: You can give a generic name to a variable based on how it is
+    used in the program.
+  - **Specific**: You can give a specific name to a variable based on how it's
+    used _and_ the program's domain (the program's specific data and use-case).
 - 🐥 **Constructing Programs**: You can reconstruct a program's lines and
   indentation, successfully ignoring distractor lines.
 - 🐥 **Modifying Programs**: You can make small changes in a program to change
@@ -82,8 +90,8 @@ small programs.
   Just Enough JS. At each point in execution you can make a prediction of the
   next line before executing, and can check your prediction using the _scopes_
   panel.
-- 🐔 **Writing Programs**: Given starter code with labeled goals, you can write
-  a small program to match specs \(user stories + test cases\).
+- 🐔 **Authoring Programs**: Given starter code with labeled goals, you can
+  write a small program to match specs \(user stories + test cases\).
 
 ---
 
