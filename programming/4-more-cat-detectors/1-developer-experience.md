@@ -630,5 +630,5 @@ someone visits the website.
 
 <!-- prettier-ignore -->
 ```js
-'use strict';let x=null;while(x===null){x=prompt('please enter "cat"');}let y='';if(x!=='cat'){y='"'+x+'" is not a cat';}else{y='thank you for the cat';}alert(y);
+'use strict';let x=null;while(x===null)x=prompt('please enter "cat"');let y='';if(x!=='cat')y='"'+x+'" is not a cat';else y='thank you for the cat';alert(y);
 ```
