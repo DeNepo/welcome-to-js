@@ -61,8 +61,8 @@ let y = '!';
 // read from variable 1: "hello"
 // read from variable 2: "!"
 // assign to variable 1: "hello!"
-y = x + y;
+x = x + y;
 
 // read from variable 1: "hello!"
-console.log(y);
+console.log(x);
 ```
