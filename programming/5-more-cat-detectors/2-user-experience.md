@@ -28,6 +28,19 @@ The one and only, the original ... cat detector!
 ```js
 'use strict';
 
+/* The Cat Detector
+
+  This programs prompts the user to input a cat,
+  and lets them know if they did input a cat or not.
+
+  Data In:
+    Any string
+
+  Data Out:
+    A string describing if the user's input was "cat" or not
+
+*/
+
 // --- gather user input ---
 
 let input = null;

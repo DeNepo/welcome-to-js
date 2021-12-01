@@ -1,4 +1,4 @@
-# Prompt
+# Assigning User Input
 
 How can you assign user input to a variable?
 
