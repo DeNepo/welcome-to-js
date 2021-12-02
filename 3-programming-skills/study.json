@@ -1,6 +1,7 @@
 {
   "study": {
-    "debug": true
+    "debug": true,
+    "eslint": true
   },
   "highlight": {
     "debug": true

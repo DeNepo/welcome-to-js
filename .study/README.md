@@ -84,6 +84,8 @@ small programs.
     used _and_ the program's domain (the program's specific data and use-case).
 - 🐥 **Constructing Programs**: You can reconstruct a program's lines and
   indentation, successfully ignoring distractor lines.
+- 🐥 **Linting**: You can find and fix simple linting errors in JavaScript
+  programs.
 - 🐥 **Modifying Programs**: You can make small changes in a program to change
   it's behavior without breaking it.
 - 🐔 **Stepping Through**: You can pause a script in a step debugger, arrange

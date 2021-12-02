@@ -15,7 +15,7 @@ while (!didConfirm) {
 }
 
 let spellIt = 'all spelled out:\n';
-for (let nextLetter of word) {
+for (const nextLetter of word) {
   spellIt = spellIt + '\n- ' + nextLetter;
 }
 

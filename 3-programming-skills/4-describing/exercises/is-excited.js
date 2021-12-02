@@ -8,7 +8,7 @@ while (input === null) {
 }
 
 let isExcited = false;
-for (let char of input) {
+for (const char of input) {
   if (char === '!') {
     isExcited = true;
     break;

@@ -18,7 +18,7 @@ while (toBeFrogged === null) {
 
 let frogged = '';
 
-for (let character of toBeFrogged) {
+for (const character of toBeFrogged) {
   /* -- append to new string
 
     - can you think of a way to combine these two conditionals?

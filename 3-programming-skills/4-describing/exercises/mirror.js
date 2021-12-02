@@ -8,7 +8,7 @@ while (text === null) {
 }
 
 let mirrored = '|';
-for (let character of text) {
+for (const character of text) {
   mirrored = character + mirrored + character;
 }
 

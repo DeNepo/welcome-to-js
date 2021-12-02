@@ -24,9 +24,9 @@ sentence = sentence + ' ';
 let newSentence = '';
 
 let nextWord = '';
-for (let character of sentence) {
+for (const character of sentence) {
   if (character === ' ') {
-    let keep = confirm('do you want to keep this word:\n\n- ' + nextWord);
+    const keep = confirm('do you want to keep this word:\n\n- ' + nextWord);
     if (keep) {
       newSentence = newSentence + character + nextWord;
     }

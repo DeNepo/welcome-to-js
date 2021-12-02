@@ -2,7 +2,7 @@
 
 'use strict';
 
-let animalName = 'frog';
+const animalName = 'frog';
 
 let coolThing = '';
 

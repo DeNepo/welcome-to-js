@@ -56,6 +56,9 @@ the code get in the way?
     try modifying the programs in this repo, or try writing your own. This
     folder is yours to explore JS and programming.
 - 🥚🐣🐥🐔 **Programming Skills**:
+  - 🥚 `/linting`: Understand the difference between variables declared with
+    `let` and variables declared with `const`, practice the differences by
+    deciding which keyword to use in small programs.
   - 🥚 `/reading`: Practice reading interactive programs. This includes
     identifying variables, tracing code like the computer, drawing on the code,
     and asking good questions.
@@ -67,9 +70,12 @@ the code get in the way?
   - 🐣 `/describing`: Analyze programs in detail learning to explain what is
     happening on each line, and explaining how each line contributes to the
     program's overall behavior.
+  - 🐣 `/linting`: Practice fixing common linting errors.s
   - 🐣 `/naming-variables`: Code should be written for people first, computers
     second. Learn to give helpful names to your variables that describe what
-    data they store and how they are used in your program.
+    data they store and how they are used in your program. You can also decide
+    when a variable should be declared with `let` and when it should be declared
+    with `const`.
   - 🐥 `/modifying`: A few working programs with challenges for how to change
     it's behavior. Each exercise comes with a few files: the original, and one
     extra file for each challenge. If you get lost in an exercise you you can

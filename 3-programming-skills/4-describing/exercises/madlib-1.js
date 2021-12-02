@@ -17,6 +17,6 @@ while (adjective === null) {
   adjective = prompt('enter an adjective');
 }
 
-let madlib = 'the ' + adjective + ' ' + noun + ' likes to ' + verb;
+const madlib = 'the ' + adjective + ' ' + noun + ' likes to ' + verb;
 
 alert(madlib);

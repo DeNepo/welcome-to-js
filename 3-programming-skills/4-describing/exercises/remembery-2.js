@@ -15,9 +15,9 @@ alert(`Guess 3 secrets in 3 tries
 
 alert('Player 2: go hide');
 
-let secret1 = prompt('Player 1, enter your first secret:');
-let secret2 = prompt('Player 1, enter your second secret:');
-let secret3 = prompt('Player 1, enter your third secret:');
+const secret1 = prompt('Player 1, enter your first secret:');
+const secret2 = prompt('Player 1, enter your second secret:');
+const secret3 = prompt('Player 1, enter your third secret:');
 
 alert('Player 2, get back here');
 
@@ -36,15 +36,15 @@ alert(
 
 let score = 0;
 
-let firstTry = prompt('Player 1, guess the first secret:');
+const firstTry = prompt('Player 1, guess the first secret:');
 if (firstTry === secret1) {
   score = score + 1;
 
-  let secondTry = prompt('Player 1, guess the second secret:');
+  const secondTry = prompt('Player 1, guess the second secret:');
   if (secondTry === secret2) {
     score = score + 1;
 
-    let thirdTry = prompt('Player 1, guess the third secret:');
+    const thirdTry = prompt('Player 1, guess the third secret:');
     if (thirdTry === secret3) {
       score = score + 1;
     }

@@ -11,7 +11,7 @@ while (phrase === null) {
 
 /* --- ask the user how to process the phrase --- */
 
-let keepLetters = confirm(
+const keepLetters = confirm(
   '"ok" to remove everything that is not a letter\n' +
     '"cancel" to repeat each character',
 );
@@ -22,9 +22,9 @@ let newPhrase = '';
 
 if (keepLetters) {
   /* --- iterate through each character of the user's phrase --- */
-  let letters = 'abcdefghijklmnopqrstuvwxyz';
+  const letters = 'abcdefghijklmnopqrstuvwxyz';
 
-  for (let character of phrase) {
+  for (const character of phrase) {
     if (letters.includes(character.toLowerCase())) {
       newPhrase = newPhrase + character;
     }
@@ -32,7 +32,7 @@ if (keepLetters) {
 } else {
   /* --- iterate through each character in the user's phrase --- */
 
-  for (let character of phrase) {
+  for (const character of phrase) {
     newPhrase = newPhrase + character + character;
   }
 }

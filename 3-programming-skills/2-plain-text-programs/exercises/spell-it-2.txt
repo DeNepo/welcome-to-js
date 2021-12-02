@@ -10,13 +10,13 @@ while (!userConfirmed) {
     alert('nope, enter something');
   } else {
     userConfirmed = confirm(
-      'do you want to spell this word?\n\n- "' + userInput + '"'
+      'do you want to spell this word?\n\n- "' + userInput + '"',
     );
   }
 }
 
 let spelledOut = 'all spelled out:\n';
-for (let nextLetter of userInput) {
+for (const nextLetter of userInput) {
   spelledOut = spelledOut + '\n- ' + nextLetter;
 }
 

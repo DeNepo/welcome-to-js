@@ -18,7 +18,7 @@ while (!userConfirmedPhrase) {
 
 /* -- configure the search: case-sensitive or case-insensitive -- */
 
-let caseSensitive = confirm('do you want a case-sensitive search?');
+const caseSensitive = confirm('do you want a case-sensitive search?');
 
 /* -- gather and confirm the search query -- */
 
@@ -46,8 +46,8 @@ if (caseSensitive) {
 } else {
   /* -- perform a case-insensitive search -- */
 
-  let lowerCasePhrase = phrase.toLowerCase();
-  let lowerCaseQuery = query.toLowerCase();
+  const lowerCasePhrase = phrase.toLowerCase();
+  const lowerCaseQuery = query.toLowerCase();
   phraseIncludesQuery = lowerCasePhrase.includes(lowerCaseQuery);
 }
 

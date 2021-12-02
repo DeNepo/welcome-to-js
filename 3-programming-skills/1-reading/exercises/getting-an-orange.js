@@ -13,7 +13,7 @@ let theOrange = '';
 
 while (theOrange === '') {
   /* -- 1.a gather user input -- */
-  let input = prompt('give me an orange, lower or upper case');
+  const input = prompt('give me an orange, lower or upper case');
 
   /* -- 1.b check if the user canceled --
     - which user action will pass this condition?

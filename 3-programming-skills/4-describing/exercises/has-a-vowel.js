@@ -7,10 +7,10 @@ while (characters === null) {
   characters = prompt('enter some characters');
 }
 
-let vowels = 'aeiouAEIOU';
+const vowels = 'aeiouAEIOU';
 
 let hasAVowel = false;
-for (let char of characters) {
+for (const char of characters) {
   if (vowels.includes(char)) {
     hasAVowel = true;
     break;

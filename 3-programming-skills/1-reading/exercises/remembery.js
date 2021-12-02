@@ -26,9 +26,9 @@ alert(`Guess 3 phrases in 3 tries
 
 alert('Player 2: go hide');
 
-let phrase1 = prompt('Player 1, enter your first phrase:');
-let phrase2 = prompt('Player 1, enter your second phrase:');
-let phrase3 = prompt('Player 1, enter your third phrase:');
+const phrase1 = prompt('Player 1, enter your first phrase:');
+const phrase2 = prompt('Player 1, enter your second phrase:');
+const phrase3 = prompt('Player 1, enter your third phrase:');
 
 alert('Player 2, get back here');
 
@@ -52,9 +52,9 @@ alert(
     '"',
 );
 
-let guess1 = prompt('Player 2, guess the first phrase:');
-let guess2 = prompt('Player 2, guess the second phrase:');
-let guess3 = prompt('Player 2, guess the third phrase:');
+const guess1 = prompt('Player 2, guess the first phrase:');
+const guess2 = prompt('Player 2, guess the second phrase:');
+const guess3 = prompt('Player 2, guess the third phrase:');
 
 /* -- 4. player 2's score is calculated --
 

@@ -14,7 +14,7 @@
 
 /* -- prompt the user with their options -- */
 
-let userInput = prompt(
+const userInput = prompt(
   'Welcome!\n\n' +
     '"play": begin the game\n' +
     '"-h": read the instructions\n' +
@@ -102,7 +102,7 @@ if (userInput === '-h') {
 
         /* -- player 2 can reveal the secret -- */
 
-        let revealTheSecret = confirm(
+        const revealTheSecret = confirm(
           'Nope, not correct.\n\ndo you want to know the secret?',
         );
 

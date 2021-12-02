@@ -33,7 +33,8 @@
   - fiven the input does contain "frog"
     'frog' -> 'i just learned something cool about frogs!\n\n- "frog"'
     'FROGZZ' -> 'i just learned something cool about frogs!\n\n- "FROGZZ"'
-    'green frogs do not exist.' -> 'i just learned something cool about frogs!\n\n- "green frogs do not exist."'
+    'green frogs do not exist.'
+      -> 'i just learned something cool about frogs!\n\n- "green frogs do not exist."'
  */
 
 let userInput = '';
