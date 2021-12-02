@@ -1,18 +1,18 @@
-# Chapter 2
+# Chapter 2: Just Enough JavaScript
 
-Practice reading, understanding and describing larger programs.
+Take a closer look at the JavaScript language by studying just what you will
+need to write interactive text-based programs.
 
 ## Before Class
 
 > Do you have any questions from last week? Add the `question` label to an issue
 > in your class repo so your coaches know what to review!
 
-- Skim these chapters from `/just-enough-javascript`
-  - Break, Continue
-- Look through the READMEs & guides of
-  - `/reading-programs`
-  - `/describing-programs`
-- Try out the "ask me" button if you haven't yet
+- Read through the different types of exercises you will have in in Just Enough
+  JavaScript
+- Take a look through
+  - `/just-enough-javascript/errors`
+  - `/just-enough-javascript/strict-mode`
 
 ## During Class
 
@@ -20,31 +20,21 @@ Practice reading and describing programs
 
 ### Before Break
 
-Describing Programs
-
-- **All together**: read through
-  **[../describing-programs](../describing-programs)** and discuss how you can
-  make sense of code you don't understand yet
-- **In Small Groups**: practice describing programs
+- Q/A from last chapter
+- Break into small groups and start working through **Just Enough JavaScript**
 
 ### After Break
 
 Naming Variables
 
-- **All together**: read through **[../naming-variables](../naming-variables)**
-  and discuss why variable names are important
-- **In Small Groups**: practice giving variables _generic_ and _specific_ names
+- Continue working through **Just Enough JavaScript** in your small groups
 
 ## After Class
 
 No project. Just lots of study time, alone and in groups. Keep asking questions!
 
 - 🥚 **[../flashcards](../flashcards)**: ~20 minutes every day
-- 🥚🐣🐥 **[../just-enough-javascript](../just-enough-javascript)**: through
-  _for-of loops_
-- 🐣 **[../describing-programs](../describing-programs)**: at least 4
-- 🐣 **[../naming-variables](../naming-variables)**: as many as you can
-- 🐥 **[../modifying-programs](../modifying-programs)**: as many as you can
-- 🐔 **[./explorations](./explorations)**: Experiment with JS language features
-  that interest you, try modifying the programs in this repo, or try writing
-  your own. This folder is yours to explore JS and programming.
+- 🥚🐣🐥🐔 `/just-enough-javascript`
+- 🐔 `/just-enough-javascript/explorations`: Experiment with JS language
+  features that interest you, try modifying the programs in this repo, or try
+  writing your own. This folder is yours to explore JS and programming.

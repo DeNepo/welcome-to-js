@@ -2,7 +2,7 @@
 
 'use strict';
 
-alert('you will need to input strings with "e" in the right place');
+alert('you will need to enter strings with "e" in the right place');
 
 let _a = 0;
 

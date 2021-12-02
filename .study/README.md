@@ -26,7 +26,7 @@ small programs.
 ## Learning Objectives
 
 > all of these skills are limited to short, single-page programs written with
-> [**Just Enough JavaScript**](../just-enough-javascript)
+> **Just Enough JavaScript**
 
 - 🥚 **Three Audiences**: You can explain how a single file of code is used to
   communicate with 3 different audiences:
@@ -90,8 +90,8 @@ small programs.
   Just Enough JS. At each point in execution you can make a prediction of the
   next line before executing, and can check your prediction using the _scopes_
   panel.
-- 🐔 **Authoring Programs**: Given starter code with labeled goals, you can
-  write a small program to match specs \(user stories + test cases\).
+- 🐔 **Writing Programs**: Given starter code with labeled goals, you can write
+  a small program to match specs \(user stories + test cases\).
 
 ---
 

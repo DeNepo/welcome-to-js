@@ -1,4 +1,4 @@
-# Chapter 1
+# Chapter 1: Programming
 
 Begin learning JS syntax and vocabulary, reading code out loud, and tracing
 variables.
@@ -46,12 +46,5 @@ think will be most helpful. Then move on to the practice:
 
 - 🥚 [compute-it](http://compute-it.toxicode.fr/), 🐣
   [little-dot](http://little-dot.toxicode.fr/)
-- 🥚 **[../programming](../programming)**
-- 🥚 **[../strict-mode](../strict-mode)**
-- 🥚 **[../errors](../errors)**
 - 🥚 **[../flashcards](../flashcards)**: ~20 minutes every day
-- 🥚🐣🐥 **[../just-enough-javascript](../just-enough-javascript)**: through
-  _Break, Continue_
-- 🥚 **[../reading-programs](../reading-programs)**: as many as you can
-- 🥚 **[../plain-text-programs](../plain-text-programs)**: ~20 minutes
-- 🐣 **[../logging](../logging)**: ~45 minutes is a good start
+- 🥚 Finish studying **[../programming](../programming)**

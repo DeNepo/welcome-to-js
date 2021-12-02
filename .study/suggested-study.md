@@ -36,44 +36,46 @@ and interact with users. Why just enough, and not a little more? Because reading
 and understanding program logic is more important than JavaScript, so why let
 the code get in the way?
 
-- 🥚🐣🐥🐔
-  **[../just-enough-javascript](../just-enough-javascript?--defaults)**: All the
-  JavaScript you need to know for this module.
 - 🥚🐣🐥🐔 **[../printables](../printables?--defaults)**: A collection of cheat
   sheets, diagrams, and other printable documents that can be helpful to keep by
   your computer. Print the ones you like, ignore the others.
 - 🥚 **[../flashcards](../flashcards?--defaults)**: A collection of flashcards
   with key vocabulary and concepts for the module. You should study these every
   day.
-- 🥚 **[../strict-mode](../strict-mode?--defaults)**: A quick read and a couple
-  examples. long story short: always use strict mode.
-- 🥚 **[../errors](../errors?--defaults)**: A quick read about what errors are
-  and how you can undo them. The Debugging module will go into much more depth
-  on errors.
-- 🥚 **[../reading-programs](../reading-programs?--defaults)**: Practice reading
-  interactive programs. This includes identifying variables, tracing code like
-  the computer, drawing on the code, and asking good questions.
-- 🥚 **[../plain-text-programs](../plain-text-programs?--defaults)**: JavaScript
-  programs written in `.txt` files that have no color. How is it different to
-  study?
-- 🥚 **[../logging](../logging?--defaults)**: Learn how to create your own trace
-  of a program's execution using `console.log`. Practice tracing different
-  aspects of the same program's execution.
-- 🐣 **[../describing-programs](../describing-programs?--defaults)**: Analyze
-  programs in detail learning to explain what is happening on each line, and
-  explaining how each line contributes to the program's overall behavior.
-- 🐣 **[../naming-variables](../naming-variables?--defaults)**: Code should be
-  written for people first, computers second. Learn to give helpful names to
-  your variables that describe what data they store and how they are used in
-  your program.
-- 🐥 **[../modifying-programs](../modifying-programs?--defaults)**: A few
-  working programs with challenges for how to change it's behavior. Each
-  exercise comes with a few files: the original, and one extra file for each
-  challenge. If you get lost in an exercise you you can copy-type the original
-  to start over.
-- 🐔 **[../explorations](../explorations?--defaults)**: Experiment with JS
-  language features that interest you, try modifying the programs in this repo,
-  or try writing your own. This folder is yours to explore JS and programming.
+- 🥚🐣🐥 **Programming**: What is a program? What is JavaScript? What is
+  software development? This chapter is an introduction to all these big
+  questions.
+- 🥚🐣🐥🐔 **Just Enough JavaScript**: All the JavaScript you need to know to
+  practice your programming skills.
+  - 🥚 `/errors`: A quick read about what errors are and how you can undo them.
+    The Debugging module will go into much more depth on errors.
+  - 🥚 `/strict-mode`: A quick read and a couple examples. long story short:
+    always use strict mode.
+  - 🥚🐣🐥🐔 ... just enough JavaScript ...
+  - 🐔 `/explorations`: Experiment with JS language features that interest you,
+    try modifying the programs in this repo, or try writing your own. This
+    folder is yours to explore JS and programming.
+- 🥚🐣🐥🐔 **Programming Skills**:
+  - 🥚 `/reading`: Practice reading interactive programs. This includes
+    identifying variables, tracing code like the computer, drawing on the code,
+    and asking good questions.
+  - 🥚 `/plain-text-programs`: JavaScript programs written in `.txt` files that
+    have no color. How is it different to study?
+  - 🥚 `/logging`: Learn how to create your own trace of a program's execution
+    using `console.log`. Practice tracing different aspects of the same
+    program's execution.
+  - 🐣 `/describing`: Analyze programs in detail learning to explain what is
+    happening on each line, and explaining how each line contributes to the
+    program's overall behavior.
+  - 🐣 `/naming-variables`: Code should be written for people first, computers
+    second. Learn to give helpful names to your variables that describe what
+    data they store and how they are used in your program.
+  - 🐥 `/modifying`: A few working programs with challenges for how to change
+    it's behavior. Each exercise comes with a few files: the original, and one
+    extra file for each challenge. If you get lost in an exercise you you can
+    copy-type the original to start over.
+  - 🐔 `/writing`: Practice writing programs from spec with different amounts of
+    support.
 
 ## Tutorials
 

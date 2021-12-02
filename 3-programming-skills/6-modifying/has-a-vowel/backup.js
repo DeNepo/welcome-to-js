@@ -1,22 +1,16 @@
-// #todo
-
 'use strict';
 
-/*
-  modify this program so it only checks for consonants
-
-  you can do this by changing one string, renaming a variable and the user's instructions
-*/
+// you can copy-type this into the challenge files if you get too lost
 
 let characters = null;
 while (characters === null) {
   characters = prompt('enter some characters');
 }
 
-const vowels = 'aeiouAEIOU';
+let vowels = 'aeiouAEIOU';
 
 let hasAVowel = false;
-for (const char of characters) {
+for (let char of characters) {
   if (vowels.includes(char)) {
     hasAVowel = true;
     break;
