@@ -26,3 +26,16 @@ understanding what it's like to be the computer as it runs your program. If the
 first rule in design is "know your user", then one of the first rule in coding
 should be "know your computer". After all, the computer is one of your code's
 users!
+
+---
+
+## Programs: The Computer
+
+The computer is in the center of this diagram. It interpreting the developers
+source code, processing the user's data, and logging information for the
+developer.
+
+Tracing code is a very good way to begin understanding how the computer follows
+your instructions one step at a time:
+
+[![program diagram](../.assets/a-program.svg)](https://excalidraw.com/#json=_cj6JYwuO38PPGKxXN_cQ,3910Z7e2jGLZu4vjueG-Bg)

@@ -36,3 +36,22 @@ about keeping the big picture in mind and making priorities. It's easy to get
 caught up in the details of your code, taking a step back to remember who you're
 developing for and why they need this program keeps your priorities in
 perspective.
+
+---
+
+## Programs: Users and Developers
+
+Users and on the left in this diagram, developers are on the right.
+
+- **For Developers**
+  - **Static**: Comments, variable names and code formatting help developers
+    read and understand source code.
+  - **Dynamic**: Logs and error messages help developers understand what is
+    happening inside the computer as it follows the code's instructions.
+- **For Users**
+  - **Inputting Data**: `prompt` is a simple way for users to input data to a
+    JavaScript program.
+  - **Outputting Data**: `alert` is a simple way for the computer to display
+    data to a user.
+
+[![program diagram](../.assets/a-program.svg)](https://excalidraw.com/#json=40qMI89WByj9Yhhh94Ghg,4zpL-AmDgpnbyFJWJfNQhg)

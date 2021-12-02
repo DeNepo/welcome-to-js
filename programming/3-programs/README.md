@@ -2,7 +2,7 @@
 
 So what is a program? It's something like this:
 
-![program diagram](./assets/a-program.svg)
+[![program diagram](../.assets/a-program.svg)](https://excalidraw.com/#json=_cj6JYwuO38PPGKxXN_cQ,3910Z7e2jGLZu4vjueG-Bg)
 
 ---
 
@@ -49,6 +49,12 @@ console.log('this is a string');
 console.log(typeof 'hello'); // "string"
 console.log(typeof 5); // "number"
 console.log(typeof '5'); // "string
+
+// you can find the length of a string with `.length`
+console.log('abc'.length);
+console.log('ab'.length);
+console.log('a'.length);
+console.log(''.length);
 ```
 
 You don't need to understand very much about JavaScript types for now, just that
@@ -59,9 +65,9 @@ JavaScript by _strings_.
 
 ## Programs to Study
 
-This folder has a few programs in it for you to study. You shouldn't try to
-understand the source code just yet, you'll take a deep look at one program in
-the next chapter.
+This folder has a few programs for you to study. You don't need to understand
+the source code just yet, you'll take a deep look at one program in the next
+chapter.
 
 For now focus on understanding each program at a higher level like in the
 diagram at the top of this README. Practice explaining what is happening in each
