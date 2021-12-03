@@ -29,7 +29,7 @@ for (let char of text) {
 
 console.log(hasVowel === false);
 
-// ------- */
+/* ------- */
 
 
 console.log(hasVowel === true); // distractor

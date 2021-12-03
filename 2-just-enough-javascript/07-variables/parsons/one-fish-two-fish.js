@@ -2,7 +2,7 @@
 
 'use strict';
 
-// ------------ instructions ----------- */
+/* ------------ instructions ----------- */
 
 /*
   construct the phrase 'one fish two fish'
@@ -18,7 +18,7 @@
 
 */
 
-// ----------- solution --------------- */
+/* ----------- solution --------------- */
 
 let phrase = ' ';
 
@@ -30,7 +30,7 @@ phrase = phrase + ' fish';
 
 console.log(phrase === 'one fish two fish');
 
-// ----------- distractors -------------- */
+/* ----------- distractors -------------- */
 
 phrase = 'one' + phrase + ' fish'; // distractor
 phrase = 'one ' + phrase + 'fish'; // distractor

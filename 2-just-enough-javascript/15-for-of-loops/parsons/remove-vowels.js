@@ -28,7 +28,7 @@ for (let letter of before) {
 
 console.log(after === 'bcdfghjklmnpqrstvwxyz');
 
-// ------------------- */
+/* ------------------- */
 
 
 if (vowels.includes(letter)) { // distractor

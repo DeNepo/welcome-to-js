@@ -27,18 +27,18 @@
 
 console.log('--- begin program ---');
 
-// --- gather user input --- */
+/* --- gather user input --- */
 
 let input = prompt(_);
 console.log('input:', input);
 
-// --- declare initial output --- */
+/* --- declare initial output --- */
 
 let output = _;
 
-// --- create final output --- */
+/* --- create final output --- */
 
-// --- alert the result --- */
+/* --- alert the result --- */
 
 console.log('output:', output);
 alert(output);

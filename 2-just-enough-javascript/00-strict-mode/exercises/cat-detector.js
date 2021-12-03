@@ -10,7 +10,7 @@
   Finally it lets the user know their input was a cat.
 */
 
-// --- gather the user's input (canceling not allowed) --- */
+/* --- gather the user's input (canceling not allowed) --- */
 
 input = null;
 while (input === null) {
@@ -18,7 +18,7 @@ while (input === null) {
   console.log('user input:', input);
 }
 
-// --- check the input and create a message --- */
+/* --- check the input and create a message --- */
 
 message = '';
 if (input !== 'cat') {
@@ -30,6 +30,6 @@ if (input !== 'cat') {
 }
 console.log('final message:', message);
 
-// --- display the message for the user --- */
+/* --- display the message for the user --- */
 
 alert(message);

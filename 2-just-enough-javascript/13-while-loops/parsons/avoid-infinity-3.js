@@ -7,7 +7,7 @@ while (dots.length < 5) {
   alert(dots);
 }
 
-// --------- */
+/* --------- */
 
 
 dots + '.'; // distractor

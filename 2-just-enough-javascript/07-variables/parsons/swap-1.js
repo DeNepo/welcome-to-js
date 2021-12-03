@@ -26,7 +26,7 @@ console.log(a === 'x');
 console.log(b === 'y');
 console.log(temp === 'y');
 
-// ------------- */
+/* ------------- */
 
 a = 'x'; // distractor
 b = 'y'; // distractor

@@ -282,18 +282,18 @@ are still many more solutions):
 
 console.log('--- begin program ---');
 
-// --- gather user input --- */
+/* --- gather user input --- */
 
 let input = prompt(_);
 console.log('input:', input);
 
-// --- declare initial output --- */
+/* --- declare initial output --- */
 
 let output = _;
 
-// --- create final output --- */
+/* --- create final output --- */
 
-// --- alert the result --- */
+/* --- alert the result --- */
 
 console.log('output:', output);
 alert(output);
@@ -338,19 +338,19 @@ console.log('--- end program ---');
 
 console.log('--- begin program ---');
 
-// --- gather user input --- */
+/* --- gather user input --- */
 
 // maybe not the most clear instructions, but it's good enough for now
 let input = prompt('if you cancel i will be sad. otherwise i will be excited.');
 console.log('input:', input);
 
-// --- declare initial output --- */
+/* --- declare initial output --- */
 
 // declaring output to an empty string
 //  it will be assigned the correct value in a conditional later on
 let output = '';
 
-// --- create final output --- */
+/* --- create final output --- */
 
 // input will only be null if the user canceled
 if (input === null) {
@@ -362,7 +362,7 @@ if (input === null) {
   output = input + '!';
 }
 
-// --- alert the result --- */
+/* --- alert the result --- */
 
 console.log('output:', output);
 alert(output);
@@ -405,19 +405,19 @@ console.log('--- end program ---');
 
 console.log('--- begin program ---');
 
-// --- gather user input --- */
+/* --- gather user input --- */
 
 // maybe not the most clear instructions, but it's good enough for now
 let input = prompt('give me something to be excited about:');
 console.log('input:', input);
 
-// --- declare initial output --- */
+/* --- declare initial output --- */
 
 // initialized the output to the sad output, assuming the user canceled
 //  if they didn't cancel, the program will later reassign the correct value
 let output = ':(';
 
-// --- create final output --- */
+/* --- create final output --- */
 
 // check if the user inputted a string value
 if (input !== null) {
@@ -425,7 +425,7 @@ if (input !== null) {
   output = input + '!';
 }
 
-// --- alert the result --- */
+/* --- alert the result --- */
 
 console.log('output:', output);
 alert(output);
@@ -468,19 +468,19 @@ console.log('--- end program ---');
 
 console.log('--- begin program ---');
 
-// --- gather user input --- */
+/* --- gather user input --- */
 
 // maybe not the most clear instructions, but it's good enough for now
 let input = prompt('give me something to be excited about:');
 console.log('input:', input);
 
-// --- declare initial output --- */
+/* --- declare initial output --- */
 
 // initialize the output to be excited, assuming the user didn't cancel
 //  if they did cancel, the program will later reassign the correct value
 let output = input + '!';
 
-// --- create final output --- */
+/* --- create final output --- */
 
 // check if the user actually canceled
 if (input === null) {
@@ -488,7 +488,7 @@ if (input === null) {
   output = ':(';
 }
 
-// --- alert the result --- */
+/* --- alert the result --- */
 
 console.log('output:', output);
 alert(output);

@@ -31,12 +31,12 @@
 
 */
 
-// --- gather user input --- */
+/* --- gather user input --- */
 
-// --- check if the input has any repeated characters --- */
+/* --- check if the input has any repeated characters --- */
 
 //  store the search results as a boolean
 
-// --- create a message for the user --- */
+/* --- create a message for the user --- */
 
-// --- display the message to the user
+/* --- display the message to the user
