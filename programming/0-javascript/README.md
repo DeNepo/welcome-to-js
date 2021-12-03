@@ -132,3 +132,11 @@ secure and developer-friendly alternative to Node.js.
 - [MDN: First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 - [javascript.info](https://javascript.info/intro)
 - [Danielle Thé](https://www.youtube.com/watch?v=gT0Lh1eYk78)
+
+---
+
+## Programs: Source Code
+
+JavaScript is the language used to write the Source Code in this diagram:
+
+[![program diagram](../.assets/a-program.svg)](https://excalidraw.com/#json=_cj6JYwuO38PPGKxXN_cQ,3910Z7e2jGLZu4vjueG-Bg)

@@ -22,3 +22,5 @@ let temp;
 temp = a;
 a = b;
 b = temp;
+
+// is it possible two swap a and b without using temp?

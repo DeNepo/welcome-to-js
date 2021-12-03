@@ -1,11 +1,16 @@
 'use strict';
 
-/*
-  The Cat Detector
+/* Cat Detector
 
-  This programs prompts the user to input a cat.
-  Then it checks if they did input a cat.
-  Finally it lets the user know their input was a cat.
+  This programs prompts the user to input a cat,
+  and lets them know if they did input a cat or not.
+
+  Data In:
+    Any string
+
+  Data Out:
+    A string describing if the user's input was "cat" or not
+    
 */
 
 // --- gather the user's input (canceling not allowed) ---
