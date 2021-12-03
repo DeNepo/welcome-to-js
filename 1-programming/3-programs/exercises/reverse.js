@@ -12,7 +12,7 @@
 
 */
 
-// --- gather user input ---
+/* --- gather user input --- */
 
 let input = null;
 while (input === null) {
@@ -20,7 +20,7 @@ while (input === null) {
   console.log(input);
 }
 
-// --- reverse the input text ---
+/* --- reverse the input text --- */
 
 let reversed = '';
 for (let character of input) {
@@ -28,11 +28,11 @@ for (let character of input) {
   console.log(reversed);
 }
 
-// --- create a final message ---
+/* --- create a final message --- */
 
 let message = input + ' -> ' + reversed;
 console.log(message);
 
-// --- display message to the user ---
+/* --- display message to the user --- */
 
 alert(message);

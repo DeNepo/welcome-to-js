@@ -13,6 +13,8 @@
 
 */
 
+
+
 let text = 'xkcd';
 
 let hasVowel = false;
@@ -27,7 +29,8 @@ for (let char of text) {
 
 console.log(hasVowel === false);
 
-// -------
+// ------- */
+
 
 console.log(hasVowel === true); // distractor
 continue; // distractor

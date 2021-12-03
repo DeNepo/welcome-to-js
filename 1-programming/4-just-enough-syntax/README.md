@@ -27,30 +27,40 @@ you only need to know these for now:
 
 console.log('===== primitives =====');
 
-console.log('--- strings ---');
+console.log('--- strings --- */
+
+');
 // strings are anything wrapped in quotation marks:
 console.log('hello');
 console.log('good bye');
 console.log(''); // an empty string
 
-console.log('--- numbers ---');
+console.log('--- numbers --- */
+
+');
 // numbers are ... numbers
 console.log(0);
 console.log(1);
 console.log(2);
 console.log(10.5);
 
-console.log('--- booleans ---');
+console.log('--- booleans --- */
+
+');
 // booleans can be either true or false
 //  they're like a yes/no or on/off switch
 console.log(true);
 console.log(false);
 
-console.log('--- undefined ---');
+console.log('--- undefined --- */
+
+');
 // undefined is the default value if no other value is present
 console.log(undefined);
 
-console.log('--- null ---');
+console.log('--- null --- */
+
+');
 // null is a strange thing, you'll learn a lot about it later
 console.log(null);
 ```
@@ -109,7 +119,9 @@ console.log('===== operators =====');
 
 // here's the most important operators for the programs in this chapter
 
-console.log('--- strict equality ---');
+console.log('--- strict equality --- */
+
+');
 
 // evaluates to true if two primitives are the same
 console.log(1 === 1); // true
@@ -123,7 +135,9 @@ console.log(12 === 100); // false
 console.log(false === true); // false
 console.log(null === 'null'); // false
 
-console.log('--- strict inequality ---');
+console.log('--- strict inequality --- */
+
+');
 
 // evaluates to true if two primitives are different
 console.log(1 !== '1'); // true
@@ -137,7 +151,9 @@ console.log(false !== false); // false
 console.log('hello' !== 'hello'); // false
 console.log(null !== null); // false
 
-console.log('--- string concatenation ---');
+console.log('--- string concatenation --- */
+
+');
 
 // combines two or more strings into one string
 
@@ -156,29 +172,39 @@ console.log('===== typeof operator =====');
 
 // the typeof operator tells you the type of a value
 
-console.log('--- strings ---');
+console.log('--- strings --- */
+
+');
 
 console.log(typeof 'hello'); // "string"
 console.log(typeof 'good bye'); // "string"
 console.log(typeof ''); // "string"
 
-console.log('--- numbers ---');
+console.log('--- numbers --- */
+
+');
 
 console.log(typeof 0); // "number"
 console.log(typeof 1); // "number"
 console.log(typeof 2); // "number"
 console.log(typeof 10.5); // "number"
 
-console.log('--- booleans ---');
+console.log('--- booleans --- */
+
+');
 
 console.log(typeof true); // "boolean"
 console.log(typeof false); // "boolean"
 
-console.log('--- undefined ---');
+console.log('--- undefined --- */
+
+');
 
 console.log(typeof undefined); // "undefined"
 
-console.log('--- null ---');
+console.log('--- null --- */
+
+');
 
 // the type of null is "object"
 //  don't worry about that for now, just know that it is

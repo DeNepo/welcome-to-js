@@ -5,7 +5,9 @@
 
 // ::::: don't forget to trace the program! :::::
 
-// --- gather user input ---
+/* --- gather user input --- */
+
+
 
 
 let input = null;
@@ -22,7 +24,9 @@ while (input === null) {
 
 }
 
-// --- create a message ---
+/* --- create a message --- */
+
+
 
 
 let message = '';
@@ -45,7 +49,9 @@ if (input === '') {
 console.log(message);
 
 
-// --- display message to the user ---
+/* --- display message to the user --- */
+
+
 
 
 alert(message);

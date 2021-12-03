@@ -2,11 +2,15 @@
 
 /* -- gather a valid sentence from the user -- */
 
+
+
 let sentence = '';
 
 let isValid = false;
 while (!isValid) {
   /* -- capture user input -- */
+
+
 
   // for this program, a word is any characters
   //  it gets more complicated to check if something is an actual word
@@ -14,6 +18,8 @@ while (!isValid) {
   sentence = prompt('enter a sentence with at least 2 words');
 
   /* -- validate user input -- */
+
+
 
   if (sentence === null) {
     alert('there is no escape');
@@ -32,9 +38,13 @@ while (!isValid) {
 
 /* -- prepare input for processing -- */
 
+
+
 sentence = sentence + ' ';
 
 /* -- allow the user to remove unwanted words -- */
+
+
 
 let newSentence = '';
 
@@ -42,6 +52,8 @@ let nextWord = '';
 for (const character of sentence) {
   if (character === ' ') {
     /* -- end of word: allow user to remove the word -- */
+
+
 
     const keep = confirm(
       'do you want to keep this word:\n\n"' + nextWord + '"',
@@ -53,10 +65,14 @@ for (const character of sentence) {
   } else {
     /* -- still building a word: append the character -- */
 
+
+
     nextWord = nextWord + character;
   }
 }
 
 /* -- communicate the result -- */
+
+
 
 alert(newSentence);

@@ -32,21 +32,21 @@
 
 */
 
-// --- gather user input ---
+// --- gather user input --- */
 
 _;
 
-// --- create a message for the user ---
+// --- create a message for the user --- */
 
 _;
 if (_) {
-  // --- the user canceled ---
+  // --- the user canceled --- */
 } else if (_) {
-  // --- the input has at least one space ---
+  // --- the input has at least one space --- */
 } else {
-  // --- the input has no spaces ---
+  // --- the input has no spaces --- */
 }
 
-// --- alert the message to the user ---
+// --- alert the message to the user --- */
 
 _;

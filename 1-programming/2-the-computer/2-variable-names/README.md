@@ -24,7 +24,9 @@ comments in each program?
 ```js
 'use strict';
 
-console.log('--- program 1 ---');
+console.log('--- program 1 --- */
+
+');
 
 // declare variable 1: let
 // initialize variable 1: "hello"
@@ -48,7 +50,9 @@ console.log(greeting);
 ```js
 'use strict';
 
-console.log('--- program 2 ---');
+console.log('--- program 2 --- */
+
+');
 
 // declare variable 1: let
 // initialize variable 1: "hello"

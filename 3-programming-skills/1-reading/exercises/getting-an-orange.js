@@ -13,11 +13,13 @@ let theOrange = '';
 
 while (theOrange === '') {
   /* -- 1.a gather user input -- */
+
   const input = prompt('give me an orange, lower or upper case');
 
   /* -- 1.b check if the user canceled --
     - which user action will pass this condition?
   */
+
   if (input === null) {
     continue;
   }
@@ -26,6 +28,7 @@ while (theOrange === '') {
     - what is the scope for `theOrange`?
     - what is the scope for `input`?
   */
+
   if (input.toLowerCase() === 'orange') {
     theOrange = input;
   }

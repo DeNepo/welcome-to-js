@@ -1,6 +1,6 @@
 'use strict';
 
-// --- gather user input ---
+/* --- gather user input --- */
 
 let input = null;
 
@@ -10,7 +10,7 @@ while (input === null) {
   console.log(message);
 }
 
-// --- create a message ---
+/* --- create a message --- */
 
 let message = '';
 if (input === '') {
@@ -20,6 +20,6 @@ if (input === '') {
 }
 console.log(message);
 
-// --- display message to the user ---
+/* --- display message to the user --- */
 
 alert(message);

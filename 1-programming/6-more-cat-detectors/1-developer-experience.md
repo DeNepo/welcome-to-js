@@ -39,7 +39,7 @@ The original Cat Detector:
 
 */
 
-// --- gather the user's input (canceling not allowed) ---
+/* --- gather the user's input (canceling not allowed) --- */
 
 let input = null;
 while (input === null) {
@@ -47,7 +47,7 @@ while (input === null) {
   console.log('user input:', input);
 }
 
-// --- check the input and create a message ---
+/* --- check the input and create a message --- */
 
 let message = '';
 if (input !== 'cat') {
@@ -59,7 +59,7 @@ if (input !== 'cat') {
 }
 console.log('final message:', message);
 
-// --- display the message for the user ---
+/* --- display the message for the user --- */
 
 alert(message);
 ```
@@ -95,7 +95,7 @@ alert(message);
 
 */
 
-// --- gather the user's input (canceling not allowed) ---
+/* --- gather the user's input (canceling not allowed) --- */
 
 // declare and initialize `input`
 //  this variable is used later to create the message
@@ -112,7 +112,7 @@ while (input === null) {
   console.log('user input:', input);
 }
 
-// --- check the input and create a message ---
+/* --- check the input and create a message --- */
 
 // declare a new variable for the message
 //  initialize it to a string so it's clear what type it should store
@@ -137,7 +137,7 @@ if (input !== 'cat') {
 // log the new message value for the developer
 console.log('final message:', message);
 
-// --- display the message for the user ---
+/* --- display the message for the user --- */
 
 // alert the final value of `message` to the user
 alert(message);
@@ -198,14 +198,14 @@ alert(message);
 ```js
 'use strict';
 
-// --- gather the user's input (canceling not allowed) ---
+/* --- gather the user's input (canceling not allowed) --- */
 
 let input = null;
 while (input === null) {
   input = prompt('please enter "cat"');
 }
 
-// --- check the input and create a message ---
+/* --- check the input and create a message --- */
 
 let message = '';
 if (input !== 'cat') {
@@ -214,7 +214,7 @@ if (input !== 'cat') {
   message = 'thank you for the cat';
 }
 
-// --- display the message for the user ---
+/* --- display the message for the user --- */
 
 alert(message);
 ```
@@ -270,7 +270,7 @@ alert(message);
 ```js
 'use strict';
 
-// --- gather the user's input (canceling not allowed) ---
+/* --- gather the user's input (canceling not allowed) --- */
 
 let input = null;
 while (input === null) {
@@ -278,7 +278,7 @@ while (input === null) {
   console.log(1);
 }
 
-// --- check the input and create a message ---
+/* --- check the input and create a message --- */
 
 let message = '';
 if (input !== 'cat') {
@@ -289,7 +289,7 @@ if (input !== 'cat') {
   console.log(3);
 }
 
-// --- display the message for the user ---
+/* --- display the message for the user --- */
 
 alert(message);
 ```
@@ -312,7 +312,7 @@ alert(message);
 ```js
 'use strict';
 
-// --- gather the user's input (canceling not allowed) ---
+/* --- gather the user's input (canceling not allowed) --- */
 
 let x = null;
 while (x === null) {
@@ -320,7 +320,7 @@ while (x === null) {
   console.log(x);
 }
 
-// --- check the input and create a message ---
+/* --- check the input and create a message --- */
 
 let y = '';
 if (x !== 'cat') {
@@ -331,7 +331,7 @@ if (x !== 'cat') {
   console.log('path: else');
 }
 
-// --- display the message for the user ---
+/* --- display the message for the user --- */
 
 alert(y);
 ```
@@ -388,18 +388,18 @@ alert(y);
 ```js
 'use strict';
 
-// --- gather the user's input (canceling not allowed) ---
+/* --- gather the user's input (canceling not allowed) --- */
 
 let input = null;
 while (input === null) input = prompt('please enter "cat"');
 
-// --- check the input and construct a message ---
+/* --- check the input and construct a message --- */
 
 let message = '';
 if (input !== 'cat') message = '"' + input + '" is not a cat';
 else message = 'thank you for the cat';
 
-// --- display the message for the user ---
+/* --- display the message for the user --- */
 
 alert(message);
 ```
@@ -423,7 +423,9 @@ alert(message);
 ```js
 'use strict'
 
-// --- gather the user's input (canceling not allowed) ---
+/* --- gather the user's input (canceling not allowed) --- */
+
+
 
 let input = null;
 while (input === null) {
@@ -431,7 +433,9 @@ input = prompt('please enter "cat"');
 console.log('user input:', input);
 }
 
-// --- check the input and create a message ---
+/* --- check the input and create a message --- */
+
+
 
 let message = '';
 if (input !== 'cat') {
@@ -443,7 +447,9 @@ console.log('path: else');
 }
 console.log('final message:', message);
 
-// --- display the message for the user ---
+/* --- display the message for the user --- */
+
+
 
 alert(message);
 ```
@@ -467,13 +473,17 @@ alert(message);
 ```js
 'use strict'
 
-// --- gather the user's input (canceling not allowed) ---
+/* --- gather the user's input (canceling not allowed) --- */
+
+
 
 let input=null;while(input===null){
   input=prompt('please enter "cat"');console.log('user input:',input);
 }
 
-// --- check the input and create a message ---
+/* --- check the input and create a message --- */
+
+
 
 let message='';if(input!=='cat'){
   message='"'+input+'" is not a cat';console.log('path: if');
@@ -482,7 +492,9 @@ let message='';if(input!=='cat'){
 }
 console.log('final message:',message);
 
-// --- display the message for the user ---
+/* --- display the message for the user --- */
+
+
 
 alert(message);
 ```

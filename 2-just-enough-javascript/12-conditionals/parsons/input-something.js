@@ -9,6 +9,8 @@
     c. their input
 */
 
+
+
 let userInput = prompt('please input something');
 
 
@@ -17,7 +19,7 @@ if (userInput === null) {
 } else if (userInput === '') {
   alert ('nothing!  why !!! ??? !!!');
 } else {
-  alert ('you inputed: ' + userInput);
+  alert ('you inputted: ' + userInput);
 }
 
 

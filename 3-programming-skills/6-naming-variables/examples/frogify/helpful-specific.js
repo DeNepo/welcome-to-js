@@ -33,6 +33,7 @@ let frogged = '';
 
 for (const maybeF of toBeFrogged) {
   /* -- append to new string -- */
+
   if (maybeF === 'f') {
     frogged = frogged + 'frog';
   } else if (maybeF === 'F') {

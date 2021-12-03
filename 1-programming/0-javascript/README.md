@@ -36,16 +36,16 @@ see how something works, but it's not possible to write and save a full program.
 <br>
 
 ```js
-// --- for the computer ---
+/* --- for the computer --- */
 
 'use strict';
 
-// --- for the developer ---
+/* --- for the developer --- */
 
 // log to the console for developers to read
 console.log('hello developer (console)');
 
-// --- for the user ---
+/* --- for the user --- */
 
 // alert hello for the user
 //  not a great UX, but easy to program

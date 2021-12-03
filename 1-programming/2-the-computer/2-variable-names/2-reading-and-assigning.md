@@ -123,9 +123,7 @@ console.log(c);
 
 </details>
 
----
-
----
+--- _/ --- _/
 
 <details>
 <summary>answers</summary>

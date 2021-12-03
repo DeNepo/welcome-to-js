@@ -11,8 +11,9 @@ Which of these are correct ways to write a comment?
 ✖ Nope.
 
 This is how you _open_ a block comment, but you also need to close a block
-comment with `*/`. If you do not close the comment the program with throw an
-error:
+comment with `\*/
+
+`. If you do not close the comment the program with throw an error:
 
 ```js
 'use strict';
@@ -44,8 +45,9 @@ This is how you can write an **inline comment**:
 
 <details>
 
-<summary><strong>C: </strong> <code>/* ... */</code></summary>
-<br>
+<summary><strong>C: </strong> <code>/* ... */
+
+</code></summary> <br>
 
 ✔ Correct!
 

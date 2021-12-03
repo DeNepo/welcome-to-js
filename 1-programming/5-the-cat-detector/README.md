@@ -42,9 +42,7 @@ Here are all the language features used in The Cat Detector:
   - [`while`](#while)
 - [That's all!](#thats-all)
 
----
-
----
+--- _/ --- _/
 
 ## Strict Mode
 
@@ -112,9 +110,7 @@ console.log('hello', '...', 'good bye');
 
 </details>
 
----
-
----
+--- _/ --- _/
 
 ## Primitives
 
@@ -220,9 +216,7 @@ console.log('null');
 
 </details>
 
----
-
----
+--- _/ --- _/
 
 ## Operators
 
@@ -351,9 +345,7 @@ The assignment operator is used to initialize variables (`let _ = _;`) or assign
 them new values (`_ = _`). You'll study this operator in the next section about
 ...
 
----
-
----
+--- _/ --- _/
 
 ## Variables
 
@@ -502,9 +494,7 @@ console.log(prompt);
 
 </details>
 
----
-
----
+--- _/ --- _/
 
 ## User Interactions
 
@@ -598,7 +588,7 @@ information is very useful to developers but not important for users:
 
 console.log('-- interactions vs. logs --');
 
-// --- different types ---
+/* --- different types --- */
 
 // alerting true or 'true' looks exactly the same to a user
 alert(true);
@@ -610,7 +600,7 @@ alert('true');
 console.log(true);
 console.log('true');
 
-// --- multiple values ---
+/* --- multiple values --- */
 
 // you cannot alert multiple values, users just need one message
 alert('hello', true);
@@ -622,9 +612,7 @@ console.log('hello', true);
 
 </details>
 
----
-
----
+--- _/ --- _/
 
 ## Control Flow
 
@@ -703,9 +691,7 @@ alert('thank you for your input: ' + userInput);
 
 </details>
 
----
-
----
+--- _/ --- _/
 
 ## That's all!
 

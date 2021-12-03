@@ -28,13 +28,16 @@
 
 console.log('--- begin program ---');
 
-// --- declare initial output ---
+// --- declare initial output --- */
+
 let output = _;
 
-// --- create final output ---
+// --- create final output --- */
+
 while (_) {}
 
-// --- alert the result ---
+// --- alert the result --- */
+
 console.log('output:', output);
 alert(output);
 

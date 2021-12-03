@@ -12,16 +12,16 @@
 
 */
 
-// --- prompt until the input is long enough ---
+/* --- prompt until the input is long enough --- */
 
 let input = null;
 while (true) {
-  // --- gather user input ---
+  /* --- gather user input --- */
 
   input = prompt('enter anything that is 5 characters long');
   console.log(input);
 
-  // --- check if the input exists and is 5 characters ---
+  /* --- check if the input exists and is 5 characters --- */
 
   if (input !== null && input.length === 5) {
     break;
@@ -30,11 +30,11 @@ while (true) {
   }
 }
 
-// --- create a message for the user ---
+/* --- create a message for the user --- */
 
 let message = 'yes! "' + input + '" is 5 characters long.';
 console.log(message);
 
-// --- display the message to the user ---
+/* --- display the message to the user --- */
 
 alert(message);

@@ -13,7 +13,7 @@
 
 */
 
-// --- gather user input ---
+/* --- gather user input --- */
 
 let input = null;
 while (input === null) {
@@ -21,7 +21,7 @@ while (input === null) {
   console.log(input);
 }
 
-// --- create mirrored text ---
+/* --- create mirrored text --- */
 
 let mirrored = ' | ';
 for (let character of input) {
@@ -29,6 +29,6 @@ for (let character of input) {
   console.log(mirrored);
 }
 
-// --- display mirrored text to the user ---
+/* --- display mirrored text to the user --- */
 
 alert(mirrored);

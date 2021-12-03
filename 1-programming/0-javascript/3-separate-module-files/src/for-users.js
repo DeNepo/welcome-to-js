@@ -1,4 +1,4 @@
-// --- for the user ---
+/* --- for the user --- */
 
 // alert hello for the user
 //  not a great UX, but easy to program

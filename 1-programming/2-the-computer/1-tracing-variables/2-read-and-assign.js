@@ -12,7 +12,7 @@
 
 */
 
-// --- assigning new values to a variable ---
+/* --- assigning new values to a variable --- */
 
 // declare name using let
 // initialize to "Gödel"

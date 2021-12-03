@@ -7,7 +7,8 @@ while (count < 10) {
   alert(count)
 }
 
-// ---------
+// --------- */
+
 
 count = 1 - count; // distractor
 count = 1; // distractor

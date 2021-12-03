@@ -1,6 +1,8 @@
 'use strict';
 
-// --- gather user input ---
+/* --- gather user input --- */
+
+
 
 let input = null;
 
@@ -13,12 +15,16 @@ let input = null;
     operator:
     primitive:
 */
+
+
 ____
   input = prompt('type nothing and click "enter"');
   console.log(message);
 }
 
-// --- create a message ---
+/* --- create a message --- */
+
+
 
 let message = '';
 if (input === '') {
@@ -29,6 +35,8 @@ if (input === '') {
 
   keyword:
 */
+
+
 ____
   message = 'this is not nothing: ' + input;
 }
@@ -40,8 +48,12 @@ ____
   identifier:
   identifier:
 */
+
+
 ____;
 
-// --- display message to the user ---
+/* --- display message to the user --- */
+
+
 
 alert(message);

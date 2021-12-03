@@ -7,9 +7,10 @@ what you want to learn from the code you will need to ask and answer different
 questions.
 
 The code in this folder is a collection of fully working programs that use Just
-Enough JavaScript. Each file has block comments (`/* -- ... -- */`) to help you
-find your way through the important steps of the program. Below are some tips to
-help you get started reading the programs:
+Enough JavaScript. Each file has block comments (`/_ -- ... -- _/
+
+`) to help you find your way through the important steps of the program. Below
+are some tips to help you get started reading the programs:
 
 - [Zooming in, Zooming out](#zooming-in-zooming-out) is about asking the right
   questions

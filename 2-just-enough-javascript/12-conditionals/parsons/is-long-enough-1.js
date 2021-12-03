@@ -9,6 +9,8 @@
     c. correct
 */
 
+
+
 let input = prompt('something longer than 4 characters:');
 
 if (input === null) {
@@ -19,7 +21,8 @@ if (input === null) {
   alert('perfect');
 }
 
-// ---- --------------
+// ---- -------------- */
+
 
 alert(too short!); // distractor
 } else if (input.length < 4) { //distractor

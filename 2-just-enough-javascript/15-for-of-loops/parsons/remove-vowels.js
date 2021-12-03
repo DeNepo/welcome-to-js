@@ -13,6 +13,8 @@
 
 */
 
+
+
 let before = 'abcdefghijklmnopqrstuvwxyz';
 
 let vowels = 'aeiou';
@@ -26,7 +28,8 @@ for (let letter of before) {
 
 console.log(after === 'bcdfghjklmnpqrstvwxyz');
 
-// -------------------
+// ------------------- */
+
 
 if (vowels.includes(letter)) { // distractor
 for (let character of before) { // distractor

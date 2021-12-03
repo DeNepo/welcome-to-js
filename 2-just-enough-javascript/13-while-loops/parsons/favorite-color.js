@@ -9,7 +9,8 @@ while (favoriteColor === null) {
 alert('nice.  your favorite color is "' + favoriteColor + '"');
 
 
-// ----------
+// ---------- */
+
 
 while (favoriteColor = null) { // distractor
 while (favoriteColor !== null) { // distractor

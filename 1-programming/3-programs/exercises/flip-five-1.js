@@ -13,7 +13,7 @@
 
 */
 
-// --- gather user input ---
+/* --- gather user input --- */
 
 let input = null;
 while (input === null) {
@@ -23,23 +23,23 @@ while (input === null) {
   console.log(input);
 }
 
-// --- create the final message ---
+/* --- create the final message --- */
 
 let message = '';
 if (input.length === 5) {
-  // --- reverse the input if it is 5 characters long ---
+  /* --- reverse the input if it is 5 characters long --- */
 
   for (let character of input) {
     message = character + message;
     console.log(message);
   }
 } else {
-  // --- do nothing if the input was not 5 characters ---
+  /* --- do nothing if the input was not 5 characters --- */
 
   message = input;
   console.log(message);
 }
 
-// --- display the message ---
+/* --- display the message --- */
 
 alert(message);

@@ -1,7 +1,7 @@
 // prim SC
 'use strict';
 
-// --- gather user input ---
+/* --- gather user input --- */
 
 // kw id op prim SC
 let input = null;
@@ -15,7 +15,7 @@ while (input === null) {
   // CCB
 }
 
-// --- display a message to the user ---
+/* --- display a message to the user --- */
 
 // kw OP id oper prim CP OCB
 if (input === '') {

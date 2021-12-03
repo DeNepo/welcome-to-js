@@ -23,6 +23,7 @@ for (const character of toBeFrogged) {
 
     - can you think of a way to combine these two conditionals?
   -- */
+
   if (character === 'f') {
     frogged = frogged + 'frog';
     continue;

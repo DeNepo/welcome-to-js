@@ -26,19 +26,23 @@
 
 console.log('--- begin program ---');
 
-// --- gather user input ---
+// --- gather user input --- */
+
 let input = _;
 while (_) {}
 console.log('input:', input);
 
-// --- declare initial output ---
+// --- declare initial output --- */
+
 let output = _;
 
-// --- create final output ---
+// --- create final output --- */
+
 for (let _ of _) {
 }
 
-// --- alert the result ---
+// --- alert the result --- */
+
 console.log('output:', output);
 alert(output);
 

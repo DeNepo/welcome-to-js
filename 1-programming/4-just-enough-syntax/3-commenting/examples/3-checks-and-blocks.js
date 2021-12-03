@@ -1,7 +1,7 @@
 // prim SC
 'use strict';
 
-// --- conditionals ---
+/* --- conditionals --- */
 
 // kw id op prim SC
 let name = 'Robert';
@@ -17,7 +17,7 @@ if (name.length === 5) {
   // CCB
 }
 
-// --- while loops ---
+/* --- while loops --- */
 
 // kw id op prim SC
 let dots = '';

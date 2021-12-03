@@ -10,10 +10,10 @@
 
   Data Out:
     A string describing if the user's input was "cat" or not
-    
+
 */
 
-// --- gather the user's input (canceling not allowed) ---
+/* --- gather the user's input (canceling not allowed) --- */
 
 let input = null;
 while (input === null) {
@@ -21,7 +21,7 @@ while (input === null) {
   console.log('user input:', input);
 }
 
-// --- check the input and create a message ---
+/* --- check the input and create a message --- */
 
 let message = '';
 if (input !== 'cat') {
@@ -33,7 +33,7 @@ if (input !== 'cat') {
 }
 console.log('final message:', message);
 
-// --- display the message for the user ---
+/* --- display the message for the user --- */
 
 alert(message);
 

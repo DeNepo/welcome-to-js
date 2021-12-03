@@ -56,14 +56,14 @@ The one and only, the original ... cat detector!
 
 */
 
-// --- gather the user's input ---
+/* --- gather the user's input --- */
 
 let input = null;
 while (input === null) {
   input = prompt('please enter "cat"');
 }
 
-// --- create a message ---
+/* --- create a message --- */
 
 let message = '';
 if (input !== 'cat') {
@@ -72,7 +72,7 @@ if (input !== 'cat') {
   message = 'thank you for the cat';
 }
 
-// --- display the message to the user ---
+/* --- display the message to the user --- */
 
 alert(message);
 ```
@@ -99,14 +99,14 @@ same!
 ```js
 'use strict';
 
-// --- gather the user's input ---
+/* --- gather the user's input --- */
 
 let input = null;
 while (null === input) {
   input = prompt('please enter "cat"');
 }
 
-// --- create a message ---
+/* --- create a message --- */
 
 let message = '';
 if ('cat' !== input) {
@@ -115,7 +115,7 @@ if ('cat' !== input) {
   message = 'thank you for the cat';
 }
 
-// --- display the message to the user ---
+/* --- display the message to the user --- */
 
 alert(message);
 ```
@@ -147,14 +147,14 @@ Uses a different logic in the while loop check.
 ```js
 'use strict';
 
-// --- gather the user's input ---
+/* --- gather the user's input --- */
 
 let input = null;
 while (typeof input !== 'string') {
   input = prompt('please enter "cat"');
 }
 
-// --- create a message ---
+/* --- create a message --- */
 
 let message = '';
 if (input !== 'cat') {
@@ -163,7 +163,7 @@ if (input !== 'cat') {
   message = 'thank you for the cat';
 }
 
-// --- display the message to the user ---
+/* --- display the message to the user --- */
 
 alert(message);
 ```
@@ -195,14 +195,14 @@ Uses the `message` variable differently in the `if` body.
 ```js
 'use strict';
 
-// --- gather the user's input ---
+/* --- gather the user's input --- */
 
 let input = null;
 while (input === null) {
   input = prompt('please enter "cat"');
 }
 
-// --- create a message ---
+/* --- create a message --- */
 
 let message = '';
 if (input !== 'cat') {
@@ -213,7 +213,7 @@ if (input !== 'cat') {
   message = 'thank you for the cat';
 }
 
-// --- display the message to the user ---
+/* --- display the message to the user --- */
 
 alert(message);
 ```
@@ -245,14 +245,14 @@ are switched.
 ```js
 'use strict';
 
-// --- gather the user's input ---
+/* --- gather the user's input --- */
 
 let input = null;
 while (input === null) {
   input = prompt('please enter "cat"');
 }
 
-// --- create a message ---
+/* --- create a message --- */
 
 let message = '';
 if (input === 'cat') {
@@ -261,7 +261,7 @@ if (input === 'cat') {
   message = '"' + input + '" is not a cat';
 }
 
-// --- display the message to the user ---
+/* --- display the message to the user --- */
 
 alert(message);
 ```
@@ -295,14 +295,14 @@ make it harder for developers to understand your code.
 ```js
 'use strict';
 
-// --- gather the user's input ---
+/* --- gather the user's input --- */
 
 let input = null;
 while (input === null) {
   input = prompt('please enter "cat"');
 }
 
-// --- create a message ---
+/* --- create a message --- */
 
 let message = '';
 if (input !== null) {
@@ -313,7 +313,7 @@ if (input !== null) {
   }
 }
 
-// --- display the message to the user ---
+/* --- display the message to the user --- */
 
 alert(message);
 ```
@@ -347,14 +347,14 @@ program 1.
 ```js
 'use strict';
 
-// --- gather the user's input ---
+/* --- gather the user's input --- */
 
 let input = null;
 while (!(input !== null)) {
   input = prompt('please enter "cat"');
 }
 
-// --- display a message to the user ---
+/* --- display a message to the user --- */
 
 if (input !== 'cat') {
   alert('"' + input + '" is not a cat');
@@ -399,14 +399,14 @@ time trying to figure out when each message will be created.
 ```js
 'use strict';
 
-// --- gather the user's input ---
+/* --- gather the user's input --- */
 
 let input = null;
 while (input === null) {
   input = prompt('please enter "cat"');
 }
 
-// --- create a message ---
+/* --- create a message --- */
 
 let message = '';
 if (input !== 'cat') {
@@ -416,7 +416,7 @@ if (input === 'cat') {
   message = 'thank you for the cat';
 }
 
-// --- display the message to the user ---
+/* --- display the message to the user --- */
 
 alert(message);
 ```
@@ -455,14 +455,14 @@ variable, and there are two separate `if` statements instead of one `if`/`else`.
 ```js
 'use strict';
 
-// --- gather the user's input ---
+/* --- gather the user's input --- */
 
 let input = null;
 while (input === null) {
   input = prompt('please enter "cat"');
 }
 
-// --- display a message to the user ---
+/* --- display a message to the user --- */
 
 if (input === 'cat') {
   alert('thank you for the cat');
@@ -496,11 +496,12 @@ if (input !== 'cat') {
 
 let input = null;
 while (input === null) {
-  // --- gather the user's input ---
+  /* --- gather the user's input --- */
+
   input = prompt('please enter "cat"');
 
   if (typeof input === 'string') {
-    // --- create a message ---
+    /* --- create a message --- */
 
     let message = '';
     if (input === 'cat') {
@@ -509,7 +510,7 @@ while (input === null) {
       message = '"' + input + '" is not a cat';
     }
 
-    // --- display the message to the user ---
+    /* --- display the message to the user --- */
 
     alert(message);
   }
@@ -536,11 +537,12 @@ while (input === null) {
 
 let input = null;
 while (input === null) {
-  // --- gather the user's input ---
+  /* --- gather the user's input --- */
+
   input = prompt('please enter "cat"');
 
   if (input !== null) {
-    // --- create a message ---
+    /* --- create a message --- */
 
     let message = '';
     if (input !== 'cat') {
@@ -549,7 +551,7 @@ while (input === null) {
       message = 'thank you for the cat';
     }
 
-    // --- display the message to the user ---
+    /* --- display the message to the user --- */
 
     alert(message);
   }
@@ -575,11 +577,12 @@ while (input === null) {
 'use strict';
 
 while (true) {
-  // --- gather the user's input ---
+  /* --- gather the user's input --- */
+
   let input = prompt('please enter "cat"');
 
   if (typeof input === 'string') {
-    // --- create a message ---
+    /* --- create a message --- */
 
     let message = '';
     if (input !== 'cat') {
@@ -588,7 +591,7 @@ while (true) {
       message = 'thank you for the cat';
     }
 
-    // --- display the message to the user ---
+    /* --- display the message to the user --- */
 
     alert(message);
 

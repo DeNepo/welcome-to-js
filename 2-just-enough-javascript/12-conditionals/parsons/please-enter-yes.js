@@ -7,6 +7,8 @@
   3. alert your message to the user
 */
 
+
+
 let input = prompt('please enter "yes"');
 
 let output = '';

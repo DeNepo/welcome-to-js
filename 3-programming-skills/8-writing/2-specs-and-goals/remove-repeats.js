@@ -31,12 +31,14 @@
 
 */
 
-// --- gather user input ---
+// --- gather user input --- */
 
-// --- check if the input has any repeated characters ---
+// --- check if the input has any repeated characters --- */
+
 //  store the string with no repeats for later
 
-// --- create a message for the user ---
+// --- create a message for the user --- */
+
 //  you can compare the input to the string without repeats
 
 // --- display the message to the user

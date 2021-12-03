@@ -1,13 +1,13 @@
-// --- for the computer ---
+/* --- for the computer --- */
 
 'use strict';
 
-// --- for developers ---
+/* --- for developers --- */
 
 // log to the console for developers to read
 console.log('hello developer (console)');
 
-// --- for users ---
+/* --- for users --- */
 
 // alert hello for the user
 //  not a great UX, but easy to program

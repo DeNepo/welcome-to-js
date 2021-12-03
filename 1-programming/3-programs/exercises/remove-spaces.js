@@ -12,7 +12,7 @@
 
 */
 
-// --- gather user input ---
+/* --- gather user input --- */
 
 let input = null;
 while (input === null) {
@@ -20,7 +20,7 @@ while (input === null) {
   console.log(input);
 }
 
-// --- create new data with no strings ---
+/* --- create new data with no strings --- */
 
 let spaceless = '';
 for (let character of input) {
@@ -30,11 +30,11 @@ for (let character of input) {
   }
 }
 
-// --- create a final message ---
+/* --- create a final message --- */
 
 let message = 'before: ' + input + '\nafter: ' + spaceless;
 console.log(message);
 
-// --- display message to the user ---
+/* --- display message to the user --- */
 
 alert(message);

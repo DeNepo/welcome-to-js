@@ -13,6 +13,7 @@
 */
 
 /* -- get an orange -- */
+
 console.log('-- getting the orange');
 
 let theOrange = '';
@@ -36,6 +37,7 @@ while (theOrange === '') {
 console.log('theOrange:', theOrange);
 
 /* -- describe the orange -- */
+
 console.log('-- describing the orange');
 
 let description = '';

@@ -8,6 +8,8 @@
 
 */
 
+
+
 let userInput = '';
 
 while (userInput === null || userInput === '') {

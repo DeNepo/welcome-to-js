@@ -22,6 +22,7 @@ let newPhrase = '';
 
 if (keepLetters) {
   /* --- iterate through each character of the user's phrase --- */
+
   const letters = 'abcdefghijklmnopqrstuvwxyz';
 
   for (const character of phrase) {
@@ -38,4 +39,5 @@ if (keepLetters) {
 }
 
 /* --- alert the new phrase --- */
+
 alert(newPhrase);

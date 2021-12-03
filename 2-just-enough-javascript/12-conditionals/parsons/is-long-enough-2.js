@@ -10,6 +10,8 @@
     b. they canceled
 */
 
+
+
 let input = prompt('something longer than 4 characters:');
 
 if (input !== null) {
@@ -22,7 +24,8 @@ if (input !== null) {
   alert(':(');
 }
 
-// ---- --------------
+// ---- -------------- */
+
 
 input = prompt('something longer than 4 characters:'); // distractor
 } else if { //distractor

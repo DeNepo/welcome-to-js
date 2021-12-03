@@ -2,6 +2,8 @@
 
 /* -- get an orange -- */
 
+
+
 let theOrange = '';
 while (theOrange === '') {
   const input = prompt('give me an orange, lower or upper case');
@@ -16,6 +18,8 @@ while (theOrange === '') {
 }
 
 /* -- describe the orange -- */
+
+
 
 let description = '';
 if (theOrange === 'orange') {

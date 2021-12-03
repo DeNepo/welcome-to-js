@@ -30,18 +30,19 @@
 
 */
 
-// --- gather user input, any text will do ---
+// --- gather user input, any text will do --- */
 
 _;
 while (_) {
   _;
 }
 
-// --- declare a variable with the character(s) to search for ---
+// --- declare a variable with the character(s) to search for --- */
 
 _;
 
-// --- check if the character(s) exist in the string ---
+// --- check if the character(s) exist in the string --- */
+
 //  store the search result as a boolean
 
 _;
@@ -52,7 +53,7 @@ for (const _ of _) {
   }
 }
 
-// --- create a message for the user ---
+// --- create a message for the user --- */
 
 _;
 if (_) {
@@ -61,6 +62,6 @@ if (_) {
   _;
 }
 
-// --- display the message for the user ---
+// --- display the message for the user --- */
 
 _;

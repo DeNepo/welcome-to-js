@@ -35,19 +35,22 @@
 
 console.log('--- begin program ---');
 
-// --- gather user input ---
+// --- gather user input --- */
+
 let text = prompt(_);
 console.log('text:', text);
 
 let query = prompt(_);
 console.log('query:', query);
 
-// --- declare initial output ---
+// --- declare initial output --- */
+
 let output = _;
 
-// --- create final output ---
+// --- create final output --- */
 
-// --- alert the result ---
+// --- alert the result --- */
+
 console.log('output:', output);
 alert(output);
 

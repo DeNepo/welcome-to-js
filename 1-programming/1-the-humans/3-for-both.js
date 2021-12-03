@@ -18,7 +18,7 @@
 // alert just displays text, you cannot pass any input
 alert('hello! welcome to this boring program');
 
-// --- prompt ---
+/* --- prompt --- */
 
 // encourage the user to explore the "ok" option
 //  if they click "ok", the text is returned
@@ -42,7 +42,7 @@ console.log(
   prompt('try this: \n1. do not type \n2. click "cancel"'),
 );
 
-// --- confirm ---
+/* --- confirm --- */
 
 //  confirm returns either true or false
 console.log('confirm. ok:', confirm('please click "ok"'));

@@ -48,6 +48,7 @@ if (userInput === '-h') {
 
   if (secretPhrase === null) {
     /* -- player 1 exited the game -- */
+
     alert('good bye');
   } else {
     /* -- player 1 enters their clue or exits the game -- */
@@ -59,6 +60,7 @@ if (userInput === '-h') {
 
     if (clue === null) {
       /* -- player 1 exited the game -- */
+
       alert('good bye');
     } else {
       /* -- player 1's turn is over -- */
@@ -90,9 +92,11 @@ if (userInput === '-h') {
 
       if (guess === null) {
         /* -- player 2 exited the game -- */
+
         alert('good bye');
       } else if (guess === secretPhrase) {
         /* --  player 2 won -- */
+
         winner = 'Player 2';
         alert('Congrats, you were right!\n\n');
       } else {
@@ -122,6 +126,7 @@ if (userInput === '-h') {
   }
 
   /* -- announce the winner -- */
+
   alert('game over. the winner is: ' + winner);
 } else if (userInput === null) {
   /* -- exit the game -- */

@@ -116,10 +116,10 @@ variable, one _generic_ name and one _specific_ name:
 
   ```js
   /* generic
-
+  
     _a -> input:
       it holds a string of user input to be processed in the program
-
+  
   */
 
   let input = null;
@@ -135,10 +135,10 @@ variable, one _generic_ name and one _specific_ name:
 
   ```js
   /* specific
-
+  
     _a -> userName:
       this variable stores the user's name as a string
-
+  
   */
 
   let userName = null;

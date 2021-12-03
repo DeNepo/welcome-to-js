@@ -12,7 +12,7 @@
 
 */
 
-// --- gather user input ---
+/* --- gather user input --- */
 
 let input = null;
 while (true) {
@@ -21,7 +21,7 @@ while (true) {
   );
   console.log(input);
 
-  // --- check that the user input is 5 characters long ---
+  /* --- check that the user input is 5 characters long --- */
 
   if (input !== null && input.length === 5) {
     break;
@@ -30,7 +30,7 @@ while (true) {
   }
 }
 
-// --- create the final message ---
+/* --- create the final message --- */
 
 let message = '';
 for (let character of input) {
@@ -38,6 +38,6 @@ for (let character of input) {
 }
 console.log(message);
 
-// --- display the message ---
+/* --- display the message --- */
 
 alert(message);

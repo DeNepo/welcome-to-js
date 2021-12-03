@@ -11,6 +11,8 @@
 
 */
 
+
+
 let string = '_-|-_';
 
 let doubled = '';

@@ -13,6 +13,8 @@
 
 */
 
+
+
 let word = 'zijn';
 
 let hasVowel = false;
@@ -27,7 +29,8 @@ for (let letter of word) {
 
 console.log(hasVowel === true);
 
-// -------
+// ------- */
+
 
 console.log(hasVowel === false); // distractor
 } // distractor

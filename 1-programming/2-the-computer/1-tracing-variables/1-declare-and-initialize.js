@@ -12,7 +12,7 @@
 
 */
 
-// --- declaring ---
+/* --- declaring --- */
 
 // declare onlyDeclared using let
 let onlyDeclared;
@@ -23,7 +23,7 @@ let onlyDeclared;
 // read onlyDeclared: undefined
 onlyDeclared;
 
-// --- declaring and initializing ---
+/* --- declaring and initializing --- */
 
 // declare declaredAndInitialized using let
 // initialize declaredAndInitialized to "hello"
