@@ -42,7 +42,7 @@ Here are all the language features used in The Cat Detector:
   - [`while`](#while)
 - [That's all!](#thats-all)
 
---- _/ --- _/
+---
 
 ## Strict Mode
 
@@ -110,7 +110,7 @@ console.log('hello', '...', 'good bye');
 
 </details>
 
---- _/ --- _/
+---
 
 ## Primitives
 
@@ -135,7 +135,7 @@ This diagram might help to see the big picture:
 - **Composite/Non-Primitive Types**: Structures that _store_ and _organize_
   data, like the basket you use to carry your groceries.
 
-![data types diagram](../../printables/data-types.jpeg)
+![data types diagram](../../0-printables/data-types.jpeg)
 
 </details>
 
@@ -216,7 +216,7 @@ console.log('null');
 
 </details>
 
---- _/ --- _/
+---
 
 ## Operators
 
@@ -345,7 +345,7 @@ The assignment operator is used to initialize variables (`let _ = _;`) or assign
 them new values (`_ = _`). You'll study this operator in the next section about
 ...
 
---- _/ --- _/
+---
 
 ## Variables
 
@@ -494,7 +494,7 @@ console.log(prompt);
 
 </details>
 
---- _/ --- _/
+---
 
 ## User Interactions
 
@@ -612,7 +612,7 @@ console.log('hello', true);
 
 </details>
 
---- _/ --- _/
+---
 
 ## Control Flow
 
@@ -691,7 +691,7 @@ alert('thank you for your input: ' + userInput);
 
 </details>
 
---- _/ --- _/
+---
 
 ## That's all!
 

@@ -118,7 +118,7 @@ console.log(second, first, first, first, second);
 
 </details>
 
---- _/ --- _/
+---
 
 <details>
 <summary>answers</summary>
