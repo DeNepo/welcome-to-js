@@ -2,13 +2,13 @@
 
 /* Remove Spaces
 
-  This program removes all spaces from the user input.
+
 
   Data In:
-    any string
+
 
   Data Out:
-    the input string with all the spaces removed
+
 
 */
 

@@ -2,14 +2,13 @@
 
 /* Mirror
 
-  This program produces a mirror-image of the user's input.
+
 
   Data In:
-    any string
+
 
   Data Out:
-    the input on the right of a mirror (|)
-    and a mirror image on the left
+
 
 */
 

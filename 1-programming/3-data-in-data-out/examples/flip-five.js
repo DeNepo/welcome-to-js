@@ -1,6 +1,6 @@
 'use strict';
 
-/* Flip Five 2
+/* Flip Five
 
   This program reverses the input only if it is 5 characters long.
 

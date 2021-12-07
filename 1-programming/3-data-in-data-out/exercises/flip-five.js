@@ -1,14 +1,14 @@
 'use strict';
 
-/* Flip Five 1
+/* Flip Five
 
-  This program reverses anything with 5 characters
+
 
   Data In:
-    strings of length 5
+
 
   Data Out:
-    the reversed input
+
 
 */
 

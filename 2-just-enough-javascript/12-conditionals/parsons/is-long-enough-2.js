@@ -24,7 +24,7 @@ if (input !== null) {
   alert(':(');
 }
 
-/* ---- -------------- */
+// -------------------
 
 
 input = prompt('something longer than 4 characters:'); // distractor

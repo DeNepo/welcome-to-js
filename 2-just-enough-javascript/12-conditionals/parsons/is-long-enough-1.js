@@ -21,7 +21,7 @@ if (input === null) {
   alert('perfect');
 }
 
-/* ---- -------------- */
+// -------------------
 
 
 alert(too short!); // distractor

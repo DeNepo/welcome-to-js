@@ -1,12 +1,8 @@
-# Programs
+# Data In, Data Out
 
 So what is a program? It's something like this:
 
 [![program diagram](../.assets/a-program.svg)](https://excalidraw.com/#json=_cj6JYwuO38PPGKxXN_cQ,3910Z7e2jGLZu4vjueG-Bg)
-
----
-
-## Data In, Data Out
 
 The basic job of a computer program is to process data. Even the most beautiful
 and interactive programs are just processing data behind the scenes. One of the
@@ -51,10 +47,14 @@ console.log(typeof 5); // "number"
 console.log(typeof '5'); // "string
 
 // you can find the length of a string with `.length`
-console.log('abc'.length);
-console.log('ab'.length);
-console.log('a'.length);
-console.log(''.length);
+console.log('abc'.length); // 3
+console.log('ab'.length); // 2
+console.log('a'.length); // 1
+console.log(''.length); // 0
+
+// string concatenation:
+//  you can combine two strings using concatenation
+console.log('a' + 'b' + 'c'); // 'abc'
 ```
 
 You don't need to understand very much about JavaScript types for now, just that
@@ -65,18 +65,24 @@ JavaScript by _strings_.
 
 ## Programs to Study
 
-This folder has a few programs for you to study. You don't need to understand
-the source code just yet, you'll take a deep look at one program in the next
-chapter.
+A very important skill to learn as a programmer is not to be afraid of code you
+don't understand. There is always _something_ you can understand and there is
+always a way to understand the rest. You aren't expected understand all the
+syntax in this folder just yet.
 
-For now focus on understanding each program at a higher level like in the
-diagram at the top of this README. Practice explaining what is happening in each
-program using these terms:
+Instead focus on what you _can_ understand about each program at a higher level,
+like in the diagram at the top of this README. Practice explaining what is
+happening in each program using these terms:
 
-- **Program Behavior**: What does the program do? What happens to the user data?
-  how is it transformed or processed in the program? You can understand this
-  just by comparing inputs and output! You don't need to read a single line of
-  code.
+- **Program Behavior**: You can answer these questions just by comparing inputs
+  and outputs! You don't need to read a single line of code:
+  - What does the program do?
+  - What happens to the user data, how is it transformed or processed in the
+    program?
 - **Data In**: What data does the user input into the program, be specific!
 - **Data Out**: What data is output to the user at the end of the program, be
   specific!
+
+In the `/examples` folder you will find a few programs with a comment describing
+the **behavior**, **data in** and **data out**. Your challenge in `/exericses`
+is to fill in the same information for new programs.

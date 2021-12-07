@@ -2,13 +2,13 @@
 
 /* Reverse
 
-  This program reverses the user's input.
+
 
   Data In:
-    any string
+
 
   Data Out:
-    the input string, reversed
+
 
 */
 
