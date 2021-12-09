@@ -215,12 +215,78 @@ program and which are there to confuse you.
 
 ---
 
+### 🐣 Loggercises
+
+> _dynamic analysis_
+
+Loggercises are exercises where you practice writing as many programs as
+possible that print the same logs. When you run a program the console will
+display the _expected logs_ (what your program _should_ print) and your _actual
+logs_ (what your program _did_ print). If your actual logs are different from
+the expected logs the exercise will show which logs are incorrect.
+
+These exercises are meant for exploring JavaScript and all the creative ways you
+can write code that does the same thing. For example:
+
+<details>
+<summary>Here are 3 solutions to the challenge "<em>write
+a program that logs <code>1</code>, <code>2</code>, <code>3</code></em>"</summary>
+<br />
+
+```js
+'use strict';
+
+console.log(1);
+console.log(2);
+console.log(3);
+```
+
+```js
+'use strict';
+
+let number = 1;
+console.log(number);
+
+number = number + 1;
+console.log(number);
+
+number = number + 1;
+console.log(number);
+```
+
+```js
+'use strict';
+
+let number = 1;
+while (number < 4) {
+  console.log(number);
+  number = number + 1;
+}
+```
+
+</details>
+
+There will be two types of loggercise:
+
+- **Not Interactive**: These exercises will not have any user interactions, all
+  you need to do is write code that matches the expected logs.
+- **Interactive**: Interactive exercises will be more complicated. You'll need
+  to write some code _and/or_ pass in the correct input to match the expected
+  logs.
+
+Each exercise comes with a few starter programs to help you think of different
+ways to solve the same problem. But you're not limited to these suggestions, you
+can always start a new solution from an empty page!
+
+---
+
 ### 🐔 Specs
 
 > _static & dynamic analysis_
 
 > these exercises can be more challenging, if you get lots of errors or can't
-> finish them right away that's normal.
+> finish them right away that's ok. You'll learn more about writing programs
+> later on.
 
 "Specs" is short for "specifications". In development a
 [_specification_](https://en.wikipedia.org/wiki/Software_requirements_specification#Structure)
