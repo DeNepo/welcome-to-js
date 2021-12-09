@@ -33,11 +33,13 @@
 */
 
 /* --- gather user input --- */
-
+//  Data In:      a string or null
 _;
+//  Data After:   the user's input (string or null)
 
 /* --- create a message for the user --- */
 
+//  Data Before:  the user's input (string or null)
 _;
 if (_) {
   /* --- the user canceled --- */
@@ -46,7 +48,9 @@ if (_) {
 } else {
   /* --- the input has no spaces --- */
 }
+//  Data After:   a message describing the user's input
 
 /* --- alert the message to the user --- */
 
+//  Data Out:     the user's message
 _;

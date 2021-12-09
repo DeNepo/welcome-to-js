@@ -30,6 +30,10 @@ let input = _;
 while (_) {}
 console.log('input:', input);
 
+/* --- declare characters to keep --- */
+
+let toKeep = _;
+
 /* --- declare initial output --- */
 
 let output = _;

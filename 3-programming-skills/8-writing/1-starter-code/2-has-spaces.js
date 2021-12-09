@@ -35,15 +35,21 @@
 _;
 while (_) {
   _;
+  //  Data In:    a string or null
 }
+//  Data After:   the first string provided by the user
 
 /* --- declare a variable with the character(s) to search for --- */
 
+// Data Before:   nothing!  This step does not use data from a previous goal
 _;
+// Data After:    a string with the character(s) to search for
 
 /* --- check if the character(s) exist in the string --- */
 
-//  store the search result as a boolean
+// Data Before:   this goal uses data from two previous goals:
+//                1) the user's input
+//                2) the characters to search for
 
 _;
 for (const _ of _) {
@@ -52,16 +58,22 @@ for (const _ of _) {
     _;
   }
 }
+// Data After:    a boolean value
+//                true if the input contained at least one space
+//                false if the input had no spaces
 
 /* --- create a message for the user --- */
 
+// Data Before:  a boolean value representing the search results
 _;
 if (_) {
   _;
 } else {
   _;
 }
+// Data After:  a message saying if there were any spaces in the text
 
 /* --- display the message for the user --- */
 
+// Data Out:    a final message for the user
 _;

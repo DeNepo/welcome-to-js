@@ -37,9 +37,10 @@ let output = _;
 for (let _ of _) {
 }
 
+console.log('output:', output);
+
 /* --- alert the result --- */
 
-console.log('output:', output);
 alert(output);
 
 console.log('--- end program ---');
