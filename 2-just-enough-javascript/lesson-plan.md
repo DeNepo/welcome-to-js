@@ -1,4 +1,4 @@
-# Chapter 2: Just Enough JavaScript
+# Just Enough JavaScript: Lesson Plan
 
 Take a closer look at the JavaScript language by studying just what you will
 need to write interactive text-based programs.

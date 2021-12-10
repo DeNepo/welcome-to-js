@@ -1,4 +1,4 @@
-# Chapter 3: Programming Skills
+# Programming Skills: Lesson Plan
 
 Practice reading, understanding and describing larger programs.
 
@@ -11,6 +11,8 @@ Practice reading, understanding and describing larger programs.
   - `/programming-skills/reading`
   - `/programming-skills/describing`
 - Try out the "ask me" button if you haven't yet
+- Take some time to practice using your browser's Debugger:
+  - [./00-predicting-execution](./00-predicting-execution)
 
 ## During Class
 
