@@ -57,8 +57,8 @@ your study time and to measure your progress:
 
 </details>
 
-- 🥚 **Three Audiences**: You can explain how a single file of code is used to
-  communicate with 3 different audiences:
+- [ ] 🥚 **Three Audiences**: You can explain how a single file of code is used
+      to communicate with 3 different audiences:
   - **Developers**: You can explain how code formatting, comments, logs and
     variable names make it easier (or harder!) for a developer to understand a
     program.
@@ -66,64 +66,64 @@ your study time and to measure your progress:
     store, read and modify data in program memory.
   - **Users**: You can explain how the computer creates a dynamic user
     experience by following different executions paths depending on user input.
-- 🥚 **Listening and Reading**: You can read code out loud, and understand your
-  classmates when they read code to you. You don't need to understand how a
-  program works to master these learning objectives!
+- [ ] 🥚 **Listening and Reading**: You can read code out loud, and understand
+      your classmates when they read code to you. You don't need to understand
+      how a program works to master these learning objectives!
   - **Listening** You can exactly re-write a program that a classmate has read
   - **Reading** You can read a program out loud and guide your classmates to
     re-write _exactly_ the same code without them seeing the program. \(every
     indentation, semi-colon, comment and spelling must be identical\) to you,
     without seeing the program they are reading.
-- 🥚 **Static vs. Dynamic Analysis**: You can explain and use these two ways of
-  studying a program, each can help you understand different aspects of your
-  code. To help understand this concept, the _options_ panel in Study Lenses is
-  organized into _static_ and _dynamic_ study options:
+- [ ] 🥚 **Static vs. Dynamic Analysis**: You can explain and use these two ways
+      of studying a program, each can help you understand different aspects of
+      your code. To help understand this concept, the _options_ panel in Study
+      Lenses is organized into _static_ and _dynamic_ study options:
   - **Static**: Studying the text in a code file _without_ running it. Some
     static study methods are creating a flowchart, analyzing variables, filling
     out a trace table, and drawing on code.
   - **Dynamic**: _Running_ code and studying the computer's behavior. Some
     dynamic study methods are running code and reading console logs, using the
     _trace_ button, and stepping through in the debugger or JS Tutor.
-- 🥚 **Analyzing Variables**: You can list all the variables in a program, and
-  answer these 5 questions for each variable:
+- [ ] 🥚 **Analyzing Variables**: You can list all the variables in a program,
+      and answer these 5 questions for each variable:
   - _Where is the variable declared?_
   - _What is the variable's scope?_
   - _Is the variable initialized with a value?_
   - _How many times is it's value used \(read\) in the program?_
   - _How many times is the variable assigned a new value?_
   - _What types are assigned to this variable during the program's execution?_
-- 🐣 **Imperative Programming**: You can explain what the Imperative Programming
-  paradigm is, and can explain how you know the programs in Welcome to JS are
-  Imperative.
-- 🐣 **Tracing Execution**: You can complete a "steps" trace table and correct
-  your table using console output from the "trace" button.
-- 🐣 **Logging**: You can tracing specific aspects of a program's execution and
-  log them to the console.
-- 🐣 **Completing Programs**: You can successfully fill in blanks for a program
-  when the missing words are provided, including distractors.
-- 🐣 **Describing Programs**: You can read a program and describe it with
-  comments using to the methodology from `/describing-programs`: zooming out
-  -&gt; zooming in -&gt; connections -&gt; goals
-- 🐣 **Naming Variables**: You can analyze how a variable is used in a program
-  and give it two names:
+- [ ] 🐣 **Imperative Programming**: You can explain what the Imperative
+      Programming paradigm is, and can explain how you know the programs in
+      Welcome to JS are Imperative.
+- [ ] 🐣 **Tracing Execution**: You can complete a "steps" trace table and
+      correct your table using console output from the "trace" button.
+- [ ] 🐣 **Logging**: You can tracing specific aspects of a program's execution
+      and log them to the console.
+- [ ] 🐣 **Completing Programs**: You can successfully fill in blanks for a
+      program when the missing words are provided, including distractors.
+- [ ] 🐣 **Describing Programs**: You can read a program and describe it with
+      comments using to the methodology from `/describing-programs`: zooming out
+      -&gt; zooming in -&gt; connections -&gt; goals
+- [ ] 🐣 **Naming Variables**: You can analyze how a variable is used in a
+      program and give it two names:
   - **Generic**: You can give a generic name to a variable based on how it is
     used in the program.
   - **Specific**: You can give a specific name to a variable based on how it's
     used _and_ the program's domain (the program's specific data and use-case).
-- 🐥 **Constructing Programs**: You can reconstruct a program's lines and
-  indentation, successfully ignoring distractor lines.
-- 🐥 **Linting**: You can find and fix simple linting errors in JavaScript
-  programs.
-- 🐥 **Stepping Through**: You can pause a script in a your browser's debugger,
-  arrange the debugger, collapse extra panels, and step through a script written
-  with Just Enough JS. At each point in execution you can make a prediction of
-  the next line before executing, and can check your prediction using the
-  _scopes_ panel.
-- 🐥 **Modifying Programs**: You can make small changes in a program to change
-  it's behavior without breaking it.
-- 🐔 **Writing Programs**: Given a description of a program's behavior (_user
-  story + test cases_), you can plan goals for the program and write code to
-  pass the tests.
+- [ ] 🐥 **Constructing Programs**: You can reconstruct a program's lines and
+      indentation, successfully ignoring distractor lines.
+- [ ] 🐥 **Linting**: You can find and fix simple linting errors in JavaScript
+      programs.
+- [ ] 🐥 **Stepping Through**: You can pause a script in a your browser's
+      debugger, arrange the debugger, collapse extra panels, and step through a
+      script written with Just Enough JS. At each point in execution you can
+      make a prediction of the next line before executing, and can check your
+      prediction using the _scopes_ panel.
+- [ ] 🐥 **Modifying Programs**: You can make small changes in a program to
+      change it's behavior without breaking it.
+- [ ] 🐔 **Writing Programs**: Given a description of a program's behavior
+      (_user story + test cases_), you can plan goals for the program and write
+      code to pass the tests.
 
 </details>
 
