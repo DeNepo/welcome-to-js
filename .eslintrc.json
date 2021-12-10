@@ -13,6 +13,14 @@
     "confirm": false,
     "console": false
   },
+  "overrides": [
+    {
+      "files": ["3-programming-skills/**/*.js"],
+      "rules": {
+        "prefer-const": 2
+      }
+    }
+  ],
   "extends": [
     "eslint:recommended",
     "prettier",

@@ -1,0 +1,8 @@
+{
+  "--defaults": {
+    ".js": "variables"
+  },
+  "study": {
+    "debug": false
+  }
+}

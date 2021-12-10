@@ -1,7 +1,0 @@
-// #todo
-
-'use strict';
-
-/* specific
-
-*/

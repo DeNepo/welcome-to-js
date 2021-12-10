@@ -1,0 +1,17 @@
+{
+  "study": {
+    "loopGuard": false
+  },
+  "highlight": {
+    "run": true,
+    "trace": true,
+    "debug": true,
+    "flowchart": true,
+    "variables": true,
+    "ask": {
+      "functions": false,
+      "levels": [1, 2]
+    },
+    "table": true
+  }
+}
