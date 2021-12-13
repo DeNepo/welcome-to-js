@@ -1,4 +1,4 @@
-# Programming
+# What is Programming?
 
 Programming is communication. It's also a lot of other things, but this
 introduction will focus on the different ways you communicate with your code.

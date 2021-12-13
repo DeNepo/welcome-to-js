@@ -1,4 +1,4 @@
-# Just Enough JavaScript: Lesson Plan
+# 2. Just Enough JavaScript
 
 Take a closer look at the JavaScript language by studying just what you will
 need to write interactive text-based programs.
@@ -13,27 +13,37 @@ need to write interactive text-based programs.
 - Take a look through
   - `/just-enough-javascript/errors`
   - `/just-enough-javascript/strict-mode`
+  - `/just-enough-javascript/primitive-values`
+  - `/just-enough-javascript/operators`
 
 ## During Class
 
-Practice reading and describing programs
+Take a closer look at the language features in **Just Enough JavaScript**.
 
 ### Before Break
 
 - Q/A from last chapter
-- Break into small groups and start working through **Just Enough JavaScript**
+- Break into small groups and study **Just Enough JavaScript**:
+  - **Primitive Values** through **Interactions**
+- Gather together and each have each group share what they struggled with and
+  what they learned
 
 ### After Break
 
 Naming Variables
 
-- Continue working through **Just Enough JavaScript** in your small groups
+- Return to your small groups and study:
+  - **Block Scope**
+  - **Conditionals**
+  - **While Loops**
+  - **Break/Continue** (if there's time)
 
 ## After Class
 
 No project. Just lots of study time, alone and in groups. Keep asking questions!
 
-- 🥚 **[../flashcards](../flashcards)**: ~20 minutes every day
+- 🥚 **[../flashcards](../flashcards)**: ~20 minutes every day (add more as you
+  go!)
 - 🥚🐣🐥🐔 `/just-enough-javascript`
 - 🐔 `/just-enough-javascript/explorations`: Experiment with JS language
   features that interest you, try modifying the programs in this repo, or try

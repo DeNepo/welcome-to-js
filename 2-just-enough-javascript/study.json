@@ -1,6 +1,7 @@
 {
   "study": {
-    "loopGuard": false
+    "loopGuard": false,
+    "debug": true
   },
   "highlight": {
     "run": true,

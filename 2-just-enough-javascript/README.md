@@ -55,16 +55,20 @@ exercises.
 
 ---
 
-### 🥚 WriteMe
+### 🥚 Copy-Type
 
 > _static analysis_
 
-With WriteMe exercises you will practice writing out programs from a blank page.
-On the left is an empty editor, on the right is the finished code: you need to
-re-write the program _exactly_ into the editor on the left. But there's a catch!
-You can only see one of the editors at a time, and you can't copy-type >:) Your
-goal will be to memorize the syntax and structures of JavaScript, you will not
-be running these programs or changing them.
+Ever heard of "copy-paste"? This is kind of like that but a much better way to
+learn. Instead of letting the computer do the copy and pasting for you, you need
+to do the copying and the typing.
+
+With Copy-Type exercises you will practice writing out programs from a blank
+page. On the left is an empty editor, on the right is the finished code: you
+need to re-write the program _exactly_ into the editor on the left. But there's
+a catch! You can only see one of the editors at a time, and you can't
+copy-type >:) Your goal will be to memorize the syntax and structures of
+JavaScript, you will not be running these programs or changing them.
 
 You can study these exercises alone to memorize and master JS syntax, flipping
 between _read_ and \_write like a flashcard. Or you can do them in small groups.

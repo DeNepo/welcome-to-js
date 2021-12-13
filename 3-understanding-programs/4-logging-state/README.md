@@ -1,5 +1,8 @@
 # Logging
 
+> _State: the values stored in your program's memory at a single step of
+> execution._
+
 The goal of logging is to build your own trace of execution. So far you've been
 using the `trace` button to study this module's exercises, but you won't have
 this for all your projects. And sometimes it just prints too much information.

@@ -225,10 +225,6 @@ practices.
 
 ## Study Path
 
-> If you are studying this with teachers check out each chapter's
-> `lesson-plan.md`, the lesson plans will help you get the big idea of each
-> chapter before studying all of the material.
-
 ### [0. Flashcards](./0-flashcards)
 
 Study these a little bit every day and add new flashcards for things you don't
@@ -253,3 +249,10 @@ works in small programs.
 Learn how to understand, modify and write larger interactive programs in
 JavaScript. You'll cover some of the hidden skills necessary to develop quality
 software and to work collaboratively on a code base.
+
+---
+
+## Lesson Plans
+
+If you are using this material with teachers and students, check out
+[./lesson-plans](./lesson-plans) for some ideas what to cover in class.

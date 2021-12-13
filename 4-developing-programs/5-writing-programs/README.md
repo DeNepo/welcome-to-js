@@ -453,5 +453,3 @@ your `if`/`else` blocks. But other bugs can be hard to find and fix.
 
 Learning to carefully identify and fix bugs in a program is not an easy skill to
 develop. It comes after lots of practice and experience.
-
-You'll learn more about debugging programs in the next module: Debugging.
