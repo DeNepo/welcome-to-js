@@ -21,7 +21,9 @@ console.log(userInput); // log 2
 <summary><em>A. <code>"string"</code>, <code>"cancel"</code></em></summary>
 <br>
 
-Nope! A string is only returned by `prompt` when the user clicks "ok".
+✖ Nope.
+
+A string is only returned by `prompt` when the user clicks "ok".
 
 "cancel" may be written on the button, but that is now what the user is
 inputting.
@@ -32,7 +34,9 @@ inputting.
 <summary><em>B. <code>"string"</code>, <code>""</code></em></summary>
 <br>
 
-Nope! A string is only returned by `prompt` when the user clicks "ok".
+✖ Nope.
+
+A string is only returned by `prompt` when the user clicks "ok".
 
 Even if the text field is empty, canceling does not submit a string. To submit
 an empty string the user must click "ok" with an empty input field.
@@ -42,7 +46,9 @@ an empty string the user must click "ok" with an empty input field.
 <summary><em>C. <code>"undefined"</code>, <code>undefined</code></em></summary>
 <br>
 
-Nope! `prompt` will never return `undefined`, only a string or `null`.
+✖ Nope.
+
+`prompt` will never return `undefined`, only a string or `null`.
 
 `alert` does return `undefined`.
 
@@ -60,8 +66,10 @@ Canceling a `prompt` returns `null`, and the type of is `"object"`.
 <summary><em>E. <code>"null"</code>, <code>null</code></em></summary>
 <br>
 
-Nope, but close! Canceling a `prompt` _does_ return `null`, but the type of
-`null` _is not_ `"null"`. It is `"object"`.
+✖ Nope.
+
+but close! Canceling a `prompt` _does_ return `null`, but the type of `null` _is
+not_ `"null"`. It is `"object"`.
 
 </details>
 
@@ -74,30 +82,35 @@ Nope, but close! Canceling a `prompt` _does_ return `null`, but the type of
 <br>
 
 <details>
-<summary><em>A. <code>"string"</code>, <code>"cancel"</code></em></summary>
+<summary><em>A. <code>"string"</code>, <code>"ok"</code></em></summary>
 <br>
 
-Nope! A string is only returned by `prompt` when the user clicks "ok".
+✖ Nope.
 
-"cancel" may be written on the button, but that is now what the user is
-inputting.
+The type will be `"string"`, but the value will be `"hello"`
+
+"ok" is the name of the button, but `prompt` returns the value typed in the
+input field.
 
 </details>
 <details>
-<summary><em>B. <code>"string"</code>, <code>""</code></em></summary>
+<summary><em>B. <code>"string"</code>, <code>"hello"</code></em></summary>
 <br>
 
-Nope! A string is only returned by `prompt` when the user clicks "ok".
+✔ Correct!
 
-Even if the text field is empty, canceling does not submit a string. To submit
-an empty string the user must click "ok" with an empty input field.
+The return type for `prompt` is always `"string"` when the user clicks "ok".
+
+Because they had typed `"hello"` in the field, that will be the return value.
 
 </details>
 <details>
 <summary><em>C. <code>"undefined"</code>, <code>undefined</code></em></summary>
 <br>
 
-Nope! `prompt` will never return `undefined`, only a string or `null`.
+✖ Nope.
+
+`prompt` will never return `undefined`, only a string or `null`.
 
 `alert` does return `undefined`.
 
@@ -106,17 +119,24 @@ Nope! `prompt` will never return `undefined`, only a string or `null`.
 <summary><em>D. <code>"object"</code>, <code>null</code></em></summary>
 <br>
 
-✔ Correct!
+✖ Nope.
 
 Canceling a `prompt` returns `null`, and the type of is `"object"`.
+
+But the user clicked "ok" so this is not the right answer.
 
 </details>
 <details>
 <summary><em>E. <code>"null"</code>, <code>null</code></em></summary>
 <br>
 
-Nope, but close! Canceling a `prompt` _does_ return `null`, but the type of
-`null` _is not_ `"null"`. It is `"object"`.
+✖ Nope.
+
+The user clicked "ok" not "cancel". So the return value will be a string.
+
+And even if the user did cancel, this would be wrong. Canceling a `prompt`
+_does_ return `null`, but the type of `null` _is not_ `"null"`. It is
+`"object"`.
 
 </details>
 
@@ -134,7 +154,7 @@ Nope, but close! Canceling a `prompt` _does_ return `null`, but the type of
 
 ✖ Nope.
 
-Canceling will always log `null`, no matter what text the user typed in the
+Canceling will always return `null`, no matter what text the user typed in the
 input.
 
 </details>
