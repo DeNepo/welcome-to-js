@@ -23,6 +23,8 @@ with it, and there's lots of work for a good JavaScript developer.
 There are many ways you can run JavaScript, for now you should know about these
 options:
 
+---
+
 ### 1. Writing directly in the console
 
 > This is closest to how you will be studying JS in this module.
@@ -36,9 +38,7 @@ see how something works, but it's not possible to write and save a full program.
 <br>
 
 ```js
-/* --- for the computer --- */
-
-'use strict';
+/* --- for the computer --- 'use strict';
 
 /* --- for the developer --- */
 
@@ -55,6 +55,8 @@ alert('hello user (alert)');
 
 </details>
 
+---
+
 ### 2. Writing directly in an HTML file
 
 You can also write your code in a script tag of an HTML file then open the HTML
@@ -64,6 +66,8 @@ loaded. See this in action with `./inline.html`.
 You will learn about this later in the course for examples and exercises that
 introduce how JavaScript interacts with the DOM. It's easier to understand "the
 big picture" when you can see everything in one document.
+
+---
 
 ### 3. Loading JS files into HTML
 
@@ -75,6 +79,8 @@ file into your HTML, you can see them in action with `./separate-script` and
 You will use this for larger projects and for collaboration. Separating code
 into smaller files each with a clear purpose makes your code base easier to
 understand, debug, and to divide into group tasks.
+
+---
 
 ### 4. Specialized Browser Environments
 
@@ -108,6 +114,8 @@ in a browser, each one has a specific use case:
   [PencilCode](https://pencilcode.net/edit/myprogram) (write your code as blocks
   or text), [Ocelot](https://code.ocelot-ide.org/) (disallows "bad" language
   features and has helpful error messages).
+
+---
 
 ### 5. Beyond the Browser
 

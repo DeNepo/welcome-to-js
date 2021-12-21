@@ -19,8 +19,6 @@
   You can label goals with commented line dividers and a short title describe what
   important step happens in those lines
 
-*/
-
 'use strict';
 
 /* Frogopedia (program behavior)

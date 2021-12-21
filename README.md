@@ -19,6 +19,8 @@ and write interactive programs in your browser.
   but not required.
 - [Study Tips](./study-tips.md): Some tips for getting the most out of your time
   learning to program.
+- [Lesson Plans](./lesson-plans): A few ideas for running lessons around this
+  material.
 
 ---
 
@@ -110,10 +112,17 @@ your study time and to measure your progress:
     used in the program.
   - **Specific**: You can give a specific name to a variable based on how it's
     used _and_ the program's domain (the program's specific data and use-case).
-- [ ] 🐥 **Constructing Programs**: You can reconstruct a program's lines and
-      indentation, successfully ignoring distractor lines.
+- [ ] 🐣 **Program Life Cycle**: You can explain the two phases of a program's
+      life cycle.
+- [ ] 🐣 **Fixing Errors**: You can use the structured comment to describe an
+      error in your program, and can make several educated guesses at how to fix
+      the error.
 - [ ] 🐥 **Linting**: You can find and fix simple linting errors in JavaScript
       programs.
+- [ ] 🐣 **Fixing Bugs**: You can use the structured comment to describe and fix
+      a bug in small programs.
+- [ ] 🐥 **Constructing Programs**: You can reconstruct a program's lines and
+      indentation, successfully ignoring distractor lines.
 - [ ] 🐥 **Stepping Through**: You can pause a script in a your browser's
       debugger, arrange the debugger, collapse extra panels, and step through a
       script written with Just Enough JS. At each point in execution you can
@@ -249,10 +258,3 @@ works in small programs.
 Learn how to understand, modify and write larger interactive programs in
 JavaScript. You'll cover some of the hidden skills necessary to develop quality
 software and to work collaboratively on a code base.
-
----
-
-## Lesson Plans
-
-If you are using this material with teachers and students, check out
-[./lesson-plans](./lesson-plans) for some ideas what to cover in class.

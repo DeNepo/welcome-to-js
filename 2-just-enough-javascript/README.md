@@ -15,99 +15,31 @@ this!
 
 ---
 
-## Priorities
+## Understanding a Program
 
-Concepts and examples in this chapter are each given a priority (🥚, 🐣, 🐥).
-The main goal of this module is learning to read and trace code that is already
-written.
-
-You know you have mastered an example when you can answer all the `[ask me]`
-questions about it, and/or when you can use a trace table to explain how it
-works.
+The main goal of this chapter is that you can understand small programs written
+using _Just Enough JavaScript_. You know you have understood a program when you
+can use a trace table to explain how it works (_dynamic analysis_), and when you
+can answer all the `[ask me]` questions about it (_static analysis_).
 
 ---
 
 ## Exercises
 
-There are a few different kinds of exercises in Just Enough JavaScript. None of
-these exercises will ask you to write code from an empty file, to write
-functions, or to pass some automated tests.
+There are a few different kinds of exercises in _Just Enough JavaScript_. Each
+type of exercise in this chapter has a priority (🥚, 🐣, 🐥, 🐔).
 
-Instead the exercises will be built around completed programs. You will need to
-either fill in missing pieces, rearranged the lines, or trace how the variables
-are used.
+Learn more about each type of exercise below:
 
 ---
 
-### 🥚 Quiz
+### 🥚 Trace
 
-> _static & dynamic analysis_
-
-Some chapters will have a `/quiz` folder, these contain multiple choice
-questions to test your knowledge. By the end of this module you should be
-comfortable finding the right answers for each quiz **_and_** understanding why
-the wrong answers are incorrect.
-
-Careful, passing the quizzes is not enough! Being able to answer questions is
-not the same thing as building and practicing skills. Even if you are
-comfortable with the quiz in a chapter, you should _still_ keep practice the
-exercises.
-
----
-
-### 🥚 Copy-Type
-
-> _static analysis_
-
-Ever heard of "copy-paste"? This is kind of like that but a much better way to
-learn. Instead of letting the computer do the copy and pasting for you, you need
-to do the copying and the typing.
-
-With Copy-Type exercises you will practice writing out programs from a blank
-page. On the left is an empty editor, on the right is the finished code: you
-need to re-write the program _exactly_ into the editor on the left. But there's
-a catch! You can only see one of the editors at a time, and you can't
-copy-type >:) Your goal will be to memorize the syntax and structures of
-JavaScript, you will not be running these programs or changing them.
-
-You can study these exercises alone to memorize and master JS syntax, flipping
-between _read_ and \_write like a flashcard. Or you can do them in small groups.
-If you study these in groups you and your group members should take turns in
-each role:
-
-- **Reader**: The _reader_ will open the finished program and will read the
-  program out loud, guiding the _writer_ as they complete the program. The
-  reader's challenge is help the writer _exactly_ reproduce the code; each
-  space, each new line, each character, each capital letter, everything!
-- **Writers**: the _writers_ will try to write down _exactly_ the correct
-  program following only the instructions of reader. No peaking! The writers
-  should not look at the finished program, only listen to the advice of their
-  reader and follow the hints in the editor.
-
-Looking for an extra challenge? Try to complete these exercises _without ever_
-showing each other your screens!
-
----
-
-### 🥚 Reading
-
-> _static analysis_
-
-Practice reading small programs and identifying key features in the code. You
-will need to find syntax features, different scopes, variable usage, and much
-more.
-
----
-
-### 🥚 Tracing Execution
-
-> _dynamic analysis_
-
-You will learn how to _be the computer_, how to execute code line by line with
-your mind the same way the computer does. Until you learn how to _trace_ code,
-programs and bugs will be a mystery! After you've learned how to trace, it will
-still be hard to understand programs but you'll at least know how to start :)
-Learning to trace is tricky, but will save you many many hours in the future.
+Practice _being the computer_, executing code line by line with your mind the
+same way the computer does. Until you learn how to _trace_ code, programs and
+bugs will be a mystery! After you've learned how to trace, it will still be hard
+to understand programs but you'll at least know how to start :) Learning to
+trace is tricky, but will save you many many hours in the future.
 
 Because it can be hard to know if you are tracing correctly without someone by
 your side to answer your questions, there are a few buttons to help you along
@@ -121,6 +53,9 @@ the way:
 - **openIn jsTutor**: exercises without user interactions can be opened in JS
   Tutor, this website will show you what is happening in program memory with
   each step.
+- **debugger**: You can open any exercise in your browser's debugger using the
+  `[debug]` button. At first you may find the debugger overwheliming, but with
+  some practice it may become your favorite way to study code.
 
 If you like to draw on code as you trace what's happening you can do that with
 any file! Just replace `?--defaults` in your browser's URL bar with `?highlight`
@@ -181,9 +116,19 @@ program.
 
 ---
 
-### 🐣 Fill in the Blanks
+### 🥚 Read
 
-> _static analysis_
+Practice reading small programs and identifying key features in the code. You
+will need to find syntax features, different scopes, variable usage, and much
+more.
+
+Most of the exercises are small interactive programs and have a list of
+questions to help guide you explore the program. When you've answered all of
+those questions you can keep going with the `[ask me]` button.
+
+---
+
+### 🥚 Fill in the Blanks
 
 Fill-in-the-blanks exercises will be JS scripts with some blanks for you to fill
 in and (sometimes) a comment describing what should happen. Some exercises will
@@ -203,9 +148,116 @@ solution using a _diff editor_.
 
 ---
 
-### 🐣 Parsons Problems
+### 🥚 Copy-Type
 
-> _static & dynamic analysis_
+Ever heard of "copy-paste"? This is kind of like that but a much better way to
+learn. Instead of letting the computer do the copy and pasting for you, you need
+to do the copying and the typing.
+
+With Copy-Type exercises you will practice writing out programs from a blank
+page. On the left is an empty editor, on the right is the finished code: you
+need to re-write the program _exactly_ into the editor on the left. But there's
+a catch! You can only see one of the editors at a time, and you can't
+copy-type >:) Your goal will be to memorize the syntax and structures of
+JavaScript, you will not be running these programs or changing them.
+
+You can study these exercises alone to memorize and master JS syntax, flipping
+between _read_ and \_write like a flashcard. Or you can do them in small groups.
+If you study these in groups you and your group members should take turns in
+each role:
+
+- **Reader**: The _reader_ will open the finished program and will read the
+  program out loud, guiding the _writer_ as they complete the program. The
+  reader's challenge is help the writer _exactly_ reproduce the code; each
+  space, each new line, each character, each capital letter, everything!
+- **Writers**: the _writers_ will try to write down _exactly_ the correct
+  program following only the instructions of reader. No peaking! The writers
+  should not look at the finished program, only listen to the advice of their
+  reader and follow the hints in the editor.
+
+Looking for an extra challenge? Try to complete these exercises _without ever_
+showing each other your screens!
+
+---
+
+### 🥚 Translate
+
+You'll be given a JavaScript file with `'use strict'` up top and a commented out
+PseudoCode program, you will need to translate the program to JavaScript.
+
+These exercises will give you a chance to practice JS syntax, read PseudoCode
+and analyze the logic in small programs.
+
+<table>
+
+<tr>
+<td>
+
+### Before
+
+</td>
+<td>
+
+### After
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+```js
+'use strict';
+
+// input <- null
+
+// WHILE: input === null
+//   input <- prompt('enter something')
+// :END WHILE
+
+// alert(input)
+```
+
+</td>
+<td>
+
+```js
+'use strict';
+
+// input <- null
+let input = null;
+// WHILE: input === null
+while (input === null) {
+  //   input <- prompt('enter something')
+  input = prompt('enter something');
+  // :END WHILEs
+}
+
+// alert(input)
+alert(input);
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🥚 Quiz
+
+Some chapters will have a `/quiz` folder, these contain multiple choice
+questions to test your knowledge. By the end of this module you should be
+comfortable finding the right answers for each quiz **_and_** understanding why
+the wrong answers are incorrect.
+
+Careful, passing the quizzes is not enough! Being able to answer questions is
+not the same thing as building and practicing skills. Even if you are
+comfortable with the quiz in a chapter, you should _still_ keep practice the
+exercises.
+
+---
+
+### 🐣 Parsons Problems
 
 Parsons problems are designed to help you study snippets of code without getting
 caught by errors. You'll be given lines of code and your task is to place them
@@ -219,15 +271,13 @@ program and which are there to confuse you.
 
 ---
 
-### 🐣 Loggercises
+### 🐥 Logs
 
-> _dynamic analysis_
-
-Loggercises are exercises where you practice writing as many programs as
-possible that print the same logs. When you run a program the console will
-display the _expected logs_ (what your program _should_ print) and your _actual
-logs_ (what your program _did_ print). If your actual logs are different from
-the expected logs the exercise will show which logs are incorrect.
+These are exercises where you practice writing as many programs as possible that
+print the specific logs. When you run a program the console will display the
+_expected logs_ (what your program _should_ print) and your _actual logs_ (what
+your program _did_ print). If your actual logs are different from the expected
+logs the exercise will show which logs are incorrect.
 
 These exercises are meant for exploring JavaScript and all the creative ways you
 can write code that does the same thing. For example:
@@ -237,6 +287,8 @@ can write code that does the same thing. For example:
 a program that logs <code>1</code>, <code>2</code>, <code>3</code></em>"</summary>
 <br />
 
+Just plain old logs (boring):
+
 ```js
 'use strict';
 
@@ -245,6 +297,8 @@ console.log(2);
 console.log(3);
 ```
 
+Adding `1` to a variable:
+
 ```js
 'use strict';
 
@@ -258,11 +312,31 @@ number = number + 1;
 console.log(number);
 ```
 
+Stepping up to 3 with a while loop:
+
 ```js
 'use strict';
 
 let number = 1;
-while (number < 4) {
+while (number <= 3) {
+  console.log(number);
+  number = number + 1;
+}
+```
+
+Stepping up by 1 to the length of user input. Only works when the user follows
+their instructions:
+
+```js
+'use strict';
+
+let input = null;
+while (input === null) {
+  input = prompt('enter something with 3 characters');
+}
+
+let number = 1;
+while (number < input.length) {
   console.log(number);
   number = number + 1;
 }
@@ -270,7 +344,7 @@ while (number < 4) {
 
 </details>
 
-There will be two types of loggercise:
+There will be two types of log exercises:
 
 - **Not Interactive**: These exercises will not have any user interactions, all
   you need to do is write code that matches the expected logs.
@@ -285,8 +359,6 @@ can always start a new solution from an empty page!
 ---
 
 ### 🐔 Specs
-
-> _static & dynamic analysis_
 
 > these exercises can be more challenging, if you get lots of errors or can't
 > finish them right away that's ok. You'll learn more about writing programs

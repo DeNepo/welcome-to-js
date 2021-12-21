@@ -28,76 +28,31 @@ program memory in the next module - Debugging.
 - [javascript.info](https://javascript.info/intro)
 - [Danielle Thé](https://www.youtube.com/watch?v=gT0Lh1eYk78)
 
-## In This Repository
+## Asking and Searching
 
-In this module you will only learn a small part of what JavaScript has to offer.
-You will learn _just enough_ JavaScript to make small programs that process text
-and interact with users. Why just enough, and not a little more? Because reading
-and understanding program logic is more important than JavaScript, so why let
-the code get in the way?
-
-- 🥚🐣🐥🐔 **[../printables](../printables?--defaults)**: A collection of cheat
-  sheets, diagrams, and other printable documents that can be helpful to keep by
-  your computer. Print the ones you like, ignore the others.
-- 🥚 **[../flashcards](../flashcards?--defaults)**: A collection of flashcards
-  with key vocabulary and concepts for the module. You should study these every
-  day.
-- 🥚🐣🐥 **Programming**: What is a program? What is JavaScript? What is
-  software development? This chapter is an introduction to all these big
-  questions.
-- 🥚🐣🐥🐔 **Just Enough JavaScript**: All the JavaScript you need to know to
-  practice your programming skills.
-  - 🥚 `/errors`: A quick read about what errors are and how you can undo them.
-    The Debugging module will go into much more depth on errors.
-  - 🥚 `/strict-mode`: A quick read and a couple examples. long story short:
-    always use strict mode.
-  - 🥚🐣🐥🐔 ... just enough JavaScript ...
-  - 🐔 `/explorations`: Experiment with JS language features that interest you,
-    try modifying the programs in this repo, or try writing your own. This
-    folder is yours to explore JS and programming.
-- 🥚🐣🐥🐔 **Programming Skills**:
-  - 🥚 `/linting`: Understand the difference between variables declared with
-    `let` and variables declared with `const`, practice the differences by
-    deciding which keyword to use in small programs.
-  - 🥚 `/reading`: Practice reading interactive programs. This includes
-    identifying variables, tracing code like the computer, drawing on the code,
-    and asking good questions.
-  - 🥚 `/plain-text-programs`: JavaScript programs written in `.txt` files that
-    have no color. How is it different to study?
-  - 🥚 `/logging`: Learn how to create your own trace of a program's execution
-    using `console.log`. Practice tracing different aspects of the same
-    program's execution.
-  - 🐣 `/describing`: Analyze programs in detail learning to explain what is
-    happening on each line, and explaining how each line contributes to the
-    program's overall behavior.
-  - 🐣 `/linting`: Practice fixing common linting errors.s
-  - 🐣 `/naming-variables`: Code should be written for people first, computers
-    second. Learn to give helpful names to your variables that describe what
-    data they store and how they are used in your program. You can also decide
-    when a variable should be declared with `let` and when it should be declared
-    with `const`.
-  - 🐥 `/modifying`: A few working programs with challenges for how to change
-    it's behavior. Each exercise comes with a few files: the original, and one
-    extra file for each challenge. If you get lost in an exercise you you can
-    copy-type the original to start over.
-  - 🐔 `/writing`: Practice writing programs from spec with different amounts of
-    support.
+- your class repo: issues & discussions
+- [ask a duck](https://rubberduckdebugging.com/)
+- [what happens when ...](https://github.com/alex/what-happens-when)
+- [getting answers](https://www.mikeash.com/getting_answers.html)
+- [how to ask programming questions](https://www.propublica.org/nerds/how-to-ask-programming-questions)
+- [asking technical questions](https://www.youtube.com/watch?v=Gc9ilHp01vY)
 
 ## Tutorials
 
 A selection of tutorial sites with interactive exercises, these tutorial will
 help you learn the JS Syntax you need to study the exercises in this repository.
-As you're setting your study plans and priorities, remember:
-[Just Enough JavaScript](https://github.com/HackYourFutureBelgium/home/tree/8b3f2af4f4ac15d18ed828804176101472fe1076/curriculum/welcome-to-js/just-enough-javascript/README.md).
+As you're setting your study plans and priorities, remember: **Just Enough
+JavaScript**!
+
 These tutorials will each cover different topics in different orders and in
 different ways. Find the one that works for you:
 
 - [sololearn](https://www.sololearn.com/learning/1024): through Conditionals and
   Loops
-- [javascript.express](https://www.javascript.express/): the chapters that cover
-  Just Enough JavaScript
 - [launchcode](https://education.launchcode.org/intro-to-professional-web-dev/index.html):
   chapters 1 -> 5
+- [javascript.express](https://www.javascript.express/): the chapters that cover
+  Just Enough JavaScript
 - [programiz](https://www.programiz.com/javascript/get-started): through while
   loops
 - [the net ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
@@ -124,15 +79,6 @@ curious.
   collection of explanations and resources put together by the HYF community.
   PR's are welcome!
 - [codeacademy cheat-sheets](https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
-
-## Asking and Searching
-
-- your class repo: issues & discussions
-- [ask a duck](https://rubberduckdebugging.com/)
-- [what happens when ...](https://github.com/alex/what-happens-when)
-- [getting answers](https://www.mikeash.com/getting_answers.html)
-- [how to ask programming questions](https://www.propublica.org/nerds/how-to-ask-programming-questions)
-- [asking technical questions](https://www.youtube.com/watch?v=Gc9ilHp01vY)
 
 ## Reading Code
 
@@ -184,3 +130,11 @@ curious.
    - [tracing conditionals](https://vimeo.com/551365422)
 2. Week 2:
    - [Reading Code](https://vimeo.com/554219000)
+
+### [Lab Antwerp 1](https://github.com/lab-antwerp-1/home)
+
+> Axxes-team, Evan
+
+- [Chapter 1](https://youtu.be/puKsxllt1P0)
+- Chapter 2: [part-1](https://youtu.be/VN3fXfRfZIE),
+  [part-2](https://youtu.be/_sDs8dKaDyM)

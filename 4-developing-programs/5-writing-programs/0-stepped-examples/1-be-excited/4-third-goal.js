@@ -13,21 +13,21 @@
 */
 
 /* --- get a string from the user --- */
+//  Data In:    a string or null
+//  Data After:   the first string the user submits
 
 let input = null;
 while (input === null) {
   input = prompt('enter something');
-  //  Data In:    a string or null
   console.log(input);
 }
-//  Data After:   the first string the user submits
 console.log(input);
 
 /* --- make the string excited --- */
-
 //  Data Before:  the user's string
-let output = input + '!';
 //  Data After:   the same string with an exclamation mark
+
+let output = input + '!';
 console.log(output);
 
 /* --- display the string to the user --- */

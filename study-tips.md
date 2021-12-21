@@ -109,7 +109,7 @@ will help you pay attention to details you might miss otherwise.
 
 ### Visualize program memory
 
-> Browser/VSC debugger, JS Tutor
+> Browser Debugger, JS Tutor
 
 Step through line by line and take turns explaining every other step:
 

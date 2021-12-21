@@ -8,8 +8,6 @@
   - How is each variable used?
   - ... what other connections do you notice between lines?
 
-*/
-
 'use strict';
 
 /* Frogopedia (program behavior)

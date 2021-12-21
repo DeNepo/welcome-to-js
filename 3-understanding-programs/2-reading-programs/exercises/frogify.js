@@ -20,7 +20,6 @@ let frogged = '';
 
 for (const character of toBeFrogged) {
   /* -- append to new string
-
     - can you think of a way to combine these two conditionals?
   -- */
 

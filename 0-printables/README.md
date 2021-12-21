@@ -1,10 +1,11 @@
 # Printables
 
-Things that can be useful to print and leave under your pillow at night:
+Things that can be useful to always have open, to print and leave under your
+pillow at night:
 
-- [./js-cheat-sheet.pdf](./js-cheat-sheet.pdf): a thorough guide to JS syntax
-  and features with vocabulary and diagrams. (_PS. if you know the original
-  author send us a PR so we can credit them_)
+- [./just-enough-javascript.md](./just-enough-javascript.md): all the JavaScript
+  you will need for Welcome to JS, no more no less. This document also includes
+  translations between JavaScript and PseudoCode.
 - [./variable-declare-initialize.jpg](./variable-declare-initialize.jpg): a
   diagram with labels for all the parts of a variable
   declaration+initialization, (from
@@ -16,3 +17,6 @@ Things that can be useful to print and leave under your pillow at night:
   [simplesnippets](https://simplesnippets.tech/javascript-variables-data-types/))
 - [./operators.jpg](./operators.jpg): a quick reference of the most common JS
   operators
+- [./js-cheat-sheet.pdf](./js-cheat-sheet.pdf): a thorough guide to JS syntax
+  and features with vocabulary and diagrams. (_PS. if you know the original
+  author send us a PR so we can credit them_)

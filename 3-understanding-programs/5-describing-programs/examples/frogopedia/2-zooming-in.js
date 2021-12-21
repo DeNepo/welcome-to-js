@@ -17,8 +17,6 @@
 
   anything else?  up to you! These notes are to help you understand
 
-*/
-
 'use strict';
 
 /* Frogopedia (program behavior)

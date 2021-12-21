@@ -1,4 +1,4 @@
-# Writing
+# Writing Programs
 
 It's time! Practice writing some programs of your own.
 
@@ -11,8 +11,10 @@ There are different levels of exercise in this folder, each with less support:
    described by the specs.
 2. **Specs and Goals**: These exercises will have specs and labeled goals, but
    not starter code. You need to write all the code from scratch.
-3. **Only Specs**: The final set of exercises will only give you the program
-   specs, you need to come up with your own goals and your own code!
+3. **Only Specs**: This set of exercises will only give you the program specs,
+   you need to come up with your own goals and your own code.
+4. **A Blank Page**: The final set of exercises is just a blank page (sort of,
+   there is a `'use strict'`). All the rest is up to you!
 
 Some of the programs you will write are a lot like ones you studied in previous
 chapters. No problem, just find a different way to write the same program
@@ -20,11 +22,12 @@ behavior!
 
 ---
 
-## One Goal at a Time
+## Some Tips
 
 The easiest way write a program is to work in small steps, running the code
-every time you make a change to make sure it does what you expect. Planning your
-development around program goals is the key to structuring these small steps.
+every time you make a change and fixing each bug as you write them instead of
+having to fix them all at once afterwards. Planning your development around
+program goals is the key to structuring these small steps.
 
 A good strategy to write a program is thinking about what data you will need in
 _the next goal_. Thinking of the data you need later will helps you understand
@@ -32,6 +35,8 @@ what to write now.
 
 So what's a good process for writing a program? It might look something like
 this:
+
+---
 
 ### 0. Understand the Behavior
 
@@ -106,14 +111,75 @@ small program inside your program!
 
 ---
 
-### 2. Write -> Predict -> Check -> Repeat
+### 2. PseudoCode Solution
 
-It's tempting to jump in and try writing the whole program at once, this feels
-faster at first but will actually slow you down. The more code you write the
-harder it is to understand the more mistakes you can make.
+Try your best to understand and solve the problem before writing a single line
+of code, start with PseudoCode!
 
-The best approach is to write a small amount of code, predict what it will do,
-then run the code and check. If it didn't do what you expected then make another
+If you dive into code without carefully thinking about how to solve the problem,
+you'll almost always get tangled in confusing code and errors. A little planning
+goes a long way.
+
+Of course your PseudoCode solution may not be perfect, that happens to all of
+us. You'll get a chance to work through any bugs you missed when you start
+writing JavaScript.
+
+PS. this step looks easy in the examples but can actually be the hardest! Don't
+worry if it takes you a lot of time and effort to work out a solution, that's
+normal.
+
+<details>
+<summary>expand for example code</summary>
+<br />
+
+```js
+'use strict';
+
+/*
+  a user can input any text and it will become excited.
+    - given the user cancels: they are prompted again
+    - given the input is a string: it will have an "!" added to the end
+
+  test cases:
+    ''      -> '!'
+    '!'     -> '!!'
+    'JS'    -> 'JS!'
+    'hello' -> 'hello!'
+*/
+
+/* --- get a string from the user --- */
+//  Data In:      a string or null
+//  Data After:   the first string the user submits
+
+// input <- ''
+// WHILE: input === null
+//   input <- prompt('enter something')
+// :END WHILE
+
+/* --- make the string excited --- */
+//  Data Before:  the user's string
+//  Data After:   the same text with an exclamation mark
+
+// output <- input + '!'
+
+/* --- display the string to the user --- */
+//  Data Out:  an excited string
+
+// alert(output)
+```
+
+</details>
+
+---
+
+### 3. Write -> Predict -> Check -> Repeat
+
+It's tempting to jump in and translate all your pseudo code into JS at once,
+this feels faster at first but will actually slow you down. The more code you
+write the harder it is to understand the more mistakes you can make.
+
+The best approach is to translate a small amount of code, predict what it will
+do, then run the code and check. If it didn't do what you expected then make a
 small change and check again. Don't move on to the next line until the one
 you're working on does _exactly_ what you expect it will!
 
@@ -140,23 +206,27 @@ one goal:
 */
 
 /* --- get a string from the user --- */
+//  Data In:      a string or null
+//  Data After:   the first string the user submits
 
 // the initial value is not null, so the loop never executes
 let input = '';
 while (input === null) {
   input = prompt('enter something');
-  //  Data In:    a string or null
   console.log(input);
 }
-//  Data After:   the first string the user submits
 console.log(input);
 
 /* --- make the string excited --- */
 //  Data Before:  the user's string
-//  Data After:   the same string with an exclamation mark
+//  Data After:   the same text with an exclamation mark
+
+// output <- input + '!'
 
 /* --- display the string to the user --- */
 //  Data Out:  an excited string
+
+// alert(output)
 ```
 
 </details>
@@ -181,23 +251,27 @@ console.log(input);
 */
 
 /* --- get a string from the user --- */
+//  Data In:      a string or null
+//  Data After:   the first string the user submits
 
 let input = null;
 // oops,  used an assignment operator instead of a comparison
 while ((input = null)) {
   input = prompt('enter something');
-  //  Data In:    a string or null
   console.log(input);
 }
-//  Data After:   the first string the user submits
 console.log(input);
 
 /* --- make the string excited --- */
 //  Data Before:  the user's string
-//  Data After:   the same string with an exclamation mark
+//  Data After:   the same text with an exclamation mark
+
+// output <- input + '!'
 
 /* --- display the string to the user --- */
 //  Data Out:  an excited string
+
+// alert(output)
 ```
 
 </details>
@@ -222,29 +296,33 @@ console.log(input);
 */
 
 /* --- get a string from the user --- */
+//  Data In:      a string or null
+//  Data After:   the first string the user submits
 
 let input = null;
 while (input === null) {
   input = prompt('enter something');
-  //  Data In:  a string or null
   console.log(input);
 }
-//  Data After:   the first string the user submits
 console.log(input);
 
 /* --- make the string excited --- */
 //  Data Before:  the user's string
-//  Data After:   the same string with an exclamation mark
+//  Data After:   the same text with an exclamation mark
+
+// output <- input + '!'
 
 /* --- display the string to the user --- */
 //  Data Out:  an excited string
+
+// alert(output)
 ```
 
 </details>
 
 ---
 
-### 3. One Goal At a Time
+### 4. One Goal At a Time
 
 Follow the same process (_Write -> Predict -> Check -> Repeat_) for each goal in
 your program until you think the full program is ready.
@@ -271,22 +349,26 @@ Notice that the _Data After_ one goal is the _Data Before_ the next goal!
 */
 
 /* --- get a string from the user --- */
+//  Data In:      a string or null
+//  Data After:   the first string the user submits
 
 let input = null;
 while (input === null) {
   input = prompt('enter something');
-  //  Data In:    a string or null
   console.log(input);
 }
-//  Data After:   the first string the user submits
 console.log(input);
 
 /* --- make the string excited --- */
 //  Data Before:  the user's string
-//  Data After:   the same string with an exclamation mark
+//  Data After:   the same text with an exclamation mark
+
+// output <- input + '!'
 
 /* --- display the string to the user --- */
 //  Data Out:  an excited string
+
+// alert(output)
 ```
 
 </details>
@@ -311,25 +393,27 @@ console.log(input);
 */
 
 /* --- get a string from the user --- */
+//  Data In:      a string or null
+//  Data After:   the first string the user submits
 
 let input = null;
 while (input === null) {
   input = prompt('enter something');
-  //  Data In:    a string or null
   console.log(input);
 }
-//  Data After:   the first string the user submits
 console.log(input);
 
 /* --- make the string excited --- */
-
 //  Data Before:  the user's string
-let output = input + '!';
 //  Data After:   the same string with an exclamation mark
+
+let output = input + '!';
 console.log(output);
 
 /* --- display the string to the user --- */
 //  Data Out:  an excited string
+
+// alert(output)
 ```
 
 </details>
@@ -354,41 +438,41 @@ console.log(output);
 */
 
 /* --- get a string from the user --- */
+//  Data In:      a string or null
+//  Data After:   the first string the user submits
 
 let input = null;
 while (input === null) {
   input = prompt('enter something');
-  //  Data In:    a string or null
   console.log(input);
 }
-//  Data After:   the first string the user submits
 console.log(input);
 
 /* --- make the string excited --- */
-
 //  Data Before:  the user's string
-let output = input + '!';
 //  Data After:   the same string with an exclamation mark
+
+let output = input + '!';
 console.log(output);
 
 /* --- display the string to the user --- */
-
 //  Data Out:  an excited string
-alert(output);
+
+// alert(output)
 ```
 
 </details>
 
 ---
 
-### 4. Test the Program
+### 5. Test the Program
 
 When you think the program is finished, it's time to test it. Run the program
 with each of the test cases making sure that the correct output is displayed for
 each input.
 
-Writing extra test cases can help you understand the program and be confident
-that it works as expected.
+Writing extra test cases can help you understand the program, be confident that
+it works as expected, and catch any bugs you may have missed while writing.
 
 <details>
 <summary>even more test cases</summary>
@@ -414,26 +498,26 @@ that it works as expected.
 */
 
 /* --- get a string from the user --- */
+//  Data In:      a string or null
+//  Data After:   the first string the user submits
 
 let input = null;
 while (input === null) {
   input = prompt('enter something');
-  //  Data In:    a string or null
   console.log(input);
 }
-//  Data After:   the first string the user submits
 console.log(input);
 
 /* --- make the string excited --- */
-
 //  Data Before:  the user's string
-let output = input + '!';
 //  Data After:   the same string with an exclamation mark
+
+let output = input + '!';
 console.log(output);
 
 /* --- display the string to the user --- */
-
 //  Data Out:  an excited string
+
 alert(output);
 ```
 

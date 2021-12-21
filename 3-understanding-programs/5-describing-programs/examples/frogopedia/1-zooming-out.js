@@ -14,8 +14,6 @@
   - what is the user's journey? how many different paths can it take?
   - ... what else can you say about the program?
 
-*/
-
 'use strict';
 
 /* Frogopedia (program behavior)

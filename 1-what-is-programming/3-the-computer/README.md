@@ -27,6 +27,21 @@ first rule in design is "know your user", then one of the first rule in coding
 should be "know your computer". After all, the computer is one of your code's
 users!
 
+## Predict, not Explain
+
+So what does it mean to "know JavaScript"? How do you know when you've
+understood some code? When you can **predict** _exactly_ what will happen at
+each step of execution!
+
+Explaining a program in plain english is helpful but it's easy to be a little
+bit wrong and not know it. When you focus on _predicting_ what happens at each
+step and you check your predictions with a trace or JS Tutor, then you really
+know if you understood.
+
+This approach is also helpful because not only will you know if you're right,
+but if you're wrong the computer will tell you the right answer! Then you know
+exactly which line you didn't understand, and you know what to study next.
+
 ---
 
 ## Programs: The Computer

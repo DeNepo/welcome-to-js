@@ -22,21 +22,12 @@
 */
 
 /* --- gather user input --- */
-
 // Data In:     null or a string
-
-/* --- repeat if the input is null (sub-goal!) --- */
-/* --- repeat if the input is an empty string (sub-goal!) --- */
-/* --- exit if neither condition is true (sub-goal!) --- */
-
 // Data After:  a non-empty string
 
 /* --- create the final message --- */
-
 // Data Before: a non-empty string
-
 // Data After:  a message describing the string as long or short
 
 /* --- display the message for the user --- */
-
 // Data Out:    a message describing the string as long or short

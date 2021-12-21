@@ -5,6 +5,7 @@
 console.log('-- conditionals --');
 
 let isLeftHanded = confirm('are you left handed?');
+console.log(isLeftHanded);
 
 if (isLeftHanded) {
   alert('you are left handed');

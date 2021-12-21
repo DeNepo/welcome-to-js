@@ -7,8 +7,6 @@
   You don't need to go too much into detail yet
   the next steps will lead you to every detail of the program
 
-*/
-
 'use strict';
 
 let userInput = '';
