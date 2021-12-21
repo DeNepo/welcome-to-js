@@ -472,7 +472,7 @@ name = 'Script';
 
 ```txt
 // declare
-//  no need to declare uninitialized variables
+//  no need to declare variables
 
 // declare and initialize (same as assign)
 name <- 'Java'
@@ -594,7 +594,7 @@ console.log(inner); // ReferenceError
 ## Conditionals
 
 Execute different blocks of code depending on whether an expression evaluates to
-`true` or to `false`
+`true` or to `false`:
 
 <table>
 
@@ -654,15 +654,13 @@ ELSE:
 
 ## While Loops
 
-!!!!!!!!!!!
+Repeat a block of code as long as an expression evaluates to `true`.
 
-<!-- 1. check the condition
-   - if the condition is true
-     - execute the body
-     - go back to 1
-   - if the condition is false
-     - go to 2
-2. execute the next line after the block -->
+1. Evaluate the expression
+2. Check if it is `true` or `false`
+   1. if it is `true`, execute the block
+   2. return to step 2
+3. Move on to the next line after the loop
 
 <table>
 
@@ -696,11 +694,11 @@ WHILE: anExpression
 
 ## For-Of Loops
 
-<!-- if there is
+Iterate over a string, executing the loop body once for each character.
 
-- declare a new variable storing the next character
-- execute the code in the block
-- move on to the -->
+A new variable is declared for each character and that variable is scoped to the
+block. Each time the block is executed the variable stores the next character in
+the string.
 
 <table>
 
@@ -721,7 +719,7 @@ for (let character of 'hello') {
 ```txt
 FOR: character OF 'hello'
   // loop body
-:END FOR
+:END FOR-OF
 ```
 
 </td>
@@ -734,6 +732,8 @@ FOR: character OF 'hello'
 
 ## Break
 
+Exit a loop immediately and skip to the next line after the loop.
+
 <table>
 
 <tr>
@@ -778,7 +778,7 @@ for (let character of 'hello') {
 ```txt
 FOR: character OF 'hello'
   BREAK
-:END FOR
+:END FOR-OF
 ```
 
 </td>
@@ -791,6 +791,8 @@ FOR: character OF 'hello'
 
 ## Continue
 
+Skip the rest of the loop body and go to the next iteration.
+
 <table>
 
 <tr>
@@ -798,7 +800,7 @@ FOR: character OF 'hello'
 
 ```js
 while (anExpression) {
-  continue; // skip to the the loop condition
+  continue; // skip to the the loop check
   // this line is not executed
 }
 
@@ -822,7 +824,7 @@ WHILE: anExpression
 
 ```js
 for (let character of 'hello') {
-  continue; // skip to the the loop condition
+  continue; // skip to the next character
   // this line is not executed
 }
 
@@ -835,7 +837,7 @@ for (let character of 'hello') {
 ```txt
 FOR: character OF 'hello'
   CONTINUE
-:END FOR
+:END FOR-OF
 ```
 
 </td>

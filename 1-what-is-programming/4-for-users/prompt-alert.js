@@ -23,10 +23,12 @@
 // alert just displays text, you cannot type anything
 alert('(alert) hello! the program is paused until you click "ok"');
 
-// prompt allows the user to pass some data into the program
-prompt('(prompt) you can type then click "ok" or "cancel"');
+// prompt allows the user to pass a string or `null` into the program
+//  (you'll learn more about strings and `null` very soon)
+let input = prompt('(prompt) you can type then click "ok" or "cancel"');
+console.log(input);
 
-// confirm allows the user to say "yes" or "no"
-confirm('(confirm) would you like a cup of coffee?');
-
-alert('(alert) PS. check your console, nothing was logged!');
+alert(
+  'no try running the program again passing different input. \n\n' +
+    'PS. check your console!',
+);
