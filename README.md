@@ -26,10 +26,6 @@ and write interactive programs in your browser.
 
 ## Learning Objectives
 
-<details>
-<summary>expand/collapse</summary>
-<br>
-
 > all of these skills are limited to short, single-page programs written with
 > **Just Enough JavaScript**
 
@@ -133,8 +129,6 @@ your study time and to measure your progress:
 - [ ] 🐔 **Writing Programs**: Given a description of a program's behavior
       (_user story + test cases_), you can plan goals for the program and write
       code to pass the tests.
-
-</details>
 
 ---
 
