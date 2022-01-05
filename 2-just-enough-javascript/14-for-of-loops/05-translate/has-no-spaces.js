@@ -2,11 +2,26 @@
 
 'use strict';
 
+/*
+
+
+  Data In:
+
+  Data Out:
+
+  Test Cases:
+
+*/
+
+/* ---   ?   --- */
+
 // input <- null
 
 // WHILE: input === null
 //   input <- prompt('enter some text, the program will check if it has any spaces')
 // :END WHILE
+
+/* ---   ?   --- */
 
 // noSpaces <- true
 
@@ -16,6 +31,8 @@
 //   :END IF
 // :END FOR-OF
 
+/* ---   ?   --- */
+
 // message <- ''
 
 // IF: noSpaces
@@ -23,5 +40,7 @@
 // ELSE:
 //   message <- '"' + input + '" has at least one space'
 // :END IF
+
+/* ---   ?   --- */
 
 // alert(message)

@@ -10,6 +10,11 @@
   Data Out:
     a friendly success message
 
+  Test Cases:
+    '12345' -> 'yes! "12345" is 5 characters long.'
+    'qwert' -> 'yes! "qwert" is 5 characters long.'
+    'Plunk' -> 'yes! "Plunk" is 5 characters long.'
+
 */
 
 /* --- prompt until the input is long enough --- */

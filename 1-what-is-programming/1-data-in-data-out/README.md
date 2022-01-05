@@ -82,6 +82,8 @@ happening in each program using these terms:
 - **Data In**: What data does the user input into the program, be specific!
 - **Data Out**: What data is output to the user at the end of the program, be
   specific!
+- **Test Cases**: Specific examples of data that goes in and the data that comes
+  out.
 
 In the `/examples` folder you will find a few programs with a comment describing
 the **behavior**, **data in** and **data out**. Your challenge in `/exericses`

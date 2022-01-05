@@ -2,6 +2,19 @@
 
 'use strict';
 
+/*
+
+
+  Data In:
+
+  Data Out:
+
+  Test Cases:
+
+*/
+
+/* ---   ?   --- */
+
 // input <- ''
 
 // WHILE: true
@@ -10,9 +23,11 @@
 //     alert('there is no escape')
 //   ELSE: IF: input.length > 4
 //     alert('your input is too long')
-//   ELSE: 
+//   ELSE:
 //     BREAK
 //   :END IF
 // :END WHILE
+
+/* ---   ?   --- */
 
 // alert(input)

@@ -38,7 +38,25 @@ this:
 
 ---
 
-### 0. Understand the Behavior
+### 0. Zoom out, Zoom in, Zoom out, Zoom in, ...
+
+The most helpful piece of advice you can keep in mind while writing a program is
+to switch your focus between the big picture and the details.
+
+When you start writing PseudoCode and later JavaScript, it's very easy to get
+absorbed by the details of each line you're writing. This is good as you're
+figuring out what to write on that line but can become a problem when you spend
+all of your time focused on one line, then the next line, then the next line,
+then the next ... You can easily loose sight of the big picture!
+
+After every line you write it's helpful to zoom out to consider the program's
+behavior, goals and the connections between your new line and each existing
+line. When you spend too much time zoomed in you will often write code that
+works but is not really what you need. Then you have to start all over again!
+
+---
+
+### 1. Understand the Behavior
 
 Carefully read the user stories and test cases to understand what data goes in,
 what data comes out, and what should happen to the data.
@@ -67,7 +85,7 @@ what data comes out, and what should happen to the data.
 
 ---
 
-### 1. Plan your Goals
+### 2. Plan your Goals
 
 What are the important steps in transforming the input data to the final output
 data?
@@ -111,14 +129,72 @@ small program inside your program!
 
 ---
 
-### 2. PseudoCode Solution
+### 3. English Solution
 
-Try your best to understand and solve the problem before writing a single line
-of code, start with PseudoCode!
+Try your best to understand the problem and possible solutions before writing a
+single line of code, start with English!
 
 If you dive into code without carefully thinking about how to solve the problem,
 you'll almost always get tangled in confusing code and errors. A little planning
 goes a long way.
+
+At this step there are no rules, just write whatever helps you understand the
+problem and think of a solution.
+
+<details>
+<summary>expand for example code</summary>
+<br />
+
+```js
+'use strict';
+
+/*
+  a user can input any text and it will become excited.
+    - given the user cancels: they are prompted again
+    - given the input is a string: it will have an "!" added to the end
+
+  test cases:
+    ''      -> '!'
+    '!'     -> '!!'
+    'JS'    -> 'JS!'
+    'hello' -> 'hello!'
+*/
+
+/* --- get a string from the user --- */
+//  Data In:      a string or null
+//  Data After:   the first string the user inputs
+
+/* get some text from the user
+  it can be anything as long as it's a string
+  should use `prompt` -> string or null
+  and a while loop I think?
+*/
+
+/* --- make the string excited --- */
+//  Data Before:  the user's string
+//  Data After:   the same text with an exclamation mark
+
+/*
+  create a new variable to store the final message
+  add an exclamation point to the end of their input
+*/
+
+/* --- display the string to the user --- */
+//  Data Out:  an excited string
+
+/*
+  display the new string with an exclamation point
+*/
+```
+
+</details>
+
+---
+
+### 4. PseudoCode Solution
+
+Try your best to solve the problem before writing a single line of code by
+translating your English solution to PseudoCode.
 
 Of course your PseudoCode solution may not be perfect, that happens to all of
 us. You'll get a chance to work through any bugs you missed when you start
@@ -151,6 +227,11 @@ normal.
 //  Data In:      a string or null
 //  Data After:   the first string the user submits
 
+/* get some text from the user
+  it can be anything as long as it's a string
+  should use `prompt` -> string or null
+  and a while loop I think?
+*/
 // input <- ''
 // WHILE: input === null
 //   input <- prompt('enter something')
@@ -160,11 +241,18 @@ normal.
 //  Data Before:  the user's string
 //  Data After:   the same text with an exclamation mark
 
+/*
+  create a new variable to store the final message
+  add an exclamation point to the end of their input
+*/
 // output <- input + '!'
 
 /* --- display the string to the user --- */
 //  Data Out:  an excited string
 
+/*
+  display the new string with an exclamation point
+*/
 // alert(output)
 ```
 
@@ -172,7 +260,7 @@ normal.
 
 ---
 
-### 3. Write -> Predict -> Check -> Repeat
+### 5. Write -> Predict -> Check -> Repeat
 
 It's tempting to jump in and translate all your pseudo code into JS at once,
 this feels faster at first but will actually slow you down. The more code you
@@ -322,7 +410,7 @@ console.log(input);
 
 ---
 
-### 4. One Goal At a Time
+### 6. One Goal At a Time
 
 Follow the same process (_Write -> Predict -> Check -> Repeat_) for each goal in
 your program until you think the full program is ready.
@@ -465,7 +553,7 @@ console.log(output);
 
 ---
 
-### 5. Test the Program
+### 7. Test the Program
 
 When you think the program is finished, it's time to test it. Run the program
 with each of the test cases making sure that the correct output is displayed for
@@ -528,7 +616,7 @@ start ...
 
 ---
 
-### 5. Debugging
+### 8. Debugging
 
 If your code doesn't do what it's supposed to, then you've got a bug.
 
@@ -536,4 +624,4 @@ Some bugs are easy to fix, maybe you just used the wrong variable or flipped
 your `if`/`else` blocks. But other bugs can be hard to find and fix.
 
 Learning to carefully identify and fix bugs in a program is not an easy skill to
-develop. It comes after lots of practice and experience.
+develop. You'll figure it out with lots of examples, practice and experience.

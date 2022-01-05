@@ -257,6 +257,90 @@ exercises.
 
 ---
 
+### 🐣 Compare
+
+Compare two programs, do they have the same behavior (_data in, data out_)?
+
+- _If they do have **the same** behavior_: explain how the different lines of
+  code create the same behavior.
+- _if they have **different** behavior_: find test cases that show the
+  difference and explain why the programs behave differently for these tests.
+
+Each exercise will have a hidden answer to if the programs are the same or not,
+but they will not explain why they are the same or give test cases. That's up to
+you!
+
+Below is an example of two programs you might compare and a good answer (you can
+write your answers somewhere, or just say them aloud.):
+
+<table>
+<tr>
+<td>
+
+### Program 1
+
+</td>
+<td>
+
+### Program 2
+
+</td>
+</tr>
+<tr>
+<td>
+
+```js
+'use strict';
+
+let a = prompt('');
+
+let b = 'no';
+if (a !== '') {
+  b = 'yes';
+}
+
+alert(a);
+```
+
+</td>
+<td>
+
+```js
+'use strict';
+
+let a = prompt('');
+
+let b = '';
+if (a === null) {
+  b = 'no';
+} else {
+  b = 'yes';
+}
+
+alert(a);
+```
+
+</td>
+</tr>
+</table>
+
+```txt
+Program 1 and Program 2 are different.
+
+If you input the empty string ("") into both they will output different values.
+
+Program 1 outputs "no"
+  The conditional will not be executed, so b will not be reassigned.
+  Since b is initialized to "no", that will be the final value.
+
+Program 2 outputs "yes"
+  Since "" is not null, the second path will be executed.
+  The second path assigned "yes" to b.
+  That is the last time b is assigned a new value, so it will be the final value
+```
+
+---
+
 ### 🐣 Parsons Problems
 
 Parsons problems are designed to help you study snippets of code without getting

@@ -2,6 +2,19 @@
 
 'use strict';
 
+/*
+
+
+  Data In:
+
+  Data Out:
+
+  Test Cases:
+
+*/
+
+/* ---   ?   --- */
+
 // input <- null
 
 // hasSpaces <- false
@@ -14,10 +27,12 @@
 //     alert('gotta enter something')
 //   ELSE: IF: !input.includes(' ')
 //     alert('there must be a space!')
-//   ELSE: 
+//   ELSE:
 //     hasSpaces <- true
 //   :END IF
 // :END WHILE
+
+/* ---   ?   --- */
 
 // spaceless <- ''
 
@@ -27,5 +42,7 @@
 //   :END IF
 //   spaceless <- spaceless + character
 // :END FOR-OF
+
+/* ---   ?   --- */
 
 // alert(input + ' -> ' + spaceless)

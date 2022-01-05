@@ -10,6 +10,8 @@
   Data Out:
     a message saying if the input had an "x" or not
 
+  Test Cases:
+
 */
 
 /* ---    --- */

@@ -12,6 +12,8 @@
     if the input already has a exclamation at the end
       nothing is changed
 
+  Test Cases:
+
 */
 
 /* ---    --- */

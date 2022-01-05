@@ -2,11 +2,26 @@
 
 'use strict';
 
+/*
+
+
+  Data In:
+
+  Data Out:
+
+  Test Cases:
+
+*/
+
+/* ---   ?   --- */
+
 // letters <- null
 
 // WHILE: letters === null
 //   letters <- prompt('enter some letters')
 // :END WHILE
+
+/* ---   ?   --- */
 
 // noVowels <- ''
 
@@ -16,5 +31,7 @@
 //   :END IF
 //   noVowels <- noVowels + character
 // :END FOR-OF
+
+/* ---   ?   --- */
 
 // alert(letters + ' -> ' + noVowels)

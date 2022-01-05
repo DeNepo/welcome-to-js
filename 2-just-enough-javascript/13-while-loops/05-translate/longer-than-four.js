@@ -2,6 +2,19 @@
 
 'use strict';
 
+/*
+
+
+  Data In:
+
+  Data Out:
+
+  Test Cases:
+
+*/
+
+/* ---   ?   --- */
+
 // input <- ''
 
 // prompting <- true
@@ -15,5 +28,7 @@
 //     prompting <- false
 //   :END IF
 // :END WHILE
+
+/* ---   ?   --- */
 
 // alert(input)

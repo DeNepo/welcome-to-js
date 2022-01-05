@@ -11,6 +11,12 @@
     the reversed input if it was 5 characters long
     the unchanged input if it was not 5 characters long
 
+  Test Cases:
+    '' -> ''
+    'abc' -> 'abc'
+    'hello' -> 'olleh'
+    'JavaScript' -> 'JavaScript'
+
 */
 
 /* --- gather user input --- */

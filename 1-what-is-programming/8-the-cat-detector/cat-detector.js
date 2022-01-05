@@ -11,6 +11,11 @@
   Data Out:
     A string describing if the user's input was "cat" or not
 
+  Test Cases:
+    '' -> '"" is not a cat'
+    'cat' -> 'thank you for the cat'
+    'anything else' -> '"anything else" is not a cat'
+
 */
 
 /* --- gather the user's input (canceling not allowed) --- */

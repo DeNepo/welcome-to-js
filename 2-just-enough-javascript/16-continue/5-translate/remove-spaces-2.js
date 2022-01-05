@@ -2,6 +2,19 @@
 
 'use strict';
 
+/*
+
+
+  Data In:
+
+  Data Out:
+
+  Test Cases:
+
+*/
+
+/* ---   ?   --- */
+
 // input <- null
 
 // WHILE: true
@@ -21,6 +34,8 @@
 //   BREAK
 // :END WHILE
 
+/* ---   ?   --- */
+
 // spaceless <- ''
 
 // FOR: char OF input
@@ -28,5 +43,7 @@
 //     spaceless <- spaceless + char
 //   :END IF
 // :END FOR-OF
+
+/* ---   ?   --- */
 
 // alert(input + ' -> ' + spaceless)

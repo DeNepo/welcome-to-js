@@ -12,6 +12,8 @@
     if the input already has a question mark at the end
       nothing is changed
 
+  Test Cases:
+
 */
 
 /* ---    --- */

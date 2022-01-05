@@ -44,6 +44,8 @@ Here's an example of how you can complete the exercises in this chapter:
   Data Out:
     the input in all uppercase letters
 
+  Test Cases:
+
 */
 
 /* --- ?? --- */
@@ -78,6 +80,12 @@ alert(loudInput);
   Data Out:
     the input in all uppercase letters
 
+  Test Cases:
+    '' -> ''
+    'abc' -> 'ABC'
+    'Hello Jon' -> 'HELLO JON'
+    'JavaScript' -> 'JAVASCRIPT'
+
 */
 
 /* --- get a string from the user --- */
@@ -106,9 +114,11 @@ alert(loudInput);
 
 The exercises in this folder have two parts:
 
+1. **Test Cases**: Write a few test cases to make sure you understand the
+   program.
 1. **Label Goals**: Fill in the goal comments to describe what is being achieved
    in each of the program's goals.
-2. **Complete the Code**: Each program will have some lines missing and some
+1. **Complete the Code**: Each program will have some lines missing and some
    pseudo code describing what you should write. You need to write the line(s)
    to complete the programs.
 
