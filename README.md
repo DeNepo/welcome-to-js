@@ -26,10 +26,6 @@ and write interactive programs in your browser.
 
 ## Learning Objectives
 
-<details>
-<summary>expand/collapse</summary>
-<br>
-
 > all of these skills are limited to short, single-page programs written with
 > **Just Enough JavaScript**
 
@@ -94,12 +90,17 @@ your study time and to measure your progress:
   - _How many times is it's value used \(read\) in the program?_
   - _How many times is the variable assigned a new value?_
   - _What types are assigned to this variable during the program's execution?_
-- [ ] 🐣 **Imperative Programming**: You can explain what the Imperative
+- [ ] 🥚 **Imperative Programming**: You can explain what the Imperative
       Programming paradigm is, and can explain how you know the programs in
       Welcome to JS are Imperative.
-- [ ] 🐣 **Tracing Execution**: You can complete a "steps" trace table and
+- [ ] 🥚 **Tracing Execution**: You can complete a "steps" trace table and
       correct your table using console output from the "trace" button.
-- [ ] 🐣 **Logging**: You can tracing specific aspects of a program's execution
+- [ ] 🥚 **Stepping Through**: You can pause a script in a your browser's
+      debugger, arrange the debugger, collapse extra panels, and step through a
+      script written with Just Enough JS. At each point in execution you can
+      make a prediction of the next line before executing, and can check your
+      prediction using the _scopes_ panel.
+- [ ] 🥚 **Logging**: You can tracing specific aspects of a program's execution
       and log them to the console.
 - [ ] 🐣 **Completing Programs**: You can successfully fill in blanks for a
       program when the missing words are provided, including distractors.
@@ -117,24 +118,17 @@ your study time and to measure your progress:
 - [ ] 🐣 **Fixing Errors**: You can use the structured comment to describe an
       error in your program, and can make several educated guesses at how to fix
       the error.
-- [ ] 🐥 **Linting**: You can find and fix simple linting errors in JavaScript
+- [ ] 🐣 **Linting**: You can find and fix simple linting errors in JavaScript
       programs.
 - [ ] 🐣 **Fixing Bugs**: You can use the structured comment to describe and fix
       a bug in small programs.
 - [ ] 🐥 **Constructing Programs**: You can reconstruct a program's lines and
       indentation, successfully ignoring distractor lines.
-- [ ] 🐥 **Stepping Through**: You can pause a script in a your browser's
-      debugger, arrange the debugger, collapse extra panels, and step through a
-      script written with Just Enough JS. At each point in execution you can
-      make a prediction of the next line before executing, and can check your
-      prediction using the _scopes_ panel.
 - [ ] 🐥 **Modifying Programs**: You can make small changes in a program to
       change it's behavior without breaking it.
 - [ ] 🐔 **Writing Programs**: Given a description of a program's behavior
       (_user story + test cases_), you can plan goals for the program and write
       code to pass the tests.
-
-</details>
 
 ---
 
