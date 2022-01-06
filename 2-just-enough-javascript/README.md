@@ -148,6 +148,20 @@ solution using a _diff editor_.
 
 ---
 
+### 🥚 Quiz
+
+Some chapters will have a `/quiz` folder, these contain multiple choice
+questions to test your knowledge. By the end of this module you should be
+comfortable finding the right answers for each quiz **_and_** understanding why
+the wrong answers are incorrect.
+
+Careful, passing the quizzes is not enough! Being able to answer questions is
+not the same thing as building and practicing skills. Even if you are
+comfortable with the quiz in a chapter, you should _still_ keep practice the
+exercises.
+
+---
+
 ### 🥚 Copy-Type
 
 Ever heard of "copy-paste"? This is kind of like that but a much better way to
@@ -240,20 +254,6 @@ alert(input);
 </td>
 </tr>
 </table>
-
----
-
-### 🥚 Quiz
-
-Some chapters will have a `/quiz` folder, these contain multiple choice
-questions to test your knowledge. By the end of this module you should be
-comfortable finding the right answers for each quiz **_and_** understanding why
-the wrong answers are incorrect.
-
-Careful, passing the quizzes is not enough! Being able to answer questions is
-not the same thing as building and practicing skills. Even if you are
-comfortable with the quiz in a chapter, you should _still_ keep practice the
-exercises.
 
 ---
 
