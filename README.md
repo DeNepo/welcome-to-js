@@ -126,9 +126,25 @@ your study time and to measure your progress:
       indentation, successfully ignoring distractor lines.
 - [ ] 🐥 **Modifying Programs**: You can make small changes in a program to
       change it's behavior without breaking it.
-- [ ] 🐔 **Writing Programs**: Given a description of a program's behavior
+- [ ] 🐥 **Writing Programs**: Given a description of a program's behavior
       (_user story + test cases_), you can plan goals for the program and write
       code to pass the tests.
+- [ ] 🐥 **Writing Programs**: Given a description of a program's behavior
+      (_user story + test cases_), you can plan goals for the program and write
+      code to pass the tests.
+- [ ] 🐥 **Reverse Engineering**: Given a working program with unreadable code,
+      you can:
+  - Give the program a name.
+  - Describe the program's behavior with a user story, acceptance criteria and
+    test cases.
+  - Plan goals for the program.
+  - Develop your own working program with the exact same behvior.
+- [ ] 🐔 **Imagining Programs**: Given an empty page, you can imagine and
+      develop your own programs using Just Enough JavaScript. This includes:
+  - A title.
+  - A description with a user story, acceptance criteria and test cases.
+  - Commented goals.
+  - Fully working Code.
 
 ---
 
