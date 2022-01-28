@@ -10,6 +10,9 @@
 Take your first steps into programming by learning to read, trace, and analyze,
 and write interactive programs in your browser.
 
+By the end of this module using Just Enough JavaScript you will be able to
+document, plan and develop programs that process a user's text input.
+
 - [Learning Objectives](#learning-objectives): what you can expect to learn from
   studying this material
 - [Setting Up](#setting-up): how to set up and study this material
