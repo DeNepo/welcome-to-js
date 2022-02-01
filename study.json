@@ -1,8 +1,5 @@
 {
   "--port": 4005,
-  "--defaults": {
-    ".txt": "highlight"
-  },
   "study": {
     "run": true,
     "flowchart": true,
@@ -20,7 +17,8 @@
     "table": true,
     "blanks": true,
     "writeme": true,
-    "pseudo": true
+    "pseudo": true,
+    "eslint": true
   },
   "highlight": {
     "run": true,
@@ -46,5 +44,8 @@
     "table": true,
     "trace": true,
     "run": true
+  },
+  "stepped": {
+    "eslint": true
   }
 }

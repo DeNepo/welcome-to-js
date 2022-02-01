@@ -43,6 +43,7 @@ console.log('--- end program ---');
 /*
   checklist:
     [ ] the code is formatted
+    [ ] linting check passes
     [ ] variable names are clear and helpful
     [ ] each line of code is explained in a comment above that line
       - use full sentences and correct JS vocabulary

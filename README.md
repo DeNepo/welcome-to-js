@@ -7,8 +7,8 @@
 > — [Angus Croll](https://anguscroll.com/),
 > [If Hemingway Wrote JavaScript](https://anguscroll.com/hemingway/)
 
-Take your first steps into programming by learning to read, trace, and analyze,
-and write interactive programs in your browser.
+Take your first steps into programming by learning to read, trace, analyze, and
+write interactive programs in your browser.
 
 By the end of this module using Just Enough JavaScript you will be able to
 document, plan and develop programs that process a user's text input.
@@ -105,6 +105,8 @@ your study time and to measure your progress:
       prediction using the _scopes_ panel.
 - [ ] 🥚 **Logging**: You can tracing specific aspects of a program's execution
       and log them to the console.
+- [ ] 🥚 **Linting**: You can find and fix simple linting errors in JavaScript
+      programs.
 - [ ] 🐣 **Completing Programs**: You can successfully fill in blanks for a
       program when the missing words are provided, including distractors.
 - [ ] 🐣 **Describing Programs**: You can read a program and describe it with
@@ -121,17 +123,16 @@ your study time and to measure your progress:
 - [ ] 🐣 **Fixing Errors**: You can use the structured comment to describe an
       error in your program, and can make several educated guesses at how to fix
       the error.
-- [ ] 🐣 **Linting**: You can find and fix simple linting errors in JavaScript
-      programs.
 - [ ] 🐣 **Fixing Bugs**: You can use the structured comment to describe and fix
       a bug in small programs.
+- [ ] 🐥 **Code Review**: Given a working program you can review the code for
+      clarity, correctness and style.
 - [ ] 🐥 **Constructing Programs**: You can reconstruct a program's lines and
       indentation, successfully ignoring distractor lines.
+- [ ] 🐥 **Refactoring**: Given a working program, you can make changes to the
+      code without changing the program's behavior.
 - [ ] 🐥 **Modifying Programs**: You can make small changes in a program to
       change it's behavior without breaking it.
-- [ ] 🐥 **Writing Programs**: Given a description of a program's behavior
-      (_user story + test cases_), you can plan goals for the program and write
-      code to pass the tests.
 - [ ] 🐥 **Writing Programs**: Given a description of a program's behavior
       (_user story + test cases_), you can plan goals for the program and write
       code to pass the tests.

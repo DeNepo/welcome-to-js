@@ -1,0 +1,8 @@
+{
+  "--defaults": {
+    "directory": "stepped"
+  },
+  "stepped": {
+    "save": true
+  }
+}
