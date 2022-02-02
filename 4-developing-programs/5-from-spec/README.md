@@ -1,4 +1,4 @@
-# Writing Programs
+# From Spec
 
 It's time! Practice writing some programs of your own.
 
