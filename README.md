@@ -72,9 +72,8 @@ your study time and to measure your progress:
       how a program works to master these learning objectives!
   - **Listening** You can exactly re-write a program that a classmate has read
   - **Reading** You can read a program out loud and guide your classmates to
-    re-write _exactly_ the same code without them seeing the program. \(every
-    indentation, semi-colon, comment and spelling must be identical\) to you,
-    without seeing the program they are reading.
+    re-write _exactly_ the same code without them seeing the program. Every
+    indentation, semi-colon, comment and spelling in their program must be identical to yours.
 - [ ] 🥚 **Static vs. Dynamic Analysis**: You can explain and use these two ways
       of studying a program, each can help you understand different aspects of
       your code. To help understand this concept, the _options_ panel in Study

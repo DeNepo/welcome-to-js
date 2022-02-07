@@ -38,7 +38,8 @@ see how something works, but it's not possible to write and save a full program.
 <br>
 
 ```js
-/* --- for the computer --- 'use strict';
+/* --- for the computer --- */
+'use strict';
 
 /* --- for the developer --- */
 
