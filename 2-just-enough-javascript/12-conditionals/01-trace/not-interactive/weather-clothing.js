@@ -1,25 +1,32 @@
-/* Trace the following code by commenting and uncommenting the different values for the 'weather' variable. See what happens every time and different value is
-given and identify the exact line that is being executed 'use strict';
+'use strict';
 
-let weather = "spring";
+/*
+
+  Trace the following code by commenting and uncommenting the different values for the 'weather' variable.
+  See what happens every time and different value is used
+  and identify the exact line that is being executed
+
+*/
+
+let weather = 'spring';
 // let weather = "summer";
 // let weather = "winter";
 // let weather = "fall";
 // let weather = "holidays";
 
-let clothingChoice = "";
+let clothingChoice = '';
 
-if (weather === "spring") {
-    clothingChoice = "Put on rain boots.";
-} else if (weather === "summer") {
-    clothingChoice = "Make sure to take your sunscreen.";
-} else if (weather === "fall") {
-    clothingChoice = "Wear a light jacket.";
+if (weather === 'spring') {
+  clothingChoice = 'Put on rain boots.';
+} else if (weather === 'summer') {
+  clothingChoice = 'Make sure to take your sunscreen.';
+} else if (weather === 'fall') {
+  clothingChoice = 'Wear a light jacket.';
 } else if (weather === 'winter') {
-    clothingChoice = "Wear a heavy coat.";
+  clothingChoice = 'Wear a heavy coat.';
 } else {
-    clothingChoice = 'Invalid weather type.';
-};
+  clothingChoice = 'Invalid weather type.';
+}
 
 console.log(clothingChoice);
 

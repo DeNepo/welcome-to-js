@@ -40,4 +40,4 @@
 
 /* --- create a message for the user --- */
 
-/* --- display the message to the user
+/* --- display the message to the user --- */

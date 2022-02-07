@@ -1,5 +1,7 @@
 // #todo
 
+'use strict';
+
 /* 0. The Program
 
   Read and run the program a couple times to get an idea what's going on
@@ -7,7 +9,7 @@
   You don't need to go too much into detail yet
   the next steps will lead you to every detail of the program
 
-'use strict';
+*/
 
 let userInput = '';
 

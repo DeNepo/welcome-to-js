@@ -42,4 +42,4 @@
 
 //  you can compare the input to the string without repeats
 
-/* --- display the message to the user
+/* --- display the message to the user --- */
