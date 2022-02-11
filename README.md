@@ -73,7 +73,8 @@ your study time and to measure your progress:
   - **Listening** You can exactly re-write a program that a classmate has read
   - **Reading** You can read a program out loud and guide your classmates to
     re-write _exactly_ the same code without them seeing the program. Every
-    indentation, semi-colon, comment and spelling in their program must be identical to yours.
+    indentation, semi-colon, comment and spelling in their program must be
+    identical to yours.
 - [ ] 🥚 **Static vs. Dynamic Analysis**: You can explain and use these two ways
       of studying a program, each can help you understand different aspects of
       your code. To help understand this concept, the _options_ panel in Study
@@ -256,9 +257,10 @@ want to forget.
 
 Cheat sheets and diagrams you can print out and have next to you while studying.
 
-### [1. Programming](./1-programming)
+### [1. What is Programming](./1-what-isprogramming)
 
-What is a program? How does JavaScript work?
+What is a program? What is a programming language? How do programs and people
+fit together?
 
 ### [2. Just Enough JavaScript](./2-just-enough-javascript)
 
@@ -266,8 +268,14 @@ Go in depth on JavaScript you need to know for writing interactive text-based
 programs in the browser. Along the way you will learn how each language feature
 works in small programs.
 
-### [3. Programming Skills](./chapter-3.md)
+### [3. Understanding Programs](./3-understanding-programs)
 
-Learn how to understand, modify and write larger interactive programs in
-JavaScript. You'll cover some of the hidden skills necessary to develop quality
-software and to work collaboratively on a code base.
+Learn how to understand a larger programs by finding connections between the
+details and the big picture. By the end of this chapter you will know how to
+read a new program and do a simple code review.
+
+### [4. Developing Programs](./4-developing-programs)
+
+Learn to modify and write larger programs in JavaScript. You'll cover many of
+the hidden skills necessary to develop quality software and to work
+collaboratively on a code base.
