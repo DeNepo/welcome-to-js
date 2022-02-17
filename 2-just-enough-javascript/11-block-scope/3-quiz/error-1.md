@@ -25,7 +25,8 @@ console.log(animal); // line 8
 
 ✖ Nope.
 
-There are not two variables declared with the same name, so there is no syntax error.
+There are not two variables declared with the same name, so there is no syntax
+error.
 
 </details>
 <details>
@@ -36,7 +37,9 @@ There are not two variables declared with the same name, so there is no syntax e
 
 _ReferenceErrors_ happen when you try to use a variable that was never declared.
 
-The `animal` variable was declared in this program, but it was declared _inside_ the block so it is not available outside the block. When you try to use it _outside_ of the block on line 8, this will throw an error.
+The `animal` variable was declared in this program, but it was declared _inside_
+the block so it is not available outside the block. When you try to use it
+_outside_ of the block on line 8, this will throw an error.
 
 </details>
 <details>
@@ -59,14 +62,16 @@ Not so easy ;) There is an error in this program.
 <summary><em>A. line 4</em></summary>
 <br>
 
-Nope, line 4 is ok. This is where the `animal` variable is declared _inside_ the block.
+Nope, line 4 is ok. This is where the `animal` variable is declared _inside_ the
+block.
 
 </details>
 <details>
 <summary><em>B. line 5</em></summary>
 <br>
 
-Nope, line 5 is ok. The `animal` variable is read _inside_ the block where it was declared. That is allowed!
+Nope, line 5 is ok. The `animal` variable is read _inside_ the block where it
+was declared. That is allowed!
 
 </details>
 <details>
@@ -75,7 +80,9 @@ Nope, line 5 is ok. The `animal` variable is read _inside_ the block where it wa
 
 ✔ Correct!
 
-The `animal` variable was declared in this program, but it was declared _inside_ the block so it is not available outside the block. When you try to use it _outside_ of the block on line 8, this will throw an error.
+The `animal` variable was declared in this program, but it was declared _inside_
+the block so it is not available outside the block. When you try to use it
+_outside_ of the block on line 8, this will throw an error.
 
 </details>
 

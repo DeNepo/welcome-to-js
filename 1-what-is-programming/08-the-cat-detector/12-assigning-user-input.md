@@ -34,9 +34,11 @@ How can you assign user input to a variable?
 
 ✖ Nope.
 
-Variable assignments work from _right to left_. The interaction should be on the _right_ so the user's input can be assigned to the variable on the _left_.
+Variable assignments work from _right to left_. The interaction should be on the
+_right_ so the user's input can be assigned to the variable on the _left_.
 
-And anyway, `alert` only displays information, it can't accept input from a user.
+And anyway, `alert` only displays information, it can't accept input from a
+user.
 
 </details>
 
@@ -48,7 +50,8 @@ And anyway, `alert` only displays information, it can't accept input from a user
 
 ✖ Nope.
 
-Variable assignments work from _right to left_. The interaction should be on the _right_ so the user's input can be assigned to the variable on the _left_.
+Variable assignments work from _right to left_. The interaction should be on the
+_right_ so the user's input can be assigned to the variable on the _left_.
 
 </details>
 

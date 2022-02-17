@@ -2,9 +2,11 @@
 
 # Mirrorize
 
-Which line can be placed in the blank to make a loop that mirrors the input? There may be more than 1 correct answer!
+Which line can be placed in the blank to make a loop that mirrors the input?
+There may be more than 1 correct answer!
 
-> _hint_: use a trace table to study each program's behavior before making a guess.
+> _hint_: use a trace table to study each program's behavior before making a
+> guess.
 
 ```js
 'use strict';
@@ -29,7 +31,8 @@ console.log(mirrored); // 'cba|abc'
 
 Close! This is line contains one half of the correct solution.
 
-This is how you _reverse_ a string. The characters from `"abc"` will be added in order to the _front_ of the `mirrored` string. The final log will be:
+This is how you _reverse_ a string. The characters from `"abc"` will be added in
+order to the _front_ of the `mirrored` string. The final log will be:
 
 - `"cba|"`
 
@@ -45,7 +48,8 @@ This is how you _reverse_ a string. The characters from `"abc"` will be added in
 
 Close! This is line contains one half of the correct solution.
 
-This line of code will just rebuild the original text one character at a time, adding each one to the _end_ of the growing string. The final log will be:
+This line of code will just rebuild the original text one character at a time,
+adding each one to the _end_ of the growing string. The final log will be:
 
 - `"|abc"`
 
@@ -59,7 +63,9 @@ This line of code will just rebuild the original text one character at a time, a
 
 ✔ Correct!
 
-With each iteration, this line of code will add the same character to both end of the `mirrored` string. The final result will be a string with the reversed text on the left, and the original text on the right:
+With each iteration, this line of code will add the same character to both end
+of the `mirrored` string. The final result will be a string with the reversed
+text on the left, and the original text on the right:
 
 - `"cba|abc"`
 
@@ -73,7 +79,8 @@ With each iteration, this line of code will add the same character to both end o
 
 ✖ Nope.
 
-Much cooler, but not correct. Can you figure out why the final log looks like this?
+Much cooler, but not correct. Can you figure out why the final log looks like
+this?
 
 - `"|a|b|a|c|a|b|a|"`
 

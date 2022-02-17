@@ -1,10 +1,13 @@
 # Describing Programs
 
-> Code Comments: “What questions would be asked by someone looking at this code for the first time?”
+> Code Comments: “What questions would be asked by someone looking at this code
+> for the first time?”
 >
 > - [Scottford](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/)
 
-This set of examples and exercises will help you learn how to do a close reading of JavaScript programs. You will practice writing many comments in a file to describe what is happening and why.
+This set of examples and exercises will help you learn how to do a close reading
+of JavaScript programs. You will practice writing many comments in a file to
+describe what is happening and why.
 
 ```js
 'use strict';
@@ -52,7 +55,8 @@ alert(line);
 
 ## Zooming Out
 
-Understanding what the entire program does just by running, without looking at any single line of code.
+Understanding what the entire program does just by running, without looking at
+any single line of code.
 
 - can a user interact with the program?
   - when do they interact? (beginning, middle, end, ...)
@@ -63,7 +67,8 @@ Understanding what the entire program does just by running, without looking at a
 - what is the user's journey? how many different paths can it take?
 - ... what else can you say about the program?
 
-Practice writing your thoughts as user stories, acceptance criteria, and test cases:
+Practice writing your thoughts as user stories, acceptance criteria, and test
+cases:
 
 ```js
 'use strict';
@@ -106,7 +111,8 @@ alert(reaction);
 
 ## Zooming In
 
-Understanding what each line of code does and how it works, without taking a step back to understand the whole program.
+Understanding what each line of code does and how it works, without taking a
+step back to understand the whole program.
 
 - what language features are used in each line?
 - what data types and operators are in the program?
@@ -246,15 +252,22 @@ alert(reaction);
 
 ## Goals
 
-So you know what the program does, and how the lines of code work, it's time to start zooming out again!
+So you know what the program does, and how the lines of code work, it's time to
+start zooming out again!
 
-A "goal" an important step in the program, it can be a single line of code or many lines of code. What's important is that a goal achieves one important step along the way from the program's initial input to it's final output. One way to decide which lines belong to the same goal is to look at your _connections_ comments. If you see a group of lines that seem to be closely connected, you may be looking at a goal:
+A "goal" an important step in the program, it can be a single line of code or
+many lines of code. What's important is that a goal achieves one important step
+along the way from the program's initial input to it's final output. One way to
+decide which lines belong to the same goal is to look at your _connections_
+comments. If you see a group of lines that seem to be closely connected, you may
+be looking at a goal:
 
 - How does each line of code contribute to the program's overall behavior?
 - Which line(s) of code seem the most important?
 - How does the program's data change from before to after a goal?
 
-You can label goals with commented line dividers and a short title describe what important step happens in those lines:
+You can label goals with commented line dividers and a short title describe what
+important step happens in those lines:
 
 ```js
 'use strict';

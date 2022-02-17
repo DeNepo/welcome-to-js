@@ -1,10 +1,14 @@
 # 🐣 `break`
 
-`break` is a JavaScript key words that you can use in your loops for _control flow_.
+`break` is a JavaScript key words that you can use in your loops for _control
+flow_.
 
-When it is executed the loop will end immediately, no matter what. the rest of the loop body will not be executed.
+When it is executed the loop will end immediately, no matter what. the rest of
+the loop body will not be executed.
 
-You do not really _need_ `break`, any code you write with `break` you could also write with an `if`/`else` and a _boolean flag variable_. But sometimes using `break` can make your code less dense and easier to read.
+You do not really _need_ `break`, any code you write with `break` you could also
+write with an `if`/`else` and a _boolean flag variable_. But sometimes using
+`break` can make your code less dense and easier to read.
 
 ---
 

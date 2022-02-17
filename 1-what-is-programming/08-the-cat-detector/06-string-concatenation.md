@@ -10,7 +10,8 @@ How can you make the string `'abc'`?
 
 ✖ Nope.
 
-This is one long string: `'a + b + c'`. The `+`s are inside the quotation marks so they're interpreted as the _character_ `+` not the concatenation operator.
+This is one long string: `'a + b + c'`. The `+`s are inside the quotation marks
+so they're interpreted as the _character_ `+` not the concatenation operator.
 
 </details>
 
@@ -23,7 +24,9 @@ This is one long string: `'a + b + c'`. The `+`s are inside the quotation marks 
 
 ✖ Nope.
 
-Because the quotation marks are around the `+` signs and not the letters, this line of code is actually 3 variables (`a`, `b`, `c`) and two strings (`'+'`, `'+'`).
+Because the quotation marks are around the `+` signs and not the letters, this
+line of code is actually 3 variables (`a`, `b`, `c`) and two strings (`'+'`,
+`'+'`).
 
 This doesn't mean anything in JavaScript, it will throw an error.
 
@@ -48,9 +51,11 @@ This doesn't mean anything in JavaScript, it will throw an error.
 
 ✖ Nope (probably).
 
-Because there are no quotation marks around the letters, they are variables not strings.
+Because there are no quotation marks around the letters, they are variables not
+strings.
 
-It's possible that this line of code would produce `'abc'`, but it's impossible to say without knowing what values are stored in the 3 variables.
+It's possible that this line of code would produce `'abc'`, but it's impossible
+to say without knowing what values are stored in the 3 variables.
 
 </details>
 

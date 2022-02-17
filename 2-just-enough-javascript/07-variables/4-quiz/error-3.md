@@ -24,7 +24,8 @@ animal = 'cat'; // line 7
 
 ✖ Nope.
 
-A _SyntaxError_ occurs with `let` when you try to declare the same variable more than once.
+A _SyntaxError_ occurs with `let` when you try to declare the same variable more
+than once.
 
 In this snippet `animal` is only declared once, so that's not the problem.
 
@@ -33,7 +34,8 @@ In this snippet `animal` is only declared once, so that's not the problem.
 <summary><em>B. ReferenceError</em></summary>
 <br>
 
-Yup! This is a _ReferenceError_ because you are trying to use the variable `animal` while it was never declared in the program.
+Yup! This is a _ReferenceError_ because you are trying to use the variable
+`animal` while it was never declared in the program.
 
 </details>
 
@@ -51,7 +53,8 @@ Yup! This is a _ReferenceError_ because you are trying to use the variable `anim
 
 ✖ Nope.
 
-Line 1 is the `"use strict";` directive, it changes the way JS interprets your code but it's not a _step_ in your program.
+Line 1 is the `"use strict";` directive, it changes the way JS interprets your
+code but it's not a _step_ in your program.
 
 Errors will never occur on the `"use strict";` line.
 
@@ -62,7 +65,8 @@ Errors will never occur on the `"use strict";` line.
 
 ✔ Correct!
 
-On line 3 the `animal` is _read_, but `animal` is never _declared_. Reading a variable before it is declared will cause a _ReferenceError_.
+On line 3 the `animal` is _read_, but `animal` is never _declared_. Reading a
+variable before it is declared will cause a _ReferenceError_.
 
 </details>
 <details>

@@ -75,15 +75,20 @@ console.log(initialized); // undefined
 
 </details>
 
-> PS. In this module you will only learn about `let`. You will cover `const` and `var` in later modules.
+> PS. In this module you will only learn about `let`. You will cover `const` and
+> `var` in later modules.
 
 ---
 
 ## Using Variables
 
-Variables are relatively simple, they store a value and that value can change. What becomes more challenging is understanding how to use variables in a program.
+Variables are relatively simple, they store a value and that value can change.
+What becomes more challenging is understanding how to use variables in a
+program.
 
-Below is a few examples of what you can do with variables, the [naming-variables](../naming-variables) exercises go into more depth on the different ways you can use a variable in your programs.
+Below is a few examples of what you can do with variables, the
+[naming-variables](../naming-variables) exercises go into more depth on the
+different ways you can use a variable in your programs.
 
 <details>
 <summary>🥚 different types</summary>
@@ -211,15 +216,21 @@ console.log(a, b, temp); // 1, 2, 2
 
 ## Three Common Errors
 
-Programming languages have strict rules about what you can and cannot do. Here are three errors you will make quite a bit when you start your own [explorations](../explorations), even a spelling mistake can cause these errors!
+Programming languages have strict rules about what you can and cannot do. Here
+are three errors you will make quite a bit when you start your own
+[explorations](../explorations), even a spelling mistake can cause these errors!
 
-You may get different error messages depending on which browser you are using, but they mean the same thing. In Debugging we will go much deeper into interpreting and correcting program errors.
+You may get different error messages depending on which browser you are using,
+but they mean the same thing. In Debugging we will go much deeper into
+interpreting and correcting program errors.
 
 <details>
 <summary>🥚 not declaring a variable</summary>
 <br>
 
-Using a variable that has not been declared will throw an error (when you're in strict mode, but that's a story for another day. All the exercises in this repo are run in strict mode).
+Using a variable that has not been declared will throw an error (when you're in
+strict mode, but that's a story for another day. All the exercises in this repo
+are run in strict mode).
 
 ```js
 'use strict';
@@ -261,9 +272,12 @@ console.log(favoriteColor);
 <summary>🥚 declaring a variable twice</summary>
 <br>
 
-Declaring a variable tells JavaScript to prepare a place in memory with that name. Trying to create two spaces in memory with the same name will cause an error.
+Declaring a variable tells JavaScript to prepare a place in memory with that
+name. Trying to create two spaces in memory with the same name will cause an
+error.
 
-- Chrome & Chromium-based browsers: `SyntaxError: Identifier '_' has already been declared`
+- Chrome & Chromium-based browsers:
+  `SyntaxError: Identifier '_' has already been declared`
 - Firefox: `SyntaxError: redeclaration of let _`
 
 ```js
@@ -285,7 +299,8 @@ let vegetable = 'potato'; // SyntaxError
 
 ## Variable Names
 
-In JavaScript there are a few rules about naming variables. There aren't too many rules and the rules aren't very complicated, you just need to learn them:
+In JavaScript there are a few rules about naming variables. There aren't too
+many rules and the rules aren't very complicated, you just need to learn them:
 
 - [javascript.info](https://javascript.info/variables#variable-naming)
 - [nexTRIE](https://www.youtube.com/watch?v=O5WlRR-lEDE)
@@ -369,7 +384,10 @@ let hack your future = 'will throw an error';
 <summary>🥚 variable names can not be <strong>reserved words</strong></summary>
 <br>
 
-In JavaScript there are some words that you cannot use as variable names. These are called _Reserved Words_. Some of them are words which carry special meaning in JS like `let` or `null`. Other reserved words don't have any special meaning yet, but may in the future.
+In JavaScript there are some words that you cannot use as variable names. These
+are called _Reserved Words_. Some of them are words which carry special meaning
+in JS like `let` or `null`. Other reserved words don't have any special meaning
+yet, but may in the future.
 
 ```js
 'use strict';
@@ -400,9 +418,13 @@ all the reserved works, in a list:
 
 ### Good Variable Names
 
-Just because a variable name doesn't throw an error doesn't mean it's a good name.
+Just because a variable name doesn't throw an error doesn't mean it's a good
+name.
 
-A good variable name is easy to read and helps you understand what the program does. You will learn more about how to choose good variable names in Debugging. For now take a look at these two programs with the same logic. see how good names help, and bad names can be confusing:
+A good variable name is easy to read and helps you understand what the program
+does. You will learn more about how to choose good variable names in Debugging.
+For now take a look at these two programs with the same logic. see how good
+names help, and bad names can be confusing:
 
 <details>
 <summary>🐣 confusing variable names</summary>
@@ -440,11 +462,17 @@ console.log(backwards); // 'olleh'
 
 ### Built-in Variables
 
-Some variables already come with JavaScript, you do not need to declare them to use them. Think of `console` - you didn't write that variable but you use it all the time.
+Some variables already come with JavaScript, you do not need to declare them to
+use them. Think of `console` - you didn't write that variable but you use it all
+the time.
 
-These a not the same as reserved words, you can use declare or reassign them! Declaring built-in variables will almost always cause problems in your programs because you _over-write_ the value that was stored before. There are some advanced use-cases when this is helpful, but you won't learn about those at HYF.
+These a not the same as reserved words, you can use declare or reassign them!
+Declaring built-in variables will almost always cause problems in your programs
+because you _over-write_ the value that was stored before. There are some
+advanced use-cases when this is helpful, but you won't learn about those at HYF.
 
-Here are some examples of using built-in variable names in your programs. These are just examples, not suggestions ;)
+Here are some examples of using built-in variable names in your programs. These
+are just examples, not suggestions ;)
 
 <details>
 <summary>🐥 assigning to a built-in variable</summary>

@@ -2,7 +2,8 @@
 
 A primitive type with two values: `true` and `false`.
 
-These are helpful for making decisions in your programs, it's like asking `yes` or `no`.
+These are helpful for making decisions in your programs, it's like asking `yes`
+or `no`.
 
 ```js
 'use strict';
@@ -118,9 +119,16 @@ console.log(false || false); // false
 
 ## 🐣 Truthiness
 
-Truthiness is a tricky but _very_ important concept in JavaScript, it has to do with whether a value becomes `true` or `false` when you convert it to the `"boolean"` type. You do not need to understand everything about truthiness in this module, but understanding the basic idea will make logical operators and control flow more clear.
+Truthiness is a tricky but _very_ important concept in JavaScript, it has to do
+with whether a value becomes `true` or `false` when you convert it to the
+`"boolean"` type. You do not need to understand everything about truthiness in
+this module, but understanding the basic idea will make logical operators and
+control flow more clear.
 
-To convert a value to type `"boolean"` you just need to pass it to the `Boolean` function that comes built into JS. Maybe the easiest way to begin learning truthiness is to learn the _falsy_ values, there are not very many values that convert to `false`. All the rest become `true`!
+To convert a value to type `"boolean"` you just need to pass it to the `Boolean`
+function that comes built into JS. Maybe the easiest way to begin learning
+truthiness is to learn the _falsy_ values, there are not very many values that
+convert to `false`. All the rest become `true`!
 
 These are the falsy values you will come across in this module:
 
@@ -146,4 +154,5 @@ console.log(Boolean(0.0)); // false
 console.log(Boolean(NaN)); // false
 ```
 
-> You will study _truthiness_ and _type casting_ in depth with the Debugging module.
+> You will study _truthiness_ and _type casting_ in depth with the Debugging
+> module.

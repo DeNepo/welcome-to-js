@@ -1,13 +1,18 @@
 # Operators
 
-Operators are what you use to process or change the data in your programs. Operators take in values, do something, and return a new value. Each operator has it's own rules about what it does and how it does it. To understand an operator you need to understand these things:
+Operators are what you use to process or change the data in your programs.
+Operators take in values, do something, and return a new value. Each operator
+has it's own rules about what it does and how it does it. To understand an
+operator you need to understand these things:
 
 - **Syntax**: how do you write the operator in your code?
-- **Input(s)**: how many inputs does the operator take? what type are they? what are their values?
+- **Input(s)**: how many inputs does the operator take? what type are they? what
+  are their values?
 - **Output**: What does the operator evaluate to? What type does it return?
 - **Behavior**: How does the operator use it's inputs to create an output?
 
-Here are a few of the operators you will learn about in Welcome to JS, you will learn more about operators as you need them:
+Here are a few of the operators you will learn about in Welcome to JS, you will
+learn more about operators as you need them:
 
 <details>
 <summary>🥚 <code>typeof</code> (type of)</summary>

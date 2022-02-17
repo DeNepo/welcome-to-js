@@ -1,6 +1,7 @@
 # Global Variables
 
-Which of these are global variables that come built into the JavaScript Runtime Environment?
+Which of these are global variables that come built into the JavaScript Runtime
+Environment?
 
 ---
 
@@ -10,9 +11,11 @@ Which of these are global variables that come built into the JavaScript Runtime 
 
 ✔ Correct!
 
-`console` is the built-in global variable that stores useful functions for developers to print what's happening inside their program while it's running.
+`console` is the built-in global variable that stores useful functions for
+developers to print what's happening inside their program while it's running.
 
-`console.log` is a _function_ which means you need to _call_ it using parentheses and an argument between the parentheses: `console.log('hello');`.
+`console.log` is a _function_ which means you need to _call_ it using
+parentheses and an argument between the parentheses: `console.log('hello');`.
 
 This is all you need to know for now, you'll learn more about functions later.
 
@@ -28,7 +31,8 @@ This is all you need to know for now, you'll learn more about functions later.
 
 `alert` is the built-in global variable you can use to display text to a user.
 
-`alert` is a _function_ which means you need to _call_ it using parentheses and an argument between the parentheses: `alert('argument');`.
+`alert` is a _function_ which means you need to _call_ it using parentheses and
+an argument between the parentheses: `alert('argument');`.
 
 This is all you need to know for now, you'll learn more about functions later.
 
@@ -45,7 +49,8 @@ This is all you need to know for now, you'll learn more about functions later.
 
 `prompt` is the built-in global variable you can use to get data from a user.
 
-`prompt` is a _function_ which means you need to _call_ it using parentheses and an argument between the parentheses: `prompt('some instructions');`.
+`prompt` is a _function_ which means you need to _call_ it using parentheses and
+an argument between the parentheses: `prompt('some instructions');`.
 
 This is all you need to know for now, you'll learn more about functions later.
 
@@ -60,7 +65,8 @@ This is all you need to know for now, you'll learn more about functions later.
 
 ✖ Nope.
 
-`log` is not a built-in global variable. It is a _property_ of the `console` object, but `log` does not exist on it's own. Try this little program to see:
+`log` is not a built-in global variable. It is a _property_ of the `console`
+object, but `log` does not exist on it's own. Try this little program to see:
 
 ```js
 'use strict';

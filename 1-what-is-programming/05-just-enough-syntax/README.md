@@ -1,14 +1,21 @@
 # JS Syntax
 
-Time to study the syntax of JavaScript before moving on to study full programs. It's not a problem if you don't understand what all of this code does yet. You'll get a chance in the next chapter to learn more about each language feature and how you can use them in a program. Right now you just need to focus on the _pieces_ and _structure_ of JavaScript source code.
+Time to study the syntax of JavaScript before moving on to study full programs.
+It's not a problem if you don't understand what all of this code does yet.
+You'll get a chance in the next chapter to learn more about each language
+feature and how you can use them in a program. Right now you just need to focus
+on the _pieces_ and _structure_ of JavaScript source code.
 
-JavaScript is a complicated programming languages with lots of syntax, but for now you only need to know a little bit of it. Here's a quick overview, you'll cover all of this again later so don't worry if it goes by too fast:
+JavaScript is a complicated programming languages with lots of syntax, but for
+now you only need to know a little bit of it. Here's a quick overview, you'll
+cover all of this again later so don't worry if it goes by too fast:
 
 ---
 
 ## Primitives
 
-The smallest pieces of data in a JS program. There are many primitive types but you only need to know these for now:
+The smallest pieces of data in a JS program. There are many primitive types but
+you only need to know these for now:
 
 <details>
 <summary>expand for code snippet</summary>
@@ -81,13 +88,19 @@ console.log('true');
 
 ## Operators
 
-Ways to transform data. An operator takes in 1 or more values and _evaluates to_ a new value. Operators in JavaScript are a huge topic with many details and exceptions, for now this should be enough. You'll cover operators in depth later on:
+Ways to transform data. An operator takes in 1 or more values and _evaluates to_
+a new value. Operators in JavaScript are a huge topic with many details and
+exceptions, for now this should be enough. You'll cover operators in depth later
+on:
 
 <details>
 <summary>expand for code snippets</summary>
 <br>
 
-> hint: Try tracing these operators. Notice how the operator is evaluated **first**, and then the new value is logged? The code does not execute left to right! First it executes what's **inside** the parenthesis, then it executes the log.
+> hint: Try tracing these operators. Notice how the operator is evaluated
+> **first**, and then the new value is logged? The code does not execute left to
+> right! First it executes what's **inside** the parenthesis, then it executes
+> the log.
 
 ```js
 'use strict';
@@ -133,7 +146,8 @@ console.log('he' + 'l' + 'lo'); // "hello"
 console.log('h' + 'e' + 'l' + 'l' + 'o'); // "hello"
 ```
 
-And one more useful operator that you will not need in programs just yet, but is helpful for understanding primitives:
+And one more useful operator that you will not need in programs just yet, but is
+helpful for understanding primitives:
 
 ```js
 'use strict';
@@ -177,7 +191,10 @@ console.log(typeof null); // "object"
 
 ## Identifiers
 
-Words in a program used to help a developer understand what is happening. Variable names are an example of identifiers, you can change a variable's name and the computer will still follow the same instructions but a developer may have a harder time understanding the code.
+Words in a program used to help a developer understand what is happening.
+Variable names are an example of identifiers, you can change a variable's name
+and the computer will still follow the same instructions but a developer may
+have a harder time understanding the code.
 
 <details>
 <summary>expand for code snippet</summary>
@@ -221,7 +238,9 @@ forDevelopers.print('?? !! HUH ?? !! ???');
 
 ## Keywords
 
-Words in the program that are not optional, the computer expects them to be in the right place and spelled exactly the right way. `let`, `if` and `while` are examples of key words.
+Words in the program that are not optional, the computer expects them to be in
+the right place and spelled exactly the right way. `let`, `if` and `while` are
+examples of key words.
 
 <details>
 <summary>expand for code snippet</summary>
@@ -256,7 +275,9 @@ if (input === '') {
 
 ## Checks
 
-Control flow structures like conditionals and loops have a _check_ after their keyword. These checks are surrounded by parenthesis and contain an _expression_ that will determine which line of code is executed next - `if (condition) { }`.
+Control flow structures like conditionals and loops have a _check_ after their
+keyword. These checks are surrounded by parenthesis and contain an _expression_
+that will determine which line of code is executed next - `if (condition) { }`.
 
 <details>
 <summary>expand for code snippet</summary>
@@ -292,7 +313,10 @@ if (input === '') {
 
 ## Blocks
 
-The lines between two curly braces `{ ... }` is called a _block_. Blocks are important because they contain the code that a control flow structure (`while`, `if`) controls. They're also important because of _block scope_ but you will learn about later.
+The lines between two curly braces `{ ... }` is called a _block_. Blocks are
+important because they contain the code that a control flow structure (`while`,
+`if`) controls. They're also important because of _block scope_ but you will
+learn about later.
 
 <details>
 <summary>expand for code snippet</summary>
@@ -330,12 +354,16 @@ if (input === '') {
 
 ## Function Calls
 
-Some variables (_identifiers_) store a _function_, functions are values that do something useful in a program like asking the user for input - `prompt()` - or printing something to the console - `console.log()`. To use a function you need to:
+Some variables (_identifiers_) store a _function_, functions are values that do
+something useful in a program like asking the user for input - `prompt()` - or
+printing something to the console - `console.log()`. To use a function you need
+to:
 
 1. _call_ the function by writing parenthesis after it's identifier
 2. _pass arguments_ inside the parenthesis.
 
-That's all you need to know for now, you will learn much more about functions later on.
+That's all you need to know for now, you will learn much more about functions
+later on.
 
 <details>
 <summary>expand for code snippet</summary>

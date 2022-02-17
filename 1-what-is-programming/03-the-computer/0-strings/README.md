@@ -1,6 +1,7 @@
 # Strings
 
-The examples and exercises in this chapter will only use _string_ data, the type used to store text. Every string value must begin and end with quotes:
+The examples and exercises in this chapter will only use _string_ data, the type
+used to store text. Every string value must begin and end with quotes:
 
 ```js
 'use strict';
@@ -15,7 +16,8 @@ console.log('line 1 \nline 2 \nline 3');
 console.log('');
 ```
 
-There are more data types in JavaScript but for now you only need to know about strings.
+There are more data types in JavaScript but for now you only need to know about
+strings.
 
 ## String Concatenation
 

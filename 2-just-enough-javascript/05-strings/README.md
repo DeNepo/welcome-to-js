@@ -1,6 +1,7 @@
 # Strings
 
-A primitive type used for saving and working with text. A string is anything wrapped in quotes: `'something'` or `"something"`:
+A primitive type used for saving and working with text. A string is anything
+wrapped in quotes: `'something'` or `"something"`:
 
 ```js
 'use strict';
@@ -114,7 +115,9 @@ console.log('a' + 'bc1' + '23'); // 'abc123'
 
 ## String Methods
 
-_String methods_ come built into JavaScript and are very useful for modifying your data. There are many string methods in JS, but you'll only need these for Welcome to JS:
+_String methods_ come built into JavaScript and are very useful for modifying
+your data. There are many string methods in JS, but you'll only need these for
+Welcome to JS:
 
 <details>
 <summary>🥚 .toLowerCase and .toUpperCase</summary>
@@ -182,7 +185,8 @@ console.log('hello  '.trim()); // 'hello'
 
 ## Characters in a String
 
-A string is made up of individual characters. You can find out how many characters are in a string, or access each character individually.
+A string is made up of individual characters. You can find out how many
+characters are in a string, or access each character individually.
 
 <details>
 <summary>🥚 .length</summary>

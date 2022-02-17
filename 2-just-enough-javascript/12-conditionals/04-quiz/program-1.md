@@ -34,7 +34,8 @@ alert(message);
 
 ✖ Nope.
 
-Path 1 is only executed if the user cancels, which will assign `null` to `userInput` and pass the first check.
+Path 1 is only executed if the user cancels, which will assign `null` to
+`userInput` and pass the first check.
 
 </details>
 <details>
@@ -43,7 +44,9 @@ Path 1 is only executed if the user cancels, which will assign `null` to `userIn
 
 ✔ Correct!
 
-The check for path 2 does compare the input's length to 5, but it is checking for greater than _or_ equal to 5. Which means that an input with length 3 will evaluate to `true` and the second path will be executed.
+The check for path 2 does compare the input's length to 5, but it is checking
+for greater than _or_ equal to 5. Which means that an input with length 3 will
+evaluate to `true` and the second path will be executed.
 
 </details>
 <details>
@@ -52,7 +55,8 @@ The check for path 2 does compare the input's length to 5, but it is checking fo
 
 ✖ Nope.
 
-The third path is only executed if _neither_ of the conditional checks evaluate to `true`. Because the second path was executed the `else` path will be skipped.
+The third path is only executed if _neither_ of the conditional checks evaluate
+to `true`. Because the second path was executed the `else` path will be skipped.
 
 </details>
 
@@ -70,9 +74,11 @@ The third path is only executed if _neither_ of the conditional checks evaluate 
 
 ✔ Correct!
 
-It doesn't matter what is in the text field, if you click "cancel" it will return `null`.
+It doesn't matter what is in the text field, if you click "cancel" it will
+return `null`.
 
-Because `null` will be assigned to the input variable, the first conditional check will pass.
+Because `null` will be assigned to the input variable, the first conditional
+check will pass.
 
 </details>
 <details>
@@ -81,7 +87,8 @@ Because `null` will be assigned to the input variable, the first conditional che
 
 ✖ Nope.
 
-Trick question! Even if there is text in the input field, the prompt will return `null` if you click "cancel".
+Trick question! Even if there is text in the input field, the prompt will return
+`null` if you click "cancel".
 
 </details>
 <details>
@@ -90,7 +97,8 @@ Trick question! Even if there is text in the input field, the prompt will return
 
 ✖ Nope.
 
-Trick question! Even if there is text in the input field, the prompt will return `null` if you click "cancel".
+Trick question! Even if there is text in the input field, the prompt will return
+`null` if you click "cancel".
 
 </details>
 
@@ -108,7 +116,9 @@ Trick question! Even if there is text in the input field, the prompt will return
 
 ✖ Nope.
 
-The second conditional check _will_ evaluate to `false`, but that is not the value assigned to `message`. Failing the second check just means that the program will skip the second path.
+The second conditional check _will_ evaluate to `false`, but that is not the
+value assigned to `message`. Failing the second check just means that the
+program will skip the second path.
 
 </details>
 <details>
@@ -117,7 +127,9 @@ The second conditional check _will_ evaluate to `false`, but that is not the val
 
 ✖ Nope.
 
-The second conditional check is `false`, which means that the program will skip ahead to the next path. Since path 2 is never executed `"Long enough!"` will not be assigned to `message`.
+The second conditional check is `false`, which means that the program will skip
+ahead to the next path. Since path 2 is never executed `"Long enough!"` will not
+be assigned to `message`.
 
 </details>
 <details>
@@ -126,9 +138,11 @@ The second conditional check is `false`, which means that the program will skip 
 
 ✔ Correct!
 
-Because both conditional checks evaluate to `false`, the `else` block will be executed.
+Because both conditional checks evaluate to `false`, the `else` block will be
+executed.
 
-In the third path `"Too short."` is assigned to `message`, so "Too short." will be alerted at the end of the program.
+In the third path `"Too short."` is assigned to `message`, so "Too short." will
+be alerted at the end of the program.
 
 </details>
 <details>
@@ -137,7 +151,9 @@ In the third path `"Too short."` is assigned to `message`, so "Too short." will 
 
 ✖ Nope.
 
-It _is_ true that path 3 is executed, but `// path 3` is a comment to help developers know which block they're looking at. The value assigned to `message` in the third path is the string `"Too short."`.
+It _is_ true that path 3 is executed, but `// path 3` is a comment to help
+developers know which block they're looking at. The value assigned to `message`
+in the third path is the string `"Too short."`.
 
 </details>
 <details>
@@ -146,9 +162,11 @@ It _is_ true that path 3 is executed, but `// path 3` is a comment to help devel
 
 ✖ Nope.
 
-Conditional blocks with an `else` will _always_ execute one block, if none of the checks are truthy the `else` block is executed by default.
+Conditional blocks with an `else` will _always_ execute one block, if none of
+the checks are truthy the `else` block is executed by default.
 
-Because each path assigns a value to `message`, it's not possible for `message` to still be undefined when the program reaches the alert.
+Because each path assigns a value to `message`, it's not possible for `message`
+to still be undefined when the program reaches the alert.
 
 </details>
 

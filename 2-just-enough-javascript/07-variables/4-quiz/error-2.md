@@ -24,7 +24,8 @@ let animal = 'cat'; // line 7
 
 ✖ Nope.
 
-A _SyntaxError_ occurs with `let` when you try to declare the same variable more than once.
+A _SyntaxError_ occurs with `let` when you try to declare the same variable more
+than once.
 
 In this snippet `animal` is only declared once, so that's not the problem.
 
@@ -33,7 +34,8 @@ In this snippet `animal` is only declared once, so that's not the problem.
 <summary><em>B. ReferenceError</em></summary>
 <br>
 
-Yup! This is a _ReferenceError_ because you are trying to use the variable `animal` _before_ it was declared.
+Yup! This is a _ReferenceError_ because you are trying to use the variable
+`animal` _before_ it was declared.
 
 It is _declared_ on line 7, but it is first _read_ on line 3.
 
@@ -53,7 +55,8 @@ It is _declared_ on line 7, but it is first _read_ on line 3.
 
 ✖ Nope.
 
-Line 1 is the `"use strict";` directive, it changes the way JS interprets your code but it's not a _step_ in your program.
+Line 1 is the `"use strict";` directive, it changes the way JS interprets your
+code but it's not a _step_ in your program.
 
 Errors will never occur on the `"use strict";` line.
 
@@ -64,7 +67,8 @@ Errors will never occur on the `"use strict";` line.
 
 ✔ Correct!
 
-On line 3 the `animal` is _read_, but `animal` is _declared_ on line 7. Reading a variable before it is declared will cause a _ReferenceError_.
+On line 3 the `animal` is _read_, but `animal` is _declared_ on line 7. Reading
+a variable before it is declared will cause a _ReferenceError_.
 
 </details>
 <details>
@@ -84,7 +88,8 @@ The error occurs earlier in the program so the program will never reach line 5.
 
 The error occurs earlier in the program so the program will never reach line 7.
 
-Yes, this line does declare the variable `animal`. But that doesn't matter because `animal` is _read_ on line 3 before it is _declared_ on line 7.
+Yes, this line does declare the variable `animal`. But that doesn't matter
+because `animal` is _read_ on line 3 before it is _declared_ on line 7.
 
 </details>
 

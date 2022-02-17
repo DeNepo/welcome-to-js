@@ -1,8 +1,13 @@
 # 🥚 `for-of`
 
-The `for-of` loop is a convenient syntax for iterating through a string one character at a time. You will declare a variable in the loop head and it will be assigned each character, one after the other.
+The `for-of` loop is a convenient syntax for iterating through a string one
+character at a time. You will declare a variable in the loop head and it will be
+assigned each character, one after the other.
 
-The loop body will be executed once for each character in the string. With each iteration the variable will be re-declared and reassigned with the next character in the array. You can use the variable however you like inside the loop body.
+The loop body will be executed once for each character in the string. With each
+iteration the variable will be re-declared and reassigned with the next
+character in the array. You can use the variable however you like inside the
+loop body.
 
 ```js
 'use strict';
@@ -25,9 +30,13 @@ alert(input + '!');
 
 ## Using `for-of`
 
-Understanding how a `for-of` loop works is not so difficult, but using them in a program can get tricky. Programs that use _iteration_ can be complicated to understand, even for experienced programmers!
+Understanding how a `for-of` loop works is not so difficult, but using them in a
+program can get tricky. Programs that use _iteration_ can be complicated to
+understand, even for experienced programmers!
 
-Here are a few small programs to give you an idea of what's possible. You'll study these programs again in this chapter so no worries if they don't make sense right away.
+Here are a few small programs to give you an idea of what's possible. You'll
+study these programs again in this chapter so no worries if they don't make
+sense right away.
 
 <details>
 <summary>🥚 reverse a string</summary>

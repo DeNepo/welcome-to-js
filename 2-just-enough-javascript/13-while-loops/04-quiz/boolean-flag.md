@@ -2,7 +2,12 @@
 
 # Boolean Flag
 
-A [_Boolean Flag_](https://stackoverflow.com/questions/17402125/what-is-a-flag-variable) is one way to use a variable, it **is not** a special kind of variable! Just a normal variable used in a specific way. A flag stores a `"boolean"` value that represents something important about program, it is generally used by control flow to make decisions.
+A
+[_Boolean Flag_](https://stackoverflow.com/questions/17402125/what-is-a-flag-variable)
+is one way to use a variable, it **is not** a special kind of variable! Just a
+normal variable used in a specific way. A flag stores a `"boolean"` value that
+represents something important about program, it is generally used by control
+flow to make decisions.
 
 ```js
 'use strict';
@@ -28,11 +33,15 @@ alert('you confirmed!'); // line 9
 
 ✖ Nope.
 
-The variable `didConfirm` is initialized to `false` not `undefined`. After initialization it is only assigned values from `confirm` and `confirm` can only return `true` or `false`, never `undefined`.
+The variable `didConfirm` is initialized to `false` not `undefined`. After
+initialization it is only assigned values from `confirm` and `confirm` can only
+return `true` or `false`, never `undefined`.
 
-There are strings in the program, but they are both used as text to show the user. A string is never assigned to a variable in this program.
+There are strings in the program, but they are both used as text to show the
+user. A string is never assigned to a variable in this program.
 
-Because the variable was initialized to a `"boolean"` and only reassigned `"boolean"` values, it is impossible for it to be anything else.
+Because the variable was initialized to a `"boolean"` and only reassigned
+`"boolean"` values, it is impossible for it to be anything else.
 
 </details>
 <details>
@@ -41,9 +50,11 @@ Because the variable was initialized to a `"boolean"` and only reassigned `"bool
 
 ✖ Nope.
 
-`true` and `false` _are_ the two Boolean values, but they _are not_ a **data type**. They are two primitive values that have the same type.
+`true` and `false` _are_ the two Boolean values, but they _are not_ a **data
+type**. They are two primitive values that have the same type.
 
-You can test this with the `typeof` operator. `typeof true` and `typeof false` will both evaluate to `"boolean"`.
+You can test this with the `typeof` operator. `typeof true` and `typeof false`
+will both evaluate to `"boolean"`.
 
 </details>
 <details>
@@ -52,9 +63,13 @@ You can test this with the `typeof` operator. `typeof true` and `typeof false` w
 
 ✔ Correct!
 
-`didConfirm` only ever stores `"boolean"` values in this program. It is initialized to `false`, and only reassigned values returned by `confirm`. This means it will _always_ store a `"boolean"` value!
+`didConfirm` only ever stores `"boolean"` values in this program. It is
+initialized to `false`, and only reassigned values returned by `confirm`. This
+means it will _always_ store a `"boolean"` value!
 
-This variable is considered a _boolean flag_ because it only stores `"boolean"` values, and because it's value is used to make decisions in control flow. In this program the flag's value represents whether or not the user has confirmed.
+This variable is considered a _boolean flag_ because it only stores `"boolean"`
+values, and because it's value is used to make decisions in control flow. In
+this program the flag's value represents whether or not the user has confirmed.
 
 </details>
 
@@ -66,9 +81,11 @@ This variable is considered a _boolean flag_ because it only stores `"boolean"` 
 <summary><strong>2. In the source code, on how many lines is  <code>flag</code> assigned a new value?</strong></summary>
 <br>
 
-This question is asking you to do _static analysis_, to study and understand the program _without_ running it.
+This question is asking you to do _static analysis_, to study and understand the
+program _without_ running it.
 
-You can't find the answer by tracing, but you can find the answer just by counting.
+You can't find the answer by tracing, but you can find the answer just by
+counting.
 
 <details>
 <summary><em>A. On one line</em></summary>
@@ -76,7 +93,8 @@ You can't find the answer by tracing, but you can find the answer just by counti
 
 ✔ Correct!
 
-On line 6 `didConfirm` is assigned a new value, either `true` or `false` depending on what the user clicked.
+On line 6 `didConfirm` is assigned a new value, either `true` or `false`
+depending on what the user clicked.
 
 </details>
 <details>
@@ -85,9 +103,11 @@ On line 6 `didConfirm` is assigned a new value, either `true` or `false` dependi
 
 ✖ Nope.
 
-Close, but not quite. On line 3 `didConfirm` is _initialized_ to the value `false`, and on line 6 it is _reassigned_ a new value.
+Close, but not quite. On line 3 `didConfirm` is _initialized_ to the value
+`false`, and on line 6 it is _reassigned_ a new value.
 
-So the variable _is_ given a value on 2 separate lines, but only one of those lines is an assignment. The other line is an initialization.
+So the variable _is_ given a value on 2 separate lines, but only one of those
+lines is an assignment. The other line is an initialization.
 
 </details>
 <details>
@@ -96,7 +116,8 @@ So the variable _is_ given a value on 2 separate lines, but only one of those li
 
 ✖ Nope.
 
-It might look like there are 3 lines with assignments, but look more closely and you'll see there are not!
+It might look like there are 3 lines with assignments, but look more closely and
+you'll see there are not!
 
 - On line 3 `didConfirm` is _initialized_ to `false`
 - on line 5 `didConfirm` is _compared_ with `false`
@@ -109,7 +130,8 @@ It might look like there are 3 lines with assignments, but look more closely and
 
 ✖ Nope.
 
-The _dynamic_ behavior of a variable can be difficult to predict, but _static_ analysis of variable assignments is easy to count.
+The _dynamic_ behavior of a variable can be difficult to predict, but _static_
+analysis of variable assignments is easy to count.
 
 Just count how many times you see an assignment to `didConfirm`!
 
@@ -123,9 +145,11 @@ Just count how many times you see an assignment to `didConfirm`!
 <summary><strong>3. When the program is running, how many times is  <code>flag</code> assigned a new value?</strong></summary>
 <br>
 
-This question is asking you to do _dynamic analysis_, to study and understand the program's behavior _while it is running_.
+This question is asking you to do _dynamic analysis_, to study and understand
+the program's behavior _while it is running_.
 
-You can't find the answer just by counting, you would need to run it and trace how many times a line is executed.
+You can't find the answer just by counting, you would need to run it and trace
+how many times a line is executed.
 
 <details>
 <summary><em>A. One time</em></summary>
@@ -133,7 +157,9 @@ You can't find the answer just by counting, you would need to run it and trace h
 
 ✖ Nope.
 
-There is only one line where `didConfirm` is assigned a new value, but we don't know how many times that line will be executed without running the program and tracing it's execution.
+There is only one line where `didConfirm` is assigned a new value, but we don't
+know how many times that line will be executed without running the program and
+tracing it's execution.
 
 </details>
 <details>
@@ -142,7 +168,8 @@ There is only one line where `didConfirm` is assigned a new value, but we don't 
 
 ✖ Nope.
 
-We don't know how many times that line will be executed without running the program and tracing it's execution.
+We don't know how many times that line will be executed without running the
+program and tracing it's execution.
 
 </details>
 <details>
@@ -151,7 +178,8 @@ We don't know how many times that line will be executed without running the prog
 
 ✖ Nope.
 
-We don't know how many times that line will be executed without running the program and tracing it's execution.
+We don't know how many times that line will be executed without running the
+program and tracing it's execution.
 
 </details>
 <details>
@@ -160,11 +188,16 @@ We don't know how many times that line will be executed without running the prog
 
 ✔ Correct!
 
-You can run the program and trace how many times the `didConfirm` variable is assigned a new value, but there's no way to predict what that number will be just by reading the code.
+You can run the program and trace how many times the `didConfirm` variable is
+assigned a new value, but there's no way to predict what that number will be
+just by reading the code.
 
-Why is that? Because the condition to exit the `while` loop depends on the user's behavior, and it's not possible to predict exactly how the user will interact with your program before running it.
+Why is that? Because the condition to exit the `while` loop depends on the
+user's behavior, and it's not possible to predict exactly how the user will
+interact with your program before running it.
 
-You _can_ be sure that the variable will be reassigned each time the loop is executed, but you _can't_ be sure how many times that will be!
+You _can_ be sure that the variable will be reassigned each time the loop is
+executed, but you _can't_ be sure how many times that will be!
 
 </details>
 

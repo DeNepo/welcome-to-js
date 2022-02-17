@@ -2,7 +2,8 @@
 
 Finally, writing some code!
 
-In these exercises you will be given a program with some missing lines and a description of the code you should write to complete the program.
+In these exercises you will be given a program with some missing lines and a
+description of the code you should write to complete the program.
 
 An exercise will look like this before you finish it:
 

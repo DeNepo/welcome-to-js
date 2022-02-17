@@ -1,6 +1,7 @@
 # Read and Assign
 
-How do you _read_ the value from the `source` variable and _assign_ it to the `destination` variable?
+How do you _read_ the value from the `source` variable and _assign_ it to the
+`destination` variable?
 
 ---
 
@@ -15,7 +16,8 @@ Variable assignments go from _right to left_ in two steps:
 1. get the value from the right side of the assignment operator `=`
 2. store that value in the variable on the left side
 
-This line of code is backwards, the `destination` variable is on the right, not the left!
+This line of code is backwards, the `destination` variable is on the right, not
+the left!
 
 </details>
 
@@ -43,7 +45,8 @@ Variable assignments go from _right to left_ in two steps:
 
 ✖ Nope.
 
-This line of code uses strict equality `===` which _compares_ the values stored in two variables. There is no assignment happening
+This line of code uses strict equality `===` which _compares_ the values stored
+in two variables. There is no assignment happening
 
 </details>
 
@@ -56,7 +59,8 @@ This line of code uses strict equality `===` which _compares_ the values stored 
 
 ✖ Nope.
 
-This line of code uses strict equality `===` which _compares_ the values stored in two variables. There is no assignment happening
+This line of code uses strict equality `===` which _compares_ the values stored
+in two variables. There is no assignment happening
 
 </details>
 

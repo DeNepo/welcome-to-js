@@ -67,7 +67,9 @@ console.log(null !== undefined); // true
 >
 > [2ality](https://2ality.com/2021/01/undefined-null-revisited.html)
 
-The practical difference between `null` and `undefined` is that `null` will not appear in your program by accident. `undefined` can appear in your program if you forgot to assign a value, but `null` always need to be assigned.
+The practical difference between `null` and `undefined` is that `null` will not
+appear in your program by accident. `undefined` can appear in your program if
+you forgot to assign a value, but `null` always need to be assigned.
 
 If a variable stores `null` it was put there on purpose.
 

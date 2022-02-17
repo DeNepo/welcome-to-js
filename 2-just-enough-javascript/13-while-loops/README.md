@@ -1,8 +1,13 @@
 # While Loops
 
-While loops allow you to write a block of code that will repeat _while_ a condition is true. The condition in a while loop is very similar to a conditional, if the value in the parenthesis is true the block of code will be executed.
+While loops allow you to write a block of code that will repeat _while_ a
+condition is true. The condition in a while loop is very similar to a
+conditional, if the value in the parenthesis is true the block of code will be
+executed.
 
-The major difference between a while loop and a conditional is that a conditional will only test the value once. A while loop will test the value as many times as necessary until it is false.
+The major difference between a while loop and a conditional is that a
+conditional will only test the value once. A while loop will test the value as
+many times as necessary until it is false.
 
 ```js
 'use strict';
@@ -102,7 +107,8 @@ Here are two strategies you can use when writing `while` loops:
 
 ### Logic in Condition
 
-Write the logic for your loop directly in the parenthesis of the `while` loop. This is good for loops where the logic is simple:
+Write the logic for your loop directly in the parenthesis of the `while` loop.
+This is good for loops where the logic is simple:
 
 <details>
 <summary>🥚 logic in condition</summary>
@@ -123,7 +129,9 @@ alert(input);
 
 ### Boolean Flag
 
-Another strategy for writing for loops is to use _boolean flag variable_. A boolean flag is a variable that stores a boolean that you can set to `true` or `false` depending on what has happened in your program.
+Another strategy for writing for loops is to use _boolean flag variable_. A
+boolean flag is a variable that stores a boolean that you can set to `true` or
+`false` depending on what has happened in your program.
 
 Boolean flags are useful when the logic of your for loop is more complicated:
 
@@ -168,15 +176,21 @@ while (true) {
 }
 ```
 
-Sometimes you will write a loop that never ends. There's many ways to do this, and it will happen a lot while you're studying. It's easy to accidentally write an infinite loop, and hard to predict when it will happen.
+Sometimes you will write a loop that never ends. There's many ways to do this,
+and it will happen a lot while you're studying. It's easy to accidentally write
+an infinite loop, and hard to predict when it will happen.
 
-Some infinite loops are easy to find just by reading your code, others are trickier to guess. Check out the **[./infinite-loops](./infinite-loops)** folder to practice running and fixing infinite loops.
+Some infinite loops are easy to find just by reading your code, others are
+trickier to guess. Check out the **[./infinite-loops](./infinite-loops)** folder
+to practice running and fixing infinite loops.
 
 ### 🐣 Loop Guards
 
 One way to avoid infinite loops is to use _loop guards_.
 
-A loop guard is a little extra code in your program that throws an error if a loop repeats too many times. This kind of loop guard isn't something you'll use in your professional code, but it's very helpful while you're learning.
+A loop guard is a little extra code in your program that throws an error if a
+loop repeats too many times. This kind of loop guard isn't something you'll use
+in your professional code, but it's very helpful while you're learning.
 
 <details>
 <summary>loop guard: 10 iterations</summary>
@@ -198,7 +212,10 @@ while (true) {
 
 </details>
 
-When you use the `?study` lens there is an option that will automatically add loop guards to your code when you run it. This way you can write your code without the extra code, and still have the security of a loop guard when you run it.
+When you use the `?study` lens there is an option that will automatically add
+loop guards to your code when you run it. This way you can write your code
+without the extra code, and still have the security of a loop guard when you run
+it.
 
 ---
 

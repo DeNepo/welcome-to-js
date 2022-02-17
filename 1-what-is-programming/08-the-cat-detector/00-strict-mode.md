@@ -1,6 +1,7 @@
 # Strict Mode
 
-What do you write at the top of a JavaScript file to tell the computer it should run in Strict Mode?
+What do you write at the top of a JavaScript file to tell the computer it should
+run in Strict Mode?
 
 ---
 
@@ -10,7 +11,9 @@ What do you write at the top of a JavaScript file to tell the computer it should
 
 ✖ Nope.
 
-Without the quotation marks `''` to make this a string, this line will be treated as two variables in a row: `Use` and `Strict`. This will cause an error in your program
+Without the quotation marks `''` to make this a string, this line will be
+treated as two variables in a row: `Use` and `Strict`. This will cause an error
+in your program
 
 </details>
 
@@ -23,7 +26,9 @@ Without the quotation marks `''` to make this a string, this line will be treate
 
 ✖ Nope.
 
-Without the quotation marks `''` to make this a string, this line will be treated as two variables in a row: `use` and `strict`. This will cause an error in your program
+Without the quotation marks `''` to make this a string, this line will be
+treated as two variables in a row: `use` and `strict`. This will cause an error
+in your program
 
 </details>
 

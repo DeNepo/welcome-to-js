@@ -48,7 +48,8 @@ It will later be assigned a different value, but it is initialized with `"dog"`
 
 ✖ Nope.
 
-"cat" _is_ assigned to our variable, but _after_ the variable has been declared and initialized.
+"cat" _is_ assigned to our variable, but _after_ the variable has been declared
+and initialized.
 
 </details>
 
@@ -77,7 +78,8 @@ When you log a variable to the console the _value_ will be displayed.
 
 ✔ Correct!
 
-The log statement is _before_ the reassignment, so it will log the first value stored in `animal`.
+The log statement is _before_ the reassignment, so it will log the first value
+stored in `animal`.
 
 </details>
 <details>
@@ -106,7 +108,8 @@ The log statement is _before_ the reassignment, so it will log the first value s
 
 `"animal"` is the _name_ of the variable, not the value stored inside it.
 
-the only way to have `"animal"` stored in our variable would be to _assign_ that string value:
+the only way to have `"animal"` stored in our variable would be to _assign_ that
+string value:
 
 ```js
 let animal = 'dog';
@@ -121,7 +124,8 @@ animal = 'animal';
 
 ✖ Nope.
 
-`"dog"` is the _initial value_ of our variable, but the variable is reassigned on the last line.
+`"dog"` is the _initial value_ of our variable, but the variable is reassigned
+on the last line.
 
 </details>
 <details>
@@ -130,7 +134,8 @@ animal = 'animal';
 
 ✔ Correct!
 
-"cat" is the last value assigned to the variable in this program, so it's final value will be "cat".
+"cat" is the last value assigned to the variable in this program, so it's final
+value will be "cat".
 
 </details>
 

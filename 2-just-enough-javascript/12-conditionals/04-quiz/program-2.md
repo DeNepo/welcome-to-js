@@ -37,9 +37,12 @@ alert(message);
 
 ✔ Correct!
 
-The first conditional check that will evaluate to `true` is the second one: `if (userInput.length === 5)`.
+The first conditional check that will evaluate to `true` is the second one:
+`if (userInput.length === 5)`.
 
-Conditional statements execute the first path with a truthy condition so the program will enter directly into the second path _without_ evaluating any more checks.
+Conditional statements execute the first path with a truthy condition so the
+program will enter directly into the second path _without_ evaluating any more
+checks.
 
 </details>
 <details>
@@ -48,9 +51,12 @@ Conditional statements execute the first path with a truthy condition so the pro
 
 ✖ Nope.
 
-This is a tricky one. The condition for path 3 _would_ evaluate to `true` when the input is 5 characters long, but the comparison will actually _never happen_!
+This is a tricky one. The condition for path 3 _would_ evaluate to `true` when
+the input is 5 characters long, but the comparison will actually _never happen_!
 
-A conditional statement _will not_ check any more conditions after _any one of them_ evaluates to true. The first path will be executed and the rest of the conditional is skipped entirely.
+A conditional statement _will not_ check any more conditions after _any one of
+them_ evaluates to true. The first path will be executed and the rest of the
+conditional is skipped entirely.
 
 </details>
 <details>
@@ -59,7 +65,9 @@ A conditional statement _will not_ check any more conditions after _any one of t
 
 ✖ Nope.
 
-Only one path can ever be executed in a conditional statement. After the second condition passes, the second path will be executed and everything else will be skipped.
+Only one path can ever be executed in a conditional statement. After the second
+condition passes, the second path will be executed and everything else will be
+skipped.
 
 </details>
 <details>
@@ -68,7 +76,9 @@ Only one path can ever be executed in a conditional statement. After the second 
 
 ✖ Nope.
 
-`else` blocks are only evaluated if _every_ conditional check is falsy. Because the second check was truthy, the conditional statement will never make it to path 4.
+`else` blocks are only evaluated if _every_ conditional check is falsy. Because
+the second check was truthy, the conditional statement will never make it to
+path 4.
 
 </details>
 
@@ -86,7 +96,9 @@ Only one path can ever be executed in a conditional statement. After the second 
 
 ✖ Nope.
 
-The input is longer than 5 characters, so the 3rd path will be executed. Because `"Perfect!"` is only assigned to `message` in the 2nd path, this value will not be alerted.
+The input is longer than 5 characters, so the 3rd path will be executed. Because
+`"Perfect!"` is only assigned to `message` in the 2nd path, this value will not
+be alerted.
 
 </details>
 <details>
@@ -95,9 +107,11 @@ The input is longer than 5 characters, so the 3rd path will be executed. Because
 
 ✔ Correct!
 
-The input is longer than 5 characters so it will pass the 3rd conditional check, executing the 3rd path.
+The input is longer than 5 characters so it will pass the 3rd conditional check,
+executing the 3rd path.
 
-In the third path `"Too long."` is assigned to `message`, so "Too long." will be alerted to the user.
+In the third path `"Too long."` is assigned to `message`, so "Too long." will be
+alerted to the user.
 
 </details>
 <details>
@@ -106,7 +120,8 @@ In the third path `"Too long."` is assigned to `message`, so "Too long." will be
 
 ✖ Nope.
 
-The `else` block (path 4) will never be executed if the user inputs "qwerty" because the 3rd check will be truthy, and the 3rd path will be executed.
+The `else` block (path 4) will never be executed if the user inputs "qwerty"
+because the 3rd check will be truthy, and the 3rd path will be executed.
 
 `else` blocks are only executed if _no other checks_ are truthy.
 

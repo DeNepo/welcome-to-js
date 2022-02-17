@@ -10,9 +10,11 @@ Which of these comparisons will evaluate to `true`?
 
 ✖ Nope.
 
-This line of code uses an _assignment operator_ `=` where it should have a _comparison_ `===`.
+This line of code uses an _assignment operator_ `=` where it should have a
+_comparison_ `===`.
 
-If you try to run this code it cause an error because you can only assign values to a variable, not to strings.
+If you try to run this code it cause an error because you can only assign values
+to a variable, not to strings.
 
 </details>
 
@@ -36,7 +38,8 @@ If you try to run this code it cause an error because you can only assign values
 
 ✖ Nope.
 
-The two values look similar but take a closer look. The left one is a Boolean and the right one is a String, it's not possible for them to be the same thing!
+The two values look similar but take a closer look. The left one is a Boolean
+and the right one is a String, it's not possible for them to be the same thing!
 
 </details>
 

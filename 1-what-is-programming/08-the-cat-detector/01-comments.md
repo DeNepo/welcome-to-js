@@ -10,7 +10,8 @@ Which of these are correct ways to write a comment?
 
 ✖ Nope.
 
-This is how you _open_ a block comment, but you also need to close a block comment with `\*/
+This is how you _open_ a block comment, but you also need to close a block
+comment with `\*/
 
 `. If you do not close the comment the program with throw an error:
 
@@ -76,7 +77,8 @@ console.log('fish');
 
 ✖ Nope.
 
-Writing something between two slashes `/` in JavaScript creates a _regular expression_. You don't need to know this yet.
+Writing something between two slashes `/` in JavaScript creates a _regular
+expression_. You don't need to know this yet.
 
 </details>
 

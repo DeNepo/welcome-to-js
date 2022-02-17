@@ -25,7 +25,8 @@ console.log(userInput); // log 2
 
 A string is only returned by `prompt` when the user clicks "ok".
 
-"cancel" may be written on the button, but that is now what the user is inputting.
+"cancel" may be written on the button, but that is now what the user is
+inputting.
 
 </details>
 
@@ -37,7 +38,8 @@ A string is only returned by `prompt` when the user clicks "ok".
 
 A string is only returned by `prompt` when the user clicks "ok".
 
-Even if the text field is empty, canceling does not submit a string. To submit an empty string the user must click "ok" with an empty input field.
+Even if the text field is empty, canceling does not submit a string. To submit
+an empty string the user must click "ok" with an empty input field.
 
 </details>
 <details>
@@ -66,7 +68,8 @@ Canceling a `prompt` returns `null`, and the type of is `"object"`.
 
 ✖ Nope.
 
-but close! Canceling a `prompt` _does_ return `null`, but the type of `null` _is not_ `"null"`. It is `"object"`.
+but close! Canceling a `prompt` _does_ return `null`, but the type of `null` _is
+not_ `"null"`. It is `"object"`.
 
 </details>
 
@@ -86,7 +89,8 @@ but close! Canceling a `prompt` _does_ return `null`, but the type of `null` _is
 
 The type will be `"string"`, but the value will be `"hello"`
 
-"ok" is the name of the button, but `prompt` returns the value typed in the input field.
+"ok" is the name of the button, but `prompt` returns the value typed in the
+input field.
 
 </details>
 <details>
@@ -130,7 +134,9 @@ But the user clicked "ok" so this is not the right answer.
 
 The user clicked "ok" not "cancel". So the return value will be a string.
 
-And even if the user did cancel, this would be wrong. Canceling a `prompt` _does_ return `null`, but the type of `null` _is not_ `"null"`. It is `"object"`.
+And even if the user did cancel, this would be wrong. Canceling a `prompt`
+_does_ return `null`, but the type of `null` _is not_ `"null"`. It is
+`"object"`.
 
 </details>
 
@@ -148,7 +154,8 @@ And even if the user did cancel, this would be wrong. Canceling a `prompt` _does
 
 ✖ Nope.
 
-Canceling will always return `null`, no matter what text the user typed in the input.
+Canceling will always return `null`, no matter what text the user typed in the
+input.
 
 </details>
 <details>
@@ -157,7 +164,8 @@ Canceling will always return `null`, no matter what text the user typed in the i
 
 ✖ Nope.
 
-Canceling will always log `null`, no matter what text the user typed in the input.
+Canceling will always log `null`, no matter what text the user typed in the
+input.
 
 </details>
 <details>
@@ -166,7 +174,8 @@ Canceling will always log `null`, no matter what text the user typed in the inpu
 
 ✔ Correct!
 
-Typing nothing and clicking "ok" will return an _empty string_, a value with the type `"string"` but no characters inside of it.
+Typing nothing and clicking "ok" will return an _empty string_, a value with the
+type `"string"` but no characters inside of it.
 
 </details>
 <details>
@@ -175,7 +184,9 @@ Typing nothing and clicking "ok" will return an _empty string_, a value with the
 
 ✖ Nope.
 
-Typing `"string"` and clicking ok will log `"string"` twice! Once because the input has the type "string", and a second type because the input _is_ `"string"`!
+Typing `"string"` and clicking ok will log `"string"` twice! Once because the
+input has the type "string", and a second type because the input _is_
+`"string"`!
 
 This may seem strange at first, but with practice it will make sense.
 

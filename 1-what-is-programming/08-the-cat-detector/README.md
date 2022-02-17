@@ -1,8 +1,13 @@
 # The Cat Detector
 
-Time to study one program in depth, learning to understand a single program from many different perspectives. This quiz will guide you through studying the `./cat-detector.js` by zooming in on each language feature used in the program.
+Time to study one program in depth, learning to understand a single program from
+many different perspectives. This quiz will guide you through studying the
+`./cat-detector.js` by zooming in on each language feature used in the program.
 
-Each numbered markdown file in this folder is a quiz question, you can find all the answers in this README if you look carefully. After finding the answer to a question you should take some time to find that feature in The Cat Detector and study how it was used.
+Each numbered markdown file in this folder is a quiz question, you can find all
+the answers in this README if you look carefully. After finding the answer to a
+question you should take some time to find that feature in The Cat Detector and
+study how it was used.
 
 A good way to take this quiz is in small groups using 3 computers:
 
@@ -42,7 +47,8 @@ Here are all the language features used in The Cat Detector:
 
 ## Strict Mode
 
-This will be at the top of every program, just ignore it for now. you'll learn more about it later.
+This will be at the top of every program, just ignore it for now. you'll learn
+more about it later.
 
 <details>
 <summary>example code</summary>
@@ -58,7 +64,8 @@ This will be at the top of every program, just ignore it for now. you'll learn m
 
 ## Comments
 
-Comments are there to leave notes in the source code for a developer to read. The computer will ignore comments and the user won't know they're there.
+Comments are there to leave notes in the source code for a developer to read.
+The computer will ignore comments and the user won't know they're there.
 
 You will come across two kinds of comments:
 
@@ -83,7 +90,8 @@ You will come across two kinds of comments:
 
 ## Logs
 
-logs print information in the console to help developers understand what happened in the program:
+logs print information in the console to help developers understand what
+happened in the program:
 
 <details>
 <summary>example code</summary>
@@ -107,10 +115,15 @@ console.log('hello', '...', 'good bye');
 
 ## Primitives
 
-Programs are all about data: storing it, changing it, showing it to users, getting it from users. Primitives are the basic pieces of data in a JavaScript program. Each primitive has two important aspects:
+Programs are all about data: storing it, changing it, showing it to users,
+getting it from users. Primitives are the basic pieces of data in a JavaScript
+program. Each primitive has two important aspects:
 
-- **Type**: There are multiple types, each primitive belongs to only one type. You can think of _types_ as a category like "fruits" or "vegetables".
-- **Value**: There can be more than one value within each type, just like there are different fruits or different vegetables. (You won't cover these in this module.)
+- **Type**: There are multiple types, each primitive belongs to only one type.
+  You can think of _types_ as a category like "fruits" or "vegetables".
+- **Value**: There can be more than one value within each type, just like there
+  are different fruits or different vegetables. (You won't cover these in this
+  module.)
 
 This diagram might help to see the big picture:
 
@@ -118,8 +131,10 @@ This diagram might help to see the big picture:
 <summary>data types diagram</summary>
 <br>
 
-- **Primitive Types**: The basic units of data in a program, like the individual fruits and vegetables when you go shopping.
-- **Composite/Non-Primitive Types**: Structures that _store_ and _organize_ data, like the basket you use to carry your groceries.
+- **Primitive Types**: The basic units of data in a program, like the individual
+  fruits and vegetables when you go shopping.
+- **Composite/Non-Primitive Types**: Structures that _store_ and _organize_
+  data, like the basket you use to carry your groceries.
 
 ![data types diagram](../../0-printables/data-types.jpeg)
 
@@ -131,7 +146,8 @@ These are the three primitives you will find in The Cat Detector:
 
 ### Strings
 
-Strings are the type used to store text, every string value must begin and end with quotes:
+Strings are the type used to store text, every string value must begin and end
+with quotes:
 
 <details>
 <summary>example code</summary>
@@ -156,7 +172,8 @@ console.log('');
 
 ### Booleans
 
-Booleans are used the type for yes/no or on/off. There are only two boolean values, `true` and `false`:
+Booleans are used the type for yes/no or on/off. There are only two boolean
+values, `true` and `false`:
 
 <details>
 <summary>example code</summary>
@@ -179,9 +196,11 @@ console.log('false');
 
 ### Null
 
-Null is a strange thing that you will learn more about later. For now you can think of `null` as the only value in it's own type.
+Null is a strange thing that you will learn more about later. For now you can
+think of `null` as the only value in it's own type.
 
-In The Cat Detector `null` is just used to mean "nothing", the user did not provide any data for the program:
+In The Cat Detector `null` is just used to mean "nothing", the user did not
+provide any data for the program:
 
 <details>
 <summary>example code</summary>
@@ -202,7 +221,8 @@ console.log('null');
 
 ## Operators
 
-Operators combine values to produce a new value. There are many operators in JS, but these are the only ones you need for The Cat Detector:
+Operators combine values to produce a new value. There are many operators in JS,
+but these are the only ones you need for The Cat Detector:
 
 ---
 
@@ -250,7 +270,8 @@ console.log(false === 'false'); // false
 
 ### Strict Inequality
 
-The `_ !== _` operator checks if two values have **different** types _or_ values:
+The `_ !== _` operator checks if two values have **different** types _or_
+values:
 
 <details>
 <summary>example code</summary>
@@ -321,23 +342,30 @@ console.log('a' + 'b' + 'c');
 
 ### Assignment Operator
 
-The assignment operator is used to initialize variables (`let _ = _;`) or assign them new values (`_ = _`). You'll study this operator in the next section about ...
+The assignment operator is used to initialize variables (`let _ = _;`) or assign
+them new values (`_ = _`). You'll study this operator in the next section about
+...
 
 ---
 
 ## Variables
 
-Variables are [like boxes](https://www.youtube.com/watch?v=Jvrszgiexg0) you can use to store data in your programs. (_That video uses `var` but these programs use `let`. For now you can think of them as the same thing._)
+Variables are [like boxes](https://www.youtube.com/watch?v=Jvrszgiexg0) you can
+use to store data in your programs. (_That video uses `var` but these programs
+use `let`. For now you can think of them as the same thing._)
 
-There is a lot to know about variables, but for The Cat Detector you only need to know this:
+There is a lot to know about variables, but for The Cat Detector you only need
+to know this:
 
 ---
 
 ### Declaring and Initializing
 
-To create a new variable in your program you need to _declare_ it using `let`, you cannot use a variable before it is declared.
+To create a new variable in your program you need to _declare_ it using `let`,
+you cannot use a variable before it is declared.
 
-You can assign an initial value to a variable when you declare it, this is the first value that will be stored in your variable:
+You can assign an initial value to a variable when you declare it, this is the
+first value that will be stored in your variable:
 
 <details>
 <summary>example code</summary>
@@ -363,7 +391,8 @@ console.log(userName); // 'Joe'
 
 ### Reading
 
-You can read the value stored in a variable, reading the value _does not_ change what is stored in the variable:
+You can read the value stored in a variable, reading the value _does not_ change
+what is stored in the variable:
 
 <details>
 <summary>example code</summary>
@@ -397,7 +426,9 @@ console.log(favoriteColor);
 
 You can change the value stored in a variable by _assigning_ a new value.
 
-Careful! Variables are _dynamic_, their values can change during program execution. What you see written in the source code may not always be what is stored in a variable.
+Careful! Variables are _dynamic_, their values can change during program
+execution. What you see written in the source code may not always be what is
+stored in a variable.
 
 <details>
 <summary>example code</summary>
@@ -429,7 +460,8 @@ console.log(favoriteColor); // ???
 
 ### Built-In Global Variables
 
-JavaScript programs have some _global variables_ built into the runtime environment. You can use these variables without declaring them.
+JavaScript programs have some _global variables_ built into the runtime
+environment. You can use these variables without declaring them.
 
 There are many, but you will only encounter 3 of them in these programs:
 
@@ -467,7 +499,8 @@ console.log(prompt);
 
 ## User Interactions
 
-Computer programs are often written for a user, user-centred applications need some way to communicate with the user. This communication goes two-ways:
+Computer programs are often written for a user, user-centred applications need
+some way to communicate with the user. This communication goes two-ways:
 
 - The computer can display information for the user
 - The user can input data for the program to use
@@ -478,7 +511,8 @@ In The Cat Detector you will be find two different user interactions:
 
 ### Alert
 
-Alert just displays text for the user to read, the user cannot input any data to your program with `alert`.
+Alert just displays text for the user to read, the user cannot input any data to
+your program with `alert`.
 
 The program wil pause until the user clicks "ok":
 
@@ -541,7 +575,10 @@ alert('check your console to see what data you put into the program.');
 
 ### Interactions vs. Logs
 
-There is one more important difference between an interaction (`alert`, `prompt`) and `console.log`. Logging to the console will show more information about _types_ and will show from which line the log was printed. This extra information is very useful to developers but not important for users:
+There is one more important difference between an interaction (`alert`,
+`prompt`) and `console.log`. Logging to the console will show more information
+about _types_ and will show from which line the log was printed. This extra
+information is very useful to developers but not important for users:
 
 <details>
 <summary>example code</summary>
@@ -580,13 +617,17 @@ console.log('hello', true);
 
 ## Control Flow
 
-Control flow is how you can instruct the computer to different things depending on what data is currently stored in memory. There are only three control flow structures you will need for The Cat Detector:
+Control flow is how you can instruct the computer to different things depending
+on what data is currently stored in memory. There are only three control flow
+structures you will need for The Cat Detector:
 
 ---
 
 ### `if`/`else`
 
-An `if`/`else` statement allows you to give the computer two possible instructions. One to use if a condition is true, the other if the condition is false:
+An `if`/`else` statement allows you to give the computer two possible
+instructions. One to use if a condition is true, the other if the condition is
+false:
 
 1. Evaluate the condition in the parenthesis
    - If the condition is true, execute the code in the `if` block
@@ -622,7 +663,8 @@ alert('all done!');
 
 ### `while`
 
-A `while` statement will repeat a block of code _as long as_ the condition is true:
+A `while` statement will repeat a block of code _as long as_ the condition is
+true:
 
 1. Evaluate the condition in the parenthesis
    - If the condition is true, execute the code in the block
