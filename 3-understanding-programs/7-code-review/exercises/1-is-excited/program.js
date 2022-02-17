@@ -36,7 +36,6 @@ const trimmedInput = input.trimEnd();
 // check if the last character of the trimmed string is '!'
 const isExcited = trimmedInput[trimmedInput.length - 1] == '!';
 
-
 /* --- construct a message for the user ---
   data before: user-provided string, a boolean flag for excitement
   data after: a string describing the user's input as excited or not

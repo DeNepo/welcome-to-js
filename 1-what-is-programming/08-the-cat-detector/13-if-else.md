@@ -12,8 +12,7 @@ How do you write a single conditional in JavaScript?
 
 In this code the curly braces `{ }` and parenthesis `( )` are switched.
 
-The parenthesis are supposed to be around the condition, and the curly braces
-are supposed to be around the bodies.
+The parenthesis are supposed to be around the condition, and the curly braces are supposed to be around the bodies.
 
 </details>
 
@@ -26,8 +25,7 @@ are supposed to be around the bodies.
 
 ✖ Nope.
 
-In JavaScript, the body of an `if` and an `else` Are marked by curly braces
-`{ }`. Some programming languages use a colon `:`, but not JS.
+In JavaScript, the body of an `if` and an `else` Are marked by curly braces `{ }`. Some programming languages use a colon `:`, but not JS.
 
 The condition must also be surrounded by parenthesis: `(aCondition)`
 

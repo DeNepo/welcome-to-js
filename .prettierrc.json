@@ -1,6 +1,6 @@
 {
   "printWidth": 80,
-  "proseWrap": "always",
+  "proseWrap": "never",
   "trailingComma": "all",
   "tabWidth": 2,
   "semi": true,

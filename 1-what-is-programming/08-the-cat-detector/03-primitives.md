@@ -22,8 +22,7 @@ Which of these are primitives?
 
 ✖ Nope.
 
-Variables can _store_ primitives, but variables are not primitives. They're more
-like a box and the primitives go inside the box.
+Variables can _store_ primitives, but variables are not primitives. They're more like a box and the primitives go inside the box.
 
 </details>
 

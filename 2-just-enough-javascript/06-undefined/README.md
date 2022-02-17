@@ -56,5 +56,4 @@ console.log(undefined !== null); // true
 
 </details>
 
-This is the default value for all variables that have not been assigned, more
-about that in the next folder.
+This is the default value for all variables that have not been assigned, more about that in the next folder.

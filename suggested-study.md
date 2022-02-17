@@ -6,10 +6,7 @@ Helpful resources for this module
 
 ## Be the Computer
 
-These two games are deceptively simple. You will be given pseudo-code and will
-need to follow the instructions the same way a computer would. Practicing this
-game will help you learn how to trace code, and prepare you for learning about
-program memory in the next module - Debugging.
+These two games are deceptively simple. You will be given pseudo-code and will need to follow the instructions the same way a computer would. Practicing this game will help you learn how to trace code, and prepare you for learning about program memory in the next module - Debugging.
 
 - 🥚 [compute-it](http://compute-it.toxicode.fr/)
 - 🐣 [little-dot](http://little-dot.toxicode.fr/)
@@ -39,45 +36,27 @@ program memory in the next module - Debugging.
 
 ## Tutorials
 
-A selection of tutorial sites with interactive exercises, these tutorial will
-help you learn the JS Syntax you need to study the exercises in this repository.
-As you're setting your study plans and priorities, remember: **Just Enough
-JavaScript**!
+A selection of tutorial sites with interactive exercises, these tutorial will help you learn the JS Syntax you need to study the exercises in this repository. As you're setting your study plans and priorities, remember: **Just Enough JavaScript**!
 
-These tutorials will each cover different topics in different orders and in
-different ways. Find the one that works for you:
+These tutorials will each cover different topics in different orders and in different ways. Find the one that works for you:
 
-- [sololearn](https://www.sololearn.com/learning/1024): through Conditionals and
-  Loops
-- [launchcode](https://education.launchcode.org/intro-to-professional-web-dev/index.html):
-  chapters 1 -> 5
-- [javascript.express](https://www.javascript.express/): the chapters that cover
-  Just Enough JavaScript
-- [programiz](https://www.programiz.com/javascript/get-started): through while
-  loops
-- [the net ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
-  (video series)
+- [sololearn](https://www.sololearn.com/learning/1024): through Conditionals and Loops
+- [launchcode](https://education.launchcode.org/intro-to-professional-web-dev/index.html): chapters 1 -> 5
+- [javascript.express](https://www.javascript.express/): the chapters that cover Just Enough JavaScript
+- [programiz](https://www.programiz.com/javascript/get-started): through while loops
+- [the net ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc) (video series)
 - [speaking js](http://speakingjs.com/) (online book)
-- [Headfirst JavaScript](https://www.oreilly.com/library/view/head-first-javascript/9781449340124/ch01.html):
-  an outstanding (paid) book for understanding JS and the web. comes with code
-  samples you can run locally
+- [Headfirst JavaScript](https://www.oreilly.com/library/view/head-first-javascript/9781449340124/ch01.html): an outstanding (paid) book for understanding JS and the web. comes with code samples you can run locally
 
-Is there another tutorial you like better than these? not a problem! Just us a
-PR so other students can find it ;\)
+Is there another tutorial you like better than these? not a problem! Just us a PR so other students can find it ;\)
 
 ## References
 
-Resources you can use to look up specific concepts when you are stuck or
-curious.
+Resources you can use to look up specific concepts when you are stuck or curious.
 
-- [Mozilla Developer Network \(MDN\)](https://developer.mozilla.org/en-US/docs/Web/javascript):
-  _the_ reference for JavaScript. It will take time to learn how to read and
-  understand MDN, but it's worth the wait.
-- [javascript.info](https://javascript.info): for short and clear explanations
-  of everything you will need in JS
-- [hackyourfuture.github.io/study](https://hackyourfuture.github.io/study): a
-  collection of explanations and resources put together by the HYF community.
-  PR's are welcome!
+- [Mozilla Developer Network \(MDN\)](https://developer.mozilla.org/en-US/docs/Web/javascript): _the_ reference for JavaScript. It will take time to learn how to read and understand MDN, but it's worth the wait.
+- [javascript.info](https://javascript.info): for short and clear explanations of everything you will need in JS
+- [hackyourfuture.github.io/study](https://hackyourfuture.github.io/study): a collection of explanations and resources put together by the HYF community. PR's are welcome!
 - [codeacademy cheat-sheets](https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
 
 ## Reading Code
@@ -95,15 +74,13 @@ curious.
 - [How to teach programming \(and other things\)?](https://www.youtube.com/watch?v=g1ib43q3uXQ&feature=youtu.be&t=1209)
 - Code Reading Clubs - [code-reading.org](https://code-reading.org/)
   - [Resources](https://github.com/CodeReadingClubs/Resources)
-  - [pdf-maker](https://github.com/CodeReadingClubs/pdf-maker) - convert code
-    from GitHub into a PDF for reading
+  - [pdf-maker](https://github.com/CodeReadingClubs/pdf-maker) - convert code from GitHub into a PDF for reading
 
 ---
 
 ## Class Recordings
 
-> - HYF modules are often updated, recordings from past classes may not match
->   this gitbook
+> - HYF modules are often updated, recordings from past classes may not match this gitbook
 > - When sending a PR's with recording links please ...
 >   - Indicate which class you were teaching
 >   - Which week it was (if the module is more than 1 week)
@@ -136,5 +113,4 @@ curious.
 > Axxes-team, Evan
 
 - [Chapter 1](https://youtu.be/puKsxllt1P0)
-- Chapter 2: [part-1](https://youtu.be/VN3fXfRfZIE),
-  [part-2](https://youtu.be/_sDs8dKaDyM)
+- Chapter 2: [part-1](https://youtu.be/VN3fXfRfZIE), [part-2](https://youtu.be/_sDs8dKaDyM)

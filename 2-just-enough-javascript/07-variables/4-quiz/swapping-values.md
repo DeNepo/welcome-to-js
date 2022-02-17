@@ -30,8 +30,7 @@ a = temp; // line 11
 
 `a` never stores the value `undefined` in this program.
 
-`a` is _initialized_ to `"y"` on line 4, and later _reassigned_ to `"x"` on
-line 11.
+`a` is _initialized_ to `"y"` on line 4, and later _reassigned_ to `"x"` on line 11.
 
 </details>
 <details>
@@ -42,8 +41,7 @@ line 11.
 
 On line 11 `"x"` is _assigned_ to `a`.
 
-Because this is the last time `a` is _assigned_ a value, `"x"` is the final
-value stored in `a`.
+Because this is the last time `a` is _assigned_ a value, `"x"` is the final value stored in `a`.
 
 </details>
 <details>
@@ -52,11 +50,9 @@ value stored in `a`.
 
 ✖ Nope.
 
-`"y"` is the _initial_ value stored in `a`, but on line 11 `a` is reassigned a
-new value.
+`"y"` is the _initial_ value stored in `a`, but on line 11 `a` is reassigned a new value.
 
-Because line 11 is the _last time_ `a` is assigned a new value and it is
-assigned `"x"`, it's not possible for the final value to be `"y"`.
+Because line 11 is the _last time_ `a` is assigned a new value and it is assigned `"x"`, it's not possible for the final value to be `"y"`.
 
 </details>
 
@@ -76,8 +72,7 @@ assigned `"x"`, it's not possible for the final value to be `"y"`.
 
 `b` never stores the value `undefined` in this program.
 
-`b` is _initialized_ to `"x"` on line 5, and later _reassigned_ to `"y"` on
-line 10.
+`b` is _initialized_ to `"x"` on line 5, and later _reassigned_ to `"y"` on line 10.
 
 </details>
 <details>
@@ -86,11 +81,9 @@ line 10.
 
 ✖ Nope.
 
-`"x"` is the _initial_ value stored in `b`, but on line 10 `b` is reassigned a
-new value.
+`"x"` is the _initial_ value stored in `b`, but on line 10 `b` is reassigned a new value.
 
-Because line 10 is the _last time_ `b` is assigned a new value and it is
-assigned `"y"`, it's not possible for the final value to be `"x"`.
+Because line 10 is the _last time_ `b` is assigned a new value and it is assigned `"y"`, it's not possible for the final value to be `"x"`.
 
 </details>
 <details>
@@ -101,8 +94,7 @@ assigned `"y"`, it's not possible for the final value to be `"x"`.
 
 On line 10 `"y"` is _assigned_ to `b`.
 
-Because this is the last time `b` is _assigned_ a value, `"y"` is the final
-value stored in `b`.
+Because this is the last time `b` is _assigned_ a value, `"y"` is the final value stored in `b`.
 
 </details>
 
@@ -120,8 +112,7 @@ value stored in `b`.
 
 ✔ Correct!
 
-On line 6 `temp` is _declared_ but not _initialized_, so it's value is
-`undefined` by default.
+On line 6 `temp` is _declared_ but not _initialized_, so it's value is `undefined` by default.
 
 </details>
 <details>
@@ -130,8 +121,7 @@ On line 6 `temp` is _declared_ but not _initialized_, so it's value is
 
 ✖ Nope.
 
-`temp` is _declared_ but not _initialized_. This means it's initial value will
-be `undefined` by default.
+`temp` is _declared_ but not _initialized_. This means it's initial value will be `undefined` by default.
 
 </details>
 <details>
@@ -140,8 +130,7 @@ be `undefined` by default.
 
 ✖ Nope.
 
-`temp` is _declared_ but not _initialized_. This means it's initial value will
-be `undefined` by default.
+`temp` is _declared_ but not _initialized_. This means it's initial value will be `undefined` by default.
 
 </details>
 
@@ -159,11 +148,9 @@ be `undefined` by default.
 
 ✖ Nope.
 
-The _initial_ value for `temp` is `undefined`, but on line 9 it is assigned the
-value `"x"`.
+The _initial_ value for `temp` is `undefined`, but on line 9 it is assigned the value `"x"`.
 
-Because this is the last time that `temp` is _reassigned_, `"x"` is the final
-value.
+Because this is the last time that `temp` is _reassigned_, `"x"` is the final value.
 
 </details>
 <details>
@@ -174,8 +161,7 @@ value.
 
 On line 9 `"x"` is _assigned_ to `temp`.
 
-Because this is the last time `temp` is _assigned_ a value, `"x"` is the final
-value stored in `temp`.
+Because this is the last time `temp` is _assigned_ a value, `"x"` is the final value stored in `temp`.
 
 </details>
 <details>
@@ -184,8 +170,7 @@ value stored in `temp`.
 
 ✖ Nope.
 
-`temp` never stores the value `"y"`. The only two values it stores in this
-program are `undefined` and `"x"`.
+`temp` never stores the value `"y"`. The only two values it stores in this program are `undefined` and `"x"`.
 
 </details>
 

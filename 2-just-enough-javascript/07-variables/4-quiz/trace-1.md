@@ -94,8 +94,7 @@ Look carefully at step 5.
 
 What needs to happen before the value stored in a variable can be used?
 
-How many variables are being used on the right hand side of the initialization
-on line 6?
+How many variables are being used on the right hand side of the initialization on line 6?
 
 </details>
 </details>

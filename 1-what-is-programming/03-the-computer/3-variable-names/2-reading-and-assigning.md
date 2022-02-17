@@ -1,17 +1,10 @@
 # Reading And Assigning Variables
 
-This set of programs will be more complicated to understand, now that we're
-reading and assigning variables so you will need to think about each program
-from 3 different perspectives:
+This set of programs will be more complicated to understand, now that we're reading and assigning variables so you will need to think about each program from 3 different perspectives:
 
-1. **Computer Instructions**: What is each program's trace? When and where is
-   each variable read? assigned?
-2. **Final Value**: What is the final value of `pattern`? Different instructions
-   can lead to the same final value!
-3. **Variable Names**: What names were used for the variables? Remember,
-   variable names and computer instructions are separate things! Variables help
-   the developer understand what is happening, but do not change the computer's
-   instructions.
+1. **Computer Instructions**: What is each program's trace? When and where is each variable read? assigned?
+2. **Final Value**: What is the final value of `pattern`? Different instructions can lead to the same final value!
+3. **Variable Names**: What names were used for the variables? Remember, variable names and computer instructions are separate things! Variables help the developer understand what is happening, but do not change the computer's instructions.
 
 Study the programs on this page to find all of the pairs:
 

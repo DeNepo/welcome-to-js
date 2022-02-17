@@ -1,7 +1,6 @@
 # Commenting
 
-In these exercises you will be given a small program then describe each piece of
-syntax with a comment.
+In these exercises you will be given a small program then describe each piece of syntax with a comment.
 
 Here's a shorthand you can use so your comments don't get too long:
 

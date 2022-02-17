@@ -1,8 +1,6 @@
 # Just Enough JavaScript: Cheat Sheet
 
-A quick guide to all the JavaScript syntax and features you need for Welcome to
-JS. On the left side of each section you have JavaScript, on the right you have
-PseudoCode:
+A quick guide to all the JavaScript syntax and features you need for Welcome to JS. On the left side of each section you have JavaScript, on the right you have PseudoCode:
 
 <table>
 
@@ -22,14 +20,12 @@ PseudoCode:
 <tr>
 <td>
 
-The exact syntax and spelling you must use for the computer to understand your
-code.
+The exact syntax and spelling you must use for the computer to understand your code.
 
 </td>
 <td>
 
-Simpler, more flexible notation you can use to sketch your ideas before writing
-JavaScript code.
+Simpler, more flexible notation you can use to sketch your ideas before writing JavaScript code.
 
 </td>
 </tr>
@@ -54,11 +50,9 @@ JavaScript code.
 
 ## Strict Mode
 
-Something you write at the top of your programs so the computer will catch more
-of your mistakes than if you didn't use String Mode.
+Something you write at the top of your programs so the computer will catch more of your mistakes than if you didn't use String Mode.
 
-The biggest difference for now is how JavaScript will treat variables. As long
-as you always `'use strict'` and always declare your variables you'll be fine.
+The biggest difference for now is how JavaScript will treat variables. As long as you always `'use strict'` and always declare your variables you'll be fine.
 
 <table>
 
@@ -86,8 +80,7 @@ as you always `'use strict'` and always declare your variables you'll be fine.
 
 ## Comments
 
-Notes written in your code for developers to read. The computer will ignore
-these when executing your code.
+Notes written in your code for developers to read. The computer will ignore these when executing your code.
 
 <table>
 
@@ -123,9 +116,7 @@ these when executing your code.
 
 ## Logs
 
-A simple way to print data to the developer console while the program is
-running. This is helpful for knowing what data is stored in your program at
-different points in execution.
+A simple way to print data to the developer console while the program is running. This is helpful for knowing what data is stored in your program at different points in execution.
 
 <table>
 
@@ -153,8 +144,7 @@ console.log('hello');
 
 ## Primitive Types
 
-The smallest pieces of data in a JS program. There are many primitive types but
-you only need to know these for now:
+The smallest pieces of data in a JS program. There are many primitive types but you only need to know these for now:
 
 <table>
 
@@ -221,11 +211,9 @@ null
 
 ## Operators
 
-Ways to transform data. An operator takes in 1 or more values and _evaluates to_
-a new value.
+Ways to transform data. An operator takes in 1 or more values and _evaluates to_ a new value.
 
-Operators in JavaScript are a huge topic with many details and exceptions, for
-now this should be enough:
+Operators in JavaScript are a huge topic with many details and exceptions, for now this should be enough:
 
 <table>
 
@@ -341,8 +329,7 @@ true || false
 
 ## Strings
 
-The data type used for storing and manipulating text data. Strings will be the
-main type of data used in Welcome to JS.
+The data type used for storing and manipulating text data. Strings will be the main type of data used in Welcome to JS.
 
 <table>
 
@@ -441,12 +428,9 @@ main type of data used in Welcome to JS.
 
 ## Variables
 
-Variables allow you to save values to use again later in your program.They're
-kind of like a box that can only hold one thing at a time.
+Variables allow you to save values to use again later in your program.They're kind of like a box that can only hold one thing at a time.
 
-Variables are also an important tool for writing code that is clear for other
-developers to read and understand. Using helpful names can make your code read
-(sort of) like a story.
+Variables are also an important tool for writing code that is clear for other developers to read and understand. Using helpful names can make your code read (sort of) like a story.
 
 <table>
 
@@ -494,8 +478,7 @@ name <- 'Script'
 
 ## Interactions
 
-Ways for users to pass data into your programs (_input_), and ways to display
-data from inside your program to a user (_output_);
+Ways for users to pass data into your programs (_input_), and ways to display data from inside your program to a user (_output_);
 
 <table>
 
@@ -549,11 +532,9 @@ alert('a message')
 
 ## Block Scope
 
-Variables declared _inside_ curly braces can only be used inside those curly
-braces. Trying to use a variable in an _outer scope_ will cause an error.
+Variables declared _inside_ curly braces can only be used inside those curly braces. Trying to use a variable in an _outer scope_ will cause an error.
 
-Variables declared _outside_ of curly braces can be used outside or inside the
-curly braces.
+Variables declared _outside_ of curly braces can be used outside or inside the curly braces.
 
 <table>
 
@@ -593,8 +574,7 @@ console.log(inner); // ReferenceError
 
 ## Conditionals
 
-Execute different blocks of code depending on whether an expression evaluates to
-`true` or to `false`:
+Execute different blocks of code depending on whether an expression evaluates to `true` or to `false`:
 
 <table>
 
@@ -696,9 +676,7 @@ WHILE: anExpression
 
 Iterate over a string, executing the loop body once for each character.
 
-A new variable is declared for each character and that variable is scoped to the
-block. Each time the block is executed the variable stores the next character in
-the string.
+A new variable is declared for each character and that variable is scoped to the block. Each time the block is executed the variable stores the next character in the string.
 
 <table>
 

@@ -65,26 +65,27 @@
   },
 
   // MD013/line-length - Line length
-  "MD013": {
-    // Number of characters
-    "line_length": 80,
-    // Number of characters for headings
-    "heading_line_length": 80,
-    // Number of characters for code blocks
-    "code_block_line_length": 80,
-    // Include code blocks
-    "code_blocks": false,
-    // Include tables
-    "tables": true,
-    // Include headings
-    "headings": true,
-    // Include headings
-    "headers": true,
-    // Strict length checking
-    "strict": false,
-    // Stern length checking
-    "stern": false
-  },
+  "MD013": false,
+  // {
+  //   // Number of characters
+  //   "line_length": 80,
+  //   // Number of characters for headings
+  //   "heading_line_length": 80,
+  //   // Number of characters for code blocks
+  //   "code_block_line_length": 80,
+  //   // Include code blocks
+  //   "code_blocks": false,
+  //   // Include tables
+  //   "tables": false,
+  //   // Include headings
+  //   "headings": true,
+  //   // Include headings
+  //   "headers": true,
+  //   // Strict length checking
+  //   "strict": false,
+  //   // Stern length checking
+  //   "stern": false
+  // },
 
   // MD014/commands-show-output - Dollar signs used before commands without showing output
   "MD014": true,
@@ -170,7 +171,17 @@
   // MD033/no-inline-html - Inline HTML
   "MD033": {
     // Allowed elements
-    "allowed_elements": ["summary", "details", "br", "strong", "code", "em"]
+    "allowed_elements": [
+      "summary",
+      "details",
+      "br",
+      "strong",
+      "code",
+      "em",
+      "tr",
+      "td",
+      "table"
+    ]
   },
 
   // MD034/no-bare-urls - Bare URL used

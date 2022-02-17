@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-let input = prompt("enter something with a space");
+let input = prompt('enter something with a space');
 
 let path = 0;
 if (input === null) {

@@ -116,12 +116,9 @@ let c = 3;
 
 ✖ Nope.
 
-The variables in this program are all _initialized_ to the correct values, and
-will all have the correct _final values_. But this program does not match the
-trace.
+The variables in this program are all _initialized_ to the correct values, and will all have the correct _final values_. But this program does not match the trace.
 
-Use a trace table to figure out how this program's trace is different from the
-example.
+Use a trace table to figure out how this program's trace is different from the example.
 
 </details>
 

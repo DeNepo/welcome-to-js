@@ -1,12 +1,8 @@
 # User Experience
 
-All of these programs have the same developer experience. They also have nearly
-identical instructions for the computer; the hard-coded string values and the
-interactions are different, but the program logic and variable use are the same
-(ie, their traces are the same).
+All of these programs have the same developer experience. They also have nearly identical instructions for the computer; the hard-coded string values and the interactions are different, but the program logic and variable use are the same (ie, their traces are the same).
 
-What changes between each program is how clear & consistent the instructions
-are, how helpful the feedback is, and the tone of voice used in the messages.
+What changes between each program is how clear & consistent the instructions are, how helpful the feedback is, and the tone of voice used in the messages.
 
 ---
 
@@ -14,10 +10,8 @@ are, how helpful the feedback is, and the tone of voice used in the messages.
 
 The one and only, the original ... cat detector!
 
-- **Clear Instructions**: mostly clear, a user might think that they need to
-  type `"cat"` instead of `cat`
-- **Helpful Feedback**: mostly, it could be more clear that the input was just
-  the word "cat" and not an actual cat
+- **Clear Instructions**: mostly clear, a user might think that they need to type `"cat"` instead of `cat`
+- **Helpful Feedback**: mostly, it could be more clear that the input was just the word "cat" and not an actual cat
 - **Consistency**: yes
 - **Tone of Voice**: the messages are short and clear
 
@@ -70,10 +64,8 @@ alert(message);
 
 Same basic user experience, but `"cat"` is replaced by `"dog"`.
 
-- **Clear Instructions**: mostly clear, a user might think that they need to
-  type `"dog"` instead of `dog`
-- **Helpful Feedback**: mostly, it could be more clear that the input was just
-  the word "cat" and not an actual cat
+- **Clear Instructions**: mostly clear, a user might think that they need to type `"dog"` instead of `dog`
+- **Helpful Feedback**: mostly, it could be more clear that the input was just the word "cat" and not an actual cat
 - **Consistency**: yes
 - **Tone of Voice**: the messages are short and clear
 
@@ -112,10 +104,8 @@ alert(message);
 ## 2
 
 - **Clear Instructions**: no instructions at all
-- **Helpful Feedback**: not at all, it just says "yes" or "no" without
-  explaining what the goal was
-- **Consistency**: nope. it's also confusing that the final message is displayed
-  in a `prompt`, but that the input is not used.
+- **Helpful Feedback**: not at all, it just says "yes" or "no" without explaining what the goal was
+- **Consistency**: nope. it's also confusing that the final message is displayed in a `prompt`, but that the input is not used.
 - **Tone of Voice**: the messages are either absent or unhelpfully short
 
 <details>
@@ -152,15 +142,11 @@ prompt(message);
 
 ## 3
 
-The instructions come before the option to input text, so it might be harder to
-remember what you're supposed to do.
+The instructions come before the option to input text, so it might be harder to remember what you're supposed to do.
 
-- **Clear Instructions**: mostly clear, a user might think that they need to
-  type `"cat"` instead of `cat`
-- **Helpful Feedback**: mostly, it could be more clear that the input was just
-  the word "cat" and not an actual cat
-- **Consistency**: not completely, it might be confusing that the instructions
-  come before the prompt
+- **Clear Instructions**: mostly clear, a user might think that they need to type `"cat"` instead of `cat`
+- **Helpful Feedback**: mostly, it could be more clear that the input was just the word "cat" and not an actual cat
+- **Consistency**: not completely, it might be confusing that the instructions come before the prompt
 - **Tone of Voice**: the messages are short and clear
 
 <details>
@@ -198,16 +184,11 @@ alert(message);
 
 ## 4
 
-The final message is the opposite of what the user would expect. This might just
-be a mistake by the developer, but it still breaks the conventions a user
-expects.
+The final message is the opposite of what the user would expect. This might just be a mistake by the developer, but it still breaks the conventions a user expects.
 
-- **Clear Instructions**: mostly clear, a user might think that they need to
-  type `"cat"` instead of `cat`
-- **Helpful Feedback**: mostly, it could be more clear that the input was just
-  the word "cat" and not an actual cat
-- **Consistency**: not at all! the feedback at the end of the program is the
-  opposite of what you would expect
+- **Clear Instructions**: mostly clear, a user might think that they need to type `"cat"` instead of `cat`
+- **Helpful Feedback**: mostly, it could be more clear that the input was just the word "cat" and not an actual cat
+- **Consistency**: not at all! the feedback at the end of the program is the opposite of what you would expect
 - **Tone of Voice**: friendly and polite (maybe too much?)
 
 <details>
@@ -249,8 +230,7 @@ alert(message);
 
 ## 5
 
-The instructions are not clear at first, and neither are the messages. But once
-you figure out what they mean it's a fun experience.
+The instructions are not clear at first, and neither are the messages. But once you figure out what they mean it's a fun experience.
 
 - **Clear Instructions**: nope
 - **Helpful Feedback**: once you get it, yes. before that, no
@@ -294,8 +274,7 @@ alert(message);
 \> : (
 
 - **Clear Instructions**: yes
-- **Helpful Feedback**: mostly. the message when you do input "cat" could
-  mention the cat instead of just saying congratulations
+- **Helpful Feedback**: mostly. the message when you do input "cat" could mention the cat instead of just saying congratulations
 - **Consistency**: yes
 - **Tone of Voice**: sarcastic and rude
 
@@ -333,8 +312,7 @@ alert(message);
 
 ## 7
 
-Asks for a dog, then checks for a cat. Developer mistake? Bad UX design? You
-decide.
+Asks for a dog, then checks for a cat. Developer mistake? Bad UX design? You decide.
 
 - **Clear Instructions**: yes
 - **Helpful Feedback**: yes, the messages are clear
@@ -375,15 +353,11 @@ alert(message);
 
 ## 8
 
-The instructions and message are consistent about `"cat"`, but the logic in the
-program checks for `"dog"`.
+The instructions and message are consistent about `"cat"`, but the logic in the program checks for `"dog"`.
 
-- **Clear Instructions**: mostly clear, a user might think that they need to
-  type `"cat"` instead of `cat`
-- **Helpful Feedback**: mostly, it could be more clear that the input was just
-  the word "cat" and not an actual cat
-- **Consistency**: nope. the program asks for cats and the message mentions
-  cats, but the logic actually checks for `"dog"`
+- **Clear Instructions**: mostly clear, a user might think that they need to type `"cat"` instead of `cat`
+- **Helpful Feedback**: mostly, it could be more clear that the input was just the word "cat" and not an actual cat
+- **Consistency**: nope. the program asks for cats and the message mentions cats, but the logic actually checks for `"dog"`
 - **Tone of Voice**: simple and clear
 
 <details>
@@ -422,10 +396,8 @@ alert(message);
 
 Suspense!
 
-- **Clear Instructions**: they are clear as long as you remember what you're
-  supposed to enter
-- **Helpful Feedback**: the message is clear enough about if the input is a cat
-  or not
+- **Clear Instructions**: they are clear as long as you remember what you're supposed to enter
+- **Helpful Feedback**: the message is clear enough about if the input is a cat or not
 - **Consistency**: yes
 - **Tone of Voice**: like a game show host
 

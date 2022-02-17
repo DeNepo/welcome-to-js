@@ -12,7 +12,7 @@
 
 // IF: input === ''
 //   output <- 'you entered nothing :('
-// ELSE: 
+// ELSE:
 //   output <- 'thank you for something!'
 // :END IF
 

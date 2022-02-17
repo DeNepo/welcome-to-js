@@ -28,8 +28,7 @@ console.log(animal); // line 11
 
 ✖ Nope.
 
-`undefined` will never be logged in this program. There is only one variable
-named `animal`, and it always has a value.
+`undefined` will never be logged in this program. There is only one variable named `animal`, and it always has a value.
 
 It was initialized to `"cat"` and is later reassigned to `"dog"`.
 
@@ -40,12 +39,9 @@ It was initialized to `"cat"` and is later reassigned to `"dog"`.
 
 ✖ Nope.
 
-The variable `animal` is declared in the outer scope and _reassigned_ in the
-inner scope. A new variable was not declared inside the scope. It's the same
-variable inside and outside!
+The variable `animal` is declared in the outer scope and _reassigned_ in the inner scope. A new variable was not declared inside the scope. It's the same variable inside and outside!
 
-Modifying an _outer scope_ variable from an _inner scope_ is the same as
-modifying it outside, so the new value will still be stored for the final log.
+Modifying an _outer scope_ variable from an _inner scope_ is the same as modifying it outside, so the new value will still be stored for the final log.
 
 </details>
 <details>
@@ -54,12 +50,9 @@ modifying it outside, so the new value will still be stored for the final log.
 
 ✔ Correct!
 
-The assignment on line 7 is inside a block scope, but is accessing a variable
-declared in the outer scope. This means that the new value will still be
-available after the scope has closed.
+The assignment on line 7 is inside a block scope, but is accessing a variable declared in the outer scope. This means that the new value will still be available after the scope has closed.
 
-Line 8 and line 11 will both log `"cat"` because a new value was never assigned
-between those lines.
+Line 8 and line 11 will both log `"cat"` because a new value was never assigned between those lines.
 
 </details>
 

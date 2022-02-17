@@ -25,8 +25,7 @@ You noticed the capital "H"? nice work.
 
 ✖ Nope.
 
-Both primitives are the same type _and_ have the same value. They are not
-different, they are the same!
+Both primitives are the same type _and_ have the same value. They are not different, they are the same!
 
 </details>
 
@@ -49,8 +48,7 @@ different, they are the same!
 
 ✖ Nope.
 
-Both primitives are the same type _and_ have the same value. They are not
-different, they are the same!
+Both primitives are the same type _and_ have the same value. They are not different, they are the same!
 
 </details>
 

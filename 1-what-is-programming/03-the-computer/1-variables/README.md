@@ -1,17 +1,10 @@
 # Variables
 
-Variables are a good place to start understanding communication between
-developers and the computer. They are one tool a developer has to make a program
-easier to read, and they are one way can you instruct computers to read & write
-program memory.
+Variables are a good place to start understanding communication between developers and the computer. They are one tool a developer has to make a program easier to read, and they are one way can you instruct computers to read & write program memory.
 
-You can think of variables
-[like boxes](https://www.youtube.com/watch?v=Jvrszgiexg0) used to store data in
-your programs. (_That video uses `var` but these programs use `let`. For now you
-can think of them as the same thing._)
+You can think of variables [like boxes](https://www.youtube.com/watch?v=Jvrszgiexg0) used to store data in your programs. (_That video uses `var` but these programs use `let`. For now you can think of them as the same thing._)
 
-Study the JavaScript files in this folder to see the 4 main things you can do
-with a variable:
+Study the JavaScript files in this folder to see the 4 main things you can do with a variable:
 
 - **Declaring**
 - **Declaring and Initializing**

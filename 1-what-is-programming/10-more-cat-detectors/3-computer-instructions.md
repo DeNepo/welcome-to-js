@@ -1,15 +1,10 @@
 # Computer Instructions
 
-Each of these programs have identical user experience, and similar developer
-experience (comments, logs, variable names & formatting).
+Each of these programs have identical user experience, and similar developer experience (comments, logs, variable names & formatting).
 
-What you might notice is that different computer instructions can make it easier
-or harder for you to understand the code. This is where a great developer will
-shine: finding the clearest way to write the same program.
+What you might notice is that different computer instructions can make it easier or harder for you to understand the code. This is where a great developer will shine: finding the clearest way to write the same program.
 
-There are some new language features that were not in the original Cat Detector,
-do your best to figure out how they work by tracing the program and searching
-online. All of them will be covered in this module.
+There are some new language features that were not in the original Cat Detector, do your best to figure out how they work by tracing the program and searching online. All of them will be covered in this module.
 
 ---
 
@@ -18,14 +13,10 @@ online. All of them will be covered in this module.
 The one and only, the original ... cat detector!
 
 - **Variables and Types**:
-  - `input`: stores either `null` or strings, but only strings after the while
-    loop is finished. it is initialized to `null`, assigned in the while loop,
-    read in control flow checks and read to create a message.
-  - `message`: stores only strings. it is initialized to an empty string,
-    assigned a new message, then read for the alert.
+  - `input`: stores either `null` or strings, but only strings after the while loop is finished. it is initialized to `null`, assigned in the while loop, read in control flow checks and read to create a message.
+  - `message`: stores only strings. it is initialized to an empty string, assigned a new message, then read for the alert.
 - **Data Input**:
-  - `prompt`: users can input `null` or strings in the while loop, but only a
-    string value will allow the loop to finish.
+  - `prompt`: users can input `null` or strings in the while loop, but only a string value will allow the loop to finish.
 - **Control Flow Structures**:
   - `while`: repeats as long as the user's input is null
   - `if`/`else`: selects which message to create based on the user's input
@@ -33,8 +24,7 @@ The one and only, the original ... cat detector!
   - `=`: used to initialize the two variables, and to assign them new values
   - `===`: used in the while loop check to decide if the input is valid
   - `!==`: used in the conditional to check if the input is not `"cat"`
-  - `+`: used to concatenate `input` into the final message if the input was not
-    `'cat'`
+  - `+`: used to concatenate `input` into the final message if the input was not `'cat'`
 
 <details>
 <summary>expand for the program</summary>
@@ -83,9 +73,7 @@ alert(message);
 
 ## 1
 
-The comparisons have their values reversed, the primitive is on the left and the
-variable is on the right. Comparisons can be written either way, it's all the
-same!
+The comparisons have their values reversed, the primitive is on the left and the variable is on the right. Comparisons can be written either way, it's all the same!
 
 - **Variables and Types**: same as [program 1](#1)
 - **Data Input**: same as [program 1](#1)
@@ -137,8 +125,7 @@ Uses a different logic in the while loop check.
   - `!==`: used in both control flow checks:
     - in the while loop to check if the user's input is _not_ a string
     - in the conditional to check to decide if the input is `"cat"`
-  - `+`: used to concatenate `input` into the final message if the input was not
-    `'cat'`
+  - `+`: used to concatenate `input` into the final message if the input was not `'cat'`
 
 <details>
 <summary>expand for the program</summary>
@@ -177,13 +164,8 @@ alert(message);
 Uses the `message` variable differently in the `if` body.
 
 - **Variables and Types**:
-  - `input`: stores either `null` or strings, but only strings after the while
-    loop is finished. it is initialized to `null`, assigned in the while loop,
-    read in control flow checks and read to create a message.
-  - `message`: stores only strings. it is initialized to an empty string,
-    assigned a new message, then read for the alert. In the `if` block it is
-    read and assigned multiple times, building up the final message in small
-    parts.
+  - `input`: stores either `null` or strings, but only strings after the while loop is finished. it is initialized to `null`, assigned in the while loop, read in control flow checks and read to create a message.
+  - `message`: stores only strings. it is initialized to an empty string, assigned a new message, then read for the alert. In the `if` block it is read and assigned multiple times, building up the final message in small parts.
 - **Data Input**: same as [program 1](#1)
 - **Control Flow Structures**: same as [program 1](#1)
 - **Operators**: same as [program 1](#1)
@@ -224,8 +206,7 @@ alert(message);
 
 ## 4
 
-Different logic in the conditional check means that the two conditional bodies
-are switched.
+Different logic in the conditional check means that the two conditional bodies are switched.
 
 - **Variables and Types**: same as [program 1](#1)
 - **Data Input**: same as [program 1](#1)
@@ -235,8 +216,7 @@ are switched.
   - `===`: used twice, once in each control flow check:
     - in the while loop check to decide if the input is valid
     - in the conditional to check if the input is correct
-  - `+`: used to concatenate `input` into the final message if the input was not
-    `'cat'`
+  - `+`: used to concatenate `input` into the final message if the input was not `'cat'`
 
 <details>
 <summary>expand for the program</summary>
@@ -272,13 +252,9 @@ alert(message);
 
 ## 5
 
-This program has an extra `if` statement that actually does nothing useful! It
-checks if the input is `null` _after_ the while loop, but it's impossible for
-the loop to exit unless the input is a string. So, the extra conditional check
-will always be `true`.
+This program has an extra `if` statement that actually does nothing useful! It checks if the input is `null` _after_ the while loop, but it's impossible for the loop to exit unless the input is a string. So, the extra conditional check will always be `true`.
 
-Having extra control flow like this doesn't effect the user's experience but can
-make it harder for developers to understand your code.
+Having extra control flow like this doesn't effect the user's experience but can make it harder for developers to understand your code.
 
 - **Variables and Types**: same as [program 1](#1)
 - **Data Input**: same as [program 1](#1)
@@ -324,18 +300,12 @@ alert(message);
 
 ## 6
 
-This program has the same user experience with fewer variables. It may also be
-easier for you to read as a developer. But the instructions for the computer are
-very different!
+This program has the same user experience with fewer variables. It may also be easier for you to read as a developer. But the instructions for the computer are very different!
 
-The data stored in memory is very important to a program's trace, because this
-program does not store the message in memory it is not the same program as
-program 1.
+The data stored in memory is very important to a program's trace, because this program does not store the message in memory it is not the same program as program 1.
 
 - **Variables and Types**:
-  - `input`: stores either `null` or strings, but only strings after the while
-    loop is finished. it is initialized to `null`, assigned in the while loop,
-    read in control flow checks and read to create a message.
+  - `input`: stores either `null` or strings, but only strings after the while loop is finished. it is initialized to `null`, assigned in the while loop, read in control flow checks and read to create a message.
 - **Data Input**: same as [program 1](#1)
 - **Control Flow Structures**: same as [program 1](#1)
 - **Operators**: same as [program 1](#1)
@@ -369,13 +339,9 @@ if (input !== 'cat') {
 
 ## 7
 
-This program uses two `if` statements instead of one `if`/`else` statement to
-create the message. The end result is the same, but the trace is not. In this
-program the computer has to compare the `input` variable twice instead of once.
+This program uses two `if` statements instead of one `if`/`else` statement to create the message. The end result is the same, but the trace is not. In this program the computer has to compare the `input` variable twice instead of once.
 
-It can also be harder to read as a developer because it's not immediately clear
-that both conditions can never be true at the same time. So you may spend extra
-time trying to figure out when each message will be created.
+It can also be harder to read as a developer because it's not immediately clear that both conditions can never be true at the same time. So you may spend extra time trying to figure out when each message will be created.
 
 - **Variables and Types**: same as [program 1](#1)
 - **Data Input**: same as [program 1](#1)
@@ -389,8 +355,7 @@ time trying to figure out when each message will be created.
     - in the while loop check to decide if the input is valid
     - in the second `if` check to decide if the input _is_ `"cat"`
   - `!==`: used in the conditional to check if the input _is not_ `"cat"`
-  - `+`: used to concatenate `input` into the final message if the input was not
-    `'cat'`
+  - `+`: used to concatenate `input` into the final message if the input was not `'cat'`
 
 <details>
 <summary>expand for the program</summary>
@@ -427,13 +392,10 @@ alert(message);
 
 ## 8
 
-This program combines the changes from #6 and #7. There is no `message`
-variable, and there are two separate `if` statements instead of one `if`/`else`.
+This program combines the changes from #6 and #7. There is no `message` variable, and there are two separate `if` statements instead of one `if`/`else`.
 
 - **Variables and Types**:
-  - `input`: stores either `null` or strings, but only strings after the while
-    loop is finished. it is initialized to `null`, assigned in the while loop,
-    read in control flow checks and read to create a message.
+  - `input`: stores either `null` or strings, but only strings after the while loop is finished. it is initialized to `null`, assigned in the while loop, read in control flow checks and read to create a message.
 - **Data Input**: same as [program 1](#1)
 - **Control Flow Structures**: same as [program 1](#1)
   - `while`: repeats as long as the user's input is null
@@ -445,8 +407,7 @@ variable, and there are two separate `if` statements instead of one `if`/`else`.
     - in the while loop check to decide if the input is valid
     - in the second `if` check to decide if the input _is_ `"cat"`
   - `!==`: used in the conditional to check if the input _is not_ `"cat"`
-  - `+`: used to concatenate `input` into the final message if the input was not
-    `'cat'`
+  - `+`: used to concatenate `input` into the final message if the input was not `'cat'`
 
 <details>
 <summary>expand for the program</summary>
@@ -476,7 +437,7 @@ if (input !== 'cat') {
 
 ---
 
-## 🐥 Your Turn!
+## 🐥 Your Turn
 
 ---
 

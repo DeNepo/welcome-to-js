@@ -1,8 +1,6 @@
 # Variable Names
 
-The computer cannot understand what your variable names _mean_, to a computer
-`let asdf = 'hello';` is same as `let greeting = 'hello';` . Variable names are
-100% for developers to understand the code and 0% helpful for the computer.
+The computer cannot understand what your variable names _mean_, to a computer `let asdf = 'hello';` is same as `let greeting = 'hello';` . Variable names are 100% for developers to understand the code and 0% helpful for the computer.
 
 Computers just care how you _use_ the variables:
 
@@ -11,13 +9,9 @@ Computers just care how you _use_ the variables:
 - Where is it read?
 - Where is it assigned a new value?
 
-When the computer is interpreting your code it's these "patterns" that make one
-set of instructions different from another, not the variable names.
+When the computer is interpreting your code it's these "patterns" that make one set of instructions different from another, not the variable names.
 
-Consider these two programs, they both have different variable names but the
-same instructions. Commented above each line is how the computer will interpret
-your code (or close enough for now). Can you find anything different between the
-comments in each program?
+Consider these two programs, they both have different variable names but the same instructions. Commented above each line is how the computer will interpret your code (or close enough for now). Can you find anything different between the comments in each program?
 
 ---
 

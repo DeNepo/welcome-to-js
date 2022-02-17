@@ -1,17 +1,10 @@
 # User Interactions
 
-Logging is for developers, Interactions are for Users. JavaScript in the browser
-has 3 ways to do basic user interactions. They don't create the best user
-experience but they are practical for learning to program.
+Logging is for developers, Interactions are for Users. JavaScript in the browser has 3 ways to do basic user interactions. They don't create the best user experience but they are practical for learning to program.
 
-Learning to use these 3 functions will help you to understand primitive types
-and values. Each interaction is a _function_ (you'll learn more about functions
-in Debugging). Functions _return_ a value, meaning that you can use them to
-assign a value to a variable. But each interaction returns a _different_ type.
+Learning to use these 3 functions will help you to understand primitive types and values. Each interaction is a _function_ (you'll learn more about functions in Debugging). Functions _return_ a value, meaning that you can use them to assign a value to a variable. But each interaction returns a _different_ type.
 
-Adding interactions into your programs will make them more interesting to study.
-You can't know exactly what values a user will input, so your programs have to
-deal with some uncertainty!
+Adding interactions into your programs will make them more interesting to study. You can't know exactly what values a user will input, so your programs have to deal with some uncertainty!
 
 Trace this example and see each type of interaction in action:
 
@@ -99,20 +92,15 @@ console.log(typeof prompted); // 'string' or 'object'
 
 ## Tracing User Interactions
 
-Tracing code with user interactions is more challenging than tracing code with
-no interactions. In programs with user interactions it's impossible to know what
-values will be in your program until you run it!
+Tracing code with user interactions is more challenging than tracing code with no interactions. In programs with user interactions it's impossible to know what values will be in your program until you run it!
 
-This means you must think about all the different things a user could do. To
-fully understand an interactive program you will need to trace it many times,
-each time with different imagined values from the user.
+This means you must think about all the different things a user could do. To fully understand an interactive program you will need to trace it many times, each time with different imagined values from the user.
 
 ---
 
 ## A Small Program
 
-Here's a small program that uses `prompt`, `alert` and `confirm`. You'll learn
-how it all works in the coming chapters.
+Here's a small program that uses `prompt`, `alert` and `confirm`. You'll learn how it all works in the coming chapters.
 
 <details>
 <summary>check it out</summary>

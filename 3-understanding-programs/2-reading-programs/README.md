@@ -1,51 +1,35 @@
 # Reading Programs
 
-Learning to read code is learning to ask the right questions then finding your
-answers in the code. In this folder you will practice asking important questions
-about a new program, then exploring the code to find your answers. Depending on
-what you want to learn from the code you will need to ask and answer different
-questions.
+Learning to read code is learning to ask the right questions then finding your answers in the code. In this folder you will practice asking important questions about a new program, then exploring the code to find your answers. Depending on what you want to learn from the code you will need to ask and answer different questions.
 
-The code in this folder is a collection of fully working programs that use Just
-Enough JavaScript. Each file has block comments (`/_ -- ... -- _/
+The code in this folder is a collection of fully working programs that use Just Enough JavaScript. Each file has block comments (`/_-- ... --_/
 
-`) to help you find your way through the important steps of the program. Below
-are some tips to help you get started reading the programs:
+`) to help you find your way through the important steps of the program. Below are some tips to help you get started reading the programs:
 
-- [Zooming in, Zooming out](#zooming-in-zooming-out) is about asking the right
-  questions
+- [Zooming in, Zooming out](#zooming-in-zooming-out) is about asking the right questions
 - [Drawing on Code](#drawing-on-code) is about finding the answers
 
 ---
 
 ## Printing Code
 
-Code printed out on paper is a great study resource. If you'd like to save these
-programs as a PDF or print them out you can open them in the browser by opening
-them with `study-lenses` then using the `?print` lens, there is a guide in the
-main repo: `../printing-code.mp4`.
+Code printed out on paper is a great study resource. If you'd like to save these programs as a PDF or print them out you can open them in the browser by opening them with `study-lenses` then using the `?print` lens, there is a guide in the main repo: `../printing-code.mp4`.
 
-You can also draw on or print any of the JS programs in this repo after opening
-them with Study Lenses by replacing `?--defaults` with `?highlight`
+You can also draw on or print any of the JS programs in this repo after opening them with Study Lenses by replacing `?--defaults` with `?highlight`
 
 ---
 
 ## Code Reading Session
 
-Reading code is like a nice sunny day, best enjoyed with friends. Try following
-this code-reading [Session Agenda](./session-agenda.md) to give some structure
-to your study time.
+Reading code is like a nice sunny day, best enjoyed with friends. Try following this code-reading [Session Agenda](./session-agenda.md) to give some structure to your study time.
 
 ---
 
 ## Zooming in, Zooming out
 
-Reading code is a balance between understanding the big picture and all the tiny
-details. If you spend too much time on the big picture you'll miss the details.
-If you spend all your time on the details you'll miss the big picture.
+Reading code is a balance between understanding the big picture and all the tiny details. If you spend too much time on the big picture you'll miss the details. If you spend all your time on the details you'll miss the big picture.
 
-There is no magic rule to find this balance. It will depend on the program
-you're reading and your experience.
+There is no magic rule to find this balance. It will depend on the program you're reading and your experience.
 
 ### Big Picture
 
@@ -73,8 +57,7 @@ you're reading and your experience.
   - Which variables do they write to?
   - How are the user-provided values used in the program?
 - **Data Operations:**
-  - What is the main program data? (what goes in at the beginning, what comes
-    out at the end?)
+  - What is the main program data? (what goes in at the beginning, what comes out at the end?)
   - How is the data used in each line of code?
   - How is the data used in each goal?
   - What operations are used to transform the data?
@@ -89,30 +72,19 @@ you're reading and your experience.
 
 ## Drawing on Code
 
-There's more you can do with code than run it, you can also draw on it! Drawing
-on code as you read it will help to highlight important parts and to see the
-connections between different parts of the program. If you don't want to print
-out code to paper, you can always draw on a .js file in your browser by using
-the `?highlight` lens.
+There's more you can do with code than run it, you can also draw on it! Drawing on code as you read it will help to highlight important parts and to see the connections between different parts of the program. If you don't want to print out code to paper, you can always draw on a .js file in your browser by using the `?highlight` lens.
 
 ### Marking Things
 
-The lowest hanging fruit is just to mark parts of the program that come to your
-attention. With an underline, or an X, or little circle, or anything else that
-works for you.
+The lowest hanging fruit is just to mark parts of the program that come to your attention. With an underline, or an X, or little circle, or anything else that works for you.
 
-No need for deep meaning. Just leave a little something to help you remember
-which parts of the program you're thinking about.
+No need for deep meaning. Just leave a little something to help you remember which parts of the program you're thinking about.
 
 ### Reactions
 
-What are your reactions to different parts of the program? Does a line confuse
-you? Does another seem important? Maybe it seems important but you can't figure
-out why?
+What are your reactions to different parts of the program? Does a line confuse you? Does another seem important? Maybe it seems important but you can't figure out why?
 
-Reactions can be words, sentences or just a mark with special meaning. Maybe an
-`!` when something seems important, a `?` when you're not sure, or a `:)` can
-also work. The sky's the limit.
+Reactions can be words, sentences or just a mark with special meaning. Maybe an `!` when something seems important, a `?` when you're not sure, or a `:)` can also work. The sky's the limit.
 
 ### Color-Coding
 
@@ -126,8 +98,7 @@ One approach is to color-code by syntax, for example:
 - **green**: functions
 - **orange**: control flow
 
-Another approach might be to use different colors to visually link lines that
-have a similar role in the program, for example:
+Another approach might be to use different colors to visually link lines that have a similar role in the program, for example:
 
 - **blue**: code that is involved in reading user input
 - **green**: code that is involved in displaying info to the user
@@ -137,15 +108,10 @@ What else can you think of?
 
 ### Lines Between Things
 
-Very often lines in a program that are related are not close together on the
-page. It can be helpful to connect these pieces of code with a line to see
-connections across the file.
+Very often lines in a program that are related are not close together on the page. It can be helpful to connect these pieces of code with a line to see connections across the file.
 
 ### Grouping Things
 
-You can use circles/squares/blobs to group lines of code that are close together
-and complete an important step in the program.
+You can use circles/squares/blobs to group lines of code that are close together and complete an important step in the program.
 
-The programs in this folder already have steps indicated by comments, but maybe
-you'd like to even break the steps into smaller steps. Or maybe you don't agree
-with the steps that are laid out by the comments!
+The programs in this folder already have steps indicated by comments, but maybe you'd like to even break the steps into smaller steps. Or maybe you don't agree with the steps that are laid out by the comments!

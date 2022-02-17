@@ -1,8 +1,6 @@
 # Block Scope
 
-Curly braces create a new _block scope_. There are lots of great explanations of
-block scope out there, but let's see if you can come up with your own after
-studying these examples.
+Curly braces create a new _block scope_. There are lots of great explanations of block scope out there, but let's see if you can come up with your own after studying these examples.
 
 ```js
 'use strict';
@@ -73,8 +71,7 @@ console.log(favoriteTree); // 'palm'
 
 ## Block Scope Errors
 
-Scopes are useful for making your programs easy to read, understand and debug,
-but now you can make some mistakes that weren't possible before:
+Scopes are useful for making your programs easy to read, understand and debug, but now you can make some mistakes that weren't possible before:
 
 <details>
 <summary>🥚 declaring in a scope, using out of scope</summary>
@@ -97,9 +94,7 @@ console.log(innerVariable); // ReferenceError
 
 ## Nested Scopes
 
-You can create scopes inside of scopes. This is common in control flow, for
-example when you nest conditionals inside loops (more on this in the coming
-chapters).
+You can create scopes inside of scopes. This is common in control flow, for example when you nest conditionals inside loops (more on this in the coming chapters).
 
 <details>
 <summary>🥚 nested scopes</summary>
@@ -131,10 +126,6 @@ console.log(outer); // '-a-b-c-'
 
 ## Tracing Blocks
 
-When you trace code with block scopes you need to pay extra attention to when a
-scope begins and when a scope ends.
+When you trace code with block scopes you need to pay extra attention to when a scope begins and when a scope ends.
 
-The _steps_ trace table has an option for "enter scope" and "leave scope", you
-can use these without a name to to show that when a new scope has opened or
-closed. Any variable that was declared inside the block is _scoped_ to that
-block.
+The _steps_ trace table has an option for "enter scope" and "leave scope", you can use these without a name to to show that when a new scope has opened or closed. Any variable that was declared inside the block is _scoped_ to that block.

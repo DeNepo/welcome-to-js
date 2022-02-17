@@ -1,12 +1,8 @@
 # Developer Experience
 
-These programs all have the same instructions for the computer (have the same
-traces), produce the exact same same user experience, but have very different
-developer experiences.
+These programs all have the same instructions for the computer (have the same traces), produce the exact same same user experience, but have very different developer experiences.
 
-Read and study each program to see how the developer's experience is different.
-Which do you find easiest to understand? there is no right answer! Only your
-opinion, and your opinion will change as you learn more and gain experience.
+Read and study each program to see how the developer's experience is different. Which do you find easiest to understand? there is no right answer! Only your opinion, and your opinion will change as you learn more and gain experience.
 
 ---
 
@@ -375,8 +371,7 @@ alert(y);
 
 ## 8
 
-- **Formatting**: Automated formatting by Prettier. Control flow without curly
-  braces (this is allowed if your block has only one statement!).
+- **Formatting**: Automated formatting by Prettier. Control flow without curly braces (this is allowed if your block has only one statement!).
 - **Variable Names**: Descriptive.
 - **Comments**: Main goals.
 - **Logs**: None.
@@ -645,10 +640,7 @@ y
 - **Comments**: None.
 - **Logs**: None.
 
-This style of code is used for live applications. Developers will write their
-code using helpful names, comments and formatting. Then an automated tool will
-shrink their code to the fewest possible characters so it's uses less data when
-someone visits the website.
+This style of code is used for live applications. Developers will write their code using helpful names, comments and formatting. Then an automated tool will shrink their code to the fewest possible characters so it's uses less data when someone visits the website.
 
 <!-- prettier-ignore -->
 ```js

@@ -2,8 +2,7 @@
 
 # Impossible Output
 
-Which value is it impossible for this program to alert? There may be more than 1
-correct answer!
+Which value is it impossible for this program to alert? There may be more than 1 correct answer!
 
 ```js
 'use strict';
@@ -63,9 +62,7 @@ Look carefully at the interaction on line 6, what values can it return?
 
 Look carefully at the interaction on line 6, what values can it return?
 
-Line 6 uses `confirm` which can only return `true` or `false`. Usually programs
-you've seen with this pattern will use `prompt`, so it's easy to overlook this
-detail. But programming is all about details!
+Line 6 uses `confirm` which can only return `true` or `false`. Usually programs you've seen with this pattern will use `prompt`, so it's easy to overlook this detail. But programming is all about details!
 
 </details>
 

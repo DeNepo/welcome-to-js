@@ -10,8 +10,7 @@ How do you show `"hello"` to the user without asking for any input?
 
 ✖ Nope.
 
-In JavaScript, the arguments to a function must be surrounded by parenthesis
-`( )`
+In JavaScript, the arguments to a function must be surrounded by parenthesis `( )`
 
 </details>
 
@@ -24,8 +23,7 @@ In JavaScript, the arguments to a function must be surrounded by parenthesis
 
 ✖ Nope.
 
-In JavaScript, the arguments to a function must be surrounded by parenthesis
-`( )`
+In JavaScript, the arguments to a function must be surrounded by parenthesis `( )`
 
 </details>
 
@@ -48,8 +46,7 @@ In JavaScript, the arguments to a function must be surrounded by parenthesis
 
 ✔ Correct!
 
-The extra space doesn't matter! The computer will still be able to parse your
-code.
+The extra space doesn't matter! The computer will still be able to parse your code.
 
 </details>
 

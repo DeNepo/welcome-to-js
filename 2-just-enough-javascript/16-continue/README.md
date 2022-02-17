@@ -1,12 +1,8 @@
 # 🐣 `continue`
 
-`continue` is a JavaScript key words that you can use in your loops for _control
-flow_. When it is executed your program will skip the rest of the loop body and
-go back to check the condition.
+`continue` is a JavaScript key words that you can use in your loops for _control flow_. When it is executed your program will skip the rest of the loop body and go back to check the condition.
 
-You do not really _need_ `continue`, any code you write with `continue` you
-could also write with an `if`/`else` and a _boolean flag variable_. But
-sometimes using `continue` can make your code less dense and easier to read.
+You do not really _need_ `continue`, any code you write with `continue` you could also write with an `if`/`else` and a _boolean flag variable_. But sometimes using `continue` can make your code less dense and easier to read.
 
 ---
 
@@ -75,8 +71,7 @@ alert(input + '!');
 
 ## For-Of Loops
 
-You can also use `continue` with `for-of` loops, but it doesn't always make code
-easier to understand!
+You can also use `continue` with `for-of` loops, but it doesn't always make code easier to understand!
 
 ```js
 'use strict';

@@ -26,8 +26,7 @@ console.log(animal); // line 9
 
 ✖ Nope.
 
-There is only one variable declared in this program, so no risk of declaring the
-same one twice.
+There is only one variable declared in this program, so no risk of declaring the same one twice.
 
 </details>
 <details>
@@ -36,11 +35,9 @@ same one twice.
 
 ✔ Correct!
 
-The `animal` variable is declared in the _inner scope_ (line 4), it is not
-available _outside_ of this scope.
+The `animal` variable is declared in the _inner scope_ (line 4), it is not available _outside_ of this scope.
 
-Trying to assign the variable on line 8 will cause a `ReferenceError` because
-the variable was only declared _inside_ the scope.
+Trying to assign the variable on line 8 will cause a `ReferenceError` because the variable was only declared _inside_ the scope.
 
 </details>
 <details>
@@ -65,8 +62,7 @@ Not so easy ;) There is an error in this program.
 
 ✖ Nope.
 
-There is nothing wrong with this line, it's ok to declare a new variable inside
-a block scope.
+There is nothing wrong with this line, it's ok to declare a new variable inside a block scope.
 
 </details>
 <details>
@@ -75,8 +71,7 @@ a block scope.
 
 ✖ Nope.
 
-There is nothing wrong here, it's ok to read a variable that was declared in the
-same scope.
+There is nothing wrong here, it's ok to read a variable that was declared in the same scope.
 
 </details>
 <details>
@@ -85,12 +80,9 @@ same scope.
 
 ✔ Correct!
 
-8 will throw a `ReferenceError` when it tries to assign a new value to `animal`
-because the variable has never been declared in the _outer scope_.
+8 will throw a `ReferenceError` when it tries to assign a new value to `animal` because the variable has never been declared in the _outer scope_.
 
-`animal` is available in the _inner scope_ because that is where it was
-declared, but variables declared in an inner scope are not available in an
-_outer scope_.
+`animal` is available in the _inner scope_ because that is where it was declared, but variables declared in an inner scope are not available in an _outer scope_.
 
 </details>
 <details>
@@ -99,8 +91,7 @@ _outer scope_.
 
 ✖ Nope.
 
-This line will never be executed! The error occurred on line 8 so the program
-stops on line 8.
+This line will never be executed! The error occurred on line 8 so the program stops on line 8.
 
 </details>
 
@@ -118,11 +109,9 @@ stops on line 8.
 
 ✔ Correct!
 
-On line 5 `"dog"` will be logged to the console, and on line 8 there will be a
-`ReferenceError`.
+On line 5 `"dog"` will be logged to the console, and on line 8 there will be a `ReferenceError`.
 
-The second log (line 9) will never be executed because the error happens earlier
-in the program.
+The second log (line 9) will never be executed because the error happens earlier in the program.
 
 </details>
 <details>
@@ -131,8 +120,7 @@ in the program.
 
 ✖ Nope.
 
-This program will never log `"cat"`. The variable `animal` was initialized to
-`"dog"` and it's block scope is closed without assigning a different value.
+This program will never log `"cat"`. The variable `animal` was initialized to `"dog"` and it's block scope is closed without assigning a different value.
 
 </details>
 <details>
