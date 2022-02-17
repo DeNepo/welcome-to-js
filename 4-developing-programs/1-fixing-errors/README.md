@@ -13,22 +13,15 @@ Learning to recognize the difference between your source code (simply a text fil
 ## 4 Principles
 
 1. **JavaScript Syntax**
-
    - You can think of this like spelling, grammar & vocabulary. If you open parenthesis, you must close them or the JS parser will not understand what you wrote. If you use a symbol that JS doesn't support it will throw an error. If you write anything that JS does not understand or write code that JS does not allow, you will get a syntax error.
    - Learning JS syntax means building your understanding of what is and isn't allowed, then recognizing & fixing mistakes you make. This is just a lot of memorization and attention to detail. Fortunately most modern code editors have a lot of features to help you with this.
-
 2. **JavaScript Semantics**
-
    - Just because your code has correct syntax doesn't mean everything is ok! It is still possible for you to use correct syntax in incorrect ways. The rules that define correct and incorrect usage are JS semantics.
    - You can think of it like normal language. You may be using english words that are spelled correctly, but that doesn't mean your grammar is correct! "Red dog woods running"
-
 3. **Creation Phase** & **Execution Phase**
-
    - _Creation phase_ is what happens before the program runs. JS will interpret your code and prepare the program memory. Some types of error occur during creation phase.
    - _Execution Phase_ is everything that happens after the creation phase. This is when JS executes your program one instruction at a time. Different errors can occur in execution phase than in creation phase.
-
 4. **Errors**
-
    - **creation phase errors**: Bad "spelling" or bad "grammar". Your program can either not be understood by the JS parser, or made a mistake that the parser was able to find without running your code. Your program will not continue to the execution phase.
    - **execution phase errors**: Commonly called "runtime errors". You made no syntax errors and no semantic errors the parser could catch, so your program entered execution phase. But somewhere in your program you instructed JavaScript to do something that is not possible, maybe trying to use a variable that wasn't declared.
 
