@@ -17,7 +17,10 @@ helps you most:
   the variables and how they are used in the code.
 - **JS Tutor**: This website visualizes how program memory works. You can step
   forwards and backwards through the program one statement at a time, seeing how
-  each instruction interacts with memory.
+  each instruction interacts with memory. Studying in this site has two separate
+  steps, just like with a real JS program:
+  1. Write code in the editor
+  2. Run the code and step tep through it in the visualization page
 - **The "trace" button**: When you click this button it will run your code and
   log every step of execution to the console. Compared to JS Tutor the "trace"
   button will step through your program in more detail (logging every operator),
@@ -26,6 +29,11 @@ helps you most:
   writing down each time a variable is used so you can understand the program's
   dynamic behavior. You can check your trace tables by comparing them to the
   console output from the "trace" button.
+- **Learn With Trace**: Like JS Tutor, but with different visualizations.
+- **JS Tutor Live**: This is like JS Tutor, but with only one page. You edit the
+  code and step through it on the same page. As you change the code the
+  visualization will update in real time. This is helpful for quicker studying
+  but is not how a real JS program works.
 - **The `?highlight` lens**: This allows you to draw on the code, tracing the
   program's execution with different colors. This technique works very well for
   group study. (programs in this folder will open with `?highlight` by default)
