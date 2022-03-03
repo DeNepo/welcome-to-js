@@ -1,5 +1,5 @@
 {
-  "--defaults": {
-    "directory": "stepped"
+  "study": {
+    "stepped": ".js"
   }
 }

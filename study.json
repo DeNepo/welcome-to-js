@@ -44,8 +44,5 @@
     "table": true,
     "trace": true,
     "run": true
-  },
-  "stepped": {
-    "eslint": true
   }
 }
