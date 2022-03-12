@@ -9,7 +9,8 @@
     "openIn": "jsTutor",
     "ask": {
       "operators": false,
-      "controlFlow": false
+      "controlFlow": false,
+      "levels": [1, 2, 3]
     },
     "loopGuard": false
   },
