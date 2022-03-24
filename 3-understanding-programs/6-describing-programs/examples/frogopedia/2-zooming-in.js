@@ -1,5 +1,7 @@
 // #todo
 
+"use strict";
+
 /* 2. Zooming In
 
   Understanding what each line of code does and how it works, without taking a
@@ -17,7 +19,7 @@
 
   anything else?  up to you! These notes are to help you understand
 
-'use strict';
+  */
 
 /* Frogopedia (program behavior)
 
@@ -39,7 +41,7 @@
  */
 
 // declare, init: empty string (implementation)
-let userInput = '';
+let userInput = "";
 
 // declare, init: false
 let inputIsAboutFrogs = false;
@@ -48,18 +50,18 @@ let inputIsAboutFrogs = false;
 while (!inputIsAboutFrogs) {
   // call prompt: ask for something about frogs
   // write: the value returned from the prompt
-  userInput = prompt('tell me something about frogs');
+  userInput = prompt("tell me something about frogs");
 
   // check: check if `userInput` is an empty string or null
-  if (userInput === '' || userInput === null) {
+  if (userInput === "" || userInput === null) {
     // call alert: the cancel message
-    alert('that is not something');
+    alert("that is not something");
     // continue: to the beginning of the I/O loop
     continue;
   }
 
   // check: check if "frog" (case insensitive) exists in the `userInput`
-  if (userInput.toLowerCase().includes('frog')) {
+  if (userInput.toLowerCase().includes("frog")) {
     // write: inputIsAboutFrogs to true
     inputIsAboutFrogs = true;
     // continue: to the beginning of the I/O loop
@@ -67,7 +69,7 @@ while (!inputIsAboutFrogs) {
   }
 
   // call alert: the invalid input message
-  alert('nope, not about frogs.  try again.');
+  alert("nope, not about frogs.  try again.");
 }
 
 // call alert: the success message

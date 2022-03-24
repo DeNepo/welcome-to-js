@@ -65,9 +65,9 @@ your study time and to measure your progress:
 What is a program? What is a programming language? How do programs and people
 fit together?
 
-- 🥚 **Data in, Data Out**: You understand that computer programs are used to
-  transform data, and can explain a JS program from this module in terms of the
-  data that goes in and the data that comes out.
+- [ ] 🥚 **Data in, Data Out**: You understand that computer programs are used
+      to transform data, and can explain a JS program from this module in terms
+      of the data that goes in and the data that comes out.
 - 🥚 **Three Audiences**: You can explain how a single file of code is used to
   communicate with 3 different audiences:
   - [ ] **Developers**: You can explain how code formatting, comments, logs and
@@ -208,19 +208,19 @@ collaboratively on a code base.
 - [ ] 🐥 **Writing Programs**: Given a description of a program's behavior
       (_user story + test cases_), you can plan goals for the program and write
       code to pass the tests.
-- [ ] 🐥 **Reverse Engineering**: Given a working program with unreadable code,
-      you can:
-  - Give the program a name.
-  - Describe the program's behavior with a user story, acceptance criteria and
-    test cases.
-  - Plan goals for the program.
-  - Develop your own working program with the exact same behvior.
-- [ ] 🐔 **Imagining Programs**: Given an empty page, you can imagine and
-      develop your own programs using Just Enough JavaScript. This includes:
-  - A title.
-  - A description with a user story, acceptance criteria and test cases.
-  - Commented goals.
-  - Fully working Code.
+- 🐥 **Reverse Engineering**: Given a working program with unreadable code, you
+  can:
+  - [ ] Give the program a name.
+  - [ ] Describe the program's behavior with a user story, acceptance criteria
+        and test cases.
+  - [ ] Plan goals for the program.
+  - [ ] Develop your own working program with the exact same behvior.
+- 🐔 **Imagining Programs**: Given an empty page, you can imagine and develop
+  your own programs using Just Enough JavaScript. This includes:
+  - [ ] A title.
+  - [ ] A description with a user story, acceptance criteria and test cases.
+  - [ ] Commented goals.
+  - [ ] Fully working Code.
 
 ---
 

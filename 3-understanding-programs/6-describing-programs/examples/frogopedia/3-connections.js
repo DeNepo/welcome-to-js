@@ -1,5 +1,7 @@
 // #todo
 
+"use strict";
+
 /* 3. Connections
 
   Start finding connections between different lines of code across the program.
@@ -8,7 +10,7 @@
   - How is each variable used?
   - ... what other connections do you notice between lines?
 
-'use strict';
+*/
 
 /* Frogopedia (program behavior)
 
@@ -33,7 +35,7 @@
 //   (strategy)
 //   this is used to capture user input from the prompt
 //   once the input is valid, this variable is used by the final alert
-let userInput = '';
+let userInput = "";
 
 // declare, init: false
 //   a boolean flag variable used to determine when the I/O loop is finished
@@ -48,14 +50,14 @@ while (!inputIsAboutFrogs) {
   //   ask the user to input something about frogs
   //   this input will be validated
   //   when it's valid, the loop will end and it will be used in the final alert
-  userInput = prompt('tell me something about frogs');
+  userInput = prompt("tell me something about frogs");
 
   // check: check if `userInput` is an empty string or null
   //   if the user input nothing, it can't be about frogs
-  if (userInput === '' || userInput === null) {
+  if (userInput === "" || userInput === null) {
     // call alert: the cancel message
     //   let the user know their input was empty, fix it!
-    alert('that is not something');
+    alert("that is not something");
     // continue: to the beginning of the I/O loop
     //   skip the rest of this loop
     //   there's no point checking nothing to see if it's about frogs
@@ -65,7 +67,7 @@ while (!inputIsAboutFrogs) {
 
   // check: check if "frog" (case insensitive) exists in the `userInput`
   //   if the user's input includes "frog", then it's valid!
-  if (userInput.toLowerCase().includes('frog')) {
+  if (userInput.toLowerCase().includes("frog")) {
     // write: inputIsAboutFrogs to true
     //   this variable is our boolean flag
     //   setting it to true will end the while loop
@@ -79,7 +81,7 @@ while (!inputIsAboutFrogs) {
   // call alert: the invalid input message
   //   if we make it here, then the input was not about frogs
   //   so let the user know, then continue prompting them for new input
-  alert('nope, not about frogs.  try again.');
+  alert("nope, not about frogs.  try again.");
 }
 
 // call alert: the success message

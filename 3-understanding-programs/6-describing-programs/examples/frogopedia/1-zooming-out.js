@@ -1,5 +1,7 @@
 // #todo
 
+"use strict";
+
 /* 1. Zooming Out
 
   Understanding what the entire program does just by running, without looking at
@@ -14,7 +16,7 @@
   - what is the user's journey? how many different paths can it take?
   - ... what else can you say about the program?
 
-'use strict';
+*/
 
 /* Frogopedia (program behavior)
 
@@ -35,23 +37,23 @@
       -> 'i just learned something cool about frogs!\n\n- "green frogs do not exist."'
  */
 
-let userInput = '';
+let userInput = "";
 
 let inputIsAboutFrogs = false;
 while (!inputIsAboutFrogs) {
-  userInput = prompt('tell me something about frogs');
+  userInput = prompt("tell me something about frogs");
 
-  if (userInput === '' || userInput === null) {
-    alert('that is not something');
+  if (userInput === "" || userInput === null) {
+    alert("that is not something");
     continue;
   }
 
-  if (userInput.toLowerCase().includes('frog')) {
+  if (userInput.toLowerCase().includes("frog")) {
     inputIsAboutFrogs = true;
     continue;
   }
 
-  alert('nope, not about frogs.  try again.');
+  alert("nope, not about frogs.  try again.");
 }
 
 alert('i just learned something cool about frogs!\n\n- "' + userInput + '"');
