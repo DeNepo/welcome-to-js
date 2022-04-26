@@ -21,18 +21,11 @@
     "eslint": true
   },
   "highlight": {
-    "run": true,
-    "flowchart": true,
-    "variables": true,
-    "ask": {
-      "functions": false
-    },
-    "table": true,
-    "trace": true,
+    "--use": "study",
     "random": true
   },
   "variables": {
-    "trace": true,
+    "--use": "study",
     "ask": {
       "functions": false,
       "controlFlow": false,
@@ -40,9 +33,6 @@
     }
   },
   "parsons": {
-    "study": true,
-    "table": true,
-    "trace": true,
-    "run": true
+    "--use": "study"
   }
 }

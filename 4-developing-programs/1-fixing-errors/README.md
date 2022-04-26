@@ -116,6 +116,7 @@ thinking. These exercises only cover Errors.
 
 ## Resources
 
+- [Describing Errors (class recording)](https://vimeo.com/530238051)
 - [creation phase & execution phase](https://www.youtube.com/watch?v=YID-HIdy1bk)
 - [syntax vs semantics](https://www.youtube.com/watch?v=vP-mn62EF0o)
 - [Syntax Parsers, Execution Contexts, and Lexical Environments](https://jsbeginners.com/understanding-the-weird-parts-notes-1/)

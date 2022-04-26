@@ -1,14 +1,13 @@
 {
   "study": {
-    "run": true,
-    "flowchart": false,
-    "trace": true,
-    "variables": false,
+    "trace": false,
     "loopGuard": false,
     "ask": false,
     "table": false,
+    "blanks": false,
     "writeme": false,
-    "trace": false,
-    "blanks": false
+    "pseudo": false,
+    "eslint": false,
+    "parsons": false
   }
 }

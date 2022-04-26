@@ -1,0 +1,30 @@
+{
+  "study": {
+    "loopGuard": false,
+    "eslint": false,
+    "openIn": "jsTutor",
+    "save": true
+  },
+  "highlight": {
+    "--use": "",
+    "run": false,
+    "flowchart": false,
+    "variables": false,
+    "ask": false,
+    "table": false,
+    "trace": false,
+    "random": false
+  },
+  "variables": {
+    "--use": "",
+    "trace": false,
+    "ask": false
+  },
+  "parsons": {
+    "--use": "",
+    "study": false,
+    "table": false,
+    "trace": false,
+    "run": false
+  }
+}

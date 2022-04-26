@@ -2,8 +2,6 @@
 
 /* Flip Five
 
-
-
   Data In:
 
 
@@ -12,15 +10,14 @@
 
   Test Cases:
 
+
 */
 
 /* --- gather user input --- */
 
 let input = null;
 while (true) {
-  input = prompt(
-    'enter something longer than 5 characters and it will be reversed.',
-  );
+  input = prompt('enter something with 5 characters and it will be reversed.');
   console.log(input);
 
   /* --- check that the user input is 5 characters long --- */

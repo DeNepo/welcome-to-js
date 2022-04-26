@@ -116,10 +116,10 @@ variable, one _generic_ name and one _specific_ name:
 
   ```js
   /* generic
-  
+
     _a -> input:
       it holds a string of user input to be processed in the program
-  
+
   */
 
   let input = null;
@@ -135,10 +135,10 @@ variable, one _generic_ name and one _specific_ name:
 
   ```js
   /* specific
-  
+
     _a -> userName:
       this variable stores the user's name as a string
-  
+
   */
 
   let userName = null;
@@ -190,6 +190,20 @@ To learn more about roles of variables check out these links:
 - [counter vs. accumulator](https://stackoverflow.com/questions/12983063/what-is-the-difference-between-a-counter-and-an-accumulator)
 
 [TOP](#naming-variables)
+
+---
+
+## Designing Better Names
+
+Design is a process, finding the right design for anything (a web page, a
+bridge, a variable name) takes iteration. The exercises in this folder pretend
+that naming variables is a one-step task to help you understand some of the
+principles behind a good name. But in the real world nothing is so simple!
+
+Check out this series of articles for an idea of what it's like to name
+variables in larger programs:
+
+- [Naming as a Process](https://www.digdeeproots.com/articles/on/naming-process/)
 
 ---
 

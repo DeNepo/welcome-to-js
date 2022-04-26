@@ -2,8 +2,6 @@
 
 /* Remove Spaces
 
-
-
   Data In:
 
 
@@ -11,6 +9,7 @@
 
 
   Test Cases:
+
 
 */
 

@@ -203,12 +203,12 @@ collaboratively on a code base.
       a bug in small programs.
 - [ ] 🐣 **Modifying Programs**: You can make small changes in a program to
       change it's behavior without breaking it.
-- [ ] 🐣 **Refactoring**: Given a working program, you can make changes to the
+- [ ] 🐥 **Refactoring**: Given a working program, you can make changes to the
       code without changing the program's behavior.
 - [ ] 🐥 **Writing Programs**: Given a description of a program's behavior
       (_user story + test cases_), you can plan goals for the program and write
       code to pass the tests.
-- 🐥 **Reverse Engineering**: Given a working program with unreadable code, you
+- 🐔 **Reverse Engineering**: Given a working program with unreadable code, you
   can:
   - [ ] Give the program a name.
   - [ ] Describe the program's behavior with a user story, acceptance criteria

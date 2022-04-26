@@ -98,6 +98,33 @@ curious.
   - [pdf-maker](https://github.com/CodeReadingClubs/pdf-maker) - convert code
     from GitHub into a PDF for reading
 
+## Debugging Tools
+
+- [Errors & Debugging](https://education.launchcode.org/intro-to-professional-web-dev/chapters/errors-and-debugging/index.html)
+- [Developer Console](https://javascript.info/devtools)
+- [Debugging in Chrome](https://javascript.info/debugging-chrome)
+  - [definitive: 2021](https://dev.to/atapas/the-definitive-guide-to-javascript-debugging-2021-edition-116n)
+  - [breakpoints](https://developers.google.com/web/tools/chrome-devtools/javascript/reference)
+- [Debugging in FireFox](https://developer.mozilla.org/en-US/docs/Tools/Debugger)
+- [Replay Browser](https://replay.io/): A browser specially designed for
+  collaborative debugging.
+- [pythontutor.com](http://pythontutor.com/) ->
+  [JS Tutor](http://pythontutor.com/javascript.html)
+
+## Linting
+
+- [Code Style](https://javascript.info/coding-style)
+- what is linting? [Envato tuts+](https://www.youtube.com/watch?v=rrzC1RbMLiQ),
+  [ictshore](https://www.ictshore.com/javascript/what-is-javascript-linting/),
+  [(static analysis?)](https://deepsource.io/blog/static-analysis-javascript/)
+- Why is linting important?
+  [freecodecamp](https://www.freecodecamp.org/news/what-is-linting-and-how-can-it-save-you-time/),
+  [ibuildmvps](https://ibuildmvps.com/blog/the-importance-of-linting/),
+  [quora](https://www.quora.com/What-is-the-purpose-of-a-code-style-linting-tool?share=1)
+- [ESLint sandbox](https://eslint.org/demo/)
+- [ESLint rules](https://eslint.org/docs/rules/)
+- [Linting rules for JSDocs](https://github.com/Extersky/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules)
+
 ---
 
 ## Class Recordings
