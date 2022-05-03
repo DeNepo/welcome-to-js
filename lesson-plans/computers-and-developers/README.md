@@ -10,7 +10,9 @@ Explore how Computers and Developers read the same code in different ways.
   - _What is Programming?_
   - _What is JavaScript?_
 - Play [compute-it](http://compute-it.toxicode.fr/) through level 15
-- Install (and/or update) Study Lenses
+- Install (and/or update)
+  [Study Lenses](https://github.com/hackyourfuturebelgium/welcome-to-js#setting-up) -
+  see the Setting Up section
 - Go through the [../../0-study-lenses](../../0-study-lenses/README.md?slides)
   guide so you're ready for class
 - Learn a little about variables:
