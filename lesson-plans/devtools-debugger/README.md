@@ -10,7 +10,7 @@ understand interactive JS programs.
 - from `javascript.info`: [DevTools](https://javascript.info/devtools),
   [Debugging Chrome](https://javascript.info/debugging-chrome)
 - Study
-  [/3-understanding-programs/1-predicting-execution](../../3-understanding-programs/1-predicting-execution/)
+  [/3-understanding-programs/1-predicting-execution](../../3-understanding-programs/1-predicting-execution/?--defaults)
   - `devtool-setup.mp4`
   - `guide.mp4`
   - the JS files

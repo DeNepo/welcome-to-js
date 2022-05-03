@@ -1,6 +1,7 @@
 {
   "study": {
     "flowchart": false,
-    "openIn": "jsTutor"
+    "openIn": "jsTutor",
+    "writeme": true
   }
 }

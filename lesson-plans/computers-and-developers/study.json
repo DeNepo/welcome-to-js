@@ -3,7 +3,8 @@
     "loopGuard": false,
     "eslint": false,
     "openIn": "jsTutor",
-    "save": true
+    "save": true,
+    "writeme": false
   },
   "highlight": {
     "--use": "",
