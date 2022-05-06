@@ -31,17 +31,17 @@ understand interactive JS programs.
   line when possible.
 - 🥚 **Hovering Previews**: You can preview the value of any expression or
   initialized variable in your program, including parts of a longer expression.
+- 🐣 **Error State**: You can inspect your program's _state_ (values in _Scope_)
+  when an error occurs, this includes the values of every active variable at the
+  moment the error occurred. (your Debugger must be configured to pause on
+  exceptions.)
 - 🐣 **Watch Expressions**: You can track the value of any expression at any
   step of execution using the _Watch_ panel.
-- 🐣 **Logpoints**: You can create helpful logpoints to print a trace of the
+- 🐥 **Logpoints**: You can create helpful logpoints to print a trace of the
   program's execution while you are stepping through in the Debugger.
 - 🐥 **Conditional Breakpoints**: You can create conditional breakpoints in your
   code so the debugger pauses on a specific line _only_ if the condition is
   true.
-- 🐥 **Error State**: You can inspect your program's _state_ (values in _Scope_)
-  when an error occurs, this includes the values of every active variable at the
-  moment the error occurred. (your Debugger must be configured to pause on
-  exceptions.)
 - 🐔 **`debugger` Statement**: You understand the difference between `debugger`
   and a breakpoint, and can write a `debugger` statement in your source code to
   pause the program before specific lines.

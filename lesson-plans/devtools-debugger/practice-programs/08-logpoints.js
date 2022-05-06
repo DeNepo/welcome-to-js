@@ -1,6 +1,6 @@
 'use strict';
 
-/* 🐣 Logpoints
+/* 🐥 Logpoints
 
   logpoints are like writing `console.log` in your code
     except they are defined in your Debugger, not the source code

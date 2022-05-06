@@ -1,6 +1,6 @@
 'use strict';
 
-/* 🐔 Error State
+/* 🐣 Error State
 
   it's very helpful to know the program's state when an error occurs
   your Debugger will show you this if it's set to pause on exceptions

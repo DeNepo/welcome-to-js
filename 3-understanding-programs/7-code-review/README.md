@@ -46,14 +46,14 @@ review in this chapter:
 - **Comments**:
   - _"Why" not "what"_: Do other comments describe _why_ a line of code is in
     the program, not _what_ code is written on that line?
-  - _QQuantity/Quality_: Overall, do the comments help to understand the program
+  - _Quantity/Quality_: Overall, do the comments help to understand the program
     without adding too much clutter?
 - **Linting**:
   - Are there any linting mistakes? If there are, list them and suggest how to
     fix each one.
 - **Variables**:
   - _Location_: Is each variable declared in the smallest scope possible, and as
-    close to it's first use as possible?
+    close to its first use as possible?
   - _Initial Values_: Does each variable have a helpful initial value? If a
     variable is uninitialized, is that the most helpful choice?
   - _Roles_: Does each variable's name help explain it's role in the program? If
