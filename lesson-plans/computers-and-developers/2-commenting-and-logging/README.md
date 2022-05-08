@@ -10,7 +10,7 @@ make the code more clear for other developers:
   while it is running.
 
 This set of examples and exercises are just a start, with experience you will
-find a ballance between too much and too little commenting & logging. There are
+find a balance between too much and too little commenting & logging. There are
 also exercises in this module to study these skills more deeply.
 
 ## Variable Names
