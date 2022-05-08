@@ -45,7 +45,7 @@ your study time and to measure your progress:
 
 - 🥚: Understanding this material is required, it covers the base skills you'll
   need for this module and the next. You do not need to finish all of them but
-  should feel comfortable that you could with enough time.
+  should feel comfortable that you could do them with enough time.
 - 🐣: You have started all of these exercises and feel you could complete them
   all if you just had more time. It may not be easy for you but with effort you
   can make it through.
@@ -138,7 +138,7 @@ works in small programs.
   - _Where is the variable declared?_
   - _What is the variable's scope?_
   - _Is the variable initialized with a value?_
-  - _How many times is it's value used \(read\) in the program?_
+  - _How many times is its value used \(read\) in the program?_
   - _How many times is the variable assigned a new value?_
   - _What types are assigned to this variable during the program's execution?_
 - [ ] 🥚 **Completing Programs**: You can successfully fill in blanks for a
@@ -202,7 +202,7 @@ collaboratively on a code base.
 - [ ] 🐣 **Fixing Bugs**: You can use the structured comment to describe and fix
       a bug in small programs.
 - [ ] 🐣 **Modifying Programs**: You can make small changes in a program to
-      change it's behavior without breaking it.
+      change its behavior without breaking it.
 - [ ] 🐥 **Refactoring**: Given a working program, you can make changes to the
       code without changing the program's behavior.
 - [ ] 🐥 **Writing Programs**: Given a description of a program's behavior
@@ -241,7 +241,7 @@ collaboratively on a code base.
 > [Edge](https://www.microsoft.com/edge),
 > [Chrome](https://www.google.com/chrome/)
 
-1. Install o update the `study-lenses` package globally
+1. Install or update the `study-lenses` package globally
    - `$ npm install -g study-lenses` (if you do not have it installed)
    - `$ npm update -g study-lenses` (if you already have it installed)
    - Didn't work? you may need to try:
@@ -265,7 +265,7 @@ collaboratively on a code base.
    - you can read the `study-lenses` user guide from your browser by navigating
      to `localhost:xxxx?--help`
 
-> If you have a windows computer and get this error:
+> If you have a Windows computer and get this error:
 >
 > - `... /study.ps1 cannot be loaded because running scripts ...`
 >
