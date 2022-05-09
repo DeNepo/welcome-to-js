@@ -22,13 +22,13 @@ with a variable:
 
 Here's a helpful diagram of the syntax for variables in JavaScript:
 
-[![variable: declare, initialize](../../../printables/variable-declare-initialize.jpg)](https://blog.jordanholt.dev/learn-javascript-variables/)
+[![variable: declare, initialize](../../../0-printables/variable-declare-initialize.jpg)](https://blog.jordanholt.dev/learn-javascript-variables/)
 
 ---
 
 A visual analogy for how variables work and a program it can describe:
 
-[![variable box](../../../printables/variable-box.png)](https://javascript.info/variables)
+[![variable box](../../../0-printables/variable-box.png)](https://javascript.info/variables)
 
 ```js
 'use strict';

@@ -371,7 +371,7 @@ first value that will be stored in your variable:
 <summary>example code</summary>
 <br>
 
-![variable diagram](../../printables/variable-declare-initialize.jpg)
+![variable diagram](../../0-printables/variable-declare-initialize.jpg)
 
 ```js
 'use strict';
