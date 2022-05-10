@@ -31,7 +31,7 @@ while (true) {
 
 /* --- create the final message --- */
 
-let message = '';
+let message = ' Yes, ' + input + ' is 5 characters long';
 for (let character of input) {
   message = character + message;
 }
