@@ -2,14 +2,16 @@
 
 /* Mirror
 
-  Data In:
+This program showa all input string as mirrors
 
+  Data In:
+any string
 
   Data Out:
-
+Mirrored text | input text
 
   Test Cases:
-
+ekuura | aruuke
 
 */
 

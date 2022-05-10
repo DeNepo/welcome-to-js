@@ -2,14 +2,16 @@
 
 /* Flip Five
 
+This program reverse text (input) if its only 5 characters long, and program cannot end with correct enter.
   Data In:
-
+Any string and numbers
 
   Data Out:
-
+Reversed text and numbers if its true
 
   Test Cases:
 
+akzan, Yes, nazka is 5 characters long
 
 */
 
