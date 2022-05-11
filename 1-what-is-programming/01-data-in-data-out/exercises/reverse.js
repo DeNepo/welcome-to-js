@@ -1,15 +1,17 @@
 'use strict';
 
 /* Reverse
-
+This progrma reverse input all data 
   Data In:
 
+all variables
 
   Data Out:
-
+reversed input
 
   Test Cases:
-
+na -> an
+nazgul -> lugzan
 
 */
 
