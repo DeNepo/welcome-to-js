@@ -2,14 +2,28 @@
 
 /* Remove Spaces
 
+This program takes for input text with spaces and after remove all spaces from text
+  
   Data In:
 
+all data
 
   Data Out:
 
+input without spaces
 
   Test Cases:
+Before: my name is
+After: mynameis
 
+Before: 123 456
+After: 123456
+
+Before: 12.6 12.7 78.9
+After: 12.612.778.9
+
+Beofre: Nazgul Maniiasova
+After: NazgulManiiasova
 
 */
 
