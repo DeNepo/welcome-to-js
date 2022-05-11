@@ -21,7 +21,7 @@ while (input === null) {
   console.log(input);
 }
 
-/* --- create new data with no strings --- */
+/* --- create new data with no spaces --- */
 
 let spaceless = '';
 for (let character of input) {
