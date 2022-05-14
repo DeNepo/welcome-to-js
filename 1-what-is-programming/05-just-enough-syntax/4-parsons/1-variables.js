@@ -21,5 +21,5 @@ console.log(full);
 
 Let first = 'Padma'; // distractor
 last = 'Patil'; // distractor
-let = last 'Patil';
+let = last 'Patil'; // distractor
 let full first + ' ' + last; // distractor
