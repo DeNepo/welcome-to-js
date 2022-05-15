@@ -13,25 +13,14 @@
 
 */
 
-let phrase = null;
-while (phrase === null) {
-  phrase = prompt(
-    'enter something with duplicated letters, they will be removed',
-  );
+let text = null;
+while (text === null) {
+  text = prompt('enter some text, each character will be doubled');
 }
 
-let previous = '';
-
-let noRepetitions = '';
-// pause here
-for (let next of phrase) {
-  // pause here
-  if (next !== previous) {
-    // pause here
-    noRepetitions = noRepetitions + next;
-  }
-  // pause here
-  previous = next;
+let doubled = '';
+for (let nextChar of text) {
+  doubled = doubled + nextChar + nextChar;
 }
 
-alert(noRepetitions);
+alert(doubled);

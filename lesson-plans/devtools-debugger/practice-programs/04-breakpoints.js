@@ -11,26 +11,20 @@
 
   practice setting breakpoints for:
     - each time the while loop checks is evaluated
-    - each time `character` is declared
-    - each time a character is checked for repeats
-    - each time noRepeats is assigned a new value
+    - each time `double` is reassigned
 
 */
 
-let phrase = null;
+let text = null;
 // here
-while (phrase === null) {
-  phrase = prompt('enter some text');
+while (text === null) {
+  text = prompt('enter some characters to double');
 }
 
-let noRepeats = '';
-// hint: only for `character`, not `phrase`!
-for (let character of phrase) {
-  // here: only for `if`, not `includes`
-  if (!noRepeats.includes(character)) {
-    // here
-    noRepeats = noRepeats + character;
-  }
+let doubled = '';
+for (let nextChar of text) {
+  // here
+  doubled = doubled + nextChar + nextChar;
 }
 
-alert('"' + phrase + ' -> "' + noRepeats + '"');
+alert(doubled);

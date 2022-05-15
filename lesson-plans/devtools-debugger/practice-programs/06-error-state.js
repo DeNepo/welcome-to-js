@@ -6,6 +6,8 @@
   your Debugger will show you this if it's set to pause on exceptions
 
   run this program with different inputs to find the error
+  - ok
+  - cancel
   when you find an error try finding what went wrong using:
   - the name of the error (under the skip & step buttons)
   - the highlighted source code
