@@ -26,7 +26,7 @@ while (phrase === null) {
 let noRepeats = '';
 // hint: only for `character`, not `phrase`!
 for (let character of phrase) {
-  // here: only for `includes`, not `if`!
+  // here: only for `if`, not `includes`
   if (!noRepeats.includes(character)) {
     // here
     noRepeats = noRepeats + character;
