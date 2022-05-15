@@ -19,7 +19,7 @@ while (input === null) {
     input = prompt('type nothing and click "enter"');
 
 
-    console.log(message);
+    console.log(input);
 
 
 }
