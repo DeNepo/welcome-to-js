@@ -1,1 +1,1 @@
-export const expectedLogs = [[1], [2], [1]];
+export const expectedLogs = [['a'], ['b'], ['c'], ['d']];
