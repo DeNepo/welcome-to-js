@@ -64,5 +64,6 @@
 No deliverables. Just lots of study time, alone and in groups. Here's some ideas
 for what to focus on after this lesson:
 
+- Continue studying your favorite online tutorials
 - Study `/4-developing-programs`
 - `/0-flashcards`: ~20 minutes every day (add more cards as you go!)

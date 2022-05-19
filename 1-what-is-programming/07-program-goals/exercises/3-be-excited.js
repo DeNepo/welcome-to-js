@@ -16,7 +16,7 @@
 
 */
 
-/* ---    --- */
+/* ---  ___  --- */
 
 let input = null;
 // WHILE: input === null
@@ -24,7 +24,7 @@ let input = null;
 // :END WHILE
 console.log(input);
 
-/* ---    --- */
+/* ---  ___  --- */
 
 let output = input;
 // IF: input[input.length - 1] !== '!'
@@ -32,6 +32,6 @@ let output = input;
 // :END IF
 console.log(output);
 
-/* ---    --- */
+/* ---  ___  --- */
 
 alert(output);

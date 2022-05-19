@@ -86,6 +86,7 @@ Programs</a>
 No deliverables. Just lots of study time, alone and in groups. Here's some ideas
 for what to focus on after this lesson:
 
+- Continue studying your favorite online tutorials
 - Finish studying `/2-just-enough-javascript` if you haven't yet
 - Study `/3-understanding-programs`
 - `/0-flashcards`: ~20 minutes every day (add more cards as you go!)

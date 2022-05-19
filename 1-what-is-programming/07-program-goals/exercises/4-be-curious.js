@@ -16,7 +16,7 @@
 
 */
 
-/* ---    --- */
+/* ---  ___  --- */
 
 // input <- null
 // WHILE: input === null
@@ -24,7 +24,7 @@
 // :END WHILE
 console.log(input);
 
-/* ---    --- */
+/* ---  ___  --- */
 
 // output <- input
 // IF: input[input.length - 1] !== '?'
@@ -32,6 +32,6 @@ console.log(input);
 // :END IF
 console.log(output);
 
-/* ---    --- */
+/* ---  ___  --- */
 
 alert(output);

@@ -14,7 +14,7 @@
 
 */
 
-/* ---    --- */
+/* ---  ___  --- */
 
 let input = null;
 // WHILE: input === null
@@ -25,7 +25,7 @@ while (input === null) {
 }
 console.log(input);
 
-/* ---    --- */
+/* ---  ___  --- */
 
 let message = '"' + input + '" ';
 // IF: input.includes('x')
@@ -35,6 +35,6 @@ let message = '"' + input + '" ';
 // :END IF
 console.log(message);
 
-/* ---    --- */
+/* ---  ___  --- */
 
 alert(message);

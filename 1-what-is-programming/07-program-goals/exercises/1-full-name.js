@@ -15,7 +15,7 @@
 
 */
 
-/* ---    --- */
+/* ---  ___  --- */
 
 let firstName = null;
 while (firstName === null) {
@@ -23,7 +23,7 @@ while (firstName === null) {
 }
 console.log('first name:', firstName);
 
-/* ---    --- */
+/* ---  ___  --- */
 
 let lastName = null;
 while (lastName === null) {
@@ -31,7 +31,7 @@ while (lastName === null) {
 }
 console.log('last name:', lastName);
 
-/* ---    --- */
+/* ---  ___  --- */
 
 // fullName <- firstName + ' ' + lastName
 //  don't forget to declare with `let`!

@@ -4,7 +4,8 @@
     "eslint": false,
     "openIn": "jsTutor",
     "save": true,
-    "writeme": false
+    "writeme": false,
+    "debug": false
   },
   "highlight": {
     "--use": "",

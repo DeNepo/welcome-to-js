@@ -1,8 +1,8 @@
 # Program Goals
 
 A "goal" an important step in a program, it can be a single line of code or many
-lines of code. What's important is that a goal achieves one important step
-between the program's initial input to it's final output.
+lines of code. What matters is that a goal achieves one important step between
+the program's initial input to it's final output.
 
 Learning to think of full programs as a series of smaller goals will help you to
 understand code. Later on this skill will help you plan, write and collaborate
@@ -12,6 +12,8 @@ In Welcome to JS many programs will have goals marked using a comment. When a
 program doesn't have goals a good exercise is trying to mark the goals yourself.
 
 Here's an example of how you can complete the exercises in this chapter:
+
+> **Don't forget to use the [format] button!**
 
 <table>
 
@@ -48,20 +50,21 @@ Here's an example of how you can complete the exercises in this chapter:
 
 */
 
-/* --- ?? --- */
+/* --- ___ --- */
 
-let input = null;
-while (input === null) {
-  input = prompt('enter something to make loud');
-}
+// input <- null
 
-/* --- ?? --- */
+// WHILE: input === null
+//   input <- prompt('enter something to make loud')
+// :END WHILE
 
-let loudInput = input.toUpperCase();
+/* --- ___ --- */
 
-/* --- ?? --- */
+// loudInput <- input.toUpperCase()
 
-alert(loudInput);
+/* --- ___ --- */
+
+// alert(loudInput)
 ```
 
 </td>
@@ -90,17 +93,24 @@ alert(loudInput);
 
 /* --- get a string from the user --- */
 
+// input <- null
 let input = null;
+
+// WHILE: input === null
 while (input === null) {
+  //   input <- prompt('enter something to make loud')
   input = prompt('enter something to make loud');
+  // :END WHILE
 }
 
 /* --- convert all the letters to uppercase --- */
 
+// loudInput <- input.toUpperCase()
 let loudInput = input.toUpperCase();
 
 /* --- display the loud string for the user --- */
 
+// alert(loudInput)
 alert(loudInput);
 ```
 
@@ -121,6 +131,7 @@ The exercises in this folder have two parts:
 1. **Complete the Code**: Each program will have some lines missing and some
    pseudo code describing what you should write. You need to write the line(s)
    to complete the programs.
+   - _[format] your code every time you make a change!_
 
 You can complete these exercises without understanding every line of code! Have
 fun.

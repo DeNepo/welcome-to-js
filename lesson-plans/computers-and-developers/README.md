@@ -96,6 +96,7 @@ for what to focus on:
 
 - 🥚 [compute-it](http://compute-it.toxicode.fr/) (all of it), 🐣
   [little-dot](http://little-dot.toxicode.fr/)
+- Continue studying your favorite online tutorials
 - Finish `/1-what-is-programming` and study as much as you can from
   `/2-just-enough-javascript`
 - `/0-flashcards`: ~20 minutes every day (add more cards as you go!)
