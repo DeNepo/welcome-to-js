@@ -2,7 +2,7 @@
 
 /* ===== CODE REVIEW =====
 
-  PROGRAM NAME: (and number if there was more than 1 solution)
+  PROGRAM NAME:
 
   BEHAVIOR:
     TITLE:
@@ -10,29 +10,16 @@
     USER STORY:
     TEST CASES:
 
-  GOALS:
-    NAMES:
-    PROGRESSION:
-    DATA:
+  CODE IS FORMATTED:
+
+  LABELED GOALS:
 
   COMMENTS:
-    "WHY" not "WHAT":
-    QUANTITY/QUALITY:
-
-  LINTING:
 
   VARIABLES:
-    LOCATION:
-    INITIAL VALUES:
-    ROLES:
-    DOMAIN:
-    QUANTITY/QUALITY:
 
   LOGS:
-    TRACE:
-    QUANTITY/QUALITY:
 
-  LOGIC:
-    OPERATIONS:
-    CONTROL FLOW:
+  THE LOGIC IS CLEAR:
+
 */
