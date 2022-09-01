@@ -33,6 +33,37 @@ Learn more about each type of exercise below:
 
 ---
 
+### 🥚 Marking Syntax
+
+A good way to internalize JS syntax is to practice marking it on a page.
+Printing code and marking on paper is a great way to go, but you can also do it
+in your browser with the `?highlight` lens.
+
+Here's a quick guide for how to mark each piece of syntax, you can find images
+of how to mark the code in the `/examples` folders:
+
+1. **Primitives**:A small arrow _under_ the primitive.
+1. **Identifiers**: A line _under_ the identifier.
+1. **Function Calls**: A line under the identifier and a half-box under the
+   arguments.
+1. **Operators**: A small arrow _above_ on the operator.
+1. **Keywords**: A line _over_ the keyword.
+1. **Blocks**: A half-box written in the block's indentation.
+1. **Checks**: A half-box written over the check.
+
+Familiarize yourself with the syntax of each new language feature by marking
+each part in a different color. Taking a few minutes to familiarize yourself
+with how JavaScript is written _before_ studying full programs will make the
+rest go a lot smoother.
+
+#### `// prettier-ignore`
+
+The marking exercises will have an extra block around the code and a comment
+written before the block. You can ignore that. It's there Prettier doesn't
+remove the extra spacing when it formats the code.
+
+---
+
 ### 🥚 Trace
 
 Practice _being the computer_, executing code line by line with your mind the
@@ -54,7 +85,7 @@ the way:
   Tutor, this website will show you what is happening in program memory with
   each step.
 - **debugger**: You can open any exercise in your browser's debugger using the
-  `[debug]` button. At first you may find the debugger overwheliming, but with
+  `[debug]` button. At first you may find the debugger overwhelming, but with
   some practice it may become your favorite way to study code.
 
 If you like to draw on code as you trace what's happening you can do that with
@@ -201,6 +232,23 @@ PseudoCode program, you will need to translate the program to JavaScript.
 
 These exercises will give you a chance to practice JS syntax, read PseudoCode
 and analyze the logic in small programs.
+
+Writing code is only a tiny part of programming. Understanding the problem and
+designing a solution is much more important!
+
+And JavaScript has a lot of syntax and can be slow to write, you just learned
+all that syntax and are probably wishing you never have to use it again.
+PseudoCode to the rescue!
+
+The purpose of PseudoCode is for developers to sketch and discuss ideas without
+worrying about the computer understanding their code. There are some conventions
+for how to write PseudoCode so other developers can understand you but it's
+flexible. As long as your colleagues understand you, that's all that counts.
+
+You don't need to spend a lot of time studying PseudoCode, the syntax isn't so
+hard and you'll pick it up as you use it. With Study Lenses you can also convert
+any JavaScript code into PseudoCode which gives you more than enough examples to
+learn from.
 
 <table>
 
@@ -736,3 +784,11 @@ console.log('--- end program ---');
 ```
 
 </details>
+
+---
+
+### 🐔 DOM I/O
+
+Small interactive web pages that use the DOM I/O library. Each exercise will
+have an _obfuscated_ solution so you can compare the output of your program to
+the expected output without being able to read the solution.

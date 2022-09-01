@@ -99,6 +99,11 @@ console.log(' /');
 // dividing numbers
 console.log(30 / 2); // 15
 console.log(12 * 3); // 4
+
+console.log(' %');
+// finding the remainder
+console.log(3 % 2); // 1
+console.log(3 % 3); // 0
 ```
 
 </details>
