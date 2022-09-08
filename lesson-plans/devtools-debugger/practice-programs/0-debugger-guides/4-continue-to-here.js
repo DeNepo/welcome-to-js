@@ -1,6 +1,6 @@
 'use strict';
 
-/* 🥚 Continue to Here
+/* 🐣 Continue to Here
 
   click the [debug] button to study this program in the debugger
 
@@ -18,14 +18,13 @@
 
 */
 
-let text = null;
-while (text === null) {
-  text = prompt('enter some characters to double');
+let didClickOk = confirm('please click "ok":');
+
+let message = '';
+if (didClickOk === true) {
+  message = 'thank you!';
+} else {
+  message = ':(';
 }
 
-let doubled = '';
-for (let nextChar of text) {
-  doubled = doubled + nextChar + nextChar; // continue to here
-}
-
-alert(doubled);
+alert(message);

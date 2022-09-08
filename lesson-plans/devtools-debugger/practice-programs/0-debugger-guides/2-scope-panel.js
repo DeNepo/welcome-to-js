@@ -16,14 +16,13 @@
 
 */
 
-let text = null;
-while (text === null) {
-  text = prompt('enter some text, each character will be doubled');
+let didClickOk = confirm('please click "ok":');
+
+let message = '';
+if (didClickOk === true) {
+  message = 'thank you!';
+} else {
+  message = ':(';
 }
 
-let doubled = '';
-for (let nextChar of text) {
-  doubled = doubled + nextChar + nextChar;
-}
-
-alert(doubled);
+alert(message);
