@@ -49,7 +49,9 @@ will be a mystery!
 
 - **All Together**:
   - Discuss the diagram with _source code_, _developers_ and _computer_
+  - Discuss where you can write & run JavaScript
   - Study the `tracing-variables` examples all together on a coach's screen
+    - Demonstrate different study techniques and lenses
 - **In Small Groups**:
   - Study examples 4 & 5 again with your classmates
   - Begin `tracing-variables/exercises`
