@@ -1,6 +1,6 @@
 'use strict';
 
-/* Two Variables
+/* Four Variables
 
   Can you predict what the [trace] button will log to the console?
     use the [table] button to write down your predictions
@@ -11,10 +11,20 @@
 
 // trace the program a few times with different values
 
-let x = 'Pieter';
-// let x = 'Blake';
-// let x = 'George';
+let a = 'Pieter';
+// let a = 'Blake';
+// let a = 'George';
 
-let y = 'hello ' + x;
+let b = 'Rabbit';
+// let b = 'Wozzeck';
+// let b = 'Schoenberg';
 
-y = 'good bye ' + x;
+let c = a + ' ' + b;
+
+let d = 'hello ' + c;
+
+console.log(d);
+
+d = 'good bye ' + c;
+
+console.log(d);

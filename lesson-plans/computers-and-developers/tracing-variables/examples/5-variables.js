@@ -17,10 +17,19 @@
 // INITIALIZE the value to "hello"
 let x = 'hello';
 
+// READ the value stored in `x`
+console.log(x);
+
 // ASSIGN a new value to `x`
 x = 'good bye';
 
-// READ the value of `x`
+// READ the value stored in `x`
+console.log(x);
+
+// READ the value stored in `x`
 // CONCATENATE "good bye" and "!"
 // ASSIGN "good bye!" to `x`
 x = x + '!';
+
+// READ the value stored in `x`
+console.log(x);

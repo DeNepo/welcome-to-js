@@ -36,12 +36,6 @@ Explore how Computers and Developers read the same code in different ways.
 - 🐣 **Tracing Variables**: You can follow a program's instructions like the
   computer does, filling out a _trace table_ and checking your work with the
   [trace] button.
-- 🐥 **Commenting & Logging**: You can use comments (_static_) and `console.log`
-  (_dynamic_) to share clear and helpful information about a program with other
-  developers.
-- 🐔 **Development vs. Production Code**: You can inspect & format sources from
-  any web page, and you can explain why code is minified for production. (hint:
-  devs don't need to read production code!)
 
 ---
 
@@ -55,18 +49,17 @@ will be a mystery!
 
 - **All Together**:
   - Discuss the diagram with _source code_, _developers_ and _computer_
-  - Study the `1-tracing-variables` examples all together on a coach's screen
+  - Study the `tracing-variables` examples all together on a coach's screen
 - **In Small Groups**:
   - Study examples 4 & 5 again with your classmates
-  - Begin `1-tracing-variables/exercises`
+  - Begin `tracing-variables/exercises`
 
 **Break!**
 
 **After Break**:
 
 - **In Small Groups**:
-  - Continue studying `1-tracing-variables/exercises`
-  - Move on to `2-commenting-and-logging` if you have time
+  - Continue studying `tracing-variables/exercises`
 - **All Together** Regroup with ~30 minutes left at the end of class for each
   group to present:
   - what went well?
@@ -79,13 +72,8 @@ will be a mystery!
 
 ---
 
-<a class="study-lens" href="./1-tracing-variables?study" target="_blank">1.
+<a class="study-lens" href="./tracing-variables?study" target="_blank">
 Tracing Variables </a>
-
----
-
-<a class="study-lens" href="./2-commenting-and-logging?study" target="_blank">2.
-Commenting and Logging</a>
 
 ---
 

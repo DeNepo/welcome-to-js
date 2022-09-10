@@ -5,7 +5,12 @@
     "openIn": "jsTutor",
     "save": true,
     "writeme": false,
-    "debug": false
+    "debug": false,
+    "ask": {
+      "levels": [1, 2],
+      "data": false,
+      "functions": false
+    }
   },
   "highlight": {
     "--use": "",

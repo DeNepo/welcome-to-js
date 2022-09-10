@@ -13,9 +13,13 @@ let a = 'y';
 let b = 'x';
 let t = '';
 
+console.log(a, b, t);
+
 t = a;
 a = b;
 b = t;
+
+console.log(a, b, t);
 
 // what did you do in this program?
 //  what are the final values of `a` and `b`?

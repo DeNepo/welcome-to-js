@@ -11,6 +11,10 @@ let last = 'Rabbit';
 
 let fullName = first + ' ' + last;
 
+console.log(fullName);
+
 let greeting = 'hello ' + fullName;
 
 greeting = 'good bye ' + fullName;
+
+console.log(greeting);
