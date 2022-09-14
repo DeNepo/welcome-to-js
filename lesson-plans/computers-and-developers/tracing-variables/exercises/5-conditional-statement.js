@@ -5,7 +5,7 @@ let a = 'Ewin';
 // let a = 'Jo';
 // let a = 'Olesandra';
 
-let b = 'Hello ' + a + ', your a is ';
+let b = 'Hello ' + a + ', your name is ';
 
 if (a.length > 4) {
   b = b + 'long.';
