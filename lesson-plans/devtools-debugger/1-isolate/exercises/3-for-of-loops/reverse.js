@@ -13,3 +13,7 @@ for (let nextChar of toReverse) {
 let transformation = toReverse + ' -> ' + backwards;
 
 alert(transformation);
+
+/*  ===== Challenges =====
+  - Put the charaters back in the right order after the string was reversed.
+*/
