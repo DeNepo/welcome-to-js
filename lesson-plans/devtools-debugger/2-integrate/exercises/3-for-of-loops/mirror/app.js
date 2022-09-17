@@ -30,5 +30,12 @@ whenFormDataChanges('input', () => {
   - make the mirror image upper case
   - make the non-mirror image lower case
   - let the user decide which character goes in the middle
+      for example, any of these should be possible:
+        asdf * fdsa
+        asdf & fdsa
+        asdf - fdsa
+        asdf o fdsa
+        ...
+      you will need to add an input to the HTML file
 
 */
