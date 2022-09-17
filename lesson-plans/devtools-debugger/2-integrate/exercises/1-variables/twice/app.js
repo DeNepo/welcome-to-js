@@ -3,7 +3,7 @@ import {
   whenFormDataChanges,
   readString,
   displayString,
-} from '../../../../../lib/dom-io/index.js';
+} from '../../../../../../lib/dom-io/index.js';
 
 whenFormDataChanges('user-data', () => {
   debugger;
@@ -24,3 +24,14 @@ whenFormDataChanges('user-data', () => {
   // display a string to the <pre> with id "doubled-input"
   displayString('doubled-input', repeated);
 });
+
+/*  ===== Challenges =====
+
+  - Copy the user's text 4 times
+  - Number the copies like this:
+    1. asdf
+    2. asdf
+    3. asdf
+    4. asdf
+
+*/

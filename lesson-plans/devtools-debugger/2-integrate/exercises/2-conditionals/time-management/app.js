@@ -2,7 +2,7 @@ import {
   whenFormDataChanges,
   readBoolean,
   displayString,
-} from '../../../../../lib/dom-io/index.js';
+} from '../../../../../../lib/dom-io/index.js';
 
 whenFormDataChanges('sleep-info', () => {
   debugger;
@@ -35,3 +35,9 @@ whenFormDataChanges('sleep-info', () => {
   // display a string to the <pre> with id "advice-area"
   displayString('advice-area', advice);
 });
+
+/*  ===== Challenges =====
+
+  - change the conditional so it uses `else` instead of `else if`
+
+*/

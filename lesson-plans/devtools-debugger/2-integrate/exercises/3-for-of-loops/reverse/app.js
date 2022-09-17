@@ -12,9 +12,7 @@ whenFormDataChanges('reversify', () => {
 
   // --- read user input ---
 
-  // read a string from the <input> with id "to-reverse"
   let text = readString('to-reverse');
-  // read a boolean from the <input> with id "to-reverse"
   let screaming = readBoolean('loud');
 
   console.log(text, screaming);
@@ -44,3 +42,13 @@ whenFormDataChanges('reversify', () => {
   // display the final text to the <pre> with id "out"
   displayString('out', finalText);
 });
+
+/*  ===== Challenges =====
+
+  - change the condition so upper/lower case depends on the length of the input
+      longer inputs are upper case
+      medium inputs are not changed
+      shorter inputs are lower case
+  - make sure each character appears only once in the reversed text
+
+*/

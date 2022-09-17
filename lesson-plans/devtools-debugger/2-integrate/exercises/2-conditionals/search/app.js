@@ -3,7 +3,7 @@ import {
   readString,
   readBoolean,
   displayString,
-} from '../../../../../lib/dom-io/index.js';
+} from '../../../../../../lib/dom-io/index.js';
 
 whenFormDataChanges('search-input', () => {
   debugger;
@@ -43,3 +43,10 @@ whenFormDataChanges('search-input', () => {
 
   displayString('search-result', message);
 });
+
+/*  ===== Challenges =====
+
+  - display a more helpful message than "yes" or "no"
+  - change the conditional so the `if` is NOT case sensitive and the `else` is
+
+*/

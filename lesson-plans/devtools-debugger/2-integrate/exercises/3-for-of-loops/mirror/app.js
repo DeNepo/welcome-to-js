@@ -2,7 +2,7 @@ import {
   whenFormDataChanges,
   readString,
   displayString,
-} from '../../../../../lib/dom-io/index.js';
+} from '../../../../../../lib/dom-io/index.js';
 
 whenFormDataChanges('input', () => {
   debugger;
@@ -24,3 +24,11 @@ whenFormDataChanges('input', () => {
 
   displayString('output', mirrored);
 });
+
+/*  ===== Challenges =====
+
+  - make the mirror image upper case
+  - make the non-mirror image lower case
+  - let the user decide which character goes in the middle
+
+*/

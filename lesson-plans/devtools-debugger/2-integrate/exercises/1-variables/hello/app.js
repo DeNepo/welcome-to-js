@@ -3,7 +3,7 @@ import {
   whenFormDataChanges,
   readString,
   displayString,
-} from '../../../../../lib/dom-io/index.js';
+} from '../../../../../../lib/dom-io/index.js';
 
 whenFormDataChanges('user-info', () => {
   debugger;
@@ -24,3 +24,10 @@ whenFormDataChanges('user-info', () => {
 
   displayString('greeting-output', greeting);
 });
+
+/*  ===== Challenges =====
+
+  - Modify the program so it uses a first AND a last name
+  - Make the program say "hello", then "good bye" on a new line
+
+*/
