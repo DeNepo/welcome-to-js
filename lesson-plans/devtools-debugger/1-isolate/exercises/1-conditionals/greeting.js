@@ -12,7 +12,6 @@ if (input === null) {
 alert(greeting);
 
 /*  ===== Challenges =====
-  - Ask the user for their first name instead of their name.
-  - If the user gives their first name, ask for their last name.
-  - If the user gives their last name, greet them with their full name. Otherwise, greet them with their first name.
+  - Ask the user for their first and last names.
+  - Greet them with their full name.
 */
