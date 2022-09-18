@@ -11,3 +11,8 @@ for (let nextChar of text) {
 }
 
 alert(doubled);
+
+/*  ===== Challenges =====
+  - Add an hyphen after each character.
+  - Add an hyphen only between the characters.
+*/
