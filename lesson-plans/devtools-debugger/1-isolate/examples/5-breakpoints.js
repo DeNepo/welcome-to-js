@@ -1,6 +1,6 @@
 'use strict';
 
-/* 🐥 Breakpoints
+/* 🐣 Breakpoints
 
   use the [debug] button to pause this program in the devtools
 
@@ -9,6 +9,8 @@
   you can now use the big blue triangle button -->
     this button will skip ahead to the next breakpoint
 
+  breakpoints are saved in your devtools, not in your source code
+  you can change them while the program is running
 
 */
 

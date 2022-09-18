@@ -6,8 +6,8 @@
   - variables: hover without highlighting
   - expressions: highlight and hover
 
-  pause this program each time it reaches the `while` check (breakpoint!):
-  - highlighting one portion of the `while` check expression
+  pause this program each time you reach the `if` check:
+  - highlighting one portion of the `if` check expression
   - hover your mouse over it to see the value
   - check the scopes panel to understand how the value was calculated
 

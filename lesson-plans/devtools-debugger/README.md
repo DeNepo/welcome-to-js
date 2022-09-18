@@ -28,12 +28,14 @@ understand interactive JS programs.
   initialized variable in your program, including parts of a longer expression.
 - 🐣 **Continue to Here**: When paused in the debugger, you can skip the
   program's execution to a specific line using the "continue to here" option.
-- 🐥 **Breakpoints**: Once in the Debugger, you can set and unset breakpoints to
+- 🐣 **Breakpoints**: Once in the Debugger, you can set and unset breakpoints to
   skip ahead to specific lines. You can also set and unset breakpoints within a
   line when possible.
-- 🐔 **`debugger` Statement**: You understand the difference between `debugger`
+- 🐥 **`debugger` Statement**: You understand the difference between `debugger`
   and a breakpoint, and can write a `debugger` statement in your source code to
   pause the program before specific lines.
+- 🐥 **Stepping Over**: You can step over functions in your program to skip
+  their _implementation_ and focus on your program's behavior.
 
 ---
 
@@ -43,23 +45,19 @@ Practice stepping and skipping through programs using your browser's debugger.
 
 **Before Break**
 
-- **All Together**: A coach introduces these debugger features:
-  - the step button
-  - the scope panel
-  - highlighting expressions to preview their value
+- **All Together**: A coach demonstrates the debugger features in
+  `/1-isolate/examples`
 - **In Small Groups**: Practice stepping through and predicting the programs in
-  `/practice-programs`
+  `/1-isolate/exercises`
 
 **Break!**
 
 **After Break**
 
-- **All Together**: A coach introduces these debugger features:
-  - "continue to here"
-  - breakpoints
-  - the `debugger;` statement
-- **In Small Groups**: Practice skipping through the `/practice-programs` using
-  the newly introduced debugger features.
+- **All Together**: A coach demonstrates how to step through JavaScript in an
+  HTML project with `/2-integrate/examples`
+- **In Small Groups**: Practice stepping through and predicting the programs in
+  `/2-integrate/exercises`
 - **All Together** Regroup with ~20 minutes left at the end of class for each
   group to present:
   - what went well?
@@ -68,8 +66,12 @@ Practice stepping and skipping through programs using your browser's debugger.
 
 ---
 
-<a class="study-lens" href="./practice-programs?study" target="_blank">Practice
-Programs</a>
+<a class="study-lens" href="./1-isolate?study" target="_blank">1. Isolate</a>
+
+---
+
+<a class="study-lens" href="./2-integrate?study" target="_blank">2.
+Integrate</a>
 
 ---
 
