@@ -165,3 +165,11 @@ curious.
 - [Chapter 1](https://youtu.be/puKsxllt1P0)
 - Chapter 2: [part-1](https://youtu.be/VN3fXfRfZIE),
   [part-2](https://youtu.be/_sDs8dKaDyM)
+  
+### [class-19](https://github.com/HYF-Class19/home)
+
+> Evan, Eva, Louis, Jonathan
+
+1. Week 1:
+   - [learning JS & Study Lense & tracing variables](https://vimeo.com/748703159)
+
