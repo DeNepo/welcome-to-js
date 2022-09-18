@@ -13,10 +13,10 @@ let didClickOk = confirm('please click "ok":');
 
 let message = '';
 debugger;
-if (didClickOk === true) {
-  message = 'thank you!';
-} else {
+if (didClickOk !== true) {
   message = ':(';
+} else {
+  message = 'thank you!';
 }
 
 alert(message);
