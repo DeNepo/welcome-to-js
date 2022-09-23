@@ -1,5 +1,6 @@
 {
   "study": {
+    "debug": true,
     "eslint": false,
     "pseudo": false,
     "writeme": false,

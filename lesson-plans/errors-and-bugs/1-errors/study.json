@@ -1,5 +1,6 @@
 {
   "study": {
+    "debug": true,
     "variables": false,
     "highlight": false,
     "flowchart": false,

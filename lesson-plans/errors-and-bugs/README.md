@@ -1,38 +1,55 @@
-before: errors
+# Errors & Bugs
 
-- when something is broken in your code program life cycle source code ->
-  creation phase -> execution phase navigating errors in the console + debugger
-  the structured comment
-
-break
-
-after: bugs
-
-- when the program runs, but does not do what you expected
-
-1. step through until you find something that surprises you
-2. ask "why did that happen"?
-3. trace backwards until you reach a line you want to try changing
-4. make the change (comments and preserve the original line!)
-5. run the program
-6. repeat
+Practice using different features in your browser's DevTools Debugger to
+understand interactive JS programs.
 
 ---
 
-learning objectives
+## Learning Objectives
 
-- 🥚🐣🐥🐔
-- js
-  - 🐣 creation vs. execution phase
-- errors
-  - 🥚 use error messages and your debugger to find where errors occur in your
-    code
-  - 🐣 fix errors in your code
-  - 🐣 identify if an error is creation or execution phase
-- bugs
-  - 🥚 step forwards through a program until you find the line that surprises
-    you
-  - 🐣 step backwards from the surprise to find the source of your surprise
-  - 🐥 fix the bug
+- Errors
+  - 🥚 Understand the difference between an _error_ and your _mistake_.
+  - 🥚 Use error messages and your debugger to find errors in your code.
+  - 🥚 Search errors online using the _name_, _message_ and _environment_.
+  - 🐣 Identify if an error occurred in creation or execution phase.
+  - 🐣 Fix errors in your programs.
+- Bugs
+  - 🥚 Use test cases to check if a program works correctly.
+  - 🥚 Find lines in a program that surprise you.
+  - 🐣 Make small changes and keep track of your experiments.
+  - 🐥 Fix bugs in your programs.
+  - 🐔 Tracing backwards to understand _why_ something happened.
 
 ---
+
+## During Class
+
+Practice fixing errors and bugs in a program.
+
+**Before Break**
+
+- **All Together**: [Errors](./1-errors/README.md?--defaults)
+- **In Small Groups**: Practice the exercises in `./1-errors`
+
+**Break!**
+
+**After Break**
+
+- **All Together**: [Bugs](./2-bugs/README.md?--defaults)
+- **In Small Groups**: Practice the exercises in `./2-bugs`
+- **All Together** Regroup with ~20 minutes left at the end of class for each
+  group to present:
+  - what went well?
+  - what went less well?
+  - lessons learned
+
+---
+
+## After Class
+
+No deliverables. Just lots of study time, alone and in groups. Here's some ideas
+for what to focus on after this lesson:
+
+- Continue studying your favorite online tutorials
+- Study `/4-developing-programs`
+- `/0-flashcards`: ~20 minutes every day (add more cards as you go!)

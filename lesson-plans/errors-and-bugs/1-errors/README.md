@@ -34,6 +34,18 @@ describe the error:
 
 ---
 
+## Searching Errors Online
+
+The most important information when searching your errors online are:
+
+- **Environment**: Node? Browser? Which browser?
+
+- **Name**: The error's name logged in the console.
+
+- **Message**: The error's message logged in the console.
+
+---
+
 ## Finding Error Locations
 
 To find where an error occurred in your debugger, click on the link to the right
