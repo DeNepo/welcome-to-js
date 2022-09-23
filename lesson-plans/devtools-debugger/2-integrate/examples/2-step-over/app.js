@@ -22,9 +22,11 @@ import {
 */
 
 debugger; // once when the script is loaded
+console.log('--- the script is loading ---');
 
 whenFormDataChanges('example-data', () => {
   debugger; // each time the form data changes
+  console.log('--- form data has changed ---');
 
   // --- read user input from the DOM ---
 
@@ -46,3 +48,5 @@ whenFormDataChanges('example-data', () => {
   // step over this line
   displayString('example-output', message);
 });
+
+console.log('--- the script has finished loading ---');
