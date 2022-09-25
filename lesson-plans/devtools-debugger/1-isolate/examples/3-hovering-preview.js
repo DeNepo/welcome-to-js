@@ -22,10 +22,10 @@ let message = '';
 // |----------|
 // 2. highlight the entire expression and hover over it
 // |-------------------|
-if (didClickOk === true) {
-  message = 'thank you!';
-} else {
+if (didClickOk !== true) {
   message = ':(';
+} else {
+  message = 'thank you!';
 }
 
 alert(message);

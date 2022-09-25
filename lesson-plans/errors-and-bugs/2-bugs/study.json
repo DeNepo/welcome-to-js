@@ -1,0 +1,10 @@
+{
+  "study": {
+    "debug": true,
+    "eslint": false,
+    "pseudo": false,
+    "writeme": false,
+    "loopGuard": false,
+    "blanks": false
+  }
+}

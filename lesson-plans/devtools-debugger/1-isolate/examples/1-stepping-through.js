@@ -15,8 +15,8 @@
 
 let didClickOk = confirm('please click "ok":');
 
-if (didClickOk === true) {
-  alert('thank you!');
-} else {
+if (didClickOk !== true) {
   alert(':(');
+} else {
+  alert('thank you!');
 }
