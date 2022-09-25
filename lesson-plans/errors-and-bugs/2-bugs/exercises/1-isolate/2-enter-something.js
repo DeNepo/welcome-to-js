@@ -2,6 +2,8 @@
 
 /*
   test cases:
+    null -> (do not exit the loop)
+    '' -> (do not exit the loop)
     ' ' -> 'you entered " "'
     'hi' -> 'you entered "hi"'
     'JavaScript' -> 'you entered "JavaScript"'
@@ -13,15 +15,13 @@
 
 */
 
-let message = 'you entered "';
+let message = '';
 
-while (true) {
+let input = null;
+while (input === null || input.length === 0) {
   const input = prompt('enter something');
 
-  if (input === null && input.length === 0) {
-    message = input + '"';
-    break;
-  }
+  message = 'you entered "' + input + '"';
 }
 
 alert(message);
