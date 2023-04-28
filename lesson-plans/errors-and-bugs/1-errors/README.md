@@ -22,7 +22,7 @@ scenes:
 To search or ask for help when you have an error, you need to know how to
 describe the error:
 
-- **Environment**: Node? Browser? Which browser?
+- **Environment**: Node + version? Browser? Which browser?
 
 - **Name**: The error's name logged in the console.
 
@@ -36,9 +36,10 @@ describe the error:
 
 ## Searching Errors Online
 
-The most important information when searching your errors online are:
+When searching for help online, you want to use the information that is not
+specific to _your_ program. This includes:
 
-- **Environment**: Node? Browser? Which browser?
+- **Environment**: Node + version? Browser? Which browser?
 
 - **Name**: The error's name logged in the console.
 

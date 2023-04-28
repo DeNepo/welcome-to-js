@@ -81,6 +81,13 @@ fit together?
 - [ ] 🥚 **Tracing Variables**: You can complete a trace table for a program
       that uses only variables, and can check your work using the "trace"
       button.
+
+### [2. Just Enough JavaScript](./2-just-enough-javascript)
+
+Go in depth on JavaScript you need to know for writing interactive text-based
+programs in the browser. Along the way you will learn how each language feature
+works in small programs.
+
 - 🥚 **JavaScript Syntax**: Given a program, you can identify these parts of
   JavaScript syntax:
   - [ ] _Primitives_
@@ -90,27 +97,6 @@ fit together?
   - [ ] _Checks_
   - [ ] _Blocks_
   - [ ] _Function Calls_
-- [ ] 🥚 **Pseudo Code**: You can explain what pseudo code is, how it's used and
-      why it's helpful.
-- [ ] 🥚 **Program Goals**: You understand that a full JavaScript program can be
-      explained as a series of smaller goals, and can write names for the goals
-      in a simple working program.
-- 🐣 **Program Analysis**: You can study a simple working program and identify:
-  - [ ] The program's behavior (_data in, data out_)
-  - [ ] The program's goals
-  - [ ] The program's syntax and language features
-  - [ ] Which parts of the source code are for which audience (users, devs,
-        computers)
-- [ ] 🐥 **Same Behavior, Different Code**: You can study simple programs with
-      the same behavior (_data in, data out_) but different source code and
-      explain how the differences matter for each audience.
-
-### [2. Just Enough JavaScript](./2-just-enough-javascript)
-
-Go in depth on JavaScript you need to know for writing interactive text-based
-programs in the browser. Along the way you will learn how each language feature
-works in small programs.
-
 - 🥚 **Listening and Reading**: You can read code out loud, and understand your
   classmates when they read code to you. You don't need to understand how a
   program works to master these learning objectives!
@@ -150,10 +136,6 @@ works in small programs.
       explain how they behave differently and why.
 - [ ] 🐥 **Constructing Programs**: You can reconstruct a program's lines and
       indentation, successfully ignoring distractor lines.
-- [ ] 🐥 **Linting**: You can find and fix simple linting errors in JavaScript
-      programs.
-- [ ] 🐔 **Writing Programs**: You can write small programs that log specific
-      values, or pass specific test cases.
 
 ### [3. Understanding Programs](./3-understanding-programs)
 
@@ -169,8 +151,13 @@ read a new program and do a simple code review.
 - [ ] 🥚 **Imperative Programming**: You can explain what the Imperative
       Programming paradigm is, and can explain how you know the programs in
       Welcome to JS are Imperative.
+- [ ] 🥚 **Program Goals**: You understand that a full JavaScript program can be
+      explained as a series of smaller goals, and can write names for the goals
+      in a simple working program.
 - [ ] 🥚 **Logging**: You can tracing specific aspects of a program's execution
       and log them to the console.
+- [ ] 🐣 **Tracing Backwards** You can trace backwards from a program's output
+      to it's input.
 - [ ] 🐣 **Naming Variables**: You can analyze how a variable is used in a
       program and give it two names:
   - **Generic**: You can give a generic name to a variable based on how it is
@@ -185,6 +172,9 @@ read a new program and do a simple code review.
   4. Describe Goals
 - [ ] 🐥 **Code Review**: Given a working program you can review the code for
       clarity, correctness and style.
+- [ ] 🐔 **Same Behavior, Different Code**: You can study simple programs with
+      the same behavior (_data in, data out_) but different source code and
+      explain how the differences matter for each audience.
 
 ### [4. Developing Programs](./4-developing-programs)
 
@@ -192,6 +182,8 @@ Learn to modify and write larger programs in JavaScript. You'll cover many of
 the hidden skills necessary to develop quality software and to work
 collaboratively on a code base.
 
+- [ ] 🥚 **Linting**: You can find and fix simple linting errors in JavaScript
+      programs.
 - [ ] 🥚 **Program Life Cycle**: You can explain the two phases of a program's
       life cycle.
   1. _Creation Phase_
