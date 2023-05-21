@@ -1,6 +1,8 @@
+# Quiz
+
 > #todo
 
-# Program 2
+## Program 2
 
 ```js
 'use strict';

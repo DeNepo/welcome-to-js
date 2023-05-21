@@ -5,7 +5,7 @@ best tools you have for helping humans is a good variable name.
 
 - [Variable Analysis](#variable-analysis)
 - [`let` or `const`](#let-or-const)
-- [Naming the Variable](#naming-the-variable)
+- [Naming the Variable](#name-the-variable)
 - [Variable Roles](#variable-roles)
 - [Naming Conventions](#naming-conventions)
 
@@ -116,10 +116,10 @@ variable, one _generic_ name and one _specific_ name:
 
   ```js
   /* generic
-
+  
     _a -> input:
       it holds a string of user input to be processed in the program
-
+  
   */
 
   let input = null;
@@ -135,10 +135,10 @@ variable, one _generic_ name and one _specific_ name:
 
   ```js
   /* specific
-
+  
     _a -> userName:
       this variable stores the user's name as a string
-
+  
   */
 
   let userName = null;

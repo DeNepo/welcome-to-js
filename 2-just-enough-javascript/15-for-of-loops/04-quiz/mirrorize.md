@@ -1,6 +1,8 @@
+# Quiz
+
 > #todo
 
-# Mirrorize
+## Mirrorize
 
 Which line can be placed in the blank to make a loop that mirrors the input?
 There may be more than 1 correct answer!

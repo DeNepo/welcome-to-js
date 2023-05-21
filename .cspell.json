@@ -7,7 +7,12 @@
     "Precourse",
     "distractor",
     "distractors",
-    "typeof"
+    "typeof",
+    "Nepo",
+    "Bouncify",
+    "Timlin",
+    "racecar",
+    "Mirrorize"
   ],
   "ignorePaths": ["node_modules/**", "**/*.json", "**/*.mp4", "**/*.svg"]
 }

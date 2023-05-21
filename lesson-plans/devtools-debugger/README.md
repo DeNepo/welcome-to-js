@@ -43,7 +43,7 @@ understand interactive JS programs.
 
 Practice stepping and skipping through programs using your browser's debugger.
 
-**Before Break**
+### Before Break
 
 - **All Together**: A coach demonstrates the debugger features in
   `/1-isolate/examples`
@@ -52,7 +52,7 @@ Practice stepping and skipping through programs using your browser's debugger.
 
 **Break!**
 
-**After Break**
+### After Break
 
 - **All Together**: A coach demonstrates how to step through JavaScript in an
   HTML project with `/2-integrate/examples`

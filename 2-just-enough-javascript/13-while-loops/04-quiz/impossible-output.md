@@ -1,6 +1,8 @@
+# Quiz
+
 > #todo
 
-# Impossible Output
+## Impossible Output
 
 Which value is it impossible for this program to alert? There may be more than 1
 correct answer!

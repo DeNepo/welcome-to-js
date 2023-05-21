@@ -1,6 +1,8 @@
+# Quiz
+
 > #todo
 
-# Enter Something 1
+## Enter Something 1
 
 Do these programs have the same behavior? (_data in, data out_)
 

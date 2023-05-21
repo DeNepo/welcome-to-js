@@ -1,6 +1,8 @@
+# Quiz
+
 > #todo
 
-# Prompt
+## Prompt
 
 ```js
 'use strict';
