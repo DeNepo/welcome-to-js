@@ -1,0 +1,20 @@
+name: lint and validate
+
+on:
+  pull_request:
+    branches: [master, main]
+
+jobs:
+  lint-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - run: npm install
+
+      - run: npm run format:check
+
+      - run: npm run lint:ls
+      - run: npm run lint:md
+      - run: npm run lint:js

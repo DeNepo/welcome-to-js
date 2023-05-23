@@ -1,6 +1,8 @@
+# Quiz
+
 > #todo
 
-# Flags
+## Flags
 
 Do these programs have the same behavior? (_data in, data out_)
 

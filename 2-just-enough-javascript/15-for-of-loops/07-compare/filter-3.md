@@ -1,6 +1,8 @@
+# Quiz
+
 > #todo
 
-# Filter 3
+## Filter 3
 
 Do these programs have the same behavior? (_data in, data out_)
 

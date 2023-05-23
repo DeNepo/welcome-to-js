@@ -14,7 +14,7 @@ describe what is happening and why.
 <br>
 
 ```js
-"use strict";
+'use strict';
 /*
    (describe what the program does from the user's perspective)
 
@@ -37,7 +37,7 @@ describe what is happening and why.
 //  what variables does it use?
 //  how does it relate to other lines?
 //  ... anything else you notice?
-let line = "of code";
+let line = 'of code';
 
 /* -- goal (an important step in the program) -- */
 
@@ -81,7 +81,7 @@ cases:
 <br>
 
 ```js
-"use strict";
+'use strict';
 /*
    A user can input anything, if the input is "yes" the program is excited
    - given the user cancels, the program is sad
@@ -103,13 +103,13 @@ cases:
 
 let userInput = prompt('enter the word "yes", upper or lower case');
 
-let reaction = "";
+let reaction = '';
 if (userInput === null) {
-  reaction = ":(";
-} else if (userInput.toLowerCase() === "yes") {
-  reaction = userInput + "!";
+  reaction = ':(';
+} else if (userInput.toLowerCase() === 'yes') {
+  reaction = userInput + '!';
 } else {
-  reaction = "baaaaad: " + userInput;
+  reaction = 'baaaaad: ' + userInput;
 }
 
 alert(reaction);
@@ -117,7 +117,7 @@ alert(reaction);
 
 </details>
 
-[TOP](#describing-code)
+[TOP](#describing-programs)
 
 ---
 
@@ -143,7 +143,7 @@ step back to understand the whole program.
 <br>
 
 ```js
-"use strict";
+'use strict';
 /*
    A user can input anything, if the input is "yes" the program is excited
    - given the user cancels, the program is sad
@@ -168,21 +168,21 @@ step back to understand the whole program.
 let userInput = prompt('enter the word "yes", upper or lower case');
 
 // declare, init: an empty string
-let reaction = "";
+let reaction = '';
 // check: compare the input to null
 if (userInput === null) {
   // assign: a sad face
-  reaction = ":(";
+  reaction = ':(';
 }
 // check: convert the input to lower case and compare it to 'yes'
-else if (userInput.toLowerCase() === "yes") {
+else if (userInput.toLowerCase() === 'yes') {
   // assign: the input concatenated with an exclamation mark
-  reaction = userInput + "!";
+  reaction = userInput + '!';
 }
 // the input is not null, and is not 'yes'
 else {
   // assign: baaaad concatenated with the input
-  reaction = "baaaaad: " + userInput;
+  reaction = 'baaaaad: ' + userInput;
 }
 
 // call alert: the correct reaction
@@ -191,7 +191,7 @@ alert(reaction);
 
 </details>
 
-[TOP](#describing-code)
+[TOP](#describing-programs)
 
 ---
 
@@ -208,7 +208,7 @@ Start finding connections between different lines of code across the program.
 <br>
 
 ```js
-"use strict";
+'use strict';
 /*
    A user can input anything, if the input is "yes" the program is excited
    - given the user cancels, the program is sad
@@ -237,22 +237,22 @@ let userInput = prompt('enter the word "yes", upper or lower case');
 // declare, init: an empty string
 //  this variable will be assigned a different values depending on what the user provided
 //  the value in `reaction` will be used at the end of the program to alert the user
-let reaction = "";
+let reaction = '';
 // check: compare the input to null
 //  this is to check if they canceled the prompt
 if (userInput === null) {
   // assign: a sad face
   //  let the user know how much they have disappointed you
-  reaction = ":(";
+  reaction = ':(';
 }
 // check: convert the input to lower case and compare it to 'yes'
 //   checking the user input to make sure they put in a valid string
 //   this line uses .toLowerCase so that it doesn't matter what letter were upper or lower case
-else if (userInput.toLowerCase() === "yes") {
+else if (userInput.toLowerCase() === 'yes') {
   // assign: the input concatenated with an exclamation mark
   //   this is the path for valid user inputs
   //   the user will be congratulated for following instructions
-  reaction = userInput + "!";
+  reaction = userInput + '!';
 }
 // the input is not null, and is not 'yes'
 //  they did input something, but it was not correct
@@ -260,7 +260,7 @@ else {
   // assign: baaaad concatenated with the input
   //   this is the path for invalid user inputs (things that aren't some form of "yes")
   //   it will tell users that they messed up baaaaadly
-  reaction = "baaaaad: " + userInput;
+  reaction = 'baaaaad: ' + userInput;
 }
 
 // call alert: the correct reaction
@@ -270,7 +270,7 @@ alert(reaction);
 
 </details>
 
-[TOP](#describing-code)
+[TOP](#describing-programs)
 
 ---
 
@@ -298,7 +298,7 @@ important step happens in those lines:
 <br>
 
 ```js
-"use strict";
+'use strict';
 /*
    A user can input anything, if the input is "yes" the program is excited
    - given the user cancels, the program is sad
@@ -329,23 +329,23 @@ let userInput = prompt('enter the word "yes", upper or lower case');
 /* --- create a reaction to their input --- */
 
 // declare, init: an empty string
-let reaction = "";
+let reaction = '';
 
 // check: compare the input to null
 //  this is to check if they canceled the prompt
 if (userInput === null) {
   // assign: a sad face
   //  let the user know how much they have disappointed you
-  reaction = ":(";
+  reaction = ':(';
 }
 // check: convert the input to lower case and compare it to 'yes'
 //   checking the user input to make sure they put in a valid string
 //   this line uses .toLowerCase so that it doesn't matter what letter were upper or lower case
-else if (userInput.toLowerCase() === "yes") {
+else if (userInput.toLowerCase() === 'yes') {
   // assign: the input concatenated with an exclamation mark
   //   this is the path for valid user inputs
   //   the user will be congratulated for following instructions
-  reaction = userInput + "!";
+  reaction = userInput + '!';
 }
 // the input is not null, and is not 'yes'
 //  they did input something, but it was not correct
@@ -353,7 +353,7 @@ else {
   // assign: baaaad concatenated with the input
   //   this is the path for invalid user inputs (things that aren't some form of "yes")
   //   it will tell users that they messed up baaaaadly
-  reaction = "baaaaad: " + userInput;
+  reaction = 'baaaaad: ' + userInput;
 }
 
 /* --- communicate your program's reaction to the user -- */

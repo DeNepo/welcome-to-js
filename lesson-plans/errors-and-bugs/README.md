@@ -26,14 +26,14 @@ understand interactive JS programs.
 
 Practice fixing errors and bugs in a program.
 
-**Before Break**
+### Before Break
 
 - **All Together**: [Errors](./1-errors/README.md?--defaults)
 - **In Small Groups**: Practice the exercises in `./1-errors`
 
 **Break!**
 
-**After Break**
+### After Break
 
 - **All Together**: [Bugs](./2-bugs/README.md?--defaults)
 - **In Small Groups**: Practice the exercises in `./2-bugs`
