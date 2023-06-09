@@ -28,7 +28,7 @@
 
 ## During Class
 
-**Before Break**
+### Before Break
 
 - **All Together**: Read through the challenge's specs, test cases & use the
   obfuscated solution so everyone understands the expected behavior.
@@ -39,7 +39,7 @@
 
 **Break!**
 
-**After Break**
+### After Break
 
 - **In Pairs**: Find another pair to work with:
   - Swap programs and review each others' code, without talking to each other!

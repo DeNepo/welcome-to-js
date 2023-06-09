@@ -116,9 +116,9 @@
   // MD024/no-duplicate-heading/no-duplicate-header - Multiple headings with the same content
   "MD024": {
     // Only check sibling headings
-    "allow_different_nesting": false,
+    "allow_different_nesting": true,
     // Only check sibling headings
-    "siblings_only": false
+    "siblings_only": true
   },
 
   // MD025/single-title/single-h1 - Multiple top-level headings in the same document
@@ -180,7 +180,10 @@
       "em",
       "tr",
       "td",
-      "table"
+      "table",
+      "a",
+      "sup",
+      "img"
     ]
   },
 
@@ -253,7 +256,7 @@
 
   // MD048/code-fence-style - Code fence style
   "MD048": {
-    // Code fence syle
+    // Code fence style
     "style": "consistent"
   }
 }

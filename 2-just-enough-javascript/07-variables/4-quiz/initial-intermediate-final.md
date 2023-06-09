@@ -1,6 +1,8 @@
+# Quiz
+
 > #todo
 
-# Initial, Intermediate and Final Value
+## Initial, Intermediate and Final Value
 
 ```js
 'use strict';

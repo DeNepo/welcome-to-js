@@ -1,6 +1,8 @@
+# Quiz
+
 > #todo
 
-# Yes or No
+## Yes or No
 
 Do these programs have the same behavior? (_data in, data out_)
 

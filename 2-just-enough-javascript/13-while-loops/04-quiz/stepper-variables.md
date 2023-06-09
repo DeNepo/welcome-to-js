@@ -1,6 +1,8 @@
+# Quiz
+
 > #todo
 
-# Stepper Variables
+## Stepper Variables
 
 A **stepper variable** is not a different _kind_ of variable, it's just one way
 you can _use_ a variable. A stepper is a variable that steps through a
@@ -12,7 +14,7 @@ correct answer!
 
 > _hint_: string indexes start at `0` and end at one **fewer** than the string's
 > length!
-
+>
 > _hint_: use a trace table to study each program's behavior before making a
 > guess.
 

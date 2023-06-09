@@ -17,11 +17,10 @@ Explore how Computers and Developers read the same code in different ways.
   guide so you're ready for class
 - Learn a little about variables:
   - (study your favorites of all these)
-  - [they're like boxes](https://www.youtube.com/watch?v=Jvrszgiexg0)
-  - [Jordan Holt](https://blog.jordanholt.dev/learn-javascript-variables/)
-  - [javascript.info](https://javascript.info/variables)
-  - [launchcode](https://education.launchcode.org/intro-to-professional-web-dev/chapters/data-and-variables/variables.html)
-  - [programiz](https://www.programiz.com/javascript/variables-constants)
+  - [They're like boxes](https://www.youtube.com/watch?v=Jvrszgiexg0)
+  - [JS Fundamentals - Variables](https://javascript.info/variables)
+  - [JS Variables](https://education.launchcode.org/intro-to-professional-web-dev/chapters/data-and-variables/variables.html)
+  - [JavaScript Variables and Constants](https://www.programiz.com/javascript/variables-constants)
 
 ---
 
@@ -45,7 +44,7 @@ The most important objective for today is that you learn how to trace variables
 the way a computer interprets them. If you don't understand this the rest of JS
 will be a mystery!
 
-**Before Break**:
+### Before Break
 
 - **All Together**:
   - Discuss the diagram with _source code_, _developers_ and _computer_
@@ -58,7 +57,7 @@ will be a mystery!
 
 **Break!**
 
-**After Break**:
+### After Break
 
 - **In Small Groups**:
   - Continue studying `tracing-variables/exercises`
