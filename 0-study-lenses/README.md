@@ -10,32 +10,32 @@ Psst. This guide is best if you [open the README](./README.md?slides)
 
 ---
 
-<a class="study-lens" href="./1-what-are-lenses.js" target="_blank">1. What are
+<a class="study-lens" href="./0-study-lenses/1-what-are-lenses.js" target="_blank">1. What are
 Lenses?</a>
 
 ---
 
-<a class="study-lens" href="./2-dynamic-study.js" target="_blank">3. Dynamic
+<a class="study-lens" href="./0-study-lenses/2-dynamic-study.js" target="_blank">3. Dynamic
 Study</a>
 
 ---
 
-<a class="study-lens" href="./3-static-study.js" target="_blank">2. Static
+<a class="study-lens" href="./0-study-lenses/3-static-study.js" target="_blank">2. Static
 Study</a>
 
 ---
 
-<a class="study-lens" href="./4-the-study-lens.js?study" target="_blank">4. The
+<a class="study-lens" href="./0-study-lenses/4-the-study-lens.js?study" target="_blank">4. The
 Study Lens</a>
 
 ---
 
-<a class="study-lens" href="./5-local-configurations.js?--defaults" target="_blank">6.
+<a class="study-lens" href="./0-study-lenses/5-local-configurations.js?--defaults" target="_blank">6.
 Local Configurations</a>
 
 ---
 
-<a class='study-lens' href="./6-url-parameters.js?--defaults" target="_blank">5.
+<a class='study-lens' href="./0-study-lenses/6-url-parameters.js?--defaults" target="_blank">5.
 URL Parameters</a>
 
 ---
