@@ -9,10 +9,16 @@
     "spell-check": "cspell  \"./**\"",
     "lint:ls": "ls-lint",
     "lint:md": "markdownlint --ignore node_modules --ignore flashcards --config ./.markdownlint.jsonc --fix ./ ",
-    "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe --format=table"
+    "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe --format=table",
+    "demo:local": "study --demo-reset=300000 --reset-ignore=node_modules",
+    "demo:deployed": "study --demo-reset=300000 --reset-ignore=node_modules --no-open",
+    "demo:dev": "study --demo-reset=10000 --reset-ignore=node_modules, --no-open"
   },
   "author": "HackYourFutureBelgium",
   "license": "MIT",
+  "dependencies": {
+    "study-lenses": "^0.0.170"
+  },
   "devDependencies": {
     "cspell": "^6.31.1",
     "eslint": "^8.41.0",
