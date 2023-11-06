@@ -148,4 +148,4 @@ secure and developer-friendly alternative to Node.js.
 
 JavaScript is the language used to write the Source Code in this diagram:
 
-[![program diagram](../../assets/a-program.svg)](https://excalidraw.com/#json=_cj6JYwuO38PPGKxXN_cQ,3910Z7e2jGLZu4vjueG-Bg)
+[![program diagram](../../assets/a-program.png)](https://excalidraw.com/#json=_cj6JYwuO38PPGKxXN_cQ,3910Z7e2jGLZu4vjueG-Bg)
