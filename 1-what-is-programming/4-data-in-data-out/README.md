@@ -2,7 +2,7 @@
 
 So what is a program? It's something like this:
 
-![program diagram](../../assets/a-program.svg)
+![program diagram](../../assets/a-program.png)
 
 The basic job of a computer program is to process data. Even the most beautiful
 and interactive programs are just processing data behind the scenes. One of the

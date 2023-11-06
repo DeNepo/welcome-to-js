@@ -24,7 +24,7 @@ then communicating with everyone involved to deliver quality software within
 your project's constraints. This diagram shows the different channels of
 communication in a software project:
 
-![rhetorical situation](../assets/the-big-picture.svg)
+![rhetorical situation](../assets/the-big-picture.png)
 
 ---
 

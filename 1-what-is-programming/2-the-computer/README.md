@@ -53,4 +53,4 @@ developer.
 Tracing code is a very good way to begin understanding how the computer follows
 your instructions one step at a time:
 
-[![program diagram](../../assets/a-program.svg)](https://excalidraw.com/#json=_cj6JYwuO38PPGKxXN_cQ,3910Z7e2jGLZu4vjueG-Bg)
+[![program diagram](../../assets/a-program.png)](https://excalidraw.com/#json=_cj6JYwuO38PPGKxXN_cQ,3910Z7e2jGLZu4vjueG-Bg)
