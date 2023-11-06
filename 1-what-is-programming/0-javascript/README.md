@@ -62,7 +62,7 @@ alert('hello user (alert)');
 
 You can also write your code in a script tag of an HTML file then open the HTML
 file in your browser. The JavaScript will run automatically when the page is
-loaded. See this in action with `./inline.html`.
+loaded. See this in action with `./1-inline-script-tag.html`.
 
 You will learn about this later in the course for examples and exercises that
 introduce how JavaScript interacts with the DOM. It's easier to understand "the
@@ -74,8 +74,8 @@ big picture" when you can see everything in one document.
 
 You can also write your code in a separate `.js` file, then load the file into
 your HTML to execute the code. There are two different ways you can load a `.js`
-file into your HTML, you can see them in action with `./separate-script` and
-`./separate-modules` (you'll learn more about scripts vs. modules later on).
+file into your HTML, you can see them in action with `./2-separate-script-file` and
+`./3-separate-module-files` (you'll learn more about scripts vs. modules later on).
 
 You will use this for larger projects and for collaboration. Separating code
 into smaller files each with a clear purpose makes your code base easier to
