@@ -62,7 +62,7 @@ alert('hello user (alert)');
 
 You can also write your code in a script tag of an HTML file then open the HTML
 file in your browser. The JavaScript will run automatically when the page is
-loaded. See this in action with `./inline.html`.
+loaded. See this in action with `./1-inline-script-tag.html`.
 
 You will learn about this later in the course for examples and exercises that
 introduce how JavaScript interacts with the DOM. It's easier to understand "the
