@@ -90,7 +90,7 @@ Practice explaining what is happening in each program using these terms:
   out.
 
 In the `/examples` folder you will find a few programs with a comment describing
-the **behavior**, **data in** and **data out**. Your challenge in `/exericses`
+the **behavior**, **data in** and **data out**. Your challenge in `/exercises`
 is to fill in the same information for new programs.
 
 Be _very careful_ about your formatting! Study the example comments closely and
