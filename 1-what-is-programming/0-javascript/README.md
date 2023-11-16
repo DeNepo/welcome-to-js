@@ -113,8 +113,7 @@ in a browser, each one has a specific use case:
   [code.org](https://code.org/) (develop and play games with JS),
   [editor.p5js.org](https://editor.p5js.org/) (create interactive artwork),
   [PencilCode](https://pencilcode.net/edit/myprogram) (write your code as blocks
-  or text), [Ocelot](https://code.ocelot-ide.org/) (disallows "bad" language
-  features and has helpful error messages).
+  or text).
 
 ---
 
