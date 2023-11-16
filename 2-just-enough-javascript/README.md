@@ -59,7 +59,7 @@ rest go a lot smoother.
 #### `// prettier-ignore`
 
 The marking exercises will have an extra block around the code and a comment
-written before the block. You can ignore that. It's there Prettier doesn't
+written before the block. You can ignore that. It's there so that Prettier doesn't
 remove the extra spacing when it formats the code.
 
 ---
