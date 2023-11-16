@@ -40,7 +40,6 @@ grow, but this is the case for JavaScript.
 
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/ch1.md#backwards--forwards)
 - [Why is JavaScript backwards compatible to a fault?](https://stackoverflow.com/questions/4937245/why-is-javascript-backwards-compatible-to-a-fault)
-- [edytawrobel](https://www.edytawrobel.com/js-compatibility/)
 - [tonsky.me](https://tonsky.me/blog/compatibility/)
 - [rohitdhatrak](https://www.rohitdhatrak.com/backwards-forwards-compatibility/)
 - [Chrome Breaks the Web](https://www.theregister.com/2021/10/04/chrome_breaks_web/)
