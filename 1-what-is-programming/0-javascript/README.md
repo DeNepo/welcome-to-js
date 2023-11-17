@@ -113,8 +113,7 @@ in a browser, each one has a specific use case:
   [code.org](https://code.org/) (develop and play games with JS),
   [editor.p5js.org](https://editor.p5js.org/) (create interactive artwork),
   [PencilCode](https://pencilcode.net/edit/myprogram) (write your code as blocks
-  or text), [Ocelot](https://code.ocelot-ide.org/) (disallows "bad" language
-  features and has helpful error messages).
+  or text).
 
 ---
 
@@ -135,11 +134,9 @@ secure and developer-friendly alternative to Node.js.
 
 - [javascript.info/intro](https://javascript.info/intro)
 - [The Net Ninja](https://www.youtube.com/watch?v=VB7y0yxZjro)
-- [MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 - [Andrew Mosh](https://www.youtube.com/watch?v=W6NZfCO5SIk) \(first 5 minutes\)
 - [Code School](https://www.youtube.com/watch?v=nItSSTwBvSU)
 - [MDN: First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
-- [javascript.info](https://javascript.info/intro)
 - [Danielle Thé](https://www.youtube.com/watch?v=gT0Lh1eYk78)
 
 ---

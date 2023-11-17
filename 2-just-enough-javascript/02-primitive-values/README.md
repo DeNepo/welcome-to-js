@@ -45,6 +45,8 @@ console.log(null);
 'use strict';
 console.log('--- numbers: numbers that are not wrapped in quotation marks ---');
 console.log(12);
+console.log(3.14);
 console.log(0);
 console.log(-12);
+console.log(10_000_000_000);
 ```
