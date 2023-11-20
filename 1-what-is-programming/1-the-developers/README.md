@@ -23,4 +23,4 @@ Users and on the left in this diagram, developers are on the right.
   - **Dynamic**: Logs and error messages help developers understand what is
     happening inside the computer as it follows the code's instructions.
 
-[![program diagram](../../assets/a-program.svg)](https://excalidraw.com/#json=40qMI89WByj9Yhhh94Ghg,4zpL-AmDgpnbyFJWJfNQhg)
+[![program diagram](../../assets/a-program.png)](https://excalidraw.com/#json=40qMI89WByj9Yhhh94Ghg,4zpL-AmDgpnbyFJWJfNQhg)

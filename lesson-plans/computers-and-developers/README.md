@@ -69,7 +69,7 @@ will be a mystery!
 
 ---
 
-<img src="../../assets/computers-and-developers.svg" alt="rhetorical situation" style="height: 85%; width: 85%;">
+<img src="../../assets/computers-and-developers.png" alt="rhetorical situation" style="height: 85%; width: 85%;">
 
 ---
 

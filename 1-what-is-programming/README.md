@@ -24,7 +24,7 @@ then communicating with everyone involved to deliver quality software within
 your project's constraints. This diagram shows the different channels of
 communication in a software project:
 
-![rhetorical situation](../assets/the-big-picture.svg)
+![rhetorical situation](../assets/the-big-picture.png)
 
 ---
 
@@ -42,7 +42,7 @@ perfectly structured and do exactly what we want. The computer just _parses_
 (interprets) our code and follows the instructions without any understanding or
 thinking.
 
-You can think of a programing language as the developer's UI for the computer.
+You can think of a programming language as the developer's UI for the computer.
 Because this UI isn't very intuitive you will need to spend a lot of time
 studying syntax and other details before you can program with ease. This is why
 you will be focusing on _understanding_ programs before writing them.

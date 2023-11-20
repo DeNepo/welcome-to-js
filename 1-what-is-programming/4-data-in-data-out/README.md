@@ -2,7 +2,7 @@
 
 So what is a program? It's something like this:
 
-![program diagram](../../assets/a-program.svg)
+![program diagram](../../assets/a-program.png)
 
 The basic job of a computer program is to process data. Even the most beautiful
 and interactive programs are just processing data behind the scenes. One of the
@@ -90,7 +90,7 @@ Practice explaining what is happening in each program using these terms:
   out.
 
 In the `/examples` folder you will find a few programs with a comment describing
-the **behavior**, **data in** and **data out**. Your challenge in `/exericses`
+the **behavior**, **data in** and **data out**. Your challenge in `/exercises`
 is to fill in the same information for new programs.
 
 Be _very careful_ about your formatting! Study the example comments closely and

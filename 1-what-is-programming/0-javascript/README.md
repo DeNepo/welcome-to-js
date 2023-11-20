@@ -62,7 +62,7 @@ alert('hello user (alert)');
 
 You can also write your code in a script tag of an HTML file then open the HTML
 file in your browser. The JavaScript will run automatically when the page is
-loaded. See this in action with `./inline.html`.
+loaded. See this in action with `./1-inline-script-tag.html`.
 
 You will learn about this later in the course for examples and exercises that
 introduce how JavaScript interacts with the DOM. It's easier to understand "the
@@ -74,8 +74,8 @@ big picture" when you can see everything in one document.
 
 You can also write your code in a separate `.js` file, then load the file into
 your HTML to execute the code. There are two different ways you can load a `.js`
-file into your HTML, you can see them in action with `./separate-script` and
-`./separate-modules` (you'll learn more about scripts vs. modules later on).
+file into your HTML, you can see them in action with `./2-separate-script-file` and
+`./3-separate-module-files` (you'll learn more about scripts vs. modules later on).
 
 You will use this for larger projects and for collaboration. Separating code
 into smaller files each with a clear purpose makes your code base easier to
@@ -113,8 +113,7 @@ in a browser, each one has a specific use case:
   [code.org](https://code.org/) (develop and play games with JS),
   [editor.p5js.org](https://editor.p5js.org/) (create interactive artwork),
   [PencilCode](https://pencilcode.net/edit/myprogram) (write your code as blocks
-  or text), [Ocelot](https://code.ocelot-ide.org/) (disallows "bad" language
-  features and has helpful error messages).
+  or text).
 
 ---
 
@@ -135,11 +134,9 @@ secure and developer-friendly alternative to Node.js.
 
 - [javascript.info/intro](https://javascript.info/intro)
 - [The Net Ninja](https://www.youtube.com/watch?v=VB7y0yxZjro)
-- [MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 - [Andrew Mosh](https://www.youtube.com/watch?v=W6NZfCO5SIk) \(first 5 minutes\)
 - [Code School](https://www.youtube.com/watch?v=nItSSTwBvSU)
 - [MDN: First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
-- [javascript.info](https://javascript.info/intro)
 - [Danielle Thé](https://www.youtube.com/watch?v=gT0Lh1eYk78)
 
 ---
@@ -148,4 +145,4 @@ secure and developer-friendly alternative to Node.js.
 
 JavaScript is the language used to write the Source Code in this diagram:
 
-[![program diagram](../../assets/a-program.svg)](https://excalidraw.com/#json=_cj6JYwuO38PPGKxXN_cQ,3910Z7e2jGLZu4vjueG-Bg)
+[![program diagram](../../assets/a-program.png)](https://excalidraw.com/#json=_cj6JYwuO38PPGKxXN_cQ,3910Z7e2jGLZu4vjueG-Bg)
