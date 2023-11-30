@@ -1,4 +1,4 @@
-# Challenge: Many Versions of the Same Program
+# Legacy Code: Examples
 
 You should think of source code _first_ as a letter to the next developer,
 _second_ as a user experience, and _third_ as instructions for the computer.

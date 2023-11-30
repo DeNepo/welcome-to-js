@@ -1,3 +1,5 @@
+Welcome to JS || [Inside JS >>>](https://github.com/DeNepo/inside-js)
+
 # Welcome to JS
 
 > The best authors and the best JavaScript developers are those who obsess about
@@ -170,11 +172,8 @@ read a new program and do a simple code review.
   2. Zoom In
   3. Find Connections
   4. Describe Goals
-- [ ] 🐥 **Code Review**: Given a working program you can review the code for
+- [ ] 🐣 **Code Review**: Given a working program you can review the code for
       clarity, correctness and style.
-- [ ] 🐔 **Same Behavior, Different Code**: You can study simple programs with
-      the same behavior (_data in, data out_) but different source code and
-      explain how the differences matter for each audience.
 
 ### [4. Developing Programs](./4-developing-programs)
 
@@ -196,7 +195,10 @@ collaboratively on a code base.
 - [ ] 🐣 **Modifying Programs**: You can make small changes in a program to
       change its behavior without breaking it.
 - [ ] 🐥 **Refactoring**: Given a working program, you can make changes to the
-      code without changing the program's behavior.
+      code without changing the program's user-facing behavior.
+- [ ] 🐥 **Legacy Code**: You can understand and rewrite a poorly written
+      program to improve the experience of all 3 audiences: _developer_, _user_,
+      _computer_.
 - [ ] 🐥 **Writing Programs**: Given a description of a program's behavior
       (_user story + test cases_), you can plan goals for the program and write
       code to pass the tests.

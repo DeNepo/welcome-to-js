@@ -109,7 +109,7 @@
 
   // Defines a default markdown formatter which takes precedence over all other formatter settings. Must be the identifier of an extension contributing a formatter
   "[markdown]": {
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   // Enable/disable update table of contents on save
