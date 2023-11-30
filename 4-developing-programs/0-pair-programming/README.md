@@ -17,19 +17,19 @@ takes turns in these two roles:
 
 ## Practice
 
-> [puzzlecode.org](https://puzzlecode.org/),
-> [wiki guide](https://github.com/mikegagnon/puzzlecode/wiki/)
+To practice pair programming there are 4 small programs you can develop in
+pairs. You have already studied these programs in Just Enough JavaScript, so you
+should be able to focus on your pair programming role instead of how to solve
+the problem.
 
-[PuzzleCode](https://puzzlecode.org/) is a great site for learning to pair
-program, the website has simple coding challenges with a minimal programming
-language that you can figure out in a minute. Because the language is simple and
-there is no setup required, you can get right into Pair Programming without
-getting caught up in details.
+In pair programming it's good to switch roles regularly. Try switching roles for
+each user story in the spec. This strategy will accomplish two things:
 
-After you've spent some time practicing both roles (_Navigator & Driver_) on
-PuzzleCode you will be ready for Pair Programming with JavaScript.
+1. You will both have a chance to practice each role.
+2. You will experience _incremental development_ - writing a program one step at
+   a time, where each step adds user-facing behavior.
 
-Enjoy!
+Happy coding!
 
 ---
 
