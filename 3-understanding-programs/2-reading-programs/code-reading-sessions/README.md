@@ -7,11 +7,7 @@ divided them into basic and advanced. Advanced exercises can be used in clubs
 that have been running for a while, and especially work well when doing a second
 code club using the same code snippet.
 
-- [runner](https://runner.code-reading.org/): a slide show to help pace your
-  code reading session
-- [annotate](https://annotate.code-reading.org/#/): a site for loading and
-  annotating code on the web
-
+- [code reading resources](https://codereading.club/resources)
 ---
 
 > adapted from
