@@ -306,7 +306,6 @@ many rules and the rules aren't very complicated, you just need to learn them:
 - [nexTRIE](https://www.youtube.com/watch?v=O5WlRR-lEDE)
 - [launchcode](https://education.launchcode.org/intro-to-web-dev-curriculum/data-and-variables/reading/more-on-variables/index.html#naming-variables)
 
-
 <details>
 <summary>🥚 variable names <strong>can</strong> use numbers, letters, $, or _</summary>
 

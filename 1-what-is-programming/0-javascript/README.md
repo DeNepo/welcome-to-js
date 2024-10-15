@@ -74,8 +74,9 @@ big picture" when you can see everything in one document.
 
 You can also write your code in a separate `.js` file, then load the file into
 your HTML to execute the code. There are two different ways you can load a `.js`
-file into your HTML, you can see them in action with `./2-separate-script-file` and
-`./3-separate-module-files` (you'll learn more about scripts vs. modules later on).
+file into your HTML, you can see them in action with `./2-separate-script-file`
+and `./3-separate-module-files` (you'll learn more about scripts vs. modules
+later on).
 
 You will use this for larger projects and for collaboration. Separating code
 into smaller files each with a clear purpose makes your code base easier to

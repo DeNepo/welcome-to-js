@@ -8,6 +8,7 @@ that have been running for a while, and especially work well when doing a second
 code club using the same code snippet.
 
 - [code reading resources](https://codereading.club/resources)
+
 ---
 
 > adapted from

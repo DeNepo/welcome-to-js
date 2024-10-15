@@ -170,9 +170,11 @@ false;
 // "string"
 ''; // empty string
 'hello';
-'"hello"'; // quotes in a string
+'"hello"'; // quotes in a string (1)
+"'hello'"; // quotes in a string (2)
 
 // "number"
+-1
 0;
 1;
 1.5;
@@ -461,7 +463,7 @@ let name;
 let name = 'Java';
 
 // read
-alert(name);
+console.log(name);
 
 // assign
 name = 'Script';
@@ -478,7 +480,7 @@ name = 'Script';
 name <- 'Java'
 
 // read
-alert(name)
+log(name)
 
 // assign a new value
 name <- 'Script'

@@ -1,7 +1,7 @@
 # DOM IO Functions
 
 There are 5 functions in this DOM IO library to help you transition from
-`prompt`/`alert`/`confirm` to projects that use HTML/CSs/JS. They are simple
+`prompt`/`alert`/`confirm` to projects that use HTML/CSS/JS. They are simple
 functions but just enough to build basic web pages that process user input.
 
 You will not be able to do everything you see in online DOM tutorials, but you

@@ -1,5 +1,8 @@
 # Just Enough JavaScript
 
+> This README is also a study guide for _Just Enough JavaScript_, we suggest
+> leaving it open as a reference as you work your way through the chapter.
+
 JavaScript is a huge and powerful programming language, this makes it exciting
 but also challenging to learn.
 
@@ -20,16 +23,38 @@ this!
 The main goal of this chapter is that you can understand small programs written
 using _Just Enough JavaScript_. You know you have understood a program when you
 can use a trace table to explain how it works (_dynamic analysis_), and when you
-can answer all the `[ask me]` questions about it (_static analysis_).
+can answer all the `[ask me]` questions about it.
 
 ---
 
 ## Exercises
 
-There are a few different kinds of exercises in _Just Enough JavaScript_. Each
-type of exercise in this chapter has a priority (🥚, 🐣, 🐥, 🐔).
+**Just Enough JavaScript** doesn't only introduce JS language features, it also
+introduces and reinforces specific programming skills you should master. Skills
+are tricky things: you may be comfortable tracing programs that use
+conditionals, but that doesn't mean you'll be comfortable tracing programs with
+loops! So this chapter will have you practice the same skills over and over on
+progressively more complicated programs. At first it may feel a little slow, but
+once you get a feel for it you'll appreciate the confidence this repetition
+brings.
 
-Learn more about each type of exercise below:
+You can read through rest of this document to learn about about each type of
+exercise you will encounter in _Just Enough JavaScript_.
+
+### LLM Study Strategies
+
+For many of these exercises we have suggested an **LLM Study Strategy** with
+starter prompt(s) you can use and/or tips for practicing this skill with an LLM.
+Most of the prompts are adapted from the **Template Study Prompt** in
+[`0-studying-with-llms`](../0-studying-with-llms/).
+
+LLMs can help you learn and practice, but they don't replace the interactive
+Study Lenses exercises. You should still judge if you've mastered a skill by
+whether or not you can complete the Study Lenses exercises with ease.
+
+> PS. don't forget to upload the context documents from
+> [`0-studying-with-llms`](../0-studying-with-llms/) to your LLM whenever
+> possible!
 
 ---
 
@@ -56,11 +81,50 @@ each part in a different color. Taking a few minutes to familiarize yourself
 with how JavaScript is written _before_ studying full programs will make the
 rest go a lot smoother.
 
-#### `// prettier-ignore`
+> PS. `// prettier-ignore`
+>
+> The marking exercises will have an extra block around the code and a comment
+> written before the block. You can ignore that. It's there so that Prettier
+> doesn't remove the extra spacing when it formats the code.
 
-The marking exercises will have an extra block around the code and a comment
-written before the block. You can ignore that. It's there so that Prettier doesn't
-remove the extra spacing when it formats the code.
+### Marking Syntax: LLM Study Strategy
+
+LLMs can pretty good at describing the parts of syntax in a program, explaining
+how they're used in your program. Be careful, LLMs are not perfect!
+
+<details>
+<summary>Template prompt for inspiration.</summary>
+
+```
+I would like to practice identifying, naming and explaining the different parts of syntax in a program focusing on:
+- primitives
+- identifiers
+- function calls
+- operators
+- key words
+- blocks
+- control flow checks
+
+By the end of this session, I should be able to:
+- use correct vocabulary to describe all the characters in a program
+- correctly mark each syntax feature using the conventions from Just Enough JS
+- find and fix syntax errors added to my program as a challenge
+
+Program to use as a practice context:
+<paste a program to study OR the LLM will generate one>
+
+Instructions for this session:
+- Adjust for individual or group study, supporting peer learning if applicable.
+- Tailor difficulty to my comfort level, providing less support as I progress.
+- Connect the skill to real-world programming with practical examples.
+- Use and explain precise vocabulary related to this skill.
+- Guide me through self-assessment strategies.
+- Offer alternative explanations and additional practice programs as needed.
+- Conclude with open-ended, Socratic-style reflection questions.
+- ! Remind me to verify information, as LLMs can make mistakes !
+```
+
+</details>
 
 ---
 
@@ -145,6 +209,168 @@ program.
 
 </details>
 
+### Trace: LLM Study Strategy
+
+LLMs can generate clearly formatted traces of a program's execution. Their
+structure is helpful for learning how to talk about program execution, but be
+careful! They may not always be reliable. You should double-check the LLMs trace
+with the debugger or the trace button for certainty and extra detail.
+
+Here are some example prompts you can copy-paste asking the LLM to trace your
+program at different levels of resolution:
+
+<details>
+<summary>Template prompts for inspiration.</summary>
+
+- <details>
+  <summary>A basic predictive trace</summary>
+
+  ```
+  I would like to practice tracing, step by step, what happens when a program is executed and what is stored in memory at each step.
+
+  By the end of this session, I should able to:
+  - narrate the program's execution out loud including
+    - which line is being executed and what it does
+    - what will change in memory
+    - which line will execute next
+  - draw a representation of program memory and update it's values with each step
+  - fill out a conventional trace table tracking how each variable is used
+
+  Program to use as a practice context:
+  <paste a program to study OR the LLM will generate one>
+
+  Instructions for this session:
+  - Adjust for individual or group study, supporting peer learning if applicable.
+  - Tailor difficulty to my comfort level, providing less support as I progress.
+  - Connect the skill to real-world programming with practical examples.
+  - Use and explain precise vocabulary related to this skill.
+  - Guide me through self-assessment strategies.
+  - Offer alternative explanations and additional practice programs as needed.
+  - Conclude with open-ended, Socratic-style reflection questions.
+  - ! Remind me to verify information, as LLMs can make mistakes !
+  ```
+
+  </details>
+
+- <details>
+  <summary>Tracing at the operator level</summary>
+
+  ```
+  I would like to practice tracing, step by step, what happens at the operator level when a program is executed and what is stored in memory at each step.
+
+  By the end of this session, I should able to:
+  - narrate the program's execution out loud including
+    - which operator is being executed, what it's called, and how it works
+    - the values being passed into this operator
+    - the value produced by this operator
+    - which operator will execute next
+
+  Program to use as a practice context:
+  <paste a program to study OR the LLM will generate one>
+
+  Instructions for this session:
+  - Adjust for individual or group study, supporting peer learning if applicable.
+  - Tailor difficulty to my comfort level, providing less support as I progress.
+  - Connect the skill to real-world programming with practical examples.
+  - Use and explain precise vocabulary related to this skill.
+  - Guide me through self-assessment strategies.
+  - Offer alternative explanations and additional practice programs as needed.
+  - Conclude with open-ended, Socratic-style reflection questions.
+  - ! Remind me to verify information, as LLMs can make mistakes !
+  ```
+
+  </details>
+
+- <details>
+  <summary>Tracing only variable assignments</summary>
+
+  ```
+  I would like to practice tracing, step by step, each time a variable is assigned or reassigned and what is stored in memory at each step.
+
+  By the end of this session, I should able to:
+  - narrate the program's execution out loud including
+    - which variable is being used
+    - whether it is being declared, initialized, read or written
+    - what value it stored before this step
+    - what value it will store after this step
+
+  Program to use as a practice context:
+  <paste a program to study OR the LLM will generate one>
+
+  Instructions for this session:
+  - Adjust for individual or group study, supporting peer learning if applicable.
+  - Tailor difficulty to my comfort level, providing less support as I progress.
+  - Connect the skill to real-world programming with practical examples.
+  - Use and explain precise vocabulary related to this skill.
+  - Guide me through self-assessment strategies.
+  - Offer alternative explanations and additional practice programs as needed.
+  - Conclude with open-ended, Socratic-style reflection questions.
+  - ! Remind me to verify information, as LLMs can make mistakes !
+  ```
+
+  </details>
+
+- <details>
+  <summary>Tracing specific lines</summary>
+
+  ```
+  I would like to practice tracing, step by step, what happens when the lines <X> through <Y> are executed and what is stored in memory at each step.
+
+  By the end of this session, I should able to (for the given lines):
+  - narrate the program's execution out loud including
+    - which line is being executed and what it does
+    - what will change in memory
+    - which line will execute next
+  - draw a representation of program memory and update it's values with each step
+  - fill out a conventional trace table tracking how each variable is used
+
+  Program to use as a practice context:
+  <paste a program to study OR the LLM will generate one>
+
+  Instructions for this session:
+  - Adjust for individual or group study, supporting peer learning if applicable.
+  - Tailor difficulty to my comfort level, providing less support as I progress.
+  - Connect the skill to real-world programming with practical examples.
+  - Use and explain precise vocabulary related to this skill.
+  - Guide me through self-assessment strategies.
+  - Offer alternative explanations and additional practice programs as needed.
+  - Conclude with open-ended, Socratic-style reflection questions.
+  - ! Remind me to verify information, as LLMs can make mistakes !
+  ```
+
+  </details>
+
+- <details>
+  <summary>Tracing specific language features</summary>
+
+  ```
+  I would like to practice tracing, step by step, how <language feature> behaves in a program.
+
+  By the end of this session, I should able to:
+  - narrate the program's execution out loud, recognizing each time the language feature is reached
+  - explain when and how (or if) the language feature access program memory and/or influence control flow
+
+  Program to use as a practice context:
+  <paste a program to study OR the LLM will generate one>
+
+  Instructions for this session:
+  - Adjust for individual or group study, supporting peer learning if applicable.
+  - Tailor difficulty to my comfort level, providing less support as I progress.
+  - Connect the skill to real-world programming with practical examples.
+  - Use and explain precise vocabulary related to this skill.
+  - Guide me through self-assessment strategies.
+  - Offer alternative explanations and additional practice programs as needed.
+  - Conclude with open-ended, Socratic-style reflection questions.
+  - ! Remind me to verify information, as LLMs can make mistakes !
+  ```
+
+  </details>
+
+- ... Use your imagination! If you know how you want to study and you ask
+  clearly, the LLM can likely help you.
+
+</details>
+
 ---
 
 ### 🥚 Read
@@ -156,6 +382,42 @@ more.
 Most of the exercises are small interactive programs and have a list of
 questions to help guide you explore the program. When you've answered all of
 those questions you can keep going with the `[ask me]` button.
+
+### Read: LLM Study Strategy
+
+LLMs can generate comprehension questions for your program, just ask!
+
+<details>
+<summary>Template prompt for inspiration</summary>
+
+```
+I would like to practice asking and answering the right questions to develop my understanding of a program in different dimensions.
+
+By the end of this session, I should able to formulate and answer questions about:
+- the program's user-facing behavior
+- the quality of the user's experience
+- surface-level features of the program's code
+- the runtime behavior of different features in the program
+- how different lines of code are related, statically and dynamically
+- the purpose of different parts in the context of the full program
+- ... challenge me to ask and answer questions I wouldn't think of!
+  - the Block Model of Program Comprehension is great inspiration
+
+Program to use as a practice context:
+<paste a program to study OR the LLM will generate one>
+
+Instructions for this session:
+- Adjust for individual or group study, supporting peer learning if applicable.
+- Tailor difficulty to my comfort level, providing less support as I progress.
+- Connect the skill to real-world programming with practical examples.
+- Use and explain precise vocabulary related to this skill.
+- Guide me through self-assessment strategies.
+- Offer alternative explanations and additional practice programs as needed.
+- Conclude with open-ended, Socratic-style reflection questions.
+- ! Remind me to verify information, as LLMs can make mistakes !
+```
+
+</details>
 
 ---
 
@@ -177,6 +439,42 @@ program. You will be shown a list of all the words that have ben removed from
 the program, and have the option to compare the modified program to the correct
 solution using a _diff editor_.
 
+### Fill in the Blanks: LLM Study Strategy
+
+You can work with an LLM to generate programs with blanks, then to discuss how
+you would fill in each blank and to compare possible solutions.
+
+<details>
+<summary>Template prompt for inspiration</summary>
+
+```
+I would like to practice completing the blanks in an otherwise correct program.
+
+By the end of this session, I should able to:
+- recognize when there is only 1 valid solution for a blank, or if there could be many
+  - if multiple solutions are possible, I can think of at least 3
+- fill in larger blanks I learn programming in general and this program specifically
+  - first blanks for a single operator/identifier/keyword/...
+  - then blanks for larger parts of one line
+  - finally blank for a full line (when reasonable)
+- describe what clues and reasoning I used to find my solutions
+
+Program to use as a practice context:
+<paste a program to study OR the LLM will generate one>
+
+Instructions for this session:
+- Adjust for individual or group study, supporting peer learning if applicable.
+- Tailor difficulty to my comfort level, providing less support as I progress.
+- Connect the skill to real-world programming with practical examples.
+- Use and explain precise vocabulary related to this skill.
+- Guide me through self-assessment strategies.
+- Offer alternative explanations and additional practice programs as needed.
+- Conclude with open-ended, Socratic-style reflection questions.
+- ! Remind me to verify information, as LLMs can make mistakes !
+```
+
+</details>
+
 ---
 
 ### 🥚 Quiz
@@ -188,8 +486,43 @@ the wrong answers are incorrect.
 
 Careful, passing the quizzes is not enough! Being able to answer questions is
 not the same thing as building and practicing skills. Even if you are
-comfortable with the quiz in a chapter, you should _still_ keep practice the
+comfortable with the quiz in a chapter, you should _still_ keep practicing the
 exercises.
+
+### Quiz: LLM Study Strategy
+
+Quizzing is an outstanding use case for LLMs in your study!
+
+<details>
+<summary>Template prompt for inspiration</summary>
+
+```
+Can you quiz me on <feature/topic/skill> to assess and reinforce my understanding?
+
+Here are ideas for different question types to keep things fresh:
+- formative, misconception-based MCQs with explanations for each possible answer
+- generate a program with one missing line, then provide possible lines to fill the blank
+- generate two similar programs and ask me to compare them
+- present several similar programs and ask which one produces a specific list of input/output pairs
+- provide a program and a list of possible output values: ask which value is impossible
+- ask which path will be executed through a program when a specific input value is provided
+- present a program and ask which of several traces could be generated by it
+- give the lines of a program out of order and ask me to put them in order
+  - you may include extra lines as a challenge
+- ... be creative!  The Block Model of Program Comprehension is great inspiration
+
+Instructions for this session:
+- Adjust for individual or group study, supporting peer learning if applicable.
+- Tailor difficulty to my comfort level, providing less support as I progress.
+- Connect the skill to real-world programming with practical examples.
+- Use and explain precise vocabulary related to this skill.
+- Guide me through self-assessment strategies.
+- Offer alternative explanations and additional practice programs as needed.
+- Conclude with open-ended, Socratic-style reflection questions.
+- ! Remind me to verify information, as LLMs can make mistakes !
+```
+
+</details>
 
 ---
 
@@ -222,6 +555,12 @@ each role:
 
 Looking for an extra challenge? Try to complete these exercises _without ever_
 showing each other your screens!
+
+### Copy-Type: LLM Study Strategy
+
+Not much to do here! You could ask the LLM to generate more programs for you to
+study, but the diff feedback in Study Lenses will be more helpful than an LLM
+for copy-type.
 
 ---
 
@@ -302,6 +641,55 @@ alert(input);
 </td>
 </tr>
 </table>
+
+### Translate: LLM Study Strategy
+
+Here are a few ideas for using LLMs to study translating pseudocode to
+JavaScript:
+
+- When you've finished translating a program, you can copy-paste the
+  pseudocode + your translation into the LLM and ask it for feedback. There may
+  be other possible translations you didn't think of, it could be interesting to
+  compare them and learn different ways of implementing the same pseudocode.
+- You can describe the type of program you'd like to study then ask the LLM to
+  generate pseudocode for you to translate. Then you can still practice
+  translating in an editor without the help of an LLM.
+- <details>
+  <summary>Prompt for an interactive translation session.</summary>
+
+  ```
+  I want to practice translating from pseudocode to JavaScript. Can you guide me through an interactive study session? This is an exercise in recalling JavaScript syntax and connecting code structure to its behavior, not an exercise in problem-solving, debugging, or program logic.
+
+  I would like to focus on translating programs that use these language features:
+  - <language feature 1>
+  - ...
+
+  By the end of this session, I should able to:
+  - Recall and correctly apply JavaScript syntax when translating pseudocode.
+  - Translate the structure of syntax like blocks, conditional checks, or function calls before translating their contents.
+  - Recognize when there is more than one way to write syntactically correct JavaScript, and choose clear, concise translations.
+  - Translate pseudocode styles of varying detail while focusing on JavaScript syntax rather than problem-solving.
+  - Explain the reasoning behind the translations that I chose, with an emphasis on readability and clarity
+  - Translate different pseudocode styles, recognizing their trade-offs WRT clarity, simplicity and ease of translation
+
+  Instructions for this session:
+  - Focus on helping me recall and apply the correct JavaScript syntax as I translate pseudocode.
+  - Guide me in understanding how the structure of the JavaScript code connects to the intended behavior, without focusing on debugging or logic design.
+  - Provide real-time feedback to confirm the correctness of the JavaScript syntax I’m using.
+  - If there are alternative syntactically correct ways to translate a line, point them out but do not dive into optimizing or restructuring the code.
+  - Avoid introducing logical problems, debugging tasks, or problem-solving exercises.
+  - Prompt me to think of alternative ways to translate the same line.
+  - Adjust for individual or group study, supporting peer learning if applicable.
+  - Tailor difficulty to my comfort level, providing less support as I progress.
+  - Connect the skill to real-world programming with practical examples.
+  - Use and explain precise vocabulary related to this skill.
+  - Guide me through self-assessment strategies.
+  - Offer alternative explanations and additional practice programs as needed.
+  - Conclude with open-ended, Socratic-style reflection questions.
+  - ! Remind me to verify information, as LLMs can make mistakes !
+  ```
+
+  </details>
 
 ---
 
@@ -387,6 +775,43 @@ Program 2 outputs "yes"
   That is the last time b is assigned a new value, so it will be the final value
 ```
 
+### Compare: LLM Study Strategy
+
+You can ask the LLM to generate two similar programs, then ask it to give
+feedback on your description of the differences between the two programs:
+
+<details>
+<summary>Prompt for an interactive comparison session.</summary>
+
+```
+I want to practice comparing two very similar programs without bugs.  The programs can have different implementations, behaviors, or both.
+
+I would like to focus on comparing programs that use these language features:
+- <language feature 1>
+- ...
+
+By the end of this session, I should able to:
+- identify superficial differences between programs; syntax and identifier choices
+- identify deeper differences between programs' structures and strategy
+- recognize when superficial changes do and don't impact program behavior
+- recognize when different-looking programs actually have the same behavior
+- identify which differences in a program's code result in differences in behavior
+
+Instructions for this session:
+- Guide me in understanding how the structure of the JavaScript code connects to the intended behavior, without focusing on debugging or logic design.
+- Avoid introducing logical problems, debugging tasks, or problem-solving exercises.
+- Adjust for individual or group study, supporting peer learning if applicable.
+- Tailor difficulty to my comfort level, providing less support as I progress.
+- Connect the skill to real-world programming with practical examples.
+- Use and explain precise vocabulary related to this skill.
+- Guide me through self-assessment strategies.
+- Offer alternative explanations and additional practice programs as needed.
+- Conclude with open-ended, Socratic-style reflection questions.
+- ! Remind me to verify information, as LLMs can make mistakes !
+```
+
+</details>
+
 ---
 
 ### 🐣 Parsons Problems
@@ -400,6 +825,12 @@ program and which are there to confuse you.
 - [all of the learning, less of the time time](https://computinged.wordpress.com/2017/11/17/parsons-problems-have-same-learning-gains-as-writing-or-fixing-code-in-less-time-koli-calling-2017-preview)
 - [How to study programming](https://medium.com/swlh/how-to-study-computer-programming-parsons-problems-2bfdefabfd86)
 - [what are these?](https://georgejmount.com/parsons-problems/)
+
+### Parsons Problems: LLM Study Strategy
+
+You _could_ try having an interactive parsons problem session with an LLM, but
+the whole point of parsons problems is the user interface so ... give it a try
+and let us know how it goes!
 
 ---
 
@@ -487,6 +918,13 @@ There will be two types of log exercises:
 Each exercise comes with a few starter programs to help you think of different
 ways to solve the same problem. But you're not limited to these suggestions, you
 can always start a new solution from an empty page!
+
+### Logs: LLM Study Strategy
+
+Logs exercises are designed for practicing writing code in an editor, using the
+debugger, and passing tests - so it's probably not very helpful trying to
+replicate Logs exercises in a chat. But, you can always use an LLM for support
+when you're stuck writing one of your solutions.
 
 ---
 
@@ -785,6 +1223,15 @@ console.log('--- end program ---');
 
 </details>
 
+### Specs: LLM Study Strategy
+
+- You can paste in your complete solution (user stories + test cases + code +
+  checklist) and ask the LLM to review your code for stylistic consistency,
+  clarity and simplicity then to discuss possible improvements. This is a very
+  good practice to learn!
+- You can paste in a couple of the specs from Just Enough JavaScript so the LLM
+  learns the format, then ask it to generate more specs for you to develop.
+
 ---
 
 ### 🐔 DOM I/O
@@ -792,3 +1239,7 @@ console.log('--- end program ---');
 Small interactive web pages that use the DOM I/O library. Each exercise will
 have an _obfuscated_ solution so you can compare the output of your program to
 the expected output without being able to read the solution.
+
+### DOM I/O: LLM Study Strategy
+
+You're on your own :)

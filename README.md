@@ -62,6 +62,28 @@ your study time and to measure your progress:
 
 </details>
 
+### [0. Flashcards](./0-flashcards)
+
+Master JS syntax and language structures with flashcards and spaced repetition.
+You can easily create and edit flashcards in markdown to keep up with your
+studies.
+
+### [0. Printables](./0-Printables)
+
+Handy references to leave open on your computer, or to print and keep under your
+pillow.
+
+### [0. Study Lenses](./0-study-lenses)
+
+A guide video and examples introducing the Study Lenses learning environment you
+will use in this module.
+
+### [0. Studying with LLMs](./0-studying-with-llms)
+
+Some tips and resources for making the most of LLMs in your study. Using LLMs
+_is not_ necessary for Welcome to JS, you can (and should!) practice all of the
+exercises without the help of AI.
+
 ### [1. What is Programming](./1-what-is-programming)
 
 What is a program? What is a programming language? How do programs and people
