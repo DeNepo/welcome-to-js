@@ -7,10 +7,10 @@
 ```js
 'use strict';
 
-let a = 1;
-let b = 2;
+let a = 1; // line 3
+let b = 2; // line 4
 
-let c = a + b;
+let c = a + b; // line 6
 ```
 
 </td>
