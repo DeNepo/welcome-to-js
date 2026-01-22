@@ -23,15 +23,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js 16
-        uses: actions/setup-node@v4
-        with:
-          node-version: '16'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm install
-
       - name: Setup Fly CLI
         uses: superfly/flyctl-actions/setup-flyctl@master
 
