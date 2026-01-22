@@ -23,3 +23,9 @@ node_modules
 
 plann.txt
 .staging
+
+.ai-spering/
+
+# Fly.io
+.fly/
+fly.toml.backup

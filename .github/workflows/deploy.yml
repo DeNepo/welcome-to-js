@@ -1,0 +1,53 @@
+name: Deploy to Fly.io
+
+on:
+  # Deploy on push to main branch
+  push:
+    branches: [main]
+    # Deploy on tagged releases
+    tags:
+      - 'v*'
+
+  # Allow manual deployment
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy to Fly.io
+    runs-on: ubuntu-latest
+
+    # Only deploy from main repository (not forks)
+    if: github.repository == 'DeNepo/welcome-to-js'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run linting
+        run: |
+          npm run format:check
+          npm run lint:ls
+          npm run lint:md
+          npm run lint:js
+
+      - name: Setup Fly CLI
+        uses: superfly/flyctl-actions/setup-flyctl@master
+
+      - name: Deploy to Fly.io
+        run: flyctl deploy --remote-only
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
+      - name: Verify deployment
+        run: |
+          echo "Deployment complete!"
+          echo "App URL: https://welcome-to-js.fly.dev"

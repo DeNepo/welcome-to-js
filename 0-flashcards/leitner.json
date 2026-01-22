@@ -1,10 +1,6 @@
 {
   "boxes": {
     "1": [
-      "0-for-developers/01.md",
-      "0-for-developers/02.md",
-      "0-for-developers/03.md",
-      "0-for-developers/04.md",
       "1-variables/01.md",
       "1-variables/02.md",
       "1-variables/03.md",
@@ -65,7 +61,12 @@
       "6-control-flow/05.md",
       "6-control-flow/06.md"
     ],
-    "2": [],
+    "2": [
+      "0-for-developers/01.md",
+      "0-for-developers/02.md",
+      "0-for-developers/03.md",
+      "0-for-developers/04.md"
+    ],
     "3": [],
     "4": [],
     "5": [],

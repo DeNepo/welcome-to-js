@@ -29,7 +29,7 @@ that might fix your program.
 When you're already thinking of what the program _should_ do, it's too easy to
 look at your buggy code and see what you _want_ to see. Not what's actually
 there. Clearing your mind and telling yourself "I know nothing" is the first
-step toing understand _exactly_ what the buggy code does and how it works.
+step to understanding _exactly_ what the buggy code does and how it works.
 
 Once you've convinced yourself you have no idea how the code works, here are a
 few things you can do to understand the buggy code:

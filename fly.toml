@@ -1,0 +1,26 @@
+# fly.toml app configuration file generated for welcome-to-js
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+
+app = "welcome-to-js"
+primary_region = "ams"  # Amsterdam - closest to Belgium
+
+[build]
+
+[env]
+  PORT = "4005"
+  NODE_ENV = "production"
+
+[http_service]
+  internal_port = 4005
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0  # Scale to zero when not in use
+  processes = ["app"]
+
+  [[http_service.checks]]
+    interval = "15s"
+    timeout = "10s"
+    grace_period = "10s"
+    method = "GET"
+    path = "/"

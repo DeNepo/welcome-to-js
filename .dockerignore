@@ -1,0 +1,29 @@
+# Dependencies
+node_modules
+npm-debug.log*
+.npm
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# CI/CD
+.github
+
+# Development
+.vscode
+.ai-spering
+.staging
+
+# Mac
+.DS_Store
+**/.DS_Store
+
+# Temporary files
+*.log
+*.tmp
+
+# Fly.io
+.fly/
+fly.toml.backup
