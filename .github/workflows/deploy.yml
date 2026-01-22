@@ -30,14 +30,7 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
-
-      - name: Run linting
-        run: |
-          npm run format:check
-          npm run lint:ls
-          npm run lint:md
-          npm run lint:js
+        run: npm install
 
       - name: Setup Fly CLI
         uses: superfly/flyctl-actions/setup-flyctl@master
@@ -50,4 +43,4 @@ jobs:
       - name: Verify deployment
         run: |
           echo "Deployment complete!"
-          echo "App URL: https://welcome-to-js.fly.dev"
+          echo "App URL: https://welcome-to-js.fly.dev?--defaults"

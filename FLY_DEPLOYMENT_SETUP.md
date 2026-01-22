@@ -3,6 +3,7 @@
 ## Prerequisites
 
 1. Install Fly.io CLI if you haven't already:
+
    ```bash
    # On macOS with Homebrew:
    brew install flyctl
@@ -38,9 +39,11 @@ flyctl apps list | grep welcome-to-js
 ## Step 2: Set Up GitHub Secret for Automated Deployment
 
 1. Get your Fly.io API token:
+
    ```bash
    flyctl auth token
    ```
+
    Copy the token that is displayed.
 
 2. Add the token to GitHub:
@@ -97,6 +100,7 @@ After the manual deployment succeeds:
 ## Deployment Triggers
 
 The app will automatically deploy when:
+
 - You push directly to the `main` branch
 - A pull request is merged to `main`
 - You create a version tag (e.g., `git tag v1.0.0 && git push --tags`)
@@ -105,6 +109,7 @@ The app will automatically deploy when:
 ## Useful Commands
 
 ### Monitoring
+
 ```bash
 # View real-time logs
 flyctl logs --app welcome-to-js
@@ -120,6 +125,7 @@ flyctl ssh console --app welcome-to-js
 ```
 
 ### Rollback
+
 ```bash
 # List recent releases
 flyctl releases --app welcome-to-js
@@ -129,6 +135,7 @@ flyctl releases rollback <version-number> --app welcome-to-js
 ```
 
 ### Scaling
+
 ```bash
 # Scale to zero (save costs when not in use)
 flyctl scale count 0 --app welcome-to-js
@@ -145,11 +152,13 @@ flyctl scale memory 512 --app welcome-to-js
 ### If deployment fails:
 
 1. Check the logs:
+
    ```bash
    flyctl logs --app welcome-to-js
    ```
 
 2. Verify Node 18 compatibility:
+
    ```bash
    flyctl ssh console --app welcome-to-js
    node --version  # Should show v18.x.x
@@ -164,6 +173,7 @@ flyctl scale memory 512 --app welcome-to-js
 ### If health checks fail:
 
 Edit `fly.toml` and increase the grace period:
+
 ```toml
 [[http_service.checks]]
   grace_period = "30s"  # Increase from 10s
@@ -176,6 +186,7 @@ Choose a different app name in `fly.toml` and when running `flyctl apps create`.
 ## Cost Information
 
 This deployment is configured to run within Fly.io's free tier:
+
 - 1 shared CPU VM with 256MB RAM
 - Auto-scales to zero when not in use
 - Up to 160GB outbound transfer/month
@@ -183,6 +194,6 @@ This deployment is configured to run within Fly.io's free tier:
 ## Your App URL
 
 Once deployed, your app will be available at:
-https://welcome-to-js.fly.dev
+https://welcome-to-js.fly.dev?--defaults
 
 (Replace "welcome-to-js" with your actual app name if different)
