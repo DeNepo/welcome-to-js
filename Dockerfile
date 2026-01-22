@@ -1,5 +1,5 @@
-# Use Node 18 (study-lenses compatibility requirement)
-FROM node:18-alpine AS base
+# Use Node 16 (study-lenses compatibility requirement)
+FROM node:16-alpine AS base
 
 # Install dependencies only when needed
 FROM base AS deps
