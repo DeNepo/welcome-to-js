@@ -30,8 +30,3 @@ jobs:
         run: flyctl deploy --remote-only
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-
-      - name: Verify deployment
-        run: |
-          echo "Deployment complete!"
-          echo "App URL: https://welcome-to-js.fly.dev?--defaults"
