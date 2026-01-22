@@ -1,40 +1,31 @@
-# Use Node 16 (study-lenses compatibility requirement)
-# Using slim Debian variant instead of Alpine to avoid canvas module build issues
-FROM node:16-slim AS base
+# syntax = docker/dockerfile:1
 
-# Install dependencies only when needed
-FROM base AS deps
-WORKDIR /app
+# Adjust NODE_VERSION as desired
+ARG NODE_VERSION=16
+FROM node:${NODE_VERSION}-slim AS base
 
-# Copy package files
-COPY package.json package-lock.json ./
+LABEL fly_launch_runtime="Node.js"
 
-# Install dependencies (production only)
-RUN npm ci --only=production
+# Node.js app lives here
+WORKDIR /
 
-# Production image
-FROM base AS runner
-WORKDIR /app
+# Set production environment
+ENV NODE_ENV="production"
 
-# Create non-root user for security (Debian commands)
-RUN groupadd --system --gid 1001 nodejs
-RUN useradd --system --uid 1001 --gid nodejs studylenses
 
-# Copy node_modules from deps stage
-COPY --from=deps --chown=studylenses:nodejs /app/node_modules ./node_modules
+# Throw-away build stage to reduce size of final image
+FROM base AS build
 
-# Copy application code
-COPY --chown=studylenses:nodejs . .
+# Install packages needed to build node modules
+RUN apt-get update -qq && \
+    apt-get install --no-install-recommends -y build-essential node-gyp pkg-config python-is-python3
 
-# Switch to non-root user
-USER studylenses
+# Install node modules
+COPY package-lock.json package.json ./
+RUN npm ci
 
-# Expose port
+# Final stage for app image
+FROM base
+
 EXPOSE 4005
-
-# Set environment
-ENV NODE_ENV=production
-ENV PORT=4005
-
-# Start the application
-CMD ["npm", "run", "demo:deployed"]
+CMD [ "npm", "run", "demo:deployed"]

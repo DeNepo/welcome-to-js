@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm ls:*)",
+      "Bash(find:*)",
+      "Bash(npm view:*)",
+      "Bash(npm search:*)",
+      "Bash(npm info:*)",
+      "Bash(node -e:*)",
+      "Bash(flyctl logs:*)",
+      "Bash(cat:*)",
+      "Bash(npm run demo:deployed:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(flyctl deploy:*)",
+      "Bash(flyctl status:*)",
+      "Bash(npm update:*)",
+      "Bash(npm install:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

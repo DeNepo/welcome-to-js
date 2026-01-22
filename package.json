@@ -10,6 +10,7 @@
     "lint:ls": "ls-lint",
     "lint:md": "markdownlint --ignore node_modules --ignore flashcards --config ./.markdownlint.jsonc --fix ./ ",
     "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe --format=table",
+    "demo": "study",
     "demo:local": "study --demo-reset=300000 --reset-ignore=node_modules",
     "demo:deployed": "study --demo-reset=300000 --reset-ignore=node_modules --no-open",
     "demo:dev": "study --demo-reset=10000 --reset-ignore=node_modules, --no-open"
@@ -17,9 +18,10 @@
   "author": "HackYourFutureBelgium",
   "license": "MIT",
   "dependencies": {
-    "study-lenses": "^0.0.170"
+    "study-lenses": "^0.0.180"
   },
   "devDependencies": {
+    "@ls-lint/ls-lint": "^2.0.0",
     "cspell": "^6.31.1",
     "eslint": "^8.41.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -28,7 +30,6 @@
     "eslint-formatter-table": "^7.32.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-sonarjs": "^0.19.0",
-    "@ls-lint/ls-lint": "^2.0.0",
     "markdownlint-cli": "^0.34.0",
     "prettier": "^2.8.8"
   }
