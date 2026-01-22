@@ -1,5 +1,6 @@
 # Use Node 16 (study-lenses compatibility requirement)
-FROM node:16-alpine AS base
+# Using slim Debian variant instead of Alpine to avoid canvas module build issues
+FROM node:16-slim AS base
 
 # Install dependencies only when needed
 FROM base AS deps
@@ -15,9 +16,9 @@ RUN npm ci --only=production
 FROM base AS runner
 WORKDIR /app
 
-# Create non-root user for security
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 studylenses
+# Create non-root user for security (Debian commands)
+RUN groupadd --system --gid 1001 nodejs
+RUN useradd --system --uid 1001 --gid nodejs studylenses
 
 # Copy node_modules from deps stage
 COPY --from=deps --chown=studylenses:nodejs /app/node_modules ./node_modules

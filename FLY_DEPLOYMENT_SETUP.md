@@ -55,6 +55,8 @@ flyctl apps list | grep welcome-to-js
 
 ## Step 3: Test Local Docker Build (Optional)
 
+**Important**: The Dockerfile uses Node 16 (not 18) due to canvas module compatibility issues with newer versions.
+
 If you have Docker installed locally, you can test the build:
 
 ```bash
@@ -157,11 +159,11 @@ flyctl scale memory 512 --app welcome-to-js
    flyctl logs --app welcome-to-js
    ```
 
-2. Verify Node 18 compatibility:
+2. Verify Node version:
 
    ```bash
    flyctl ssh console --app welcome-to-js
-   node --version  # Should show v18.x.x
+   node --version  # Should show v16.x.x
    ```
 
 3. Test study-lenses is working:
