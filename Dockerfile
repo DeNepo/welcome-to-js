@@ -7,7 +7,7 @@ FROM node:${NODE_VERSION}-slim AS base
 LABEL fly_launch_runtime="Node.js"
 
 # Node.js app lives here
-WORKDIR /
+WORKDIR /app
 
 # Set production environment
 ENV NODE_ENV="production"
@@ -22,10 +22,16 @@ RUN apt-get update -qq && \
 
 # Install node modules
 COPY package-lock.json package.json ./
-RUN npm ci
+RUN npm ci --omit=dev
 
 # Final stage for app image
 FROM base
+
+# Copy dependencies from build stage
+COPY --from=build /app/node_modules ./node_modules
+
+# Copy application source
+COPY . .
 
 EXPOSE 4005
 CMD [ "npm", "run", "demo:deployed"]
