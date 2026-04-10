@@ -10,10 +10,10 @@
     "lint:ls": "ls-lint",
     "lint:md": "markdownlint --ignore node_modules --ignore flashcards --config ./.markdownlint.jsonc --fix ./ ",
     "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe --format=table",
-    "demo": "study",
-    "demo:local": "study --demo-reset=300000 --reset-ignore=node_modules",
-    "demo:deployed": "study --demo-reset=300000 --reset-ignore=node_modules --no-open",
-    "demo:dev": "study --demo-reset=10000 --reset-ignore=node_modules, --no-open"
+    "demo": "lenses2",
+    "demo:local": "lenses2 --demo-reset=300000 --reset-ignore=node_modules",
+    "demo:deployed": "lenses2 --demo-reset=300000 --reset-ignore=node_modules --no-open",
+    "demo:dev": "lenses2 --demo-reset=10000 --reset-ignore=node_modules, --no-open"
   },
   "author": "HackYourFutureBelgium",
   "license": "MIT",
